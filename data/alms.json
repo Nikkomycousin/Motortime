@@ -1,258 +1,627 @@
 {
- "news": [
-  {
-   "id": "2026-11-15-apr-team-qatar-vincono-classi-gara1",
-   "title": "Gara 1 al Paul Ricard: Algarve Pro in LMP2 e Team Qatar in GT3 completano il quadro",
-   "summary": "Nel round d'apertura vincono la Oreca di Algarve Pro Racing con Trulli in equipaggio e la Mercedes #62 di Team Qatar by Iron Lynx, favorita da una pesante penalità post-gara alla Getspeed #9.",
-   "tag": "Gare",
-   "source": "asianlemansseries.com",
-   "url": "https://www.asianlemansseries.com/en/news/r1-af-corse-apr-and-team-qatar-win-first-race-of-2026-27-season/13963",
-   "published": "2026-11-14T19:00:00Z",
-   "top": false
-  },
-  {
-   "id": "2026-11-14-af-corse-vince-gara1-paul-ricard",
-   "title": "Doppietta Ferrari sotto il diluvio: AF Corse vince la prima gara Hypercar della serie",
-   "summary": "Al Paul Ricard la 499P di AF Corse con Luis Pérez Companc firma il primo successo dell'era Hypercar nell'Asian Le Mans Series, in una Gara 1 condizionata dalla pioggia. Seconda l'altra Ferrari di Cetilar Racing, subito a podio all'esordio.",
-   "tag": "Gare",
-   "source": "racer.com",
-   "url": "https://racer.com/2026/11/14/af-corse-wins-first-asian-le-mans-series-hypercar-race-at-paul-ricard",
-   "published": "2026-11-14T17:00:00Z",
-   "top": true
-  },
-  {
-   "id": "2026-11-14-pole-cetilar-af-corse-paul-ricard",
-   "title": "Paul Ricard, Cetilar e AF Corse si dividono le pole delle due gare",
-   "summary": "Nelle qualifiche Hypercar le due Ferrari 499P, uniche iscritte della classe, si spartiscono le partenze al palo per Gara 1 e Gara 2 del round d'apertura. Al via in totale 46 vetture tra Hypercar, LMP2 e GT3.",
-   "tag": "Gare",
-   "source": "sportscar365.com",
-   "url": "https://sportscar365.com/lemans/asian-lms/cetilar-af-corse-ferraris-split-pole-positions-for-paul-ricard/",
-   "published": "2026-11-14T09:00:00Z",
-   "top": false
-  }
- ],
- "info": {
-  "updated": "2026-11-15T15:45:00Z",
-  "nextGp": {
-   "name": "4 Ore di Le Castellet – Gara 2",
-   "circuit": "Circuit Paul Ricard",
-   "date": "2026-11-15T12:15:00Z",
-   "label": "Gara 2",
-   "note": "Poi Jerez il 16-17 gennaio 2027"
-  }
- },
- "weekend": {
-  "gp": "4 Ore di Le Castellet",
-  "circuit": "Circuit Paul Ricard, Le Castellet",
-  "lat": 43.25,
-  "lon": 5.79,
-  "updated": "2026-11-15T15:20:00Z",
-  "tv8note": "Nessuna diretta TV in chiaro in Italia: di solito la serie trasmette le gare in streaming gratuito sui suoi canali ufficiali (sito e YouTube).",
-  "sessions": [
-   {
-    "name": "Gara 2 (4 Ore)",
-    "start": "2026-11-15T12:15:00Z",
-    "live": "Streaming sui canali ufficiali Asian Le Mans Series",
-    "key": true
-   }
+  "news": [
+    {
+      "id": "2026-11-15-af-corse-doppietta-gara2-paul-ricard",
+      "title": "AF Corse fa doppietta al Paul Ricard: la Ferrari #90 vince anche Gara 2",
+      "summary": "Pérez Companc, Ye e Nielsen bissano il successo di sabato e chiudono il round d'apertura con due vittorie su due, ancora davanti alla 499P di Cetilar Racing.",
+      "tag": "Gare",
+      "source": "sportscar365.com",
+      "url": "https://sportscar365.com/lemans/asian-lms/af-corse-doubles-up-with-sunday-paul-ricard-win/",
+      "published": "2026-11-15T16:30:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-15-proton-garage59-vincono-classi-gara2",
+      "title": "Gara 2: Proton vince in LMP2 su CLX, la McLaren di Garage 59 si prende la GT3",
+      "summary": "Nella seconda gara di Le Castellet la Oreca #11 di Proton Competition supera la concorrenza di CLX Motorsport, mentre in GT3 il successo va alla McLaren #58 di Garage 59.",
+      "tag": "Gare",
+      "source": "dive-bomb.com",
+      "url": "https://www.dive-bomb.com/article/alms-asian-le-mans-series-paul-ricard-race-report-ferrari-af-corse-win-proton-lmp2-mclaren-gt3",
+      "published": "2026-11-15T17:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-15-apr-team-qatar-vincono-classi-gara1",
+      "title": "Gara 1 al Paul Ricard: Algarve Pro in LMP2 e Team Qatar in GT3 completano il quadro",
+      "summary": "Nel round d'apertura vincono la Oreca di Algarve Pro Racing con Trulli in equipaggio e la Mercedes #62 di Team Qatar by Iron Lynx, favorita da una pesante penalità post-gara alla Getspeed #9.",
+      "tag": "Gare",
+      "source": "asianlemansseries.com",
+      "url": "https://www.asianlemansseries.com/en/news/r1-af-corse-apr-and-team-qatar-win-first-race-of-2026-27-season/13963",
+      "published": "2026-11-14T19:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-14-af-corse-vince-gara1-paul-ricard",
+      "title": "Doppietta Ferrari sotto il diluvio: AF Corse vince la prima gara Hypercar della serie",
+      "summary": "Al Paul Ricard la 499P di AF Corse con Luis Pérez Companc firma il primo successo dell'era Hypercar nell'Asian Le Mans Series, in una Gara 1 condizionata dalla pioggia. Seconda l'altra Ferrari di Cetilar Racing, subito a podio all'esordio.",
+      "tag": "Gare",
+      "source": "racer.com",
+      "url": "https://racer.com/2026/11/14/af-corse-wins-first-asian-le-mans-series-hypercar-race-at-paul-ricard",
+      "published": "2026-11-14T17:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-14-pole-cetilar-af-corse-paul-ricard",
+      "title": "Paul Ricard, Cetilar e AF Corse si dividono le pole delle due gare",
+      "summary": "Nelle qualifiche Hypercar le due Ferrari 499P, uniche iscritte della classe, si spartiscono le partenze al palo per Gara 1 e Gara 2 del round d'apertura. Al via in totale 46 vetture tra Hypercar, LMP2 e GT3.",
+      "tag": "Gare",
+      "source": "sportscar365.com",
+      "url": "https://sportscar365.com/lemans/asian-lms/cetilar-af-corse-ferraris-split-pole-positions-for-paul-ricard/",
+      "published": "2026-11-14T09:00:00Z",
+      "top": false
+    }
   ],
-  "freeChannel": "Dove vederla"
- },
- "results": {
-  "gp": "4 Ore di Le Castellet",
-  "round": 1,
-  "updated": "2026-11-15T15:45:00Z",
-  "summary": "Prima gara Hypercar nella storia dell'Asian Le Mans Series, corsa sotto la pioggia al Paul Ricard con sole due Ferrari 499P al via. La #90 di AF Corse (Pérez Companc, Ye, Nielsen) ha preso il comando al primo giro, quando il poleman Roberto Lacorte ha allungato la frenata alla prima curva, e ha vinto con 6,3 secondi sulla #47 di Cetilar Racing. Una lunga Safety Car per pioggia ha ricompattato il gruppo fino al quarto d'ora finale; la #47 ha anche scontato una penalità per un contatto. In LMP2 ha vinto la Oreca #25 di Algarve Pro Racing (Jensen, Jakobsen, Trulli) per sei decimi sulla #37 di CLX, in GT3 la Mercedes #62 di Team Qatar by Iron Lynx, dopo che la Getspeed #9, arrivata seconda sul traguardo, è stata penalizzata di 126 secondi. Gara 2 si corre domenica 15 novembre.",
-  "tabs": [
-   {
-    "label": "Gara 1",
-    "kind": "race",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Pérez Companc · Ye · Nielsen",
-      "team": "Ferrari #90 (AF Corse)",
-      "gap": "4 ore"
-     },
-     {
-      "pos": "2",
-      "name": "R. Lacorte · N. Lacorte · Fuoco",
-      "team": "Ferrari #47 (Cetilar Racing)",
-      "gap": "+6.348",
-      "note": "Penalità per contatto"
-     }
-    ],
-    "cls": "Hypercar"
-   },
-   {
-    "label": "Qualifiche Gara 1",
-    "kind": "quali",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "R. Lacorte",
-      "team": "Ferrari #47 (Cetilar Racing)",
-      "time": "1:51.979"
-     },
-     {
-      "pos": "2",
-      "name": "Pérez Companc",
-      "team": "Ferrari #90 (AF Corse)",
-      "time": ""
-     }
-    ],
-    "cls": "Hypercar"
-   },
-   {
-    "label": "Qualifiche Gara 2",
-    "kind": "quali",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Pérez Companc",
-      "team": "Ferrari #90 (AF Corse)",
-      "time": "1:50.794"
-     },
-     {
-      "pos": "2",
-      "name": "R. Lacorte",
-      "team": "Ferrari #47 (Cetilar Racing)",
-      "time": "+0.611"
-     }
-    ],
-    "cls": "Hypercar"
-   },
-   {
-    "label": "Gara 1",
-    "cls": "LMP2",
-    "kind": "race",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Jensen · Jakobsen · Trulli",
-      "team": "Oreca #25 (Algarve Pro Racing)",
-      "gap": "4 ore"
-     },
-     {
-      "pos": "2",
-      "name": "Vaxivière",
-      "team": "Oreca #37 (CLX Motorsport)",
-      "gap": "+0.6"
-     },
-     {
-      "pos": "3",
-      "name": "Yelloly",
-      "team": "Oreca #43 (Inter Europol Competition)",
-      "gap": "+2.1"
-     }
-    ]
-   },
-   {
-    "label": "Qualifiche Gara 1",
-    "cls": "LMP2",
-    "kind": "quali",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Roda",
-      "team": "Oreca #22 (United Autosports)",
-      "time": ""
-     }
-    ]
-   },
-   {
-    "label": "Qualifiche Gara 2",
-    "cls": "LMP2",
-    "kind": "quali",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "—",
-      "team": "Oreca (Proton Competition)",
-      "time": ""
-     }
-    ]
-   },
-   {
-    "label": "Gara 1",
-    "cls": "GT3",
-    "kind": "race",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Al-Khelafi · Hanses · Martin",
-      "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
-      "gap": "4 ore"
-     },
-     {
-      "pos": "2",
-      "name": "—",
-      "team": "Mercedes-AMG #88 (Craft-Bamboo Iron Lynx)",
-      "gap": "",
-      "note": "Promossa dopo la penalità alla #9"
-     },
-     {
-      "pos": "3",
-      "name": "—",
-      "team": "Mercedes-AMG #46 (2Seas Motorsports)",
-      "gap": "",
-      "note": "Promossa dopo la penalità alla #9"
-     }
-    ]
-   },
-   {
-    "label": "Qualifiche Gara 1",
-    "cls": "GT3",
-    "kind": "quali",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Jans",
-      "team": "Mercedes-AMG #9 (Getspeed)",
-      "time": ""
-     }
-    ]
-   },
-   {
-    "label": "Qualifiche Gara 2",
-    "cls": "GT3",
-    "kind": "quali",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "—",
-      "team": "Ferrari (AF Corse)",
-      "time": "",
-      "note": "Pole dopo la penalità a Heart of Racing"
-     }
-    ]
-   }
-  ]
- },
- "videos": [],
- "standings": null,
- "calendar": {
-  "season": "2026-27",
-  "updated": "2026-11-15T15:20:00Z",
-  "rounds": [
-   {
+  "info": {
+    "updated": "2026-11-15T18:55:00Z",
+    "nextGp": {
+      "name": "4 Ore di Jerez – Gara 1",
+      "circuit": "Circuito de Jerez",
+      "date": "2027-01-15T23:00:00Z",
+      "dateOnly": true,
+      "label": "Gara 1",
+      "note": "Gara 2 domenica 17 gennaio"
+    }
+  },
+  "weekend": {
+    "gp": "4 Ore di Jerez",
+    "circuit": "Circuito de Jerez – Ángel Nieto",
+    "lat": 36.71,
+    "lon": -6.03,
+    "updated": "2026-11-15T18:55:00Z",
+    "freeChannel": "Dove vederla",
+    "tv8note": "Nessuna diretta TV in chiaro in Italia: di solito la serie trasmette le gare in streaming gratuito sui suoi canali ufficiali (sito e YouTube).",
+    "sessions": []
+  },
+  "results": {
+    "gp": "4 Ore di Le Castellet",
     "round": 1,
-    "name": "4 Ore di Le Castellet (Gara 1 e 2)",
-    "circuit": "Paul Ricard",
-    "date": "2026-11-15"
-   },
-   {
-    "round": 2,
-    "name": "4 Ore di Jerez (Gara 1 e 2)",
-    "circuit": "Jerez",
-    "date": "2027-01-17"
-   },
-   {
-    "round": 3,
-    "name": "4 Ore di Portimão (Gara 1 e 2)",
-    "circuit": "Portimão",
-    "date": "2027-02-21"
-   }
-  ]
- }
+    "updated": "2026-11-15T18:55:00Z",
+    "summary": "Seconda doppietta Ferrari nel round d'apertura al Paul Ricard: in Gara 2 la 499P #90 di AF Corse (Pérez Companc, Ye, Nielsen), partita dalla pole, ha controllato la corsa e ha battuto ancora la #47 di Cetilar Racing. In LMP2 la vittoria è andata alla Oreca #11 di Proton Competition (Milesi, Kolovos, Martins), davanti alla #37 di CLX Motorsport. In GT3 ha vinto la McLaren #58 di Garage 59 (Marschall, Blattner, Fleming). Gara 1 di sabato era andata ad AF Corse, Algarve Pro Racing e Team Qatar by Iron Lynx. Il prossimo round è a Jerez a gennaio.",
+    "tabs": [
+      {
+        "label": "Gara 2",
+        "cls": "Hypercar",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Pérez Companc · Ye · Nielsen",
+            "team": "Ferrari #90 (AF Corse)",
+            "gap": "4 ore"
+          },
+          {
+            "pos": "2",
+            "name": "R. Lacorte · N. Lacorte · Fuoco",
+            "team": "Ferrari #47 (Cetilar Racing)",
+            "gap": ""
+          }
+        ]
+      },
+      {
+        "label": "Gara 1",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Pérez Companc · Ye · Nielsen",
+            "team": "Ferrari #90 (AF Corse)",
+            "gap": "4 ore"
+          },
+          {
+            "pos": "2",
+            "name": "R. Lacorte · N. Lacorte · Fuoco",
+            "team": "Ferrari #47 (Cetilar Racing)",
+            "gap": "+6.348",
+            "note": "Penalità per contatto"
+          }
+        ],
+        "cls": "Hypercar"
+      },
+      {
+        "label": "Qualifiche Gara 1",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "R. Lacorte",
+            "team": "Ferrari #47 (Cetilar Racing)",
+            "time": "1:51.979"
+          },
+          {
+            "pos": "2",
+            "name": "Pérez Companc",
+            "team": "Ferrari #90 (AF Corse)",
+            "time": ""
+          }
+        ],
+        "cls": "Hypercar"
+      },
+      {
+        "label": "Qualifiche Gara 2",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Pérez Companc",
+            "team": "Ferrari #90 (AF Corse)",
+            "time": "1:50.794"
+          },
+          {
+            "pos": "2",
+            "name": "R. Lacorte",
+            "team": "Ferrari #47 (Cetilar Racing)",
+            "time": "+0.611"
+          }
+        ],
+        "cls": "Hypercar"
+      },
+      {
+        "label": "Gara 2",
+        "cls": "LMP2",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Milesi · Kolovos · Martins",
+            "team": "Oreca #11 (Proton Competition)",
+            "gap": "4 ore"
+          },
+          {
+            "pos": "2",
+            "name": "Vaxivière · Stern · Closmenil",
+            "team": "Oreca #37 (CLX Motorsport)",
+            "gap": "",
+            "note": "Classifica completa in aggiornamento"
+          }
+        ]
+      },
+      {
+        "label": "Gara 1",
+        "cls": "LMP2",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Jensen · Jakobsen · Trulli",
+            "team": "Oreca #25 (Algarve Pro Racing)",
+            "gap": "4 ore"
+          },
+          {
+            "pos": "2",
+            "name": "Vaxivière",
+            "team": "Oreca #37 (CLX Motorsport)",
+            "gap": "+0.6"
+          },
+          {
+            "pos": "3",
+            "name": "Yelloly",
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "gap": "+2.1"
+          }
+        ]
+      },
+      {
+        "label": "Qualifiche Gara 1",
+        "cls": "LMP2",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Roda",
+            "team": "Oreca #22 (United Autosports)",
+            "time": ""
+          }
+        ]
+      },
+      {
+        "label": "Qualifiche Gara 2",
+        "cls": "LMP2",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "—",
+            "team": "Oreca (Proton Competition)",
+            "time": ""
+          }
+        ]
+      },
+      {
+        "label": "Gara 2",
+        "cls": "GT3",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Marschall · Blattner · Fleming",
+            "team": "McLaren #58 (Garage 59)",
+            "gap": "4 ore",
+            "note": "Classifica completa in aggiornamento"
+          }
+        ]
+      },
+      {
+        "label": "Gara 1",
+        "cls": "GT3",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Al-Khelafi · Hanses · Martin",
+            "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
+            "gap": "4 ore"
+          },
+          {
+            "pos": "2",
+            "name": "—",
+            "team": "Mercedes-AMG #88 (Craft-Bamboo Iron Lynx)",
+            "gap": "",
+            "note": "Promossa dopo la penalità alla #9"
+          },
+          {
+            "pos": "3",
+            "name": "—",
+            "team": "Mercedes-AMG #46 (2Seas Motorsports)",
+            "gap": "",
+            "note": "Promossa dopo la penalità alla #9"
+          }
+        ]
+      },
+      {
+        "label": "Qualifiche Gara 1",
+        "cls": "GT3",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Jans",
+            "team": "Mercedes-AMG #9 (Getspeed)",
+            "time": ""
+          }
+        ]
+      },
+      {
+        "label": "Qualifiche Gara 2",
+        "cls": "GT3",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "—",
+            "team": "Ferrari (AF Corse)",
+            "time": "",
+            "note": "Pole dopo la penalità a Heart of Racing"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [],
+  "standings": {
+    "updated": "2026-11-15T18:55:00Z",
+    "after": "dopo Gara 1 di Le Castellet (punti di Gara 2 in arrivo)",
+    "classes": [
+      {
+        "cls": "Hypercar",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Pérez Companc · Nielsen · Ye",
+            "team": "Ferrari #90 (AF Corse)",
+            "points": 25
+          },
+          {
+            "pos": 2,
+            "name": "Fuoco · N. Lacorte · R. Lacorte",
+            "team": "Ferrari #47 (Cetilar Racing)",
+            "points": 19
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "Ferrari #90 (AF Corse)",
+            "points": 25
+          },
+          {
+            "pos": 2,
+            "team": "Ferrari #47 (Cetilar Racing)",
+            "points": 19
+          }
+        ]
+      },
+      {
+        "cls": "LMP2",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Trulli · Jakobsen · Jensen",
+            "team": "#25 Algarve Pro Racing",
+            "points": 25
+          },
+          {
+            "pos": 2,
+            "name": "Closmenil · Stern · Vaxivière",
+            "team": "#37 CLX Motorsport",
+            "points": 18
+          },
+          {
+            "pos": 3,
+            "name": "Shields · Yelloly · Kratz",
+            "team": "#43 Inter Europol Competition",
+            "points": 15
+          },
+          {
+            "pos": 4,
+            "name": "Schwarze · Hörr · Van Rompuy",
+            "team": "#3 DKR Engineering",
+            "points": 12
+          },
+          {
+            "pos": 5,
+            "name": "Roda · Aguilera · Robb",
+            "team": "#22 United Autosports",
+            "points": 11
+          },
+          {
+            "pos": 6,
+            "name": "Doohan · Hanson",
+            "team": "#55 AF Corse",
+            "points": 8
+          },
+          {
+            "pos": 7,
+            "name": "Kurtz · Heinrich · Delétraz",
+            "team": "#4 CrowdStrike Racing by APR",
+            "points": 6
+          },
+          {
+            "pos": 8,
+            "name": "Garcia · Huffaker · Thomas",
+            "team": "#24 Nielsen Racing",
+            "points": 4
+          },
+          {
+            "pos": 9,
+            "name": "Milesi · Kolovos · Martins",
+            "team": "#11 Proton Competition",
+            "points": 2
+          },
+          {
+            "pos": 10,
+            "name": "Clarke · Andlauer · Varrone",
+            "team": "#83 AF Corse",
+            "points": 1
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "Oreca #25 (Algarve Pro Racing)",
+            "points": 25
+          },
+          {
+            "pos": 2,
+            "team": "Oreca #37 (CLX Motorsport)",
+            "points": 18
+          },
+          {
+            "pos": 3,
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "points": 15
+          },
+          {
+            "pos": 4,
+            "team": "Oreca #3 (DKR Engineering)",
+            "points": 12
+          },
+          {
+            "pos": 5,
+            "team": "Oreca #22 (United Autosports)",
+            "points": 11
+          },
+          {
+            "pos": 6,
+            "team": "Oreca #55 (AF Corse)",
+            "points": 8
+          },
+          {
+            "pos": 7,
+            "team": "Oreca #4 (CrowdStrike Racing by APR)",
+            "points": 6
+          },
+          {
+            "pos": 8,
+            "team": "Oreca #24 (Nielsen Racing)",
+            "points": 4
+          },
+          {
+            "pos": 9,
+            "team": "Oreca #11 (Proton Competition)",
+            "points": 2
+          },
+          {
+            "pos": 10,
+            "team": "Oreca #83 (AF Corse)",
+            "points": 1
+          }
+        ]
+      },
+      {
+        "cls": "GT3",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Al-Khelaifi · Hanses · Martin",
+            "team": "#62 Team Qatar by Iron Lynx",
+            "points": 25
+          },
+          {
+            "pos": 2,
+            "name": "Naran · Stolz · Pedersen",
+            "team": "#88 Iron Lynx",
+            "points": 18
+          },
+          {
+            "pos": 3,
+            "name": "Dawson · Jewiss",
+            "team": "#46 2 Seas Motorsport",
+            "points": 15
+          },
+          {
+            "pos": 4,
+            "name": "L. Ried · de Haan",
+            "team": "#77 Proton Competition",
+            "points": 12
+          },
+          {
+            "pos": 5,
+            "name": "Perel · Dempsey · Duran",
+            "team": "#50 AF Corse",
+            "points": 10
+          },
+          {
+            "pos": 6,
+            "name": "Schandorff · Birch · Tribaudini",
+            "team": "#7 Petrolife Racing Team",
+            "points": 8
+          },
+          {
+            "pos": 7,
+            "name": "Robin · Edgar · Hasse Clot",
+            "team": "#68 Car Blanche by RSL",
+            "points": 6
+          },
+          {
+            "pos": 8,
+            "name": "Piana · Dienst · Salikhov",
+            "team": "#87 Winward Racing",
+            "points": 4
+          },
+          {
+            "pos": 9,
+            "name": "Barrichello · Newell · De Angelis",
+            "team": "#26 Heart of Racing Team",
+            "points": 2
+          },
+          {
+            "pos": 10,
+            "name": "Schuring · Monegro · Lietz",
+            "team": "#92 Manthey",
+            "points": 1
+          },
+          {
+            "pos": 11,
+            "name": "Bartone · Schiller · Jans",
+            "team": "#9 GetSpeed",
+            "points": 1
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "#62 Team Qatar by Iron Lynx",
+            "points": 25
+          },
+          {
+            "pos": 2,
+            "team": "#88 Iron Lynx",
+            "points": 18
+          },
+          {
+            "pos": 3,
+            "team": "#46 2 Seas Motorsport",
+            "points": 15
+          },
+          {
+            "pos": 4,
+            "team": "#77 Proton Competition",
+            "points": 12
+          },
+          {
+            "pos": 5,
+            "team": "#50 AF Corse",
+            "points": 10
+          },
+          {
+            "pos": 6,
+            "team": "#7 Petrolife Racing Team",
+            "points": 8
+          },
+          {
+            "pos": 7,
+            "team": "#68 Car Blanche by RSL",
+            "points": 6
+          },
+          {
+            "pos": 8,
+            "team": "#87 Winward Racing",
+            "points": 4
+          },
+          {
+            "pos": 9,
+            "team": "#26 Heart of Racing Team",
+            "points": 2
+          },
+          {
+            "pos": 10,
+            "team": "#92 Manthey",
+            "points": 1
+          },
+          {
+            "pos": 11,
+            "team": "#9 GetSpeed",
+            "points": 1
+          }
+        ]
+      }
+    ]
+  },
+  "calendar": {
+    "season": "2026-27",
+    "updated": "2026-11-15T18:55:00Z",
+    "rounds": [
+      {
+        "round": 1,
+        "name": "4 Ore di Le Castellet (Gara 1 e 2)",
+        "circuit": "Paul Ricard",
+        "date": "2026-11-15",
+        "winner": "G1 #90 Pérez Companc · Ye · Nielsen · G2 #90 Pérez Companc · Ye · Nielsen",
+        "team": "Ferrari",
+        "wins": [
+          "Luis Pérez Companc · Yifei Ye · Nicklas Nielsen (Gara 1)",
+          "Luis Pérez Companc · Yifei Ye · Nicklas Nielsen (Gara 2)"
+        ],
+        "classWinners": [
+          {
+            "cls": "Hypercar",
+            "winner": "G1 #90 Pérez Companc · Ye · Nielsen · G2 #90 Pérez Companc · Ye · Nielsen",
+            "team": "AF Corse"
+          },
+          {
+            "cls": "LMP2",
+            "winner": "G1 #25 Jensen · Jakobsen · Trulli · G2 #11 Milesi · Kolovos · Martins",
+            "team": "Algarve Pro Racing / Proton Competition"
+          },
+          {
+            "cls": "GT3",
+            "winner": "G1 #62 Al-Khelaifi · Hanses · Martin · G2 #58 Marschall · Blattner · Fleming",
+            "team": "Team Qatar by Iron Lynx / Garage 59"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "name": "4 Ore di Jerez (Gara 1 e 2)",
+        "circuit": "Jerez",
+        "date": "2027-01-17"
+      },
+      {
+        "round": 3,
+        "name": "4 Ore di Portimão (Gara 1 e 2)",
+        "circuit": "Portimão",
+        "date": "2027-02-21"
+      }
+    ]
+  }
 }
