@@ -245,6 +245,8 @@
   .hsess{cursor:pointer}
   .hsess:active{background:var(--card2)}
   .hsess .n small{display:block;font-size:13px;color:var(--muted);margin-top:1px}
+  .hsess .tvl{display:block;font-size:13px;color:var(--body);margin-top:2px;line-height:1.4}
+  .hsess .tvl .free{color:var(--tvc);font-weight:600}
   .hnext{cursor:pointer}
   .hnext:active{background:var(--card2)}
   .hnext .dt{text-align:right;font-size:13px;color:var(--muted);min-width:70px}
@@ -1085,9 +1087,12 @@ function renderHome(){
     list.forEach(x=>{
       const d=dayName(x.s.start); if(d!==last){h+=`<div class="dayh">${esc(d)}</div>`;last=d}
       const live=now>=x.st&&now<x.en, c=SER[x.k];
-      const tv=x.s.tv8?` · <span style="color:var(--tvc);font-weight:600">${esc(x.ch)} ${x.s.tv8.live?"diretta":"differita ore "+esc(hm(x.s.tv8.time))}</span>`:"";
+      const tv=x.s.tv8?`<span class="free">${esc(x.ch)} ${x.s.tv8.live?"diretta":"differita ore "+esc(hm(x.s.tv8.time))}</span>`:"";
+      let pay=String(x.s.live||"").replace(/^\s*(in\s+)?diretta\s+(su\s+)?/i,"").trim();
+      if(x.s.tv8) pay=pay.split(/\s*[·,]\s*/).filter(t=>t&&!t.toLowerCase().includes(String(x.ch).toLowerCase())).join(" · ");
+      const chans=[pay?esc(pay):"",tv].filter(Boolean).join(" · ");
       h+=`<div class="sess hsess${x.s.key?" key":""}" data-k="${x.k}"><div class="t">${esc(hm(x.s.start))}</div>
-        <div class="n"><b><span class="stag" style="background:${c.color}">${isFavS(x.k)?"★ ":""}${esc(c.logo)}</span>${esc(x.s.name)}${live?'<span class="badge live">In corso</span>':""}</b><small>${esc(x.gp||"")}${tv}</small></div></div>`;
+        <div class="n"><b><span class="stag" style="background:${c.color}">${isFavS(x.k)?"★ ":""}${esc(c.logo)}</span>${esc(x.s.name)}${live?'<span class="badge live">In corso</span>':""}</b><small>${esc(x.gp||"")}</small>${chans?`<span class="tvl">📺 ${chans}</span>`:""}</div></div>`;
     });
     h+=`</div>`;
   }
