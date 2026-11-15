@@ -7,7 +7,7 @@ Web app (PWA) con orari italiani, canali TV, notizie, risultati, classifiche e c
 | Formula | Formula 1 (`f1`), Formula 2 (`f2`), Formula 3 (`f3`) |
 | MotoGP | MotoGP (`motogp`), Moto2 (`moto2`), Moto3 (`moto3`) |
 | Superbike | WorldSBK (`wsbk`), Supersport (`wssp`), World Sportbike (`wssp300`, ex Supersport 300) |
-| WEC | WEC Hypercar (`wec`) |
+| Hypercar | WEC (`wec`), Asian Le Mans Series (`alms`, solo classe Hypercar) |
 
 La pagina iniziale **Weekend** mette insieme le sessioni dei prossimi 7 giorni di tutti i campionati e il prossimo appuntamento di ciascuno.
 
