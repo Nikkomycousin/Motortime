@@ -1,11 +1,342 @@
 {
- "news": [],
+ "news": [
+  {
+   "id": "2026-10-10-united-autosports-campione-lmp2-portimao",
+   "title": "United Autosports vince a Portimão e si prende il titolo LMP2 2026",
+   "summary": "Nell'ultima gara della stagione la Oreca #22 di Hanley, Peebles e Saucy è partita dalla pole e ha vinto con circa 12 secondi di margine, riportando il titolo ELMS a United Autosports per la prima volta dal 2020. Tutti i titoli di classe sono stati decisi in Portogallo.",
+   "tag": "Campionato",
+   "source": "europeanlemansseries.com",
+   "url": "https://www.europeanlemansseries.com/en/news/united-autosports-win-in-portugal-to-lift-2026-lmp2-title/13861",
+   "published": "2026-10-10T18:00:00Z",
+   "top": true
+  },
+  {
+   "id": "2026-10-10-portimao-titoli-fino-all-ultimo",
+   "title": "Portimão, United domina mentre gli altri titoli si decidono all'ultimo giro",
+   "summary": "Se in LMP2 il successo della #22 è stato netto, nelle altre classi la lotta per il campionato è rimasta aperta fino alle battute finali. In LMGT3 la vittoria della Proton #75 non è bastata a strappare il titolo alla TF Sport, seconda al traguardo.",
+   "tag": "Gare",
+   "source": "gt-report.com",
+   "url": "https://www.gt-report.com/2026/10/10/elms-portimao-united-autosports-dominate-as-other-titles-go-down-to-the-wire/",
+   "published": "2026-10-10T19:00:00Z",
+   "top": false
+  },
+  {
+   "id": "2026-10-12-trulli-campione-pro-am",
+   "title": "Enzo Trulli campione LMP2 Pro-Am con Algarve Pro Racing",
+   "summary": "L'italiano, insieme a Michael Jensen e Malthe Jakobsen, ha vinto la gara di Portimão e il titolo Pro-Am con la Oreca #20, approfittando del problema tecnico che ha frenato la AF Corse #83, leader alla vigilia. I campioni sono stati premiati alla serata di fine stagione.",
+   "tag": "Italiani",
+   "source": "dailysportscar.com",
+   "url": "https://www.dailysportscar.com/2026/10/12/elms-end-of-season-awards.html",
+   "published": "2026-10-12T12:00:00Z",
+   "top": false
+  }
+ ],
  "info": {
-  "updated": null
+  "updated": "2026-11-15T15:45:00Z",
+  "nextGp": {
+   "name": "4 Ore di Barcellona",
+   "circuit": "Circuit de Barcelona-Catalunya",
+   "date": "2027-03-13T23:00:00Z",
+   "dateOnly": true,
+   "label": "Gara",
+   "note": "Test ufficiali (Prologo) l'8-9 marzo 2027 sullo stesso circuito"
+  }
  },
- "weekend": null,
- "results": null,
+ "weekend": {
+  "gp": "4 Ore di Barcellona",
+  "circuit": "Circuit de Barcelona-Catalunya, Montmeló",
+  "lat": 41.57,
+  "lon": 2.26,
+  "updated": "2026-11-15T15:40:00Z",
+  "freeChannel": "Dove vederla",
+  "tv8note": "Nessuna diretta TV in chiaro in Italia: di solito la European Le Mans Series trasmette le gare in streaming gratuito sul sito ufficiale e sul canale YouTube della serie.",
+  "sessions": []
+ },
+ "results": {
+  "gp": "4 Ore di Portimão",
+  "round": 6,
+  "updated": "2026-11-15T15:40:00Z",
+  "summary": "Gran finale della stagione 2026 all'Algarve International Circuit, sabato 10 ottobre. In LMP2 la Oreca #22 di United Autosports (Hanley, Peebles, Saucy) ha vinto partendo dalla pole e ha conquistato il titolo, mentre in Pro-Am la #20 di Algarve Pro Racing ha vinto gara e campionato. CLX Motorsport ha dominato la LMP3 con un giro di vantaggio, confermando Lanchère campione per il secondo anno di fila. In LMGT3 ha vinto la Porsche #75 di Proton, ma il secondo posto è bastato alla Corvette #33 di TF Sport per il titolo.",
+  "tabs": [
+   {
+    "label": "Gara",
+    "cls": "LMP2",
+    "kind": "race",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Hanley · Peebles · Saucy",
+      "team": "Oreca #22 (United Autosports)",
+      "gap": "4 ore",
+      "note": "Campioni 2026"
+     },
+     {
+      "pos": "4",
+      "name": "Gray · Masson · Rousset",
+      "team": "Oreca #29 (Forestier Racing by Panis)",
+      "gap": "",
+      "note": "2ª e 3ª posizione per IDEC Sport #18 e Inter Europol #43, a circa 12 s dal vincitore (ordine non noto)"
+     }
+    ]
+   },
+   {
+    "label": "Gara",
+    "cls": "LMP2 Pro-Am",
+    "kind": "race",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Jakobsen · Jensen · Trulli",
+      "team": "Oreca #20 (Algarve Pro Racing)",
+      "gap": "4 ore",
+      "note": "Campioni 2026"
+     },
+     {
+      "pos": "2",
+      "name": "—",
+      "team": "Oreca #47 (CLX Motorsport)",
+      "gap": ""
+     },
+     {
+      "pos": "3",
+      "name": "Huffaker",
+      "team": "#14 (TDS Racing)",
+      "gap": "",
+      "note": "Era in testa nell'ultima ora, penalizzato per track limits all'ultimo giro"
+     },
+     {
+      "pos": "11",
+      "name": "Fuoco · Perrodo · Vaxivière",
+      "team": "Oreca #83 (AF Corse)",
+      "gap": "",
+      "note": "Problema tecnico; era leader del campionato alla vigilia"
+     }
+    ]
+   },
+   {
+    "label": "Gara",
+    "cls": "LMP3",
+    "kind": "race",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Iglesias · Jacoby · Lanchère",
+      "team": "Ligier #17 (CLX Motorsport)",
+      "gap": "4 ore",
+      "note": "Campioni 2026"
+     },
+     {
+      "pos": "2",
+      "name": "Cautela · Gaarde Pedersen · Rodella",
+      "team": "Ligier #5 (Rinaldi Racing)",
+      "gap": "+1 giro"
+     },
+     {
+      "pos": "3",
+      "name": "—",
+      "team": "Ligier #4 (DKR Engineering)",
+      "gap": ""
+     }
+    ]
+   },
+   {
+    "label": "Gara",
+    "cls": "LMGT3",
+    "kind": "race",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Kurzejewski · Lietz · Sargent",
+      "team": "Porsche #75 (Proton Competition)",
+      "gap": "4 ore"
+     },
+     {
+      "pos": "2",
+      "name": "Eastwood · McDonald · Udell",
+      "team": "Corvette #33 (TF Sport)",
+      "gap": "+21 s circa",
+      "note": "Campioni 2026"
+     },
+     {
+      "pos": "3",
+      "name": "Paque",
+      "team": "Porsche #54 (High Class Racing)",
+      "gap": ""
+     },
+     {
+      "pos": "8",
+      "name": "—",
+      "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
+      "gap": "",
+      "note": "Partita dalla pole, penalizzata per eccesso di velocità in corsia box"
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche",
+    "cls": "LMP2",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Peebles",
+      "team": "Oreca #22 (United Autosports)",
+      "time": ""
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche",
+    "cls": "LMP3",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "—",
+      "team": "Ligier #17 (CLX Motorsport)",
+      "time": ""
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche",
+    "cls": "LMGT3",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "—",
+      "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
+      "time": ""
+     }
+    ]
+   }
+  ]
+ },
  "videos": [],
- "standings": null,
- "calendar": null
+ "standings": {
+  "updated": "2026-11-15T15:40:00Z",
+  "after": "dopo la 4 Ore di Portimão (finale)",
+  "classes": [
+   {
+    "cls": "LMP2",
+    "drivers": [
+     {
+      "pos": 1,
+      "name": "Ben Hanley · Griffin Peebles · Grégoire Saucy",
+      "team": "United Autosports #22",
+      "champion": true
+     }
+    ],
+    "constructors": [
+     {
+      "pos": 1,
+      "team": "United Autosports #22",
+      "drivers": "Hanley · Peebles · Saucy",
+      "champion": true
+     }
+    ]
+   },
+   {
+    "cls": "LMP2 Pro-Am",
+    "drivers": [
+     {
+      "pos": 1,
+      "name": "Malthe Jakobsen · Michael Jensen · Enzo Trulli",
+      "team": "Algarve Pro Racing #20",
+      "champion": true
+     }
+    ],
+    "constructors": [
+     {
+      "pos": 1,
+      "team": "Algarve Pro Racing #20",
+      "drivers": "Jakobsen · Jensen · Trulli",
+      "champion": true
+     }
+    ]
+   },
+   {
+    "cls": "LMP3",
+    "drivers": [
+     {
+      "pos": 1,
+      "name": "Paul Lanchère · Alexander Jacoby",
+      "team": "CLX Motorsport #17",
+      "champion": true
+     }
+    ],
+    "constructors": [
+     {
+      "pos": 1,
+      "team": "CLX Motorsport #17",
+      "drivers": "Iglesias · Jacoby · Lanchère",
+      "champion": true
+     }
+    ]
+   },
+   {
+    "cls": "LMGT3",
+    "drivers": [
+     {
+      "pos": 1,
+      "name": "Charlie Eastwood · Blake McDonald · Alec Udell",
+      "team": "TF Sport #33",
+      "champion": true
+     }
+    ],
+    "constructors": [
+     {
+      "pos": 1,
+      "team": "TF Sport #33",
+      "drivers": "Eastwood · McDonald · Udell",
+      "champion": true
+     }
+    ]
+   }
+  ]
+ },
+ "calendar": {
+  "season": "2027",
+  "updated": "2026-11-15T15:40:00Z",
+  "rounds": [
+   {
+    "round": 1,
+    "name": "4 Ore di Barcellona",
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "date": "2027-03-14"
+   },
+   {
+    "round": 2,
+    "name": "4 Ore di Le Castellet",
+    "circuit": "Circuit Paul Ricard",
+    "date": "2027-05-02"
+   },
+   {
+    "round": 3,
+    "name": "4 Ore di Imola",
+    "circuit": "Imola",
+    "date": "2027-07-04"
+   },
+   {
+    "round": 4,
+    "name": "4 Ore di Spa-Francorchamps",
+    "circuit": "Spa-Francorchamps",
+    "date": "2027-08-22"
+   },
+   {
+    "round": 5,
+    "name": "4 Ore di Silverstone",
+    "circuit": "Silverstone",
+    "date": "2027-09-05"
+   },
+   {
+    "round": 6,
+    "name": "4 Ore di Portimão",
+    "circuit": "Algarve International Circuit",
+    "date": "2027-10-16",
+    "status": "Data posticipata di due settimane"
+   }
+  ]
+ }
 }

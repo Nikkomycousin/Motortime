@@ -255,7 +255,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-15T15:10:00Z",
+    "updated": "2026-11-15T15:45:00Z",
     "nextGp": {
       "name": "Qatar 1812 km",
       "circuit": "Lusail",
@@ -275,10 +275,10 @@
     "gp": "6 Ore di Monza",
     "round": 8,
     "updated": "2026-11-08T17:00:00Z",
-    "summary": "La Cadillac #38 di Aitken, Bamber e Bourdais ha vinto la 6 Ore di Monza, finale di stagione, dopo aver preso il comando già nelle prime fasi e averlo difeso fino alla bandiera a scacchi dall'Alpine #36 di Martins e Gounon, seconda a 5,6 secondi nell'ultima gara del marchio francese. Il podio è stato completato dalla Ferrari #51, promossa dopo la penalità di 20 secondi inflitta all'Aston Martin #007 per le pressioni delle gomme. La Toyota #8 di Buemi, Hartley e Hirakawa, solo 11ª, si è laureata campione del mondo Hypercar davanti alla gemella #7. Classifica ancora provvisoria: restano aperte alcune indagini dei commissari.",
+    "summary": "La Cadillac #38 di Aitken, Bamber e Bourdais ha vinto la 6 Ore di Monza, finale di stagione, dopo aver preso il comando già nelle prime fasi e averlo difeso fino alla bandiera a scacchi dall'Alpine #36 di Martins e Gounon, seconda a 5,6 secondi nell'ultima gara del marchio francese. Il podio è stato completato dalla Ferrari #51, promossa dopo la penalità di 20 secondi inflitta all'Aston Martin #007 per le pressioni delle gomme. La Toyota #8 di Buemi, Hartley e Hirakawa, solo 11ª, si è laureata campione del mondo Hypercar davanti alla gemella #7. Classifica ancora provvisoria: restano aperte alcune indagini dei commissari. In LMGT3 la Porsche #92 di Manthey (Shahin, Pera, Lietz) ha vinto per appena 0,27 secondi sull'Aston Martin #23, mentre il terzo posto della Corvette #33 ha dato a TF Sport e a Jonny Edgar i titoli di classe.",
     "tabs": [
       {
-        "label": "Gara Hypercar",
+        "label": "Gara",
         "kind": "race",
         "rows": [
           {
@@ -407,6 +407,75 @@
             "points": 0,
             "note": "Problema elettrico"
           }
+        ],
+        "cls": "Hypercar"
+      },
+      {
+        "label": "Gara",
+        "cls": "LMGT3",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Shahin · Pera · Lietz",
+            "team": "Porsche #92 (Manthey)",
+            "gap": "173 giri"
+          },
+          {
+            "pos": "2",
+            "name": "—",
+            "team": "Aston Martin #23 (Heart of Racing)",
+            "gap": "+0.270"
+          },
+          {
+            "pos": "3",
+            "name": "—",
+            "team": "Corvette #33 (TF Sport)",
+            "gap": "+9.600",
+            "note": "Titolo LMGT3 piloti e team"
+          },
+          {
+            "pos": "4",
+            "name": "—",
+            "team": "BMW #69 (Team WRT)",
+            "gap": "+22.883"
+          },
+          {
+            "pos": "5",
+            "name": "—",
+            "team": "Porsche #91 (Manthey DK Engineering)",
+            "gap": "+28.246"
+          },
+          {
+            "pos": "6",
+            "name": "—",
+            "team": "Mercedes-AMG #79 (Iron Lynx)",
+            "gap": "+30.197"
+          },
+          {
+            "pos": "7",
+            "name": "—",
+            "team": "Mercedes-AMG #61 (Iron Lynx)",
+            "gap": "+34.659"
+          },
+          {
+            "pos": "8",
+            "name": "—",
+            "team": "Ferrari #21 (Vista AF Corse)",
+            "gap": "+36.801"
+          },
+          {
+            "pos": "9",
+            "name": "—",
+            "team": "Aston Martin #27 (Heart of Racing)",
+            "gap": "+1:05.051"
+          },
+          {
+            "pos": "10",
+            "name": "—",
+            "team": "Lexus #78 (Akkodis ASP)",
+            "gap": "+1:06.344"
+          }
         ]
       },
       {
@@ -523,18 +592,8 @@
             "time": "—",
             "note": "Eliminata in Q1"
           }
-        ]
-      }
-    ],
-    "podium": [
-      {
-        "name": "Aitken · Bamber · Bourdais"
-      },
-      {
-        "name": "Gounon · Martins"
-      },
-      {
-        "name": "Pier Guidi · Calado · Giovinazzi"
+        ],
+        "cls": "Hypercar"
       }
     ]
   },
@@ -570,360 +629,385 @@
   "standings": {
     "updated": "2026-11-08T17:00:00Z",
     "after": "dopo la 6 Ore di Monza (finale, classifica provvisoria)",
-    "drivers": [
+    "classes": [
       {
-        "pos": 1,
-        "name": "Sébastien Buemi",
-        "team": "Toyota #8",
-        "points": 114,
-        "champion": true
+        "cls": "Hypercar",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Sébastien Buemi",
+            "team": "Toyota #8",
+            "points": 114,
+            "champion": true
+          },
+          {
+            "pos": 1,
+            "name": "Brendon Hartley",
+            "team": "Toyota #8",
+            "points": 114,
+            "champion": true
+          },
+          {
+            "pos": 1,
+            "name": "Ryō Hirakawa",
+            "team": "Toyota #8",
+            "points": 114,
+            "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Mike Conway",
+            "team": "Toyota #7",
+            "points": 97
+          },
+          {
+            "pos": 2,
+            "name": "Nyck de Vries",
+            "team": "Toyota #7",
+            "points": 97
+          },
+          {
+            "pos": 2,
+            "name": "Kamui Kobayashi",
+            "team": "Toyota #7",
+            "points": 97
+          },
+          {
+            "pos": 3,
+            "name": "Kevin Magnussen",
+            "team": "BMW #15",
+            "points": 83
+          },
+          {
+            "pos": 3,
+            "name": "Raffaele Marciello",
+            "team": "BMW #15",
+            "points": 83
+          },
+          {
+            "pos": 4,
+            "name": "Earl Bamber",
+            "team": "Cadillac #38",
+            "points": 81
+          },
+          {
+            "pos": 4,
+            "name": "Sébastien Bourdais",
+            "team": "Cadillac #38",
+            "points": 81
+          },
+          {
+            "pos": 5,
+            "name": "Robin Frijns",
+            "team": "BMW #20",
+            "points": 77
+          },
+          {
+            "pos": 5,
+            "name": "René Rast",
+            "team": "BMW #20",
+            "points": 77
+          },
+          {
+            "pos": 5,
+            "name": "Dries Vanthoor",
+            "team": "BMW #15",
+            "points": 77
+          },
+          {
+            "pos": 5,
+            "name": "Jack Aitken",
+            "team": "Cadillac #38",
+            "points": 77
+          },
+          {
+            "pos": 6,
+            "name": "Antonio Fuoco",
+            "team": "Ferrari #50",
+            "points": 76
+          },
+          {
+            "pos": 6,
+            "name": "Miguel Molina",
+            "team": "Ferrari #50",
+            "points": 76
+          },
+          {
+            "pos": 6,
+            "name": "Nicklas Nielsen",
+            "team": "Ferrari #50",
+            "points": 76
+          },
+          {
+            "pos": 7,
+            "name": "James Calado",
+            "team": "Ferrari #51",
+            "points": 74
+          },
+          {
+            "pos": 7,
+            "name": "Antonio Giovinazzi",
+            "team": "Ferrari #51",
+            "points": 74
+          },
+          {
+            "pos": 7,
+            "name": "Alessandro Pier Guidi",
+            "team": "Ferrari #51",
+            "points": 74
+          },
+          {
+            "pos": 8,
+            "name": "Sheldon van der Linde",
+            "team": "BMW #20",
+            "points": 67
+          },
+          {
+            "pos": 9,
+            "name": "Norman Nato",
+            "team": "Cadillac #12",
+            "points": 58
+          },
+          {
+            "pos": 9,
+            "name": "Will Stevens",
+            "team": "Cadillac #12",
+            "points": 58
+          },
+          {
+            "pos": 10,
+            "name": "Ferdinand Habsburg",
+            "team": "Alpine #35",
+            "points": 57
+          },
+          {
+            "pos": 10,
+            "name": "Charles Milesi",
+            "team": "Alpine #35",
+            "points": 57
+          },
+          {
+            "pos": 11,
+            "name": "Tom Gamble",
+            "team": "Aston Martin #007",
+            "points": 54
+          },
+          {
+            "pos": 11,
+            "name": "Harry Tincknell",
+            "team": "Aston Martin #007",
+            "points": 54
+          },
+          {
+            "pos": 11,
+            "name": "Jules Gounon",
+            "team": "Alpine #36",
+            "points": 54
+          },
+          {
+            "pos": 11,
+            "name": "Victor Martins",
+            "team": "Alpine #36",
+            "points": 54
+          },
+          {
+            "pos": 12,
+            "name": "Phil Hanson",
+            "team": "Ferrari #83 (AF Corse)",
+            "points": 45
+          },
+          {
+            "pos": 12,
+            "name": "Robert Kubica",
+            "team": "Ferrari #83 (AF Corse)",
+            "points": 45
+          },
+          {
+            "pos": 12,
+            "name": "Ye Yifei",
+            "team": "Ferrari #83 (AF Corse)",
+            "points": 45
+          },
+          {
+            "pos": 13,
+            "name": "António Félix da Costa",
+            "team": "Alpine #35",
+            "points": 44
+          },
+          {
+            "pos": 14,
+            "name": "Louis Delétraz",
+            "team": "",
+            "points": 26
+          },
+          {
+            "pos": 15,
+            "name": "Loïc Duval",
+            "team": "Peugeot #94",
+            "points": 22
+          },
+          {
+            "pos": 15,
+            "name": "Malthe Jakobsen",
+            "team": "Peugeot #94",
+            "points": 22
+          },
+          {
+            "pos": 15,
+            "name": "Théo Pourchaire",
+            "team": "Peugeot #94",
+            "points": 22
+          },
+          {
+            "pos": 16,
+            "name": "Frédéric Makowiecki",
+            "team": "Alpine #36",
+            "points": 14
+          },
+          {
+            "pos": 17,
+            "name": "Luis Felipe Derani",
+            "team": "",
+            "points": 11
+          },
+          {
+            "pos": 17,
+            "name": "Mathys Jaubert",
+            "team": "Genesis",
+            "points": 11
+          },
+          {
+            "pos": 17,
+            "name": "André Lotterer",
+            "team": "Genesis",
+            "points": 11
+          },
+          {
+            "pos": 18,
+            "name": "Alex Lynn",
+            "team": "",
+            "points": 8
+          },
+          {
+            "pos": 18,
+            "name": "Ross Gunn",
+            "team": "Aston Martin",
+            "points": 8
+          },
+          {
+            "pos": 19,
+            "name": "Nick Cassidy",
+            "team": "Peugeot #93",
+            "points": 7
+          },
+          {
+            "pos": 19,
+            "name": "Paul Di Resta",
+            "team": "Peugeot #93",
+            "points": 7
+          },
+          {
+            "pos": 20,
+            "name": "Stoffel Vandoorne",
+            "team": "Peugeot",
+            "points": 6
+          },
+          {
+            "pos": 20,
+            "name": "Alex Riberas",
+            "team": "Aston Martin #009",
+            "points": 6
+          },
+          {
+            "pos": 20,
+            "name": "Marco Sørensen",
+            "team": "Aston Martin #009",
+            "points": 6
+          },
+          {
+            "pos": 21,
+            "name": "Ricky Taylor",
+            "team": "",
+            "points": 2
+          },
+          {
+            "pos": 22,
+            "name": "Alexander Quinn",
+            "team": "Peugeot #93",
+            "points": 1
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "Toyota",
+            "points": 212,
+            "drivers": "#7 · #8",
+            "champion": true
+          },
+          {
+            "pos": 2,
+            "team": "BMW",
+            "points": 164,
+            "drivers": "#15 · #20"
+          },
+          {
+            "pos": 3,
+            "team": "Ferrari",
+            "points": 152,
+            "drivers": "#50 · #51"
+          },
+          {
+            "pos": 4,
+            "team": "Cadillac",
+            "points": 143,
+            "drivers": "#12 · #38"
+          },
+          {
+            "pos": 5,
+            "team": "Alpine",
+            "points": 122,
+            "drivers": "#35 · #36"
+          },
+          {
+            "pos": 6,
+            "team": "Aston Martin",
+            "points": 70,
+            "drivers": "#007 · #009"
+          },
+          {
+            "pos": 7,
+            "team": "Peugeot",
+            "points": 35,
+            "drivers": "#93 · #94"
+          },
+          {
+            "pos": 8,
+            "team": "Genesis",
+            "points": 14,
+            "drivers": "#17 · #19"
+          }
+        ]
       },
       {
-        "pos": 1,
-        "name": "Brendon Hartley",
-        "team": "Toyota #8",
-        "points": 114,
-        "champion": true
-      },
-      {
-        "pos": 1,
-        "name": "Ryō Hirakawa",
-        "team": "Toyota #8",
-        "points": 114,
-        "champion": true
-      },
-      {
-        "pos": 2,
-        "name": "Mike Conway",
-        "team": "Toyota #7",
-        "points": 97
-      },
-      {
-        "pos": 2,
-        "name": "Nyck de Vries",
-        "team": "Toyota #7",
-        "points": 97
-      },
-      {
-        "pos": 2,
-        "name": "Kamui Kobayashi",
-        "team": "Toyota #7",
-        "points": 97
-      },
-      {
-        "pos": 3,
-        "name": "Kevin Magnussen",
-        "team": "BMW #15",
-        "points": 83
-      },
-      {
-        "pos": 3,
-        "name": "Raffaele Marciello",
-        "team": "BMW #15",
-        "points": 83
-      },
-      {
-        "pos": 4,
-        "name": "Earl Bamber",
-        "team": "Cadillac #38",
-        "points": 81
-      },
-      {
-        "pos": 4,
-        "name": "Sébastien Bourdais",
-        "team": "Cadillac #38",
-        "points": 81
-      },
-      {
-        "pos": 5,
-        "name": "Robin Frijns",
-        "team": "BMW #20",
-        "points": 77
-      },
-      {
-        "pos": 5,
-        "name": "René Rast",
-        "team": "BMW #20",
-        "points": 77
-      },
-      {
-        "pos": 5,
-        "name": "Dries Vanthoor",
-        "team": "BMW #15",
-        "points": 77
-      },
-      {
-        "pos": 5,
-        "name": "Jack Aitken",
-        "team": "Cadillac #38",
-        "points": 77
-      },
-      {
-        "pos": 6,
-        "name": "Antonio Fuoco",
-        "team": "Ferrari #50",
-        "points": 76
-      },
-      {
-        "pos": 6,
-        "name": "Miguel Molina",
-        "team": "Ferrari #50",
-        "points": 76
-      },
-      {
-        "pos": 6,
-        "name": "Nicklas Nielsen",
-        "team": "Ferrari #50",
-        "points": 76
-      },
-      {
-        "pos": 7,
-        "name": "James Calado",
-        "team": "Ferrari #51",
-        "points": 74
-      },
-      {
-        "pos": 7,
-        "name": "Antonio Giovinazzi",
-        "team": "Ferrari #51",
-        "points": 74
-      },
-      {
-        "pos": 7,
-        "name": "Alessandro Pier Guidi",
-        "team": "Ferrari #51",
-        "points": 74
-      },
-      {
-        "pos": 8,
-        "name": "Sheldon van der Linde",
-        "team": "BMW #20",
-        "points": 67
-      },
-      {
-        "pos": 9,
-        "name": "Norman Nato",
-        "team": "Cadillac #12",
-        "points": 58
-      },
-      {
-        "pos": 9,
-        "name": "Will Stevens",
-        "team": "Cadillac #12",
-        "points": 58
-      },
-      {
-        "pos": 10,
-        "name": "Ferdinand Habsburg",
-        "team": "Alpine #35",
-        "points": 57
-      },
-      {
-        "pos": 10,
-        "name": "Charles Milesi",
-        "team": "Alpine #35",
-        "points": 57
-      },
-      {
-        "pos": 11,
-        "name": "Tom Gamble",
-        "team": "Aston Martin #007",
-        "points": 54
-      },
-      {
-        "pos": 11,
-        "name": "Harry Tincknell",
-        "team": "Aston Martin #007",
-        "points": 54
-      },
-      {
-        "pos": 11,
-        "name": "Jules Gounon",
-        "team": "Alpine #36",
-        "points": 54
-      },
-      {
-        "pos": 11,
-        "name": "Victor Martins",
-        "team": "Alpine #36",
-        "points": 54
-      },
-      {
-        "pos": 12,
-        "name": "Phil Hanson",
-        "team": "Ferrari #83 (AF Corse)",
-        "points": 45
-      },
-      {
-        "pos": 12,
-        "name": "Robert Kubica",
-        "team": "Ferrari #83 (AF Corse)",
-        "points": 45
-      },
-      {
-        "pos": 12,
-        "name": "Ye Yifei",
-        "team": "Ferrari #83 (AF Corse)",
-        "points": 45
-      },
-      {
-        "pos": 13,
-        "name": "António Félix da Costa",
-        "team": "Alpine #35",
-        "points": 44
-      },
-      {
-        "pos": 14,
-        "name": "Louis Delétraz",
-        "team": "",
-        "points": 26
-      },
-      {
-        "pos": 15,
-        "name": "Loïc Duval",
-        "team": "Peugeot #94",
-        "points": 22
-      },
-      {
-        "pos": 15,
-        "name": "Malthe Jakobsen",
-        "team": "Peugeot #94",
-        "points": 22
-      },
-      {
-        "pos": 15,
-        "name": "Théo Pourchaire",
-        "team": "Peugeot #94",
-        "points": 22
-      },
-      {
-        "pos": 16,
-        "name": "Frédéric Makowiecki",
-        "team": "Alpine #36",
-        "points": 14
-      },
-      {
-        "pos": 17,
-        "name": "Luis Felipe Derani",
-        "team": "",
-        "points": 11
-      },
-      {
-        "pos": 17,
-        "name": "Mathys Jaubert",
-        "team": "Genesis",
-        "points": 11
-      },
-      {
-        "pos": 17,
-        "name": "André Lotterer",
-        "team": "Genesis",
-        "points": 11
-      },
-      {
-        "pos": 18,
-        "name": "Alex Lynn",
-        "team": "",
-        "points": 8
-      },
-      {
-        "pos": 18,
-        "name": "Ross Gunn",
-        "team": "Aston Martin",
-        "points": 8
-      },
-      {
-        "pos": 19,
-        "name": "Nick Cassidy",
-        "team": "Peugeot #93",
-        "points": 7
-      },
-      {
-        "pos": 19,
-        "name": "Paul Di Resta",
-        "team": "Peugeot #93",
-        "points": 7
-      },
-      {
-        "pos": 20,
-        "name": "Stoffel Vandoorne",
-        "team": "Peugeot",
-        "points": 6
-      },
-      {
-        "pos": 20,
-        "name": "Alex Riberas",
-        "team": "Aston Martin #009",
-        "points": 6
-      },
-      {
-        "pos": 20,
-        "name": "Marco Sørensen",
-        "team": "Aston Martin #009",
-        "points": 6
-      },
-      {
-        "pos": 21,
-        "name": "Ricky Taylor",
-        "team": "",
-        "points": 2
-      },
-      {
-        "pos": 22,
-        "name": "Alexander Quinn",
-        "team": "Peugeot #93",
-        "points": 1
-      }
-    ],
-    "constructors": [
-      {
-        "pos": 1,
-        "team": "Toyota",
-        "points": 212,
-        "drivers": "#7 · #8",
-        "champion": true
-      },
-      {
-        "pos": 2,
-        "team": "BMW",
-        "points": 164,
-        "drivers": "#15 · #20"
-      },
-      {
-        "pos": 3,
-        "team": "Ferrari",
-        "points": 152,
-        "drivers": "#50 · #51"
-      },
-      {
-        "pos": 4,
-        "team": "Cadillac",
-        "points": 143,
-        "drivers": "#12 · #38"
-      },
-      {
-        "pos": 5,
-        "team": "Alpine",
-        "points": 122,
-        "drivers": "#35 · #36"
-      },
-      {
-        "pos": 6,
-        "team": "Aston Martin",
-        "points": 70,
-        "drivers": "#007 · #009"
-      },
-      {
-        "pos": 7,
-        "team": "Peugeot",
-        "points": 35,
-        "drivers": "#93 · #94"
-      },
-      {
-        "pos": 8,
-        "team": "Genesis",
-        "points": 14,
-        "drivers": "#17 · #19"
+        "cls": "LMGT3",
+        "after": "campioni 2026 (punti finali in aggiornamento)",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Jonny Edgar",
+            "team": "Corvette #33 (TF Sport)",
+            "champion": true
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "TF Sport #33",
+            "drivers": "Corvette Z06 GT3.R",
+            "champion": true
+          }
+        ]
       }
     ]
   },
