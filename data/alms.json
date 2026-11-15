@@ -1,32 +1,140 @@
 {
-  "news": [
-    {
-      "id": "2026-11-14-af-corse-vince-gara1-paul-ricard",
-      "title": "Doppietta Ferrari sotto il diluvio: AF Corse vince la prima gara Hypercar della serie",
-      "summary": "Al Paul Ricard la 499P di AF Corse con Luis Pérez Companc firma il primo successo dell'era Hypercar nell'Asian Le Mans Series, in una Gara 1 condizionata dalla pioggia. Seconda l'altra Ferrari di Cetilar Racing, subito a podio all'esordio.",
-      "tag": "Gare",
-      "source": "racer.com",
-      "url": "https://racer.com/2026/11/14/af-corse-wins-first-asian-le-mans-series-hypercar-race-at-paul-ricard",
-      "published": "2026-11-14T17:00:00Z",
-      "top": true
-    },
-    {
-      "id": "2026-11-14-pole-cetilar-af-corse-paul-ricard",
-      "title": "Paul Ricard, Cetilar e AF Corse si dividono le pole delle due gare",
-      "summary": "Nelle qualifiche Hypercar le due Ferrari 499P, uniche iscritte della classe, si spartiscono le partenze al palo per Gara 1 e Gara 2 del round d'apertura. Al via in totale 46 vetture tra Hypercar, LMP2 e GT3.",
-      "tag": "Gare",
-      "source": "sportscar365.com",
-      "url": "https://sportscar365.com/lemans/asian-lms/cetilar-af-corse-ferraris-split-pole-positions-for-paul-ricard/",
-      "published": "2026-11-14T09:00:00Z",
-      "top": false
-    }
-  ],
-  "info": {
-    "updated": "2026-11-15T15:10:00Z"
+ "news": [
+  {
+   "id": "2026-11-14-af-corse-vince-gara1-paul-ricard",
+   "title": "Doppietta Ferrari sotto il diluvio: AF Corse vince la prima gara Hypercar della serie",
+   "summary": "Al Paul Ricard la 499P di AF Corse con Luis Pérez Companc firma il primo successo dell'era Hypercar nell'Asian Le Mans Series, in una Gara 1 condizionata dalla pioggia. Seconda l'altra Ferrari di Cetilar Racing, subito a podio all'esordio.",
+   "tag": "Gare",
+   "source": "racer.com",
+   "url": "https://racer.com/2026/11/14/af-corse-wins-first-asian-le-mans-series-hypercar-race-at-paul-ricard",
+   "published": "2026-11-14T17:00:00Z",
+   "top": true
   },
-  "weekend": null,
-  "results": null,
-  "videos": [],
-  "standings": null,
-  "calendar": null
+  {
+   "id": "2026-11-14-pole-cetilar-af-corse-paul-ricard",
+   "title": "Paul Ricard, Cetilar e AF Corse si dividono le pole delle due gare",
+   "summary": "Nelle qualifiche Hypercar le due Ferrari 499P, uniche iscritte della classe, si spartiscono le partenze al palo per Gara 1 e Gara 2 del round d'apertura. Al via in totale 46 vetture tra Hypercar, LMP2 e GT3.",
+   "tag": "Gare",
+   "source": "sportscar365.com",
+   "url": "https://sportscar365.com/lemans/asian-lms/cetilar-af-corse-ferraris-split-pole-positions-for-paul-ricard/",
+   "published": "2026-11-14T09:00:00Z",
+   "top": false
+  }
+ ],
+ "info": {
+  "updated": "2026-11-15T15:20:00Z",
+  "nextGp": {
+   "name": "4 Ore di Le Castellet – Gara 2",
+   "circuit": "Circuit Paul Ricard",
+   "date": "2026-11-15T12:15:00Z",
+   "label": "Gara 2",
+   "note": "Poi Jerez il 16-17 gennaio 2027"
+  }
+ },
+ "weekend": {
+  "gp": "4 Ore di Le Castellet",
+  "circuit": "Circuit Paul Ricard, Le Castellet",
+  "lat": 43.25,
+  "lon": 5.79,
+  "updated": "2026-11-15T15:20:00Z",
+  "tv8note": "Nessuna diretta TV in chiaro in Italia: di solito la serie trasmette le gare in streaming gratuito sui suoi canali ufficiali (sito e YouTube).",
+  "sessions": [
+   {
+    "name": "Gara 2 (4 Ore)",
+    "start": "2026-11-15T12:15:00Z",
+    "live": "Streaming sui canali ufficiali Asian Le Mans Series",
+    "key": true
+   }
+  ],
+  "freeChannel": "Dove vederla"
+ },
+ "results": {
+  "gp": "4 Ore di Le Castellet",
+  "round": 1,
+  "updated": "2026-11-15T15:20:00Z",
+  "summary": "Prima gara Hypercar nella storia dell'Asian Le Mans Series, corsa sotto la pioggia al Paul Ricard con sole due Ferrari 499P al via. La #90 di AF Corse (Pérez Companc, Ye, Nielsen) ha preso il comando al primo giro, quando il poleman Roberto Lacorte ha allungato la frenata alla prima curva, e ha vinto con 6,3 secondi sulla #47 di Cetilar Racing. Una lunga Safety Car per pioggia ha ricompattato il gruppo fino al quarto d'ora finale; la #47 ha anche scontato una penalità per un contatto. Gara 2 si corre domenica 15 novembre.",
+  "tabs": [
+   {
+    "label": "Gara 1 Hypercar",
+    "kind": "race",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Pérez Companc · Ye · Nielsen",
+      "team": "Ferrari #90 (AF Corse)",
+      "gap": "4 ore"
+     },
+     {
+      "pos": "2",
+      "name": "R. Lacorte · N. Lacorte · Fuoco",
+      "team": "Ferrari #47 (Cetilar Racing)",
+      "gap": "+6.348",
+      "note": "Penalità per contatto"
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche Gara 1",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "R. Lacorte",
+      "team": "Ferrari #47 (Cetilar Racing)",
+      "time": "1:51.979"
+     },
+     {
+      "pos": "2",
+      "name": "Pérez Companc",
+      "team": "Ferrari #90 (AF Corse)",
+      "time": ""
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche Gara 2",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Pérez Companc",
+      "team": "Ferrari #90 (AF Corse)",
+      "time": "1:50.794"
+     },
+     {
+      "pos": "2",
+      "name": "R. Lacorte",
+      "team": "Ferrari #47 (Cetilar Racing)",
+      "time": "+0.611"
+     }
+    ]
+   }
+  ]
+ },
+ "videos": [],
+ "standings": null,
+ "calendar": {
+  "season": "2026-27",
+  "updated": "2026-11-15T15:20:00Z",
+  "rounds": [
+   {
+    "round": 1,
+    "name": "4 Ore di Le Castellet (Gara 1 e 2)",
+    "circuit": "Paul Ricard",
+    "date": "2026-11-15"
+   },
+   {
+    "round": 2,
+    "name": "4 Ore di Jerez (Gara 1 e 2)",
+    "circuit": "Jerez",
+    "date": "2027-01-17"
+   },
+   {
+    "round": 3,
+    "name": "4 Ore di Portimão (Gara 1 e 2)",
+    "circuit": "Portimão",
+    "date": "2027-02-21"
+   }
+  ]
+ }
 }
