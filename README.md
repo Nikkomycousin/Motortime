@@ -7,7 +7,7 @@ Web app (PWA) con orari italiani, canali TV, notizie, risultati, classifiche e c
 | Formula | Formula 1 (`f1`), Formula 2 (`f2`), Formula 3 (`f3`) |
 | MotoGP | MotoGP (`motogp`), Moto2 (`moto2`), Moto3 (`moto3`) |
 | Superbike | WorldSBK (`wsbk`), Supersport (`wssp`), World Sportbike (`wssp300`, ex Supersport 300) |
-| Hypercar | WEC (`wec`), Asian Le Mans Series (`alms`, solo classe Hypercar) |
+| Endurance | WEC (`wec`: Hypercar, LMGT3), ELMS (`elms`: LMP2, LMP3, LMGT3), IMSA (`imsa`: GTP, LMP2, GTD Pro, GTD), Asian Le Mans (`alms`: Hypercar, LMP2, GT3) |
 
 La pagina iniziale **Weekend** mette insieme le sessioni dei prossimi 7 giorni di tutti i campionati e il prossimo appuntamento di ciascuno.
 
@@ -33,6 +33,10 @@ Ogni file ha queste chiavi (tutte facoltative):
 - `videos`: lista di `{id, gp, session, title, youtube (ID di 11 caratteri), channel, published (ISO UTC)}`
 - `standings`: `{updated, after, drivers: [{pos, name, team, points, champion?}], constructors: [{pos, team, points, drivers, champion?}]}`
 - `calendar`: `{season, updated, rounds: [{round, name, circuit, date, winner?, team?, wins?, sprintWinner?, status?}]}`
+- Campionati endurance con più classi:
+  - `results.tabs[].cls`: classe della scheda (es. `"Hypercar"`, `"LMGT3"`); l'app mostra un selettore di classe e, dentro, le schede Gara/Qualifiche di quella classe.
+  - `standings.classes`: `[{cls, after?, drivers, constructors}]`, una classifica per classe (al posto di `drivers`/`constructors`).
+  - `calendar.rounds[].classWinners`: `[{cls, winner, team}]`, il vincitore di ogni classe; `winner`/`team`/`wins` restano quelli della classe principale.
 - solo in `f1.json`: `h2h` (compagni di squadra)
 
 Gli orari sono sempre in UTC nei file; l'app li mostra in ora italiana.

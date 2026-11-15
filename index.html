@@ -12,7 +12,7 @@
 <link rel="icon" href="icon-192.png">
 <title>Motortime</title>
 <script>(function(){var t=null;try{t=localStorage.getItem("mt:theme")}catch(e){}if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.dataset.theme=t})()</script>
-<meta name="description" content="Orari italiani, canali TV, risultati, classifiche e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike, WEC e Asian Le Mans Series.">
+<meta name="description" content="Orari italiani, canali TV, risultati, classifiche e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance (WEC, ELMS, IMSA, Asian Le Mans).">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,900&display=swap" rel="stylesheet">
 <style>
@@ -266,6 +266,13 @@
   .h2h .ex{font-size:12.5px;color:var(--faint);margin-top:6px}
   footer{color:var(--faint);font-size:12.5px;text-align:center;margin-top:28px;line-height:1.5}
   .wrap{position:relative;z-index:1}
+  /* classi delle gare endurance (Hypercar, LMP2, GT3...) */
+  .clsseg{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}
+  .clsseg button{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;padding:7px 14px;font:700 13.5px var(--f);cursor:pointer}
+  .clsseg button.on{background:var(--text);border-color:var(--text);color:var(--bg)}
+  .clsseg .lbl{align-self:center;font-size:12.5px;color:var(--faint);font-weight:600;margin-right:2px}
+  .cal .win .cw{display:block}
+  .cal .win .cw b{color:var(--text);font-weight:700}
   /* calendario, preferiti, meteo */
   .calbtn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:9px 15px;font:600 14px var(--f);cursor:pointer;margin:0 8px 12px 0}
   .calbtn svg{width:18px;height:18px;color:var(--red2)}
@@ -423,7 +430,7 @@
     <div id="h2h" hidden></div>
   </section>
   <section id="v-cal" hidden><div id="cal"></div></section>
-  <footer>Orari italiani, TV, risultati e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike, WEC e Asian Le Mans Series.<br>Notizie riassunte dalle principali testate di motorsport: tocca una notizia per aprire l'articolo originale.<br>Motortime è un sito indipendente, non affiliato a Formula 1, FIA, MotoGP, Dorna, WorldSBK o ai team citati.</footer>
+  <footer>Orari italiani, TV, risultati e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance (WEC, ELMS, IMSA, Asian Le Mans).<br>Notizie riassunte dalle principali testate di motorsport: tocca una notizia per aprire l'articolo originale.<br>Motortime è un sito indipendente, non affiliato a Formula 1, FIA, MotoGP, Dorna, WorldSBK o ai team citati.</footer>
   </div>
   </div>
   <div class="modal" id="calModal" hidden>
@@ -562,7 +569,9 @@ function calSeason(){
 
 /* ---------- Meteo del circuito (Open-Meteo, gratuito, senza chiave) ---------- */
 const CIRCUITS=[
-  [/paul ricard|castellet/,43.25,5.79],
+  [/paul ricard|castellet/,43.25,5.79],[/daytona/,29.19,-81.07],[/long beach/,33.77,-118.19],[/laguna seca/,36.58,-121.75],[/watkins glen/,42.34,-76.93],
+  [/road america|elkhart/,43.80,-87.99],[/virginia|\bvir\b/,36.56,-79.21],[/indianapolis/,39.80,-86.24],[/road atlanta|petit le mans/,34.15,-83.82],[/detroit/,42.33,-83.04],
+  [/mosport|canadian tire/,44.05,-78.68],[/lime rock/,41.93,-73.38],
   [/albert park|melbourne/,-37.85,144.97],[/shanghai/,31.34,121.22],[/suzuka/,34.84,136.54],[/sakhir|bahrain/,26.03,50.51],[/jeddah/,21.63,39.10],
   [/miami/,25.96,-80.24],[/imola|enzo e dino/,44.34,11.72],[/monaco|monte.?carlo/,43.73,7.42],[/catalunya|montmel|barcellona|barcelona/,41.57,2.26],
   [/madrid|madring/,40.47,-3.62],[/montr[eé]al|gilles/,45.50,-73.52],[/red bull ring|spielberg|austria/,47.22,14.76],[/silverstone/,52.07,-1.02],
@@ -698,11 +707,21 @@ function renderInfo(){
 const TEAM_COLORS={mercedes:"#27f4d2",ferrari:"#e8002d","red bull":"#3671c6",mclaren:"#ff8000","racing bulls":"#6692ff",alpine:"#ff87bc",haas:"#b6babd",audi:"#bb0a30",williams:"#64c4ff","aston martin":"#229971",cadillac:"#c9a227",campos:"#ffb300",invicta:"#8e5cf0",rodin:"#9aa0a6","mp motorsport":"#ff6d00",dams:"#1e88e5","art grand prix":"#e8e8e8",trident:"#5c6bc0",hitech:"#26a69a","van amersfoort":"#f06292",prema:"#e53935",aix:"#a1887f",toyota:"#eb0a1e",bmw:"#1c69d4",porsche:"#c9c9c9",peugeot:"#9be15d",genesis:"#a78bfa",
   ducati:"#d50e1a",aprilia:"#6d5bd0",ktm:"#ff6a00",yamaha:"#2a4fd6",honda:"#e2231a",kawasaki:"#5fbf3a",bimota:"#e0e0e0",husqvarna:"#c6d0e0",gasgas:"#e4002b",cfmoto:"#00a0e0","mv agusta":"#b0b7c3",triumph:"#8d99ae",kalex:"#9aa0a6",boscoscuro:"#ffb300"};
 function teamColor(t){t=String(t||"").toLowerCase();for(const k in TEAM_COLORS)if(t.includes(k))return TEAM_COLORS[k];return "#666"}
-let standings=null;
+let standings=null, standCls=0;
+// classifica della classe scelta (gare endurance) o classifica normale
+function standData(st){
+  st=st===undefined?standings:st;
+  if(st?.classes?.length){const i=Math.min(st===standings?standCls:0,st.classes.length-1),c=st.classes[i];return {...st,drivers:c.drivers||[],constructors:c.constructors||[],after:c.after||st.after,cls:c.cls}}
+  return st;
+}
+const allDrivers=st=>st?.classes?.length?st.classes.flatMap(c=>c.drivers||[]):(st?.drivers||[]);
+const allTeams=st=>st?.classes?.length?st.classes.flatMap(c=>c.constructors||[]):(st?.constructors||[]);
+function clsSeg(list,cur,attr){return list.length>1?`<div class="clsseg"><span class="lbl">Classe</span>${list.map((c,i)=>`<button ${attr}="${i}" class="${i===cur?"on":""}">${esc(c)}</button>`).join("")}</div>`:""}
 function renderStandings(){
-  const s=standings;
+  const s=standData();
   if(!s){["#drivers","#teams"].forEach(id=>$(id).innerHTML=`<div class="empty">Classifica non ancora disponibile.</div>`);return}
-  const sub=`<div class="sub">Classifica ${esc(s.after||"")}${s.updated?" · aggiornata "+esc(rel(s.updated)):""}${FAV.d.length||FAV.t.length?"":" · tocca ☆ per seguire un pilota o una squadra"}</div>`;
+  const cseg=standings?.classes?.length?clsSeg(standings.classes.map(c=>c.cls),standCls,"data-sc"):"";
+  const sub=cseg+`<div class="sub">Classifica ${s.cls?esc(s.cls)+" ":""}${esc(s.after||"")}${s.updated?" · aggiornata "+esc(rel(s.updated)):""}${FAV.d.length||FAV.t.length?"":" · tocca ☆ per seguire un pilota o una squadra"}</div>`;
   const lead=(s.drivers||[])[0]?.points||0;
   $("#drivers").innerHTML=sub+(s.drivers||[]).map(d=>`<div class="row p${d.pos}${isFavD(d.name)||isFavT(d.team)?" fav":""}">
     <div class="pos">${esc(d.pos)}</div><div class="bar" style="background:${teamColor(d.team)}"></div>
@@ -719,6 +738,7 @@ function renderStandings(){
     $("#drivers").innerHTML=spoilerBanner()+ghostRows((s.drivers||[]).length||20,true);
     $("#teams").innerHTML=spoilerBanner()+ghostRows((s.constructors||[]).length||10,true);
   }
+  document.querySelectorAll("#v-drivers [data-sc]").forEach(b=>b.onclick=()=>{standCls=+b.dataset.sc;renderStandings()});
 }
 let weekend=null;
 const freeCh=()=>weekend?.freeChannel||"TV8";
@@ -755,7 +775,7 @@ function renderSched(){
   el.innerHTML=h+`</div>`;
 }
 /* ---------- Risultati ---------- */
-let results=null, resMode=0, calendar=null;
+let results=null, resMode=0, resCls=0, calendar=null;
 function resTabs(r){
   if(Array.isArray(r.tabs)&&r.tabs.length) return r.tabs;
   const t=[];
@@ -764,14 +784,19 @@ function resTabs(r){
   if((r.quali||[]).length) t.push({label:"Qualifiche",kind:"quali",rows:r.quali});
   return t;
 }
+// nome sul podio: cognome del pilota, oppure la vettura per gli equipaggi endurance
+const podName=d=>String(d.name).includes(" · ")&&d.team?String(d.team).replace(/\s*\(.*\)\s*/,""):String(d.name).split(" ").slice(-1)[0];
 function renderResults(){
   const r=results, el=$("#results");
   if(!r){el.innerHTML=`<div class="empty">Risultati non ancora disponibili.</div>`;return}
   const sp=spoilerSession();
   const hide=spoilerHidden&&sp&&r.updated&&new Date(r.updated)>=new Date(sp.start)-30*60e3;
-  const tabs=resTabs(r); if(resMode>=tabs.length) resMode=0;
+  const allTabs=resTabs(r), classes=[...new Set(allTabs.map(t=>t.cls).filter(Boolean))];
+  if(resCls>=classes.length) resCls=0;
+  const tabs=classes.length?allTabs.filter(t=>t.cls===classes[resCls]):allTabs;
+  if(resMode>=tabs.length) resMode=0;
   const first=tabs.find(t=>t.kind!=="quali");
-  const pod=(r.podium||first?.rows||[]).slice(0,3);
+  const pod=((classes.length?null:r.podium)||first?.rows||[]).slice(0,3);
   if(hide){
     const n=Math.max(...tabs.map(t=>(t.rows||[]).length),10);
     el.innerHTML=`<div class="spoilwrap spoil">${spoilerBanner()}<div class="rhead"><div class="lbl">${S().last}${r.round?" · Round "+esc(r.round):""}</div><h3>${esc(r.gp)}</h3>
@@ -779,9 +804,9 @@ function renderResults(){
       <p style="margin-top:10px">${ghost("100%")}<br>${ghost("90%")}<br>${ghost("70%")}</p></div><div class="table">${ghostRows(Math.min(n,20),true)}</div></div>`;
     return;
   }
-  let h=`<div class="spoilwrap">
+  let h=`<div class="spoilwrap">${clsSeg(classes,resCls,"data-rc")}
     <div class="rhead"><div class="lbl">${S().last}${r.round?" · Round "+esc(r.round):""}</div><h3>${esc(r.gp)}</h3>
-    ${pod.length===3?`<div class="podium">${[1,0,2].map(i=>`<div><b>${["🥇","🥈","🥉"][i]}</b><span>${esc(String(pod[i].name).split(" ").slice(-1)[0])}</span></div>`).join("")}</div>${first&&!r.podium?`<div style="font-size:11.5px;color:var(--muted);margin-top:6px">Podio: ${esc(first.label)}</div>`:""}`:""}
+    ${pod.length===3?`<div class="podium">${[1,0,2].map(i=>`<div><b>${["🥇","🥈","🥉"][i]}</b><span>${esc(podName(pod[i]))}</span></div>`).join("")}</div>${first&&!r.podium?`<div style="font-size:11.5px;color:var(--muted);margin-top:6px">Podio: ${esc(first.label)}</div>`:""}`:""}
     ${r.summary?`<p style="margin-top:10px">${esc(r.summary)}</p>`:""}</div>
     <div class="seg" id="segRes" style="overflow-x:auto">${tabs.map((t,i)=>`<button data-i="${i}" class="${i===resMode?"on":""}" style="white-space:nowrap">${esc(t.label)}</button>`).join("")}</div>
     <div class="table">`;
@@ -792,6 +817,7 @@ function renderResults(){
     <div class="pts" style="font-size:15px;font-family:Inter;font-weight:500">${esc(isQ?d.time:d.gap||"")}${!isQ&&d.points?`<small>+${esc(d.points)} pt</small>`:""}</div></div>`).join("");
   el.innerHTML=h+`</div></div>`;
   el.querySelectorAll("#segRes button").forEach(b=>b.onclick=()=>{resMode=+b.dataset.i;renderResults()});
+  el.querySelectorAll("[data-rc]").forEach(b=>b.onclick=()=>{resCls=+b.dataset.rc;resMode=0;renderResults()});
 }
 
 /* ---------- Video ---------- */
@@ -854,7 +880,7 @@ function renderCal(){
     return `<div class="row${x.winner?" done":""}${isNext?" next":""}">
       <div class="rnd">${esc(x.round)}</div><div class="bar" style="background:${x.winner?teamColor(x.team):"var(--baroff)"}"></div>
       <div class="who"><b>${esc(x.name)}${isNext?'<span class="badge next">Prossimo</span>':""}</b>
-      <div class="win">${x.winner?`<i>🏆</i> ${esc(x.winner)}${x.team?" · "+esc(x.team):""}`:esc(x.circuit||"")}${x.sprintWinner?`<br>Sprint: ${esc(x.sprintWinner)}`:""}${x.status?`<br><span style="color:#ffb74d">${esc(x.status)}</span>`:""}</div></div>
+      <div class="win">${x.classWinners?.length?x.classWinners.map(c=>`<span class="cw"><b>${esc(c.cls)}:</b> ${esc(c.winner)}${c.team?" · "+esc(c.team):""}</span>`).join(""):x.winner?`<i>🏆</i> ${esc(x.winner)}${x.team?" · "+esc(x.team):""}`:esc(x.circuit||"")}${x.sprintWinner?`<br>Sprint: ${esc(x.sprintWinner)}`:""}${x.status?`<br><span style="color:#ffb74d">${esc(x.status)}</span>`:""}</div></div>
       <div class="dt"><b>${esc(ds)}</b>${x.sprint?"Sprint":""}</div></div>`;
   }).join("");
   el.innerHTML=h+`</div>`;
@@ -902,15 +928,17 @@ const SER={
   wsbk:{g:"sbk",logo:"SBK",name:"Superbike",color:"#c8102e",next:"Prossimo round",last:"Ultimo round",unit:"round",teams:"Costruttori",wins:"Vittorie Gara 1 e 2"},
   wssp:{g:"sbk",logo:"SSP",name:"Supersport",color:"#0a84c6",next:"Prossimo round",last:"Ultimo round",unit:"round",teams:"Costruttori",wins:"Vittorie"},
   wssp300:{g:"sbk",logo:"WorldSPB",name:"World Sportbike",color:"#4c9a2a",next:"Prossimo round",last:"Ultimo round",unit:"round",teams:"Costruttori",wins:"Vittorie"},
-  wec:{g:"wec",logo:"WEC",name:"Mondiale Endurance",color:"#13a374",next:"Prossima gara",last:"Ultima gara",unit:"gare",fem:true,teams:"Costruttori",wins:"Vittorie"},
-  alms:{g:"wec",logo:"ALMS",name:"Asian Le Mans Series",color:"#0e7c9b",next:"Prossima gara",last:"Ultima gara",unit:"gare",fem:true,teams:"Team",wins:"Vittorie"}
+  wec:{g:"wec",logo:"WEC",name:"Mondiale",color:"#13a374",next:"Prossima gara",last:"Ultima gara",unit:"gare",fem:true,teams:"Costruttori",wins:"Vittorie"},
+  elms:{g:"wec",logo:"ELMS",name:"European LMS",color:"#3b5bdb",next:"Prossima gara",last:"Ultima gara",unit:"gare",fem:true,teams:"Team",wins:"Vittorie"},
+  imsa:{g:"wec",logo:"IMSA",name:"Stati Uniti",color:"#b5179e",next:"Prossima gara",last:"Ultima gara",unit:"gare",fem:true,teams:"Team",wins:"Vittorie"},
+  alms:{g:"wec",logo:"ALMS",name:"Asian LMS",color:"#0e7c9b",next:"Prossima gara",last:"Ultima gara",unit:"gare",fem:true,teams:"Team",wins:"Vittorie"}
 };
 const GROUPS=[
   {id:"all",label:"Weekend"},
   {id:"formula",label:"Formula",ser:["f1","f2","f3"]},
   {id:"moto",label:"MotoGP",ser:["motogp","moto2","moto3"]},
   {id:"sbk",label:"Superbike",short:"SBK",ser:["wsbk","wssp","wssp300"]},
-  {id:"wec",label:"Hypercar",short:"Hyper",ser:["wec","alms"]}
+  {id:"wec",label:"Endurance",short:"Endur.",ser:["wec","elms","imsa","alms"]}
 ];
 const BRAND="#e8002d";
 let series="all";
@@ -998,7 +1026,7 @@ function favPanel(){
   const cards=[];
   for(const name of FAV.d){
     let k=null,row=null;
-    for(const key in SER){const r=(homeData[key]?.standings?.drivers||[]).find(x=>x.name===name);if(r){k=key;row=r;break}}
+    for(const key in SER){const r=allDrivers(homeData[key]?.standings).find(x=>x.name===name);if(r){k=key;row=r;break}}
     const d=k?homeData[k]:null, nw=favNews(d,String(name).split(" ").slice(-1)[0]);
     cards.push(`<div class="fcard" data-k="${k||""}" data-v="drivers" style="--c:${row?teamColor(row.team):"var(--gold)"}">${starBtn("d",name)}
       <div class="k">${k?esc(serName(k))+" · ":""}Pilota</div><h5>${esc(name)}</h5>
@@ -1008,8 +1036,8 @@ function favPanel(){
   for(const team of FAV.t){
     let k=null,row=null,inDrivers=false;
     for(const key in SER){
-      const c=(homeData[key]?.standings?.constructors||[]).find(x=>x.team===team); if(c){k=key;row=c;break}
-      if((homeData[key]?.standings?.drivers||[]).some(x=>x.team===team)){k=key;inDrivers=true;break}
+      const c=allTeams(homeData[key]?.standings).find(x=>x.team===team); if(c){k=key;row=c;break}
+      if(allDrivers(homeData[key]?.standings).some(x=>x.team===team)){k=key;inDrivers=true;break}
     }
     const d=k?homeData[k]:null, nw=favNews(d,String(team).split(/[ ·]/)[0]);
     cards.push(`<div class="fcard" data-k="${k||""}" data-v="drivers" style="--c:${teamColor(team)}">${starBtn("t",team)}
@@ -1019,7 +1047,7 @@ function favPanel(){
   }
   for(const k of FAV.s){
     const d=homeData[k]; if(!SER[k]) continue;
-    const lead=d?.standings?.drivers?.[0];
+    const lead=standData(d?.standings||null)?.drivers?.[0];
     cards.push(`<div class="fcard" data-k="${k}" data-v="sched" style="--c:${SER[k].color}">${starBtn("s",k)}
       <div class="k">Campionato</div><h5>${esc(serName(k))} <span style="font-weight:600;color:var(--muted);font-size:13px">${esc(SER[k].logo==="SBK"?"":SER[k].name)}</span></h5>
       ${nextLine(k,d)||`<div class="ln">Prossimo appuntamento non ancora annunciato.</div>`}
@@ -1114,7 +1142,7 @@ async function load(fresh){
 }
 function switchSeries(v){
   series=(v==="all"||SER[v])?v:"all"; try{localStorage.setItem("f1series",series)}catch(e){}
-  news=[];info=null;results=null;calendar=null;weekend=null;standings=null;videos=[];h2h=null;filter="Tutte";resMode=0;spoilerHidden=false;askedFor=null;
+  news=[];info=null;results=null;calendar=null;weekend=null;standings=null;videos=[];h2h=null;filter="Tutte";resMode=0;resCls=0;standCls=0;spoilerHidden=false;askedFor=null;
   applySeriesUI(); if(series!=="f1"){segTo("drivers");}
   if(series==="all"){load(true);scrollTo({top:0});return}
   $("#list").innerHTML='<div class="skel"></div><div class="skel"></div><div class="skel"></div>';
@@ -1143,7 +1171,7 @@ function renderSide(){
   h+=ses.length?ses.map(s=>{const live=now>=new Date(s.start).getTime(), wx=wxFor(s.start);return `<div class="sl${s.key?" key":""}"><b>${esc(hm(s.start))}</b><span>${esc(s.name)}${live?' <span class="badge live">In corso</span>':""}</span><small>${wx?wxIcon(wx.c)+" "+wx.t+"° · ":""}${esc(dayName(s.start).split(" ").slice(0,2).join(" "))}</small></div>`}).join("")
     :`<div class="none">${weekend?.gp?esc(weekend.gp)+": orari non ancora pubblicati.":"Nessuna sessione in programma."}</div>`;
   h+=`</div>`;
-  const st=standings, sp=spoilerSession(), hide=spoilerHidden&&sp&&st?.updated&&new Date(st.updated)>=new Date(sp.start);
+  const st=standData(), sp=spoilerSession(), hide=spoilerHidden&&sp&&st?.updated&&new Date(st.updated)>=new Date(sp.start);
   h+=`<div class="sbox"><h4>Classifica<button onclick="showView('drivers')">Completa ›</button></h4>`;
   h+=!st?.drivers?.length?`<div class="none">Classifica non ancora disponibile.</div>`
     :hide?`<div class="none">🙈 Nascosta per evitare spoiler.</div>`

@@ -1,7 +1,7 @@
 {
   "name": "Motortime",
   "short_name": "Motortime",
-  "description": "Orari italiani, TV, risultati e classifiche di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike, WEC e Asian Le Mans Series",
+  "description": "Orari italiani, TV, risultati e classifiche di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

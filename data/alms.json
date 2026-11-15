@@ -55,7 +55,7 @@
   "summary": "Prima gara Hypercar nella storia dell'Asian Le Mans Series, corsa sotto la pioggia al Paul Ricard con sole due Ferrari 499P al via. La #90 di AF Corse (Pérez Companc, Ye, Nielsen) ha preso il comando al primo giro, quando il poleman Roberto Lacorte ha allungato la frenata alla prima curva, e ha vinto con 6,3 secondi sulla #47 di Cetilar Racing. Una lunga Safety Car per pioggia ha ricompattato il gruppo fino al quarto d'ora finale; la #47 ha anche scontato una penalità per un contatto. Gara 2 si corre domenica 15 novembre.",
   "tabs": [
    {
-    "label": "Gara 1 Hypercar",
+    "label": "Gara 1",
     "kind": "race",
     "rows": [
      {
@@ -71,7 +71,8 @@
       "gap": "+6.348",
       "note": "Penalità per contatto"
      }
-    ]
+    ],
+    "cls": "Hypercar"
    },
    {
     "label": "Qualifiche Gara 1",
@@ -89,7 +90,8 @@
       "team": "Ferrari #90 (AF Corse)",
       "time": ""
      }
-    ]
+    ],
+    "cls": "Hypercar"
    },
    {
     "label": "Qualifiche Gara 2",
@@ -107,7 +109,8 @@
       "team": "Ferrari #47 (Cetilar Racing)",
       "time": "+0.611"
      }
-    ]
+    ],
+    "cls": "Hypercar"
    }
   ]
  },
