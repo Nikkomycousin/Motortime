@@ -1,6 +1,16 @@
 {
  "news": [
   {
+   "id": "2026-11-15-apr-team-qatar-vincono-classi-gara1",
+   "title": "Gara 1 al Paul Ricard: Algarve Pro in LMP2 e Team Qatar in GT3 completano il quadro",
+   "summary": "Nel round d'apertura vincono la Oreca di Algarve Pro Racing con Trulli in equipaggio e la Mercedes #62 di Team Qatar by Iron Lynx, favorita da una pesante penalità post-gara alla Getspeed #9.",
+   "tag": "Gare",
+   "source": "asianlemansseries.com",
+   "url": "https://www.asianlemansseries.com/en/news/r1-af-corse-apr-and-team-qatar-win-first-race-of-2026-27-season/13963",
+   "published": "2026-11-14T19:00:00Z",
+   "top": false
+  },
+  {
    "id": "2026-11-14-af-corse-vince-gara1-paul-ricard",
    "title": "Doppietta Ferrari sotto il diluvio: AF Corse vince la prima gara Hypercar della serie",
    "summary": "Al Paul Ricard la 499P di AF Corse con Luis Pérez Companc firma il primo successo dell'era Hypercar nell'Asian Le Mans Series, in una Gara 1 condizionata dalla pioggia. Seconda l'altra Ferrari di Cetilar Racing, subito a podio all'esordio.",
@@ -51,8 +61,8 @@
  "results": {
   "gp": "4 Ore di Le Castellet",
   "round": 1,
-  "updated": "2026-11-15T15:20:00Z",
-  "summary": "Prima gara Hypercar nella storia dell'Asian Le Mans Series, corsa sotto la pioggia al Paul Ricard con sole due Ferrari 499P al via. La #90 di AF Corse (Pérez Companc, Ye, Nielsen) ha preso il comando al primo giro, quando il poleman Roberto Lacorte ha allungato la frenata alla prima curva, e ha vinto con 6,3 secondi sulla #47 di Cetilar Racing. Una lunga Safety Car per pioggia ha ricompattato il gruppo fino al quarto d'ora finale; la #47 ha anche scontato una penalità per un contatto. Gara 2 si corre domenica 15 novembre.",
+  "updated": "2026-11-15T15:45:00Z",
+  "summary": "Prima gara Hypercar nella storia dell'Asian Le Mans Series, corsa sotto la pioggia al Paul Ricard con sole due Ferrari 499P al via. La #90 di AF Corse (Pérez Companc, Ye, Nielsen) ha preso il comando al primo giro, quando il poleman Roberto Lacorte ha allungato la frenata alla prima curva, e ha vinto con 6,3 secondi sulla #47 di Cetilar Racing. Una lunga Safety Car per pioggia ha ricompattato il gruppo fino al quarto d'ora finale; la #47 ha anche scontato una penalità per un contatto. In LMP2 ha vinto la Oreca #25 di Algarve Pro Racing (Jensen, Jakobsen, Trulli) per sei decimi sulla #37 di CLX, in GT3 la Mercedes #62 di Team Qatar by Iron Lynx, dopo che la Getspeed #9, arrivata seconda sul traguardo, è stata penalizzata di 126 secondi. Gara 2 si corre domenica 15 novembre.",
   "tabs": [
    {
     "label": "Gara 1",
@@ -111,6 +121,111 @@
      }
     ],
     "cls": "Hypercar"
+   },
+   {
+    "label": "Gara 1",
+    "cls": "LMP2",
+    "kind": "race",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Jensen · Jakobsen · Trulli",
+      "team": "Oreca #25 (Algarve Pro Racing)",
+      "gap": "4 ore"
+     },
+     {
+      "pos": "2",
+      "name": "Vaxivière",
+      "team": "Oreca #37 (CLX Motorsport)",
+      "gap": "+0.6"
+     },
+     {
+      "pos": "3",
+      "name": "Yelloly",
+      "team": "Oreca #43 (Inter Europol Competition)",
+      "gap": "+2.1"
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche Gara 1",
+    "cls": "LMP2",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Roda",
+      "team": "Oreca #22 (United Autosports)",
+      "time": ""
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche Gara 2",
+    "cls": "LMP2",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "—",
+      "team": "Oreca (Proton Competition)",
+      "time": ""
+     }
+    ]
+   },
+   {
+    "label": "Gara 1",
+    "cls": "GT3",
+    "kind": "race",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Al-Khelafi · Hanses · Martin",
+      "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
+      "gap": "4 ore"
+     },
+     {
+      "pos": "2",
+      "name": "—",
+      "team": "Mercedes-AMG #88 (Craft-Bamboo Iron Lynx)",
+      "gap": "",
+      "note": "Promossa dopo la penalità alla #9"
+     },
+     {
+      "pos": "3",
+      "name": "—",
+      "team": "Mercedes-AMG #46 (2Seas Motorsports)",
+      "gap": "",
+      "note": "Promossa dopo la penalità alla #9"
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche Gara 1",
+    "cls": "GT3",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "Jans",
+      "team": "Mercedes-AMG #9 (Getspeed)",
+      "time": ""
+     }
+    ]
+   },
+   {
+    "label": "Qualifiche Gara 2",
+    "cls": "GT3",
+    "kind": "quali",
+    "rows": [
+     {
+      "pos": "1",
+      "name": "—",
+      "team": "Ferrari (AF Corse)",
+      "time": "",
+      "note": "Pole dopo la penalità a Heart of Racing"
+     }
+    ]
    }
   ]
  },
