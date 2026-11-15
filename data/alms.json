@@ -1,11 +1,32 @@
 {
- "news": [],
- "info": {
-  "updated": null
- },
- "weekend": null,
- "results": null,
- "videos": [],
- "standings": null,
- "calendar": null
+  "news": [
+    {
+      "id": "2026-11-14-af-corse-vince-gara1-paul-ricard",
+      "title": "Doppietta Ferrari sotto il diluvio: AF Corse vince la prima gara Hypercar della serie",
+      "summary": "Al Paul Ricard la 499P di AF Corse con Luis Pérez Companc firma il primo successo dell'era Hypercar nell'Asian Le Mans Series, in una Gara 1 condizionata dalla pioggia. Seconda l'altra Ferrari di Cetilar Racing, subito a podio all'esordio.",
+      "tag": "Gare",
+      "source": "racer.com",
+      "url": "https://racer.com/2026/11/14/af-corse-wins-first-asian-le-mans-series-hypercar-race-at-paul-ricard",
+      "published": "2026-11-14T17:00:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-14-pole-cetilar-af-corse-paul-ricard",
+      "title": "Paul Ricard, Cetilar e AF Corse si dividono le pole delle due gare",
+      "summary": "Nelle qualifiche Hypercar le due Ferrari 499P, uniche iscritte della classe, si spartiscono le partenze al palo per Gara 1 e Gara 2 del round d'apertura. Al via in totale 46 vetture tra Hypercar, LMP2 e GT3.",
+      "tag": "Gare",
+      "source": "sportscar365.com",
+      "url": "https://sportscar365.com/lemans/asian-lms/cetilar-af-corse-ferraris-split-pole-positions-for-paul-ricard/",
+      "published": "2026-11-14T09:00:00Z",
+      "top": false
+    }
+  ],
+  "info": {
+    "updated": "2026-11-15T15:10:00Z"
+  },
+  "weekend": null,
+  "results": null,
+  "videos": [],
+  "standings": null,
+  "calendar": null
 }
