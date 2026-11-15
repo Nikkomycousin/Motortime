@@ -265,6 +265,13 @@
   .h2h .tr i{display:block;height:100%;border-radius:4px}
   .h2h .ex{font-size:12.5px;color:var(--faint);margin-top:6px}
   footer{color:var(--faint);font-size:12.5px;text-align:center;margin-top:28px;line-height:1.5}
+  /* filigrana del veicolo nel riquadro del prossimo evento */
+  .hero:after{content:"";position:absolute;right:-8%;bottom:-2%;width:80%;aspect-ratio:3/1;background:var(--red);opacity:.24;-webkit-mask:var(--veh) center/contain no-repeat;mask:var(--veh) center/contain no-repeat;pointer-events:none}
+  :root[data-theme=light] .hero:after{opacity:.16}
+  .hero > *{position:relative;z-index:1}
+  @media (min-width:1024px){.side .hero:after{width:95%;right:-12%;bottom:-4%}}
+  body.home::before,body:not([style*="--veh"])::before{display:none}
+  .wrap{position:relative;z-index:1}
   /* calendario, preferiti, meteo */
   .calbtn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:9px 15px;font:600 14px var(--f);cursor:pointer;margin:0 8px 12px 0}
   .calbtn svg{width:18px;height:18px;color:var(--red2)}
@@ -941,11 +948,13 @@ function renderSerBar(){
   el.innerHTML=(g.ser||[]).map(k=>`<button data-ser="${k}" role="tab" style="--c:${SER[k].color}" class="${k===series?"on":""}" aria-selected="${k===series}"><b>${esc(SER[k].logo)}</b><small>${esc(SER[k].name)}</small></button>`).join("");
   el.querySelectorAll("button").forEach(b=>b.onclick=()=>{if(b.dataset.ser!==series){switchSeries(b.dataset.ser);scrollTo({top:0})}});
 }
+const VEH={formula:"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 200\"><circle cx=\"140\" cy=\"150\" r=\"44\"/><circle cx=\"478\" cy=\"152\" r=\"40\"/><path d=\"M60 140 L60 112 L178 104 L214 84 Q236 68 266 78 L300 92 L350 90 L366 98 L440 106 L522 118 L586 130 L588 142 L470 144 L180 148 Z\"/><path d=\"M26 54 L96 54 L96 70 L26 70 Z\"/><path d=\"M50 70 L64 70 L70 118 L54 118 Z\"/><circle cx=\"322\" cy=\"86\" r=\"11\"/><path d=\"M288 94 Q320 64 356 90\" fill=\"none\" stroke=\"#000\" stroke-width=\"7\" stroke-linecap=\"round\"/><path d=\"M506 152 L598 148 L598 160 L506 164 Z\"/></svg>",moto:"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 200\"><g fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\"><circle cx=\"132\" cy=\"150\" r=\"42\" stroke-width=\"13\"/><circle cx=\"470\" cy=\"150\" r=\"42\" stroke-width=\"13\"/><path d=\"M132 150 L282 128\" stroke-width=\"14\"/><path d=\"M470 150 L424 74\" stroke-width=\"11\"/></g><circle cx=\"132\" cy=\"150\" r=\"10\"/><circle cx=\"470\" cy=\"150\" r=\"10\"/><path d=\"M150 96 L250 86 L254 102 L172 108 Z\"/><path d=\"M244 98 L304 82 L372 66 L428 54 L470 66 L478 94 L446 120 L404 140 L300 142 L262 126 Z\"/><path d=\"M226 84 C256 50 330 34 388 38 L392 58 C340 58 292 72 262 98 Z\"/><circle cx=\"398\" cy=\"44\" r=\"18\"/><path d=\"M378 58 L436 68 L432 80 L374 72 Z\"/><path d=\"M262 98 L304 120 L336 112 L330 128 L294 136 L246 108 Z\"/></svg>",sbk:"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 200\"><g fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\"><circle cx=\"128\" cy=\"150\" r=\"42\" stroke-width=\"13\"/><circle cx=\"472\" cy=\"150\" r=\"42\" stroke-width=\"13\"/><path d=\"M128 150 L278 126\" stroke-width=\"14\"/><path d=\"M472 150 L428 70\" stroke-width=\"11\"/></g><circle cx=\"128\" cy=\"150\" r=\"10\"/><circle cx=\"472\" cy=\"150\" r=\"10\"/><path fill-rule=\"evenodd\" d=\"M136 92 L236 82 L256 70 L330 62 L380 58 L420 50 L452 44 L476 58 L486 92 L452 120 L410 140 L296 142 L250 118 L226 104 L150 106 Z M440 70 L468 68 L472 82 L444 86 Z\"/><path d=\"M410 46 L440 26 L452 30 L436 52 Z\"/><path d=\"M196 112 L270 118 L268 130 L190 124 Z\"/><path d=\"M300 58 L322 48 L330 60 Z\"/></svg>",wec:"<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 200\"><path d=\"M20 142 C22 120 40 110 72 106 L152 100 C192 88 222 66 262 58 C302 50 352 50 382 58 L432 74 C482 90 540 100 576 112 L592 130 L588 146 L514 146 A44 44 0 0 0 426 146 L196 146 A44 44 0 0 0 108 146 L26 148 Z\"/><circle cx=\"152\" cy=\"150\" r=\"35\"/><circle cx=\"470\" cy=\"150\" r=\"35\"/><path d=\"M262 60 L116 98 L124 104 L270 70 Z\"/><path d=\"M10 88 L92 84 L92 96 L10 100 Z\"/><path d=\"M40 98 L54 98 L58 112 L44 112 Z\"/></svg>"};
 function applySeriesUI(){
   const home=series==="all";
   document.body.classList.toggle("home",home);
   document.body.classList.toggle("notf1",series!=="f1");
   setTheme(home?BRAND:S().color);
+  if(!home) document.body.style.setProperty("--veh",`url("data:image/svg+xml,${encodeURIComponent(VEH[S().g]||VEH.formula)}")`);
   renderGroupBar(); renderSerBar();
   if(!home){try{localStorage.setItem("mt:grp:"+S().g,series)}catch(e){}}
   document.title=home?"Motortime · Il weekend dei motori":`${S().logo==="SBK"?"Superbike":S().logo} · Motortime`;
