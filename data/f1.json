@@ -1,6 +1,26 @@
 {
   "news": [
     {
+      "id": "2026-11-16-hamilton-ferrari-secondo-posto",
+      "title": "Hamilton: prima difendere il secondo posto costruttori, poi pensare al 2027",
+      "summary": "Verso Las Vegas Hamilton chiede alla Ferrari di concentrarsi sul vicecampionato costruttori ancora in palio. Solo dopo, secondo il britannico, la squadra potrà voltare pagina e dedicarsi al progetto 2027.",
+      "tag": "Ferrari",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lewis-hamilton-says-ferrari-must-165000794.html",
+      "published": "2026-11-16T07:50:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-15-trofeo-neon-las-vegas",
+      "title": "Las Vegas svela il trofeo del vincitore: si illumina come un'insegna della Strip",
+      "summary": "Gli organizzatori del GP di Las Vegas hanno presentato il nuovo trofeo per il vincitore, con un design luminoso al neon ispirato alle insegne della città. Sarà consegnato sul podio della gara di sabato notte.",
+      "tag": "Paddock",
+      "source": "Paddock News 24",
+      "url": "https://www.paddocknews24.com/en/news-f1/las-vegas-gp-trophy-revealed-the-neon-design-inspired-by-the-city",
+      "published": "2026-11-15T10:50:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-14-sainz-williams-fine-stagione",
       "title": "Sainz: «Con questa Williams preferirei che Las Vegas fosse l'ultima gara»",
       "summary": "Lo spagnolo ammette che la FW48 è lenta in ogni condizione e che il finale di stagione si preannuncia in salita. Per questo vedrebbe con favore una chiusura anticipata del 2026, con la testa già al progetto 2027.",
@@ -8,26 +28,6 @@
       "source": "f1-fansite.com",
       "url": "https://www.f1-fansite.com/f1-news/sainz-would-welcome-an-early-end-to-williams-2026-misery/",
       "published": "2026-11-14T09:00:00Z",
-      "top": false
-    },
-    {
-      "id": "2026-11-13-antonelli-minaccia-verstappen",
-      "title": "Antonelli indica Verstappen come il rivale più pericoloso per il 2027",
-      "summary": "Il campione del mondo ritiene che sarà l'olandese a creargli più problemi nella difesa del titolo. Pesano le rimonte di Verstappen e la crescita della Red Bull nel finale di stagione.",
-      "tag": "Mondiale",
-      "source": "formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
-      "published": "2026-11-13T16:43:00Z",
-      "top": false
-    },
-    {
-      "id": "2026-11-13-verstappen-gomme-freddo-vegas",
-      "title": "Verstappen: a Las Vegas la chiave sarà mandare in temperatura le gomme",
-      "summary": "Con l'asfalto previsto intorno ai 10-12 gradi, Verstappen indica il riscaldamento degli pneumatici come fattore decisivo per la Red Bull, insieme alla gestione dell'energia sul lungo rettilineo. L'olandese ammette di non sapere se la squadra sarà la favorita, visti i problemi passati sulle piste fredde e a bassa aderenza.",
-      "tag": "Red Bull",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/max-verstappen-reveals-key-red-bull-factor-in-facing-major-las-vegas-issue",
-      "published": "2026-11-13T06:20:00Z",
       "top": false
     },
     {
@@ -41,6 +41,16 @@
       "top": false
     },
     {
+      "id": "2026-11-13-antonelli-minaccia-verstappen",
+      "title": "Antonelli indica Verstappen come il rivale più pericoloso per il 2027",
+      "summary": "Il campione del mondo ritiene che sarà l'olandese a creargli più problemi nella difesa del titolo. Pesano le rimonte di Verstappen e la crescita della Red Bull nel finale di stagione.",
+      "tag": "Mondiale",
+      "source": "formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
+      "published": "2026-11-13T16:43:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-13-mercedes-budget-cap-giovani",
       "title": "Wolff svela la proposta Mercedes alla FIA: più margine per pagare i giovani",
       "summary": "Mercedes ha chiesto alla FIA una deroga al budget cap per alzare gli stipendi dei dipendenti nei primi anni di carriera. Wolff ammette che l'idea non è stata accolta con entusiasmo, mentre anche Williams spinge per rivedere il tetto di spesa.",
@@ -48,6 +58,16 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/mercedes-fia-formula-1-cost-cap",
       "published": "2026-11-13T08:14:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-13-verstappen-gomme-freddo-vegas",
+      "title": "Verstappen: a Las Vegas la chiave sarà mandare in temperatura le gomme",
+      "summary": "Con l'asfalto previsto intorno ai 10-12 gradi, Verstappen indica il riscaldamento degli pneumatici come fattore decisivo per la Red Bull, insieme alla gestione dell'energia sul lungo rettilineo. L'olandese ammette di non sapere se la squadra sarà la favorita, visti i problemi passati sulle piste fredde e a bassa aderenza.",
+      "tag": "Red Bull",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/max-verstappen-reveals-key-red-bull-factor-in-facing-major-las-vegas-issue",
+      "published": "2026-11-13T06:20:00Z",
       "top": false
     },
     {
@@ -1060,20 +1080,10 @@
       "source": "OA Sport",
       "url": "https://www.oasport.it/category/motori/formula-1/",
       "published": "2026-11-01T04:00:00Z"
-    },
-    {
-      "id": "2026-11-15-trofeo-neon-las-vegas",
-      "title": "Las Vegas svela il trofeo del vincitore: si illumina come un'insegna della Strip",
-      "summary": "Gli organizzatori del GP di Las Vegas hanno presentato il nuovo trofeo per il vincitore, con un design luminoso al neon ispirato alle insegne della città. Sarà consegnato sul podio della gara di sabato notte.",
-      "tag": "Paddock",
-      "source": "Paddock News 24",
-      "url": "https://www.paddocknews24.com/en/news-f1/las-vegas-gp-trophy-revealed-the-neon-design-inspired-by-the-city",
-      "published": "2026-11-15T10:50:00Z",
-      "top": false
     }
   ],
   "info": {
-    "updated": "2026-11-15T23:50:00Z",
+    "updated": "2026-11-16T07:50:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
