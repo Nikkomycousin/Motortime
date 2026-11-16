@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-16-camara-haas-las-vegas",
+      "title": "Câmara confermato alla Haas per Las Vegas, Hirakawa userà la vettura nelle libere 1",
+      "summary": "La Haas tiene il leader della F2 Rafael Câmara accanto a Bearman anche nel GP di Las Vegas, dopo l'esordio di Interlagos. Ryo Hirakawa salirà in macchina nella prima sessione di prove libere.",
+      "tag": "Team",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
+      "published": "2026-11-16T12:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-16-ferrari-look-las-vegas",
       "title": "Ferrari, look speciale per Hamilton e Leclerc nel weekend di Las Vegas",
       "summary": "La Scuderia ha confermato che a Las Vegas i suoi piloti si presenteranno con un'immagine rinnovata per l'appuntamento sulla Strip. Una scelta celebrativa per uno degli eventi più spettacolari del calendario.",
@@ -1093,7 +1103,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-16T10:50:00Z",
+    "updated": "2026-11-16T13:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
