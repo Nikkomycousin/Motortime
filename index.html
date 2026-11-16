@@ -11,6 +11,7 @@
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="icon-192.png">
 <title>Motortime</title>
+<script>(function(){try{var q=location.search;if(/[?&]anteprima/.test(q))localStorage.setItem("mt:v2","1");if(/[?&]classico/.test(q))localStorage.removeItem("mt:v2");if(localStorage.getItem("mt:v2")==="1"){document.documentElement.classList.add("v2");var l=document.createElement("link");l.rel="stylesheet";l.href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap";document.head.appendChild(l)}}catch(e){}})()</script>
 <script>(function(){var t=null;try{t=localStorage.getItem("mt:theme")}catch(e){}if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.dataset.theme=t})()</script>
 <meta name="description" content="Orari italiani, canali TV, risultati, classifiche e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance (WEC, ELMS, IMSA, Asian Le Mans).">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -377,6 +378,141 @@
     .fcard{max-width:none}
     .fcard:hover{background:var(--card2)}
   }
+
+  /* =====================================================================
+     ANTEPRIMA "PIT WALL" (html.v2): tipografia da corsa, cronometro,
+     righe sottili, angoli netti. Attiva con ?anteprima, si toglie con ?classico
+     ===================================================================== */
+  html.v2{--bg:#0a0b0d;--card:#111316;--card2:#171a1e;--line:#23272d;--text:#f3f1ec;--muted:#8a9098;--faint:#5b6168;--body:#c9c6bf;
+    --hdr:rgba(10,11,13,.82);--navbg:rgba(10,11,13,.94);--f:"Archivo","Titillium Web",system-ui,sans-serif;--m:"JetBrains Mono",ui-monospace,monospace;--r:6px}
+  html.v2[data-theme=light]{--bg:#f2f0eb;--card:#fff;--card2:#f6f4f0;--line:#e2ded6;--text:#0d0e10;--muted:#5f646b;--faint:#9a9fa6;--body:#33363b;--hdr:rgba(242,240,235,.86);--navbg:rgba(255,255,255,.95)}
+  html.v2 body{background:var(--bg);background-image:
+      radial-gradient(1200px 520px at 85% -120px,color-mix(in srgb,var(--red) 22%,transparent),transparent 70%),
+      repeating-linear-gradient(90deg,color-mix(in srgb,var(--text) 3.5%,transparent) 0 1px,transparent 1px 88px);
+    background-attachment:fixed;font-family:var(--f);letter-spacing:-.005em}
+  html.v2[data-theme=light] body{background-image:radial-gradient(1200px 520px at 85% -120px,color-mix(in srgb,var(--red) 12%,transparent),transparent 70%),repeating-linear-gradient(90deg,rgba(0,0,0,.035) 0 1px,transparent 1px 88px)}
+  html.v2 *{box-shadow:none!important}
+  html.v2 .pos,html.v2 .pts,html.v2 .sess .t,html.v2 .cal .dt,html.v2 .cal .rnd,html.v2 .sbox .sl b,html.v2 .sbox .sp b,html.v2 .stamp,html.v2 .podium b,html.v2 .tv8 .l b,html.v2 .fcard .big b{font-family:var(--m);font-style:normal;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+  /* etichette tecniche */
+  html.v2 .lbl,html.v2 .sub,html.v2 .dayh,html.v2 .hsec,html.v2 .day,html.v2 .vgp,html.v2 .meta,html.v2 .sbox h4,html.v2 .favs .hsec,html.v2 .fcard .k,html.v2 .clsseg .lbl,html.v2 .tag,html.v2 .src,html.v2 .badge{font-family:var(--m)!important;text-transform:uppercase;letter-spacing:.09em;font-size:11px!important;font-weight:500}
+  html.v2 .dayh:first-letter,html.v2 .day:first-letter{text-transform:uppercase}
+  html.v2 .tag{color:var(--red2)!important;font-weight:700}
+  /* testata */
+  html.v2 header{background:var(--hdr);border-bottom:1px solid var(--line)}
+  html.v2 header:before{height:3px;background:var(--red);opacity:1}
+  html.v2 .logo{font-family:var(--f);font-style:normal;font-weight:900;font-stretch:125%;text-transform:uppercase;font-size:22px;letter-spacing:-.02em}
+  html.v2 .logo b{color:var(--text);font-weight:300}
+  html.v2 .logo:before{content:"";display:inline-block;width:10px;height:18px;background:var(--red);transform:skewX(-18deg);margin-right:9px;align-self:center}
+  html.v2 .logo small{font-family:var(--m);font-size:10px;letter-spacing:.18em;margin-left:9px;color:var(--muted)}
+  html.v2 .refresh{border-radius:var(--r);background:transparent}
+  html.v2 .grpbar{background:transparent;border-radius:0;padding:0;gap:2px;border-bottom:1px solid var(--line)}
+  html.v2 .grpbar button{border-radius:0;font-family:var(--f);font-stretch:112%;text-transform:uppercase;font-size:12.5px;letter-spacing:.04em;font-weight:700;padding:10px 6px 9px;color:var(--muted);position:relative}
+  html.v2 .grpbar button.on{background:transparent;color:var(--text)}
+  html.v2 .grpbar button.on:after{content:"";position:absolute;left:10%;right:10%;bottom:-1px;height:3px;background:var(--red)}
+  html.v2 .serbar{background:transparent;border-radius:0;padding:0;gap:0;border:1px solid var(--line)}
+  html.v2 .serbar button{border-radius:0;padding:9px 4px 8px;border-right:1px solid var(--line);align-items:flex-start;padding-left:12px;position:relative}
+  html.v2 .serbar button:last-child{border-right:0}
+  html.v2 .serbar button small{text-align:left}
+  html.v2 .serbar button b{font-family:var(--f);font-style:normal;font-stretch:118%;font-weight:800;font-size:15px;text-transform:uppercase;opacity:.6;color:var(--text)}
+  html.v2 .serbar button b:before{display:none}
+  html.v2 .serbar button small{font-family:var(--m);font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  html.v2 .serbar button:after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--c);opacity:.35}
+  html.v2 .serbar button.on{background:color-mix(in srgb,var(--c) 16%,transparent)}
+  html.v2 .serbar button.on:after{opacity:1}
+  html.v2 .serbar button.on b{opacity:1}
+  html.v2 .serbar button.on small{color:var(--text)}
+  /* hero: titolo enorme + cronometro */
+  html.v2 .hero{border-radius:var(--r);background:linear-gradient(135deg,color-mix(in srgb,var(--red) 14%,var(--card)),var(--card) 55%);border:1px solid var(--line);padding:20px 18px 18px}
+  html.v2 .hero:before{height:100%;width:4px;inset:0 auto 0 0}
+  html.v2 .hero .lbl{color:var(--muted);display:flex;gap:10px;align-items:center}
+  html.v2 .tagser{background:var(--red);color:#fff;padding:2px 7px 1px;font-weight:700;letter-spacing:.06em}
+  html.v2 .hero .gp{font-family:var(--f);font-style:normal;font-weight:900;font-stretch:125%;text-transform:uppercase;font-size:clamp(30px,8.4vw,52px);line-height:.92;letter-spacing:-.025em;margin:12px 0 10px}
+  html.v2 .hero .when{font-size:14px;color:var(--body)}
+  html.v2 .lights{display:none}
+  html.v2 .clock{display:flex;align-items:flex-start;gap:6px;margin-top:18px}
+  html.v2 .clock div{display:flex;flex-direction:column;align-items:center;min-width:0;flex:1;max-width:84px;background:color-mix(in srgb,var(--bg) 70%,transparent);border:1px solid var(--line);border-radius:4px;padding:8px 2px 6px}
+  html.v2 .clock b{font-family:var(--m);font-weight:700;font-size:clamp(26px,8vw,40px);line-height:1;letter-spacing:-.04em;color:var(--text)}
+  html.v2 .clock span{font-family:var(--m);font-size:9.5px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-top:5px}
+  html.v2 .clock i{font-family:var(--m);font-style:normal;font-size:28px;color:var(--red);align-self:center;margin-top:-14px}
+  html.v2 .clock.go b{color:#2bd66a}
+  html.v2 .cdnote{font-family:var(--m);font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-top:8px}
+  /* blocchi */
+  html.v2 .table,html.v2 .rhead,html.v2 .sbox,html.v2 #list,html.v2 .vcard,html.v2 .tv8,html.v2 .dhead,html.v2 .h2h,html.v2 .fcard,html.v2 .favhint,html.v2 .tabs{border-radius:var(--r);border:1px solid var(--line)}
+  html.v2 .rhead h3,html.v2 .dhead h3{font-family:var(--f);font-style:normal;font-weight:900;font-stretch:125%;text-transform:uppercase;font-size:clamp(22px,6vw,32px);line-height:.95;letter-spacing:-.02em}
+  html.v2 .rhead .lbl{color:var(--red2)}
+  html.v2 .row{border-top:1px solid var(--line);padding:11px 16px}
+  html.v2 .pos{font-size:17px;color:var(--muted);width:30px}
+  html.v2 .row.p1 .pos{color:var(--gold)}
+  html.v2 .bar{width:3px;height:28px;border-radius:0}
+  html.v2 .who b{font-weight:700;font-size:15.5px}
+  html.v2 .who small{font-size:12.5px}
+  html.v2 .pts{font-size:17px;font-weight:700}
+  html.v2 .pts small{font-family:var(--m);font-size:10.5px}
+  html.v2 .podium div{border-radius:4px;border:1px solid var(--line);background:var(--card2)}
+  html.v2 .podium div:nth-child(2){background:linear-gradient(180deg,color-mix(in srgb,var(--red) 22%,var(--card2)),var(--card2));border-color:color-mix(in srgb,var(--red) 50%,var(--line))}
+  html.v2 .podium b{font-size:13px;color:var(--muted);font-weight:700}
+  html.v2 .podium div:nth-child(2) b{color:var(--text)}
+  html.v2 .podium span{font-family:var(--f);font-stretch:110%;text-transform:uppercase;font-weight:800;font-size:14px}
+  html.v2 .seg{border-radius:0;background:transparent;border:1px solid var(--line);padding:0;gap:0}
+  html.v2 .seg button{border-radius:0;font-family:var(--m);text-transform:uppercase;letter-spacing:.08em;font-size:11.5px;padding:10px 8px;border-right:1px solid var(--line)}
+  html.v2 .seg button:last-child{border-right:0}
+  html.v2 .seg button.on{background:var(--red);color:#fff}
+  html.v2 .chip,html.v2 .clsseg button,html.v2 .calbtn,html.v2 .btn{border-radius:4px;font-family:var(--m);text-transform:uppercase;letter-spacing:.07em;font-size:11px;font-weight:500;padding:7px 11px}
+  html.v2 .chip.on,html.v2 .clsseg button.on{background:var(--text);color:var(--bg)}
+  /* notizie: impaginazione da rivista */
+  html.v2 #list{padding:0 18px}
+  html.v2 .card{padding:16px 0}
+  html.v2 .card h3{font-family:var(--f);font-stretch:100%;font-weight:700;font-size:18px;line-height:1.22;letter-spacing:-.01em}
+  html.v2 .card.top h3{font-stretch:112%;font-weight:800;font-size:22px;line-height:1.12}
+  html.v2 .card.top:before{width:3px;border-radius:0;top:18px;bottom:18px}
+  html.v2 .card p{font-size:14.5px}
+  html.v2 #list .day{background:transparent;border-top:1px solid var(--line);color:var(--faint)}
+  html.v2 #list .day:first-child{border-top:0}
+  html.v2 .src{color:var(--muted)}
+  /* orari: monitor dei tempi */
+  html.v2 .sess{padding:12px 16px;border-bottom:1px solid var(--line)}
+  html.v2 .sess .t{font-size:19px;min-width:62px;color:var(--text)}
+  html.v2 .sess.key .t{color:var(--red2)}
+  html.v2 .sess .t small{font-family:var(--m);font-size:10.5px}
+  html.v2 .sess .n b{font-family:var(--f);font-weight:700;font-size:15px;text-transform:uppercase;font-stretch:108%;letter-spacing:.01em}
+  html.v2 .stag{border-radius:2px;font-family:var(--m);font-size:10px;letter-spacing:.06em;padding:2px 6px}
+  html.v2 .badge{border-radius:2px;padding:2px 6px;font-size:9.5px!important}
+  html.v2 .badge.live{background:#e11d2e;animation:blink 1.6s ease-in-out infinite}
+  @keyframes blink{50%{opacity:.55}}
+  html.v2 .sess .add{border-radius:4px}
+  html.v2 .ico{display:inline-block;font-family:var(--m);font-size:9.5px;font-weight:700;letter-spacing:.06em;border:1px solid currentColor;border-radius:2px;padding:0 4px;margin-right:4px;vertical-align:1px;line-height:1.5}
+  html.v2 .tv8{background:linear-gradient(135deg,rgba(143,123,255,.12),var(--card) 60%)}
+  html.v2 .tv8 h4{font-family:var(--m);text-transform:uppercase;letter-spacing:.08em;font-size:11.5px}
+  /* barra in basso (telefono) e menu laterale (PC) */
+  html.v2 .tabs{border-radius:0;border-left:0;border-right:0;border-bottom:0}
+  html.v2 .tabs button{font-family:var(--m);text-transform:uppercase;letter-spacing:.06em;font-size:9.5px;border-radius:0;position:relative}
+  html.v2 .tabs button.on:before{content:"";position:absolute;left:22%;right:22%;top:-7px;height:3px;background:var(--red)}
+  html.v2 .rhead p,html.v2 .hero .when{font-family:var(--f)}
+  html.v2 .favhint{border-style:solid}
+  html.v2 .fcard{border-top:3px solid var(--c)}
+  html.v2 .fcard h5{font-stretch:110%;text-transform:uppercase;font-weight:800}
+  html.v2 footer{font-family:var(--m);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;line-height:1.8}
+  html.v2 .modal .mbox{border-radius:var(--r);border:1px solid var(--line)}
+  html.v2 .mbox h2{font-style:normal;font-stretch:120%;text-transform:uppercase}
+  html.v2 .mbox .yes,html.v2 .mbox .no,html.v2 .mbox .opt{border-radius:4px;font-family:var(--m);text-transform:uppercase;letter-spacing:.06em;font-size:12.5px}
+  html.v2 .card.top{padding-left:16px}
+  html.v2 .card.top:before{left:0}
+  @media (max-width:1023px){
+    html.v2 .logo{font-size:18px}
+    html.v2 .logo:before{width:8px;height:15px;margin-right:7px}
+    html.v2 .tabs button{letter-spacing:.01em;font-size:8.6px}
+  }
+  @media (max-width:420px){html.v2 .logo small{display:none}}
+  @media (min-width:1024px){
+    html.v2 .side .hero .gp{font-size:28px;font-stretch:108%;overflow-wrap:anywhere}
+    html.v2 .side .clock b{font-size:28px}
+    html.v2 .tabs{border:1px solid var(--line);border-radius:var(--r);padding:6px}
+    html.v2 .tabs button{font-size:11px;padding:12px 14px}
+    html.v2 .tabs button.on{background:color-mix(in srgb,var(--red) 14%,transparent)}
+    html.v2 .tabs button.on:before{left:0;right:auto;top:8px;bottom:8px;width:3px;height:auto}
+    html.v2 .hero .gp{font-size:40px}
+    html.v2 .grpbar button{font-size:13.5px}
+  }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -679,9 +815,12 @@ function render(){
   $("#list").innerHTML=html;
 }
 
+const V2=document.documentElement.classList.contains("v2");
+const IC={tv:V2?'<span class="ico">TV</span>':"📺",cup:V2?'<span class="ico">WIN</span>':"🏆",med:V2?["P1","P2","P3"]:["🥇","🥈","🥉"]};
+const pad2=n=>String(n).padStart(2,"0");
 function renderInfo(){
   $("#stamp").textContent=info?.updated?"Agg. "+rel(info.updated):"";
-  $("#hero .lbl").textContent=S().next;
+  $("#hero .lbl").innerHTML=V2?`<span class="tagser">${esc(S().logo==="SBK"?"WorldSBK":S().logo)}</span>${esc(S().next)}`:esc(S().next);
   clearInterval(cdTimer);
   if(!info?.nextGp?.date){$("#hero").hidden=true;return}
   $("#hero").hidden=false;
@@ -698,12 +837,15 @@ function renderInfo(){
     L.classList.toggle("go",s<=0);
     L.querySelectorAll("i").forEach((x,i)=>x.classList.toggle("on",i<lit));
     const pl=(n,a,b)=>n+" "+(n===1?a:b);
+    if(V2){const sec=Math.floor(s%60);const box=(v,l)=>`<div><b>${pad2(v)}</b><span>${l}</span></div>`;
+      $("#cd").innerHTML=s<=0?`<div class="clock go"><div><b>LIVE</b><span>Semaforo verde</span></div></div>`:
+        `<div class="clock">${box(g,"Giorni")}<i>:</i>${box(h,"Ore")}<i>:</i>${box(m,"Min")}<i>:</i>${box(sec,"Sec")}</div>${n.dateOnly?'<div class="cdnote">Orario da confermare</div>':""}`;return}
     $("#cd").innerHTML=s<=0?`<b>Semaforo verde: si corre!</b>`:
       n.dateOnly?`Mancano <b>${pl(Math.ceil(s/86400),"giorno","giorni")}</b>`:
       g>0?`Mancano <b>${pl(g,"giorno","giorni")}</b> e <b>${pl(h,"ora","ore")}</b>`:
       `Mancano <b>${pl(h,"ora","ore")}</b> e <b>${m} min</b>`;
   };
-  tick(); cdTimer=setInterval(tick,30000);
+  tick(); cdTimer=setInterval(tick,V2?1000:30000);
 }
 
 const TEAM_COLORS={mercedes:"#27f4d2",ferrari:"#e8002d","red bull":"#3671c6",mclaren:"#ff8000","racing bulls":"#6692ff",alpine:"#ff87bc",haas:"#b6babd",audi:"#bb0a30",williams:"#64c4ff","aston martin":"#229971",cadillac:"#c9a227",campos:"#ffb300",invicta:"#8e5cf0",rodin:"#9aa0a6","mp motorsport":"#ff6d00",dams:"#1e88e5","art grand prix":"#e8e8e8",trident:"#5c6bc0",hitech:"#26a69a","van amersfoort":"#f06292",prema:"#e53935",aix:"#a1887f",toyota:"#eb0a1e",bmw:"#1c69d4",porsche:"#c9c9c9",peugeot:"#9be15d",genesis:"#a78bfa",
@@ -755,10 +897,10 @@ function renderSched(){
   const tv=ses.filter(s=>s.tv8);
   let h="";
   if(tv.length){
-    h+=`<div class="tv8"><h4>📺 In chiaro su ${esc(freeCh())}</h4>`+tv.map(s=>`<div class="l"><span>${esc(s.name)} · ${esc(dayName(s.tv8.time).split(" ")[0])}</span><b>${esc(hm(s.tv8.time))}</b></div>`).join("")+
+    h+=`<div class="tv8"><h4>${IC.tv} In chiaro su ${esc(freeCh())}</h4>`+tv.map(s=>`<div class="l"><span>${esc(s.name)} · ${esc(dayName(s.tv8.time).split(" ")[0])}</span><b>${esc(hm(s.tv8.time))}</b></div>`).join("")+
       `<div class="note">${tv.every(s=>s.tv8.live)?"In diretta":tv.some(s=>s.tv8.live)?"Alcune sessioni in diretta, altre in differita":"In differita"}${freeCh()==="TV8"?" · anche in streaming gratis su tv8.it":""}</div></div>`;
   } else if(w.tv8note){
-    h+=`<div class="tv8"><h4>📺 ${esc(freeCh())}</h4><div class="note" style="margin:0">${esc(w.tv8note)}</div></div>`;
+    h+=`<div class="tv8"><h4>${IC.tv} ${esc(freeCh())}</h4><div class="note" style="margin:0">${esc(w.tv8note)}</div></div>`;
   }
   h+=`<div><button class="calbtn" onclick="calWeekend()">${CALICON}Aggiungi il weekend al calendario</button></div>`;
   h+=`<div class="table"><div class="sub">${esc(w.gp||"")}${w.circuit?" · "+esc(w.circuit):""} · orari italiani</div>`;
@@ -802,13 +944,13 @@ function renderResults(){
   if(hide){
     const n=Math.max(...tabs.map(t=>(t.rows||[]).length),10);
     el.innerHTML=`<div class="spoilwrap spoil">${spoilerBanner()}<div class="rhead"><div class="lbl">${S().last}${r.round?" · Round "+esc(r.round):""}</div><h3>${esc(r.gp)}</h3>
-      <div class="podium">${["🥈","🥇","🥉"].map(m=>`<div><b>${m}</b><span>?</span></div>`).join("")}</div>
+      <div class="podium">${[IC.med[1],IC.med[0],IC.med[2]].map(m=>`<div><b>${m}</b><span>?</span></div>`).join("")}</div>
       <p style="margin-top:10px">${ghost("100%")}<br>${ghost("90%")}<br>${ghost("70%")}</p></div><div class="table">${ghostRows(Math.min(n,20),true)}</div></div>`;
     return;
   }
   let h=`<div class="spoilwrap">${clsSeg(classes,resCls,"data-rc")}
     <div class="rhead"><div class="lbl">${S().last}${r.round?" · Round "+esc(r.round):""}</div><h3>${esc(r.gp)}</h3>
-    ${pod.length===3?`<div class="podium">${[1,0,2].map(i=>`<div><b>${["🥇","🥈","🥉"][i]}</b><span>${esc(podName(pod[i]))}</span></div>`).join("")}</div>${first&&!r.podium?`<div style="font-size:11.5px;color:var(--muted);margin-top:6px">Podio: ${esc(first.label)}</div>`:""}`:""}
+    ${pod.length===3?`<div class="podium">${[1,0,2].map(i=>`<div><b>${IC.med[i]}</b><span>${esc(podName(pod[i]))}</span></div>`).join("")}</div>${first&&!r.podium?`<div style="font-size:11.5px;color:var(--muted);margin-top:6px">Podio: ${esc(first.label)}</div>`:""}`:""}
     ${r.summary?`<p style="margin-top:10px">${esc(r.summary)}</p>`:""}</div>
     <div class="seg" id="segRes" style="overflow-x:auto">${tabs.map((t,i)=>`<button data-i="${i}" class="${i===resMode?"on":""}" style="white-space:nowrap">${esc(t.label)}</button>`).join("")}</div>
     <div class="table">`;
@@ -882,7 +1024,7 @@ function renderCal(){
     return `<div class="row${x.winner?" done":""}${isNext?" next":""}">
       <div class="rnd">${esc(x.round)}</div><div class="bar" style="background:${x.winner?teamColor(x.team):"var(--baroff)"}"></div>
       <div class="who"><b>${esc(x.name)}${isNext?'<span class="badge next">Prossimo</span>':""}</b>
-      <div class="win">${x.classWinners?.length?x.classWinners.map(c=>`<span class="cw"><b>${esc(c.cls)}:</b> ${esc(c.winner)}${c.team?" · "+esc(c.team):""}</span>`).join(""):x.winner?`<i>🏆</i> ${esc(x.winner)}${x.team?" · "+esc(x.team):""}`:esc(x.circuit||"")}${x.sprintWinner?`<br>Sprint: ${esc(x.sprintWinner)}`:""}${x.status?`<br><span style="color:#ffb74d">${esc(x.status)}</span>`:""}</div></div>
+      <div class="win">${x.classWinners?.length?x.classWinners.map(c=>`<span class="cw"><b>${esc(c.cls)}:</b> ${esc(c.winner)}${c.team?" · "+esc(c.team):""}</span>`).join(""):x.winner?`<i>${IC.cup}</i> ${esc(x.winner)}${x.team?" · "+esc(x.team):""}`:esc(x.circuit||"")}${x.sprintWinner?`<br>Sprint: ${esc(x.sprintWinner)}`:""}${x.status?`<br><span style="color:#ffb74d">${esc(x.status)}</span>`:""}</div></div>
       <div class="dt"><b>${esc(ds)}</b>${x.sprint?"Sprint":""}</div></div>`;
   }).join("");
   el.innerHTML=h+`</div>`;
@@ -1032,7 +1174,7 @@ function favPanel(){
     const d=k?homeData[k]:null, nw=favNews(d,String(name).split(" ").slice(-1)[0]);
     cards.push(`<div class="fcard" data-k="${k||""}" data-v="drivers" style="--c:${row?teamColor(row.team):"var(--gold)"}">${starBtn("d",name)}
       <div class="k">${k?esc(serName(k))+" · ":""}Pilota</div><h5>${esc(name)}</h5>
-      ${row?`<div class="big"><b>${esc(row.pos)}°</b><span>${esc(row.points)} punti · ${esc(row.team)}${row.champion?" · 🏆 Campione":""}</span></div>`:`<div class="ln">Non trovato nelle classifiche attuali.</div>`}
+      ${row?`<div class="big"><b>${esc(row.pos)}°</b><span>${esc(row.points)} punti · ${esc(row.team)}${row.champion?" · "+IC.cup+" Campione":""}</span></div>`:`<div class="ln">Non trovato nelle classifiche attuali.</div>`}
       ${d?nextLine(k,d):""}${nw?`<div class="ln"><i>Ultima notizia:</i> ${esc(nw.title)}</div>`:""}</div>`);
   }
   for(const team of FAV.t){
@@ -1053,7 +1195,7 @@ function favPanel(){
     cards.push(`<div class="fcard" data-k="${k}" data-v="sched" style="--c:${SER[k].color}">${starBtn("s",k)}
       <div class="k">Campionato</div><h5>${esc(serName(k))} <span style="font-weight:600;color:var(--muted);font-size:13px">${esc(SER[k].logo==="SBK"?"":SER[k].name)}</span></h5>
       ${nextLine(k,d)||`<div class="ln">Prossimo appuntamento non ancora annunciato.</div>`}
-      ${lead?`<div class="ln"><i>In testa:</i> ${esc(lead.name)} · ${esc(lead.points)} punti${lead.champion?" 🏆":""}</div>`:""}</div>`);
+      ${lead?`<div class="ln"><i>In testa:</i> ${esc(lead.name)} · ${esc(lead.points)} punti${lead.champion?" "+IC.cup:""}</div>`:""}</div>`);
   }
   if(!cards.length) return `<div class="favs"><div class="favhint"><b>★ I miei preferiti</b> — tocca la stellina ☆ accanto a un pilota o a una squadra nella <b style="color:inherit">Classifica</b>, oppure accanto a un campionato qui sotto: li ritroverai sempre in questo riquadro.</div></div>`;
   return `<div class="favs"><div class="hsec">★ I miei preferiti <small>tocca una scheda per i dettagli</small></div><div class="fgrid">${cards.join("")}</div></div>`;
@@ -1092,7 +1234,7 @@ function renderHome(){
       if(x.s.tv8) pay=pay.split(/\s*[·,]\s*/).filter(t=>t&&!t.toLowerCase().includes(String(x.ch).toLowerCase())).join(" · ");
       const chans=[pay?esc(pay):"",tv].filter(Boolean).join(" · ");
       h+=`<div class="sess hsess${x.s.key?" key":""}" data-k="${x.k}"><div class="t">${esc(hm(x.s.start))}</div>
-        <div class="n"><b><span class="stag" style="background:${c.color}">${isFavS(x.k)?"★ ":""}${esc(c.logo)}</span>${esc(x.s.name)}${live?'<span class="badge live">In corso</span>':""}</b><small>${esc(x.gp||"")}</small>${chans?`<span class="tvl">📺 ${chans}</span>`:""}</div></div>`;
+        <div class="n"><b><span class="stag" style="background:${c.color}">${isFavS(x.k)?"★ ":""}${esc(c.logo)}</span>${esc(x.s.name)}${live?'<span class="badge live">In corso</span>':""}</b><small>${esc(x.gp||"")}</small>${chans?`<span class="tvl">${IC.tv} ${chans}</span>`:""}</div></div>`;
     });
     h+=`</div>`;
   }
