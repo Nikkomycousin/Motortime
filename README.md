@@ -48,6 +48,6 @@ Gli orari sono sempre in UTC nei file; l'app li mostra in ora italiana.
 - **Meteo**: previsioni Open-Meteo per ogni sessione dei prossimi 15 giorni.
 - **Tema chiaro/scuro**: segue il dispositivo finché l'utente non sceglie (`mt:theme`).
 
-I dati vengono aggiornati automaticamente da Claude.
+I dati vengono aggiornati automaticamente più volte al giorno.
 
 Motortime è un sito indipendente, non affiliato a Formula 1, FIA, MotoGP, Dorna, WorldSBK o ai team citati.
