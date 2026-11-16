@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-16-pirelli-strategia-las-vegas",
+      "title": "Pirelli porta C3, C4 e C5 a Las Vegas ma non sa quale strategia pagherà",
+      "summary": "Per la notte della Strip Pirelli ha scelto le tre mescole più morbide. Con l'asfalto freddo e il rischio graining il fornitore ammette che la tattica migliore resta un'incognita fino alle libere.",
+      "tag": "Gare",
+      "source": "Motorsport.com",
+      "url": "https://www.motorsport.com/f1/news/pirelli-doesnt-know-what-the-best-f1-strategy-is-for-las-vegas-gp/10778949/",
+      "published": "2026-11-16T15:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-16-camara-haas-las-vegas",
       "title": "Câmara confermato alla Haas per Las Vegas, Hirakawa userà la vettura nelle libere 1",
       "summary": "La Haas tiene il leader della F2 Rafael Câmara accanto a Bearman anche nel GP di Las Vegas, dopo l'esordio di Interlagos. Ryo Hirakawa salirà in macchina nella prima sessione di prove libere.",
@@ -1103,7 +1113,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-16T13:55:00Z",
+    "updated": "2026-11-16T18:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
