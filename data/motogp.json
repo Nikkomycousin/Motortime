@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-17-martin-portimao-meglio",
+      "title": "Martín ci crede: «Sto decisamente meglio», Portimão ultima chance per riaprire il Mondiale",
+      "summary": "Dopo il Qatar corso con il polso dolorante, Martín dice di aver recuperato molto in vista del Portogallo. Con 60 punti da recuperare su Márquez, a Portimão deve guadagnare terreno per tenere vivo il titolo fino a Valencia.",
+      "tag": "Mondiale",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/17/motogp/portimao-lultima-speranza-di-martin-sto-decisamente-meglio.html",
+      "published": "2026-11-17T12:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-16-bagnaia-out-portimao-lecuona",
       "title": "Bagnaia salta Portimão: al fianco di Márquez ci sarà Lecuona",
       "summary": "Ducati ha deciso di non far correre Bagnaia in Portogallo dopo l'operazione al piede destro fratturato in Qatar. Sulla Desmosedici ufficiale lo sostituirà Iker Lecuona nel weekend in cui Márquez può chiudere il mondiale.",
@@ -172,7 +182,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T10:48:00Z",
+    "updated": "2026-11-17T13:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",
