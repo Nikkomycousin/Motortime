@@ -9,7 +9,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
-<link rel="icon" href="icon-192.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-192.png" sizes="192x192">
 <title>Motortime</title>
 <script>(function(){var v2=true,q=location.search;try{if(/[?&]classico/.test(q))localStorage.setItem("mt:v2","0");if(/[?&](anteprima|nuovo)/.test(q))localStorage.removeItem("mt:v2");v2=localStorage.getItem("mt:v2")!=="0"}catch(e){}
 var l=document.createElement("link");l.rel="stylesheet";
@@ -588,12 +589,18 @@ document.head.appendChild(l)})()</script>
   @media (max-width:1023px){html.v3 .tabs button.on:before{background:var(--text)}}
   @media (min-width:1024px){html.v3 .tabs button{font-size:15px;padding:11px 14px;gap:12px}html.v3 .tabs button svg{width:22px;height:22px}}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  /* logo Tricolore */
+  .logo.mtl,html.v2 .logo.mtl{display:inline-flex;align-items:center;font-size:0;color:var(--text)}
+  .logo.mtl:before,html.v2 .logo.mtl:before{display:none!important}
+  .mtlogo{height:14.5px;width:auto;display:block;overflow:visible;flex:none}
+  :root[data-theme=light] .mtlogo{--logo-w:#cfcac1}
+  @media (max-width:380px){.mtlogo{height:12px}}@media (min-width:1024px){.mtlogo{height:20px}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="serie"><span class="logo">Motor<b>time</b><small>Italia</small></span></div>
+    <div class="serie"><span class="logo mtl"><svg class="mtlogo" viewBox="-4 -2 1052 104" role="img" aria-label="Motortime" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="mtc" clipPathUnits="userSpaceOnUse"><rect x="-50" y="0" width="400" height="100"/></clipPath></defs><g transform="skewX(-12) translate(22,0)"><rect width="14" height="100" fill="#00a651"/><rect x="22" width="14" height="100" fill="var(--logo-w,#f3f1ec)"/><rect x="44" width="14" height="100" fill="#e8002d"/><g transform="translate(82,0)"><path clip-path="url(#mtc)" d="M11,100 V11 L56,62 L101,11 V100" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(210,0)"><path clip-path="url(#mtc)" d="M50,11 H70 Q89,11 89,30 V70 Q89,89 70,89 H30 Q11,89 11,70 V30 Q11,11 30,11 Z" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(326,0)"><path clip-path="url(#mtc)" d="M0,11 H92 M46,11 V100" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(434,0)"><path clip-path="url(#mtc)" d="M50,11 H70 Q89,11 89,30 V70 Q89,89 70,89 H30 Q11,89 11,70 V30 Q11,11 30,11 Z" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(550,0)"><path clip-path="url(#mtc)" d="M11,100 V11 H64 Q85,11 85,32 V38 Q85,51 64,51 H11 M52,51 L87,100" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(662,0)"><path clip-path="url(#mtc)" d="M0,11 H92 M46,11 V100" fill="none" stroke="#e8002d" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(770,0)"><path clip-path="url(#mtc)" d="M11,0 V100" fill="none" stroke="#e8002d" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(808,0)"><path clip-path="url(#mtc)" d="M11,100 V11 L56,62 L101,11 V100" fill="none" stroke="#e8002d" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g><g transform="translate(936,0)"><path clip-path="url(#mtc)" d="M86,11 H11 V89 H86 M11,50 H68" fill="none" stroke="#e8002d" stroke-width="22" stroke-linejoin="miter" stroke-miterlimit="10"/></g></g></svg></span></div>
     <div class="hright">
       <div class="stamp" id="stamp"></div>
       <button class="refresh" id="themeBtn" aria-label="Passa al tema chiaro" title="Tema chiaro / scuro"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
