@@ -1,573 +1,573 @@
 {
- "news": [
-  {
-   "id": "2026-10-04-porsche-vince-petit-le-mans",
-   "title": "Porsche Penske vince finalmente il Petit Le Mans assoluto",
-   "summary": "Nella finale di stagione a Road Atlanta la Porsche 963 di Porsche Penske Motorsport conquista il primo successo assoluto del marchio al Petit Le Mans, con Laurens Vanthoor a resistere alla BMW nel finale. Per Matt Campbell è una vittoria di prestigio.",
-   "tag": "Porsche",
-   "source": "imsa.com",
-   "url": "https://www.imsa.com/news/2026/10/04/porsche-finally-takes-motul-petit-le-mans-overall-win/",
-   "published": "2026-10-04T12:00:00Z",
-   "top": true
+  "news": [
+    {
+      "id": "2026-10-04-porsche-vince-petit-le-mans",
+      "title": "Porsche Penske vince finalmente il Petit Le Mans assoluto",
+      "summary": "Nella finale di stagione a Road Atlanta la Porsche 963 di Porsche Penske Motorsport conquista il primo successo assoluto del marchio al Petit Le Mans, con Laurens Vanthoor a resistere alla BMW nel finale. Per Matt Campbell è una vittoria di prestigio.",
+      "tag": "Porsche",
+      "source": "imsa.com",
+      "url": "https://www.imsa.com/news/2026/10/04/porsche-finally-takes-motul-petit-le-mans-overall-win/",
+      "published": "2026-10-04T12:00:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-10-04-paul-miller-titolo-gtd-pro",
+      "title": "Paul Miller Racing campione GTD Pro dopo una lotta a sei",
+      "summary": "La squadra BMW si aggiudica il titolo GTD Pro 2026 al termine di una sfida a sei per il campionato decisa nell'ultima gara di Road Atlanta. La vittoria di classe è andata invece all'Aston Martin di Car Blanche.",
+      "tag": "Campionato",
+      "source": "racer.com",
+      "url": "https://racer.com/2026/10/04/paul-miller-racing-wins-six-way-imsa-gtd-pro-title-battle-at-petit",
+      "published": "2026-10-04T12:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-10-06-winward-crowdstrike-titoli",
+      "title": "Winward e CrowdStrike by APR chiudono i conti per i titoli GTD e LMP2",
+      "summary": "Al Petit Le Mans la Mercedes di Winward Racing si prende la corona GTD, mentre CrowdStrike by APR conquista il campionato LMP2.",
+      "tag": "Campionato",
+      "source": "dailysportscar.com",
+      "url": "https://www.dailysportscar.com/2026/10/06/winward-crowdstrike-by-apr-secure-titles-in-petit-le-mans.html",
+      "published": "2026-10-06T12:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-10-15-cadillac-tre-gtp-2027",
+      "title": "Cadillac schiererà tre GTP nella stagione IMSA 2027",
+      "summary": "Il costruttore campione in carica conferma un programma a tre vetture nella classe regina per il 2027, annunciando anche i piloti.",
+      "tag": "Team",
+      "source": "imsa.com",
+      "url": "https://www.imsa.com/news/2026/10/15/trio-of-cadillac-racing-gtp-cars-confirmed-for-2027-imsa-season/",
+      "published": "2026-10-15T12:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-09-conquest-franco-2027",
+      "title": "Conquest completa la formazione 2027 con il ritorno di Franco",
+      "summary": "La squadra annuncia il pilota che chiude il suo equipaggio a tempo pieno per la prossima stagione IMSA.",
+      "tag": "Piloti",
+      "source": "racer.com",
+      "url": "https://racer.com/2026/11/09/franco-returns-to-round-out-conquest-s-full-time-2027-imsa-line-up",
+      "published": "2026-11-09T12:00:00Z",
+      "top": false
+    }
+  ],
+  "info": {
+    "updated": "2026-11-17T10:48:00Z",
+    "nextGp": {
+      "name": "24 Ore di Daytona",
+      "circuit": "Daytona International Speedway",
+      "date": "2027-01-29T23:00:00Z",
+      "dateOnly": true,
+      "label": "Gara",
+      "note": "Evento 28-31 gennaio 2027, gara sabato 30-domenica 31; test Roar 22-24 gennaio. Orario di partenza non ancora comunicato."
+    }
   },
-  {
-   "id": "2026-10-04-paul-miller-titolo-gtd-pro",
-   "title": "Paul Miller Racing campione GTD Pro dopo una lotta a sei",
-   "summary": "La squadra BMW si aggiudica il titolo GTD Pro 2026 al termine di una sfida a sei per il campionato decisa nell'ultima gara di Road Atlanta. La vittoria di classe è andata invece all'Aston Martin di Car Blanche.",
-   "tag": "Campionato",
-   "source": "racer.com",
-   "url": "https://racer.com/2026/10/04/paul-miller-racing-wins-six-way-imsa-gtd-pro-title-battle-at-petit",
-   "published": "2026-10-04T12:00:00Z",
-   "top": false
+  "weekend": {
+    "gp": "24 Ore di Daytona",
+    "circuit": "Daytona International Speedway, Daytona Beach (Florida)",
+    "lat": 29.19,
+    "lon": -81.07,
+    "updated": "2026-11-15T15:40:00Z",
+    "freeChannel": "Dove vederla",
+    "tv8note": "Nessuna diretta in chiaro sulla TV italiana: fuori dagli Stati Uniti l'IMSA trasmette le gare in streaming gratuito sul proprio canale YouTube ufficiale e su IMSA.tv; eventuali coperture su canali satellitari vanno verificate più vicino alla gara.",
+    "sessions": []
   },
-  {
-   "id": "2026-10-06-winward-crowdstrike-titoli",
-   "title": "Winward e CrowdStrike by APR chiudono i conti per i titoli GTD e LMP2",
-   "summary": "Al Petit Le Mans la Mercedes di Winward Racing si prende la corona GTD, mentre CrowdStrike by APR conquista il campionato LMP2.",
-   "tag": "Campionato",
-   "source": "dailysportscar.com",
-   "url": "https://www.dailysportscar.com/2026/10/06/winward-crowdstrike-by-apr-secure-titles-in-petit-le-mans.html",
-   "published": "2026-10-06T12:00:00Z",
-   "top": false
-  },
-  {
-   "id": "2026-10-15-cadillac-tre-gtp-2027",
-   "title": "Cadillac schiererà tre GTP nella stagione IMSA 2027",
-   "summary": "Il costruttore campione in carica conferma un programma a tre vetture nella classe regina per il 2027, annunciando anche i piloti.",
-   "tag": "Team",
-   "source": "imsa.com",
-   "url": "https://www.imsa.com/news/2026/10/15/trio-of-cadillac-racing-gtp-cars-confirmed-for-2027-imsa-season/",
-   "published": "2026-10-15T12:00:00Z",
-   "top": false
-  },
-  {
-   "id": "2026-11-09-conquest-franco-2027",
-   "title": "Conquest completa la formazione 2027 con il ritorno di Franco",
-   "summary": "La squadra annuncia il pilota che chiude il suo equipaggio a tempo pieno per la prossima stagione IMSA.",
-   "tag": "Piloti",
-   "source": "racer.com",
-   "url": "https://racer.com/2026/11/09/franco-returns-to-round-out-conquest-s-full-time-2027-imsa-line-up",
-   "published": "2026-11-09T12:00:00Z",
-   "top": false
-  }
- ],
- "info": {
-  "updated": "2026-11-15T15:45:00Z",
-  "nextGp": {
-   "name": "24 Ore di Daytona",
-   "circuit": "Daytona International Speedway",
-   "date": "2027-01-29T23:00:00Z",
-   "dateOnly": true,
-   "label": "Gara",
-   "note": "Evento 28-31 gennaio 2027, gara sabato 30-domenica 31; test Roar 22-24 gennaio. Orario di partenza non ancora comunicato."
-  }
- },
- "weekend": {
-  "gp": "24 Ore di Daytona",
-  "circuit": "Daytona International Speedway, Daytona Beach (Florida)",
-  "lat": 29.19,
-  "lon": -81.07,
-  "updated": "2026-11-15T15:40:00Z",
-  "freeChannel": "Dove vederla",
-  "tv8note": "Nessuna diretta in chiaro sulla TV italiana: fuori dagli Stati Uniti l'IMSA trasmette le gare in streaming gratuito sul proprio canale YouTube ufficiale e su IMSA.tv; eventuali coperture su canali satellitari vanno verificate più vicino alla gara.",
-  "sessions": []
- },
- "results": {
-  "gp": "Petit Le Mans",
-  "round": 11,
-  "updated": "2026-11-15T15:40:00Z",
-  "summary": "La finale 2026 a Road Atlanta, segnata da un numero record di neutralizzazioni, ha regalato a Porsche Penske Motorsport il primo successo assoluto della Porsche al Petit Le Mans: Laurens Vanthoor ha respinto l'attacco della BMW nel finale e Matt Campbell ha festeggiato una vittoria speciale. La pole era andata a Tom Blomqvist con l'Acura di Meyer Shank, in prima fila con entrambe le vetture nell'ultima gara GTP del marchio. In GTD Pro ha vinto l'Aston Martin di Car Blanche, mentre i titoli sono andati a Cadillac (GTP), Paul Miller Racing (GTD Pro), CrowdStrike by APR (LMP2) e Winward Racing (GTD).",
-  "tabs": [
-   {
-    "label": "Gara",
-    "cls": "GTP",
-    "kind": "race",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Vanthoor · Campbell",
-      "team": "Porsche 963 (Porsche Penske Motorsport)",
-      "gap": "10 ore",
-      "note": "Equipaggio completo e numero di gara non verificati"
-     }
-    ]
-   },
-   {
-    "label": "Gara",
-    "cls": "GTD Pro",
-    "kind": "race",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "—",
-      "team": "Aston Martin #68 (Car Blanche)",
-      "gap": "10 ore",
-      "note": "Equipaggio non verificato"
-     }
-    ]
-   },
-   {
-    "label": "Qualifiche",
-    "cls": "GTP",
-    "kind": "quali",
-    "rows": [
-     {
-      "pos": "1",
-      "name": "Blomqvist",
-      "team": "Acura #60 (Meyer Shank Racing)",
-      "time": ""
-     },
-     {
-      "pos": "2",
-      "name": "Yelloly · van der Zande",
-      "team": "Acura #93 (Meyer Shank Racing)",
-      "time": "",
-      "note": "Prima fila tutta Acura"
-     }
-    ]
-   }
-  ]
- },
- "videos": [],
- "standings": {
-  "updated": "2026-11-15T15:40:00Z",
-  "after": "prima della finale (dopo Indianapolis, round 10) · i campioni 2026 sono già segnati, i punti finali non sono ancora disponibili",
-  "classes": [
-   {
-    "cls": "GTP",
-    "drivers": [
-     {
-      "pos": 1,
-      "name": "Jack Aitken",
-      "team": "Cadillac Whelen",
-      "points": 2752,
-      "champion": true
-     },
-     {
-      "pos": 2,
-      "name": "Laurin Heinrich",
-      "team": "Porsche",
-      "points": 2605
-     },
-     {
-      "pos": 3,
-      "name": "Nick Yelloly / Renger van der Zande",
-      "team": "Acura Meyer Shank Racing",
-      "points": 2481
-     },
-     {
-      "pos": 4,
-      "name": "Earl Bamber",
-      "team": "Cadillac Whelen",
-      "points": 2404
-     },
-     {
-      "pos": 5,
-      "name": "Julien Andlauer / Felipe Nasr",
-      "team": "Porsche Penske Motorsport",
-      "points": 2384
-     },
-     {
-      "pos": 6,
-      "name": "Kévin Estre",
-      "team": "Porsche Penske Motorsport",
-      "points": 2333
-     },
-     {
-      "pos": 7,
-      "name": "Sheldon van der Linde / Dries Vanthoor",
-      "team": "BMW M Team WRT",
-      "points": 2300
-     },
-     {
-      "pos": 8,
-      "name": "Tijmen van der Helm",
-      "team": "JDC-Miller MotorSports",
-      "points": 2285
-     },
-     {
-      "pos": 9,
-      "name": "Louis Delétraz / Jordan Taylor",
-      "team": "Wayne Taylor Racing",
-      "points": 2231
-     },
-     {
-      "pos": 10,
-      "name": "Tom Blomqvist / Colin Braun",
-      "team": "Acura Meyer Shank Racing",
-      "points": 2180
-     }
-    ],
-    "constructors": [
-     {
-      "pos": 1,
-      "team": "#31 Cadillac Whelen",
-      "points": 2752
-     },
-     {
-      "pos": 2,
-      "team": "#93 Acura Meyer Shank Racing with Curb-Agajanian",
-      "points": 2481
-     },
-     {
-      "pos": 3,
-      "team": "#7 Porsche Penske Motorsport",
-      "points": 2384
-     },
-     {
-      "pos": 4,
-      "team": "#6 Porsche Penske Motorsport",
-      "points": 2333
-     },
-     {
-      "pos": 5,
-      "team": "#24 BMW M Team WRT",
-      "points": 2300
-     }
-    ]
-   },
-   {
-    "cls": "LMP2",
-    "drivers": [
-     {
-      "pos": 1,
-      "name": "Jeremy Clarke / Tom Dillmann",
-      "team": "Inter Europol Competition",
-      "points": 1950
-     },
-     {
-      "pos": 2,
-      "name": "George Kurtz / Alex Quinn",
-      "team": "CrowdStrike Racing by APR",
-      "points": 1946,
-      "champion": true
-     },
-     {
-      "pos": 3,
-      "name": "Dan Goldburg",
-      "team": "United Autosports USA",
-      "points": 1849
-     },
-     {
-      "pos": 4,
-      "name": "Dane Cameron / P.J. Hyett",
-      "team": "AO Racing",
-      "points": 1842
-     },
-     {
-      "pos": 5,
-      "name": "Misha Goikhberg",
-      "team": "Bryan Herta Autosport with PR1/Mathiasen",
-      "points": 1761
-     },
-     {
-      "pos": 6,
-      "name": "John Farano",
-      "points": 1667
-     },
-     {
-      "pos": 7,
-      "name": "Phil Fayer / Mikkel Jensen",
-      "team": "United Autosports USA",
-      "points": 1591
-     },
-     {
-      "pos": 8,
-      "name": "Paul di Resta",
-      "points": 1559
-     },
-     {
-      "pos": 9,
-      "name": "Tobias Lütke",
-      "points": 1550
-     },
-     {
-      "pos": 10,
-      "name": "Chris Cumming / Pietro Fittipaldi",
-      "points": 1500
-     }
-    ],
-    "constructors": [
-     {
-      "pos": 1,
-      "team": "#43 Inter Europol Competition",
-      "points": 1950
-     },
-     {
-      "pos": 2,
-      "team": "#04 CrowdStrike Racing by APR",
-      "points": 1946,
-      "champion": true
-     },
-     {
-      "pos": 3,
-      "team": "#22 United Autosports USA",
-      "points": 1849
-     },
-     {
-      "pos": 4,
-      "team": "#99 AO Racing",
-      "points": 1842
-     },
-     {
-      "pos": 5,
-      "team": "#52 Bryan Herta Autosport with PR1/Mathiasen",
-      "points": 1761
-     }
-    ]
-   },
-   {
-    "cls": "GTD Pro",
-    "drivers": [
-     {
-      "pos": 1,
-      "name": "Nicky Catsburg / Tommy Milner",
-      "team": "Corvette Racing by Pratt Miller Motorsports",
-      "points": 2729
-     },
-     {
-      "pos": 2,
-      "name": "Connor De Phillippi / Neil Verhagen",
-      "team": "Paul Miller Racing",
-      "points": 2682,
-      "champion": true
-     },
-     {
-      "pos": 3,
-      "name": "Andrea Caldarelli / Sandy Mitchell",
-      "team": "Pfaff Motorsports",
-      "points": 2676
-     },
-     {
-      "pos": 4,
-      "name": "Christopher Mies / Frédéric Vervisch",
-      "team": "Ford Racing",
-      "points": 2605
-     },
-     {
-      "pos": 5,
-      "name": "Ben Barker / Dennis Olsen",
-      "team": "Ford Racing",
-      "points": 2580
-     },
-     {
-      "pos": 6,
-      "name": "Harry King / Nick Tandy",
-      "points": 2575
-     },
-     {
-      "pos": 7,
-      "name": "Ben Barnicoat / Jack Hawksworth",
-      "team": "Vasser Sullivan Racing",
-      "points": 2550
-     },
-     {
-      "pos": 8,
-      "name": "Antonio García / Alexander Sims",
-      "team": "Corvette Racing by Pratt Miller Motorsports",
-      "points": 2518
-     },
-     {
-      "pos": 9,
-      "name": "Max Esterson / Nikita Johnson",
-      "points": 2200
-     },
-     {
-      "pos": 10,
-      "name": "Klaus Bachler",
-      "team": "Manthey Racing",
-      "points": 1114
-     }
-    ],
-    "constructors": [
-     {
-      "pos": 1,
-      "team": "#4 Corvette Racing by Pratt Miller Motorsports",
-      "points": 2729
-     },
-     {
-      "pos": 2,
-      "team": "#1 Paul Miller Racing",
-      "points": 2682,
-      "champion": true
-     },
-     {
-      "pos": 3,
-      "team": "#9 Pfaff Motorsports",
-      "points": 2676
-     },
-     {
-      "pos": 4,
-      "team": "#65 Ford Racing",
-      "points": 2605
-     },
-     {
-      "pos": 5,
-      "team": "#64 Ford Racing",
-      "points": 2580
-     }
-    ]
-   },
-   {
-    "cls": "GTD",
-    "drivers": [
-     {
-      "pos": 1,
-      "name": "Philip Ellis / Russell Ward",
-      "team": "Winward Racing",
-      "points": 2373,
-      "champion": true
-     },
-     {
-      "pos": 2,
-      "name": "Robby Foley / Patrick Gallagher",
-      "team": "Turner Motorsport",
-      "points": 2337
-     },
-     {
-      "pos": 3,
-      "name": "Eduardo Barrichello",
-      "points": 2317
-     },
-     {
-      "pos": 4,
-      "name": "Benjamin Pedersen / Aaron Telitz",
-      "team": "Vasser Sullivan Racing",
-      "points": 2217
-     },
-     {
-      "pos": 5,
-      "name": "Albert Costa",
-      "points": 1959
-     },
-     {
-      "pos": 6,
-      "name": "Brendan Iribe",
-      "points": 1943
-     },
-     {
-      "pos": 7,
-      "name": "Matt Bell / Orey Fidani",
-      "points": 1888
-     },
-     {
-      "pos": 8,
-      "name": "Adam Adelson / Callum Ilott",
-      "points": 1877
-     },
-     {
-      "pos": 9,
-      "name": "Danny Formal / Trent Hindman",
-      "team": "Wayne Taylor Racing",
-      "points": 1862
-     },
-     {
-      "pos": 10,
-      "name": "Frederik Schandorff",
-      "points": 1813
-     }
-    ],
-    "constructors": [
-     {
-      "pos": 1,
-      "team": "#57 Winward Racing",
-      "points": 2693,
-      "champion": true
-     },
-     {
-      "pos": 2,
-      "team": "#96 Turner Motorsport",
-      "points": 2687
-     },
-     {
-      "pos": 3,
-      "team": "#27 Heart of Racing Team",
-      "points": 2577
-     },
-     {
-      "pos": 4,
-      "team": "#12 Vasser Sullivan Racing",
-      "points": 2447
-     },
-     {
-      "pos": 5,
-      "team": "#13 13 Autosport",
-      "points": 2188
-     }
-    ]
-   }
-  ]
- },
- "calendar": {
-  "season": "2027",
-  "updated": "2026-11-15T15:40:00Z",
-  "rounds": [
-   {
-    "round": 1,
-    "name": "24 Ore di Daytona",
-    "circuit": "Daytona International Speedway",
-    "date": "2027-01-30"
-   },
-   {
-    "round": 2,
-    "name": "12 Ore di Sebring",
-    "circuit": "Sebring International Raceway",
-    "date": "2027-03-20"
-   },
-   {
-    "round": 3,
-    "name": "Gran Premio di Long Beach",
-    "circuit": "Long Beach (cittadino)",
-    "date": "2027-04-17"
-   },
-   {
-    "round": 4,
-    "name": "Monterey (Laguna Seca)",
-    "circuit": "WeatherTech Raceway Laguna Seca",
-    "date": "2027-05-02"
-   },
-   {
-    "round": 5,
-    "name": "Gran Premio di Detroit",
-    "circuit": "Detroit (cittadino)",
-    "date": "2027-06-05"
-   },
-   {
-    "round": 6,
-    "name": "6 Ore di Watkins Glen",
-    "circuit": "Watkins Glen International",
-    "date": "2027-06-27"
-   },
-   {
-    "round": 7,
-    "name": "Canadian Tire Motorsport Park",
-    "circuit": "Canadian Tire Motorsport Park",
-    "date": "2027-07-11"
-   },
-   {
-    "round": 8,
-    "name": "6 Ore di Road America",
-    "circuit": "Road America",
-    "date": "2027-08-01"
-   },
-   {
-    "round": 9,
-    "name": "GT Challenge al VIR",
-    "circuit": "Virginia International Raceway",
-    "date": "2027-08-22"
-   },
-   {
-    "round": 10,
-    "name": "Battle on the Bricks",
-    "circuit": "Indianapolis Motor Speedway",
-    "date": "2027-09-19"
-   },
-   {
+  "results": {
+    "gp": "Petit Le Mans",
     "round": 11,
-    "name": "Petit Le Mans",
-    "circuit": "Michelin Raceway Road Atlanta",
-    "date": "2027-10-09"
-   }
-  ]
- }
+    "updated": "2026-11-15T15:40:00Z",
+    "summary": "La finale 2026 a Road Atlanta, segnata da un numero record di neutralizzazioni, ha regalato a Porsche Penske Motorsport il primo successo assoluto della Porsche al Petit Le Mans: Laurens Vanthoor ha respinto l'attacco della BMW nel finale e Matt Campbell ha festeggiato una vittoria speciale. La pole era andata a Tom Blomqvist con l'Acura di Meyer Shank, in prima fila con entrambe le vetture nell'ultima gara GTP del marchio. In GTD Pro ha vinto l'Aston Martin di Car Blanche, mentre i titoli sono andati a Cadillac (GTP), Paul Miller Racing (GTD Pro), CrowdStrike by APR (LMP2) e Winward Racing (GTD).",
+    "tabs": [
+      {
+        "label": "Gara",
+        "cls": "GTP",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Vanthoor · Campbell",
+            "team": "Porsche 963 (Porsche Penske Motorsport)",
+            "gap": "10 ore",
+            "note": "Equipaggio completo e numero di gara non verificati"
+          }
+        ]
+      },
+      {
+        "label": "Gara",
+        "cls": "GTD Pro",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "—",
+            "team": "Aston Martin #68 (Car Blanche)",
+            "gap": "10 ore",
+            "note": "Equipaggio non verificato"
+          }
+        ]
+      },
+      {
+        "label": "Qualifiche",
+        "cls": "GTP",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Blomqvist",
+            "team": "Acura #60 (Meyer Shank Racing)",
+            "time": ""
+          },
+          {
+            "pos": "2",
+            "name": "Yelloly · van der Zande",
+            "team": "Acura #93 (Meyer Shank Racing)",
+            "time": "",
+            "note": "Prima fila tutta Acura"
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [],
+  "standings": {
+    "updated": "2026-11-15T15:40:00Z",
+    "after": "prima della finale (dopo Indianapolis, round 10) · i campioni 2026 sono già segnati, i punti finali non sono ancora disponibili",
+    "classes": [
+      {
+        "cls": "GTP",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Jack Aitken",
+            "team": "Cadillac Whelen",
+            "points": 2752,
+            "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Laurin Heinrich",
+            "team": "Porsche",
+            "points": 2605
+          },
+          {
+            "pos": 3,
+            "name": "Nick Yelloly / Renger van der Zande",
+            "team": "Acura Meyer Shank Racing",
+            "points": 2481
+          },
+          {
+            "pos": 4,
+            "name": "Earl Bamber",
+            "team": "Cadillac Whelen",
+            "points": 2404
+          },
+          {
+            "pos": 5,
+            "name": "Julien Andlauer / Felipe Nasr",
+            "team": "Porsche Penske Motorsport",
+            "points": 2384
+          },
+          {
+            "pos": 6,
+            "name": "Kévin Estre",
+            "team": "Porsche Penske Motorsport",
+            "points": 2333
+          },
+          {
+            "pos": 7,
+            "name": "Sheldon van der Linde / Dries Vanthoor",
+            "team": "BMW M Team WRT",
+            "points": 2300
+          },
+          {
+            "pos": 8,
+            "name": "Tijmen van der Helm",
+            "team": "JDC-Miller MotorSports",
+            "points": 2285
+          },
+          {
+            "pos": 9,
+            "name": "Louis Delétraz / Jordan Taylor",
+            "team": "Wayne Taylor Racing",
+            "points": 2231
+          },
+          {
+            "pos": 10,
+            "name": "Tom Blomqvist / Colin Braun",
+            "team": "Acura Meyer Shank Racing",
+            "points": 2180
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "#31 Cadillac Whelen",
+            "points": 2752
+          },
+          {
+            "pos": 2,
+            "team": "#93 Acura Meyer Shank Racing with Curb-Agajanian",
+            "points": 2481
+          },
+          {
+            "pos": 3,
+            "team": "#7 Porsche Penske Motorsport",
+            "points": 2384
+          },
+          {
+            "pos": 4,
+            "team": "#6 Porsche Penske Motorsport",
+            "points": 2333
+          },
+          {
+            "pos": 5,
+            "team": "#24 BMW M Team WRT",
+            "points": 2300
+          }
+        ]
+      },
+      {
+        "cls": "LMP2",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Jeremy Clarke / Tom Dillmann",
+            "team": "Inter Europol Competition",
+            "points": 1950
+          },
+          {
+            "pos": 2,
+            "name": "George Kurtz / Alex Quinn",
+            "team": "CrowdStrike Racing by APR",
+            "points": 1946,
+            "champion": true
+          },
+          {
+            "pos": 3,
+            "name": "Dan Goldburg",
+            "team": "United Autosports USA",
+            "points": 1849
+          },
+          {
+            "pos": 4,
+            "name": "Dane Cameron / P.J. Hyett",
+            "team": "AO Racing",
+            "points": 1842
+          },
+          {
+            "pos": 5,
+            "name": "Misha Goikhberg",
+            "team": "Bryan Herta Autosport with PR1/Mathiasen",
+            "points": 1761
+          },
+          {
+            "pos": 6,
+            "name": "John Farano",
+            "points": 1667
+          },
+          {
+            "pos": 7,
+            "name": "Phil Fayer / Mikkel Jensen",
+            "team": "United Autosports USA",
+            "points": 1591
+          },
+          {
+            "pos": 8,
+            "name": "Paul di Resta",
+            "points": 1559
+          },
+          {
+            "pos": 9,
+            "name": "Tobias Lütke",
+            "points": 1550
+          },
+          {
+            "pos": 10,
+            "name": "Chris Cumming / Pietro Fittipaldi",
+            "points": 1500
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "#43 Inter Europol Competition",
+            "points": 1950
+          },
+          {
+            "pos": 2,
+            "team": "#04 CrowdStrike Racing by APR",
+            "points": 1946,
+            "champion": true
+          },
+          {
+            "pos": 3,
+            "team": "#22 United Autosports USA",
+            "points": 1849
+          },
+          {
+            "pos": 4,
+            "team": "#99 AO Racing",
+            "points": 1842
+          },
+          {
+            "pos": 5,
+            "team": "#52 Bryan Herta Autosport with PR1/Mathiasen",
+            "points": 1761
+          }
+        ]
+      },
+      {
+        "cls": "GTD Pro",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Nicky Catsburg / Tommy Milner",
+            "team": "Corvette Racing by Pratt Miller Motorsports",
+            "points": 2729
+          },
+          {
+            "pos": 2,
+            "name": "Connor De Phillippi / Neil Verhagen",
+            "team": "Paul Miller Racing",
+            "points": 2682,
+            "champion": true
+          },
+          {
+            "pos": 3,
+            "name": "Andrea Caldarelli / Sandy Mitchell",
+            "team": "Pfaff Motorsports",
+            "points": 2676
+          },
+          {
+            "pos": 4,
+            "name": "Christopher Mies / Frédéric Vervisch",
+            "team": "Ford Racing",
+            "points": 2605
+          },
+          {
+            "pos": 5,
+            "name": "Ben Barker / Dennis Olsen",
+            "team": "Ford Racing",
+            "points": 2580
+          },
+          {
+            "pos": 6,
+            "name": "Harry King / Nick Tandy",
+            "points": 2575
+          },
+          {
+            "pos": 7,
+            "name": "Ben Barnicoat / Jack Hawksworth",
+            "team": "Vasser Sullivan Racing",
+            "points": 2550
+          },
+          {
+            "pos": 8,
+            "name": "Antonio García / Alexander Sims",
+            "team": "Corvette Racing by Pratt Miller Motorsports",
+            "points": 2518
+          },
+          {
+            "pos": 9,
+            "name": "Max Esterson / Nikita Johnson",
+            "points": 2200
+          },
+          {
+            "pos": 10,
+            "name": "Klaus Bachler",
+            "team": "Manthey Racing",
+            "points": 1114
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "#4 Corvette Racing by Pratt Miller Motorsports",
+            "points": 2729
+          },
+          {
+            "pos": 2,
+            "team": "#1 Paul Miller Racing",
+            "points": 2682,
+            "champion": true
+          },
+          {
+            "pos": 3,
+            "team": "#9 Pfaff Motorsports",
+            "points": 2676
+          },
+          {
+            "pos": 4,
+            "team": "#65 Ford Racing",
+            "points": 2605
+          },
+          {
+            "pos": 5,
+            "team": "#64 Ford Racing",
+            "points": 2580
+          }
+        ]
+      },
+      {
+        "cls": "GTD",
+        "drivers": [
+          {
+            "pos": 1,
+            "name": "Philip Ellis / Russell Ward",
+            "team": "Winward Racing",
+            "points": 2373,
+            "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Robby Foley / Patrick Gallagher",
+            "team": "Turner Motorsport",
+            "points": 2337
+          },
+          {
+            "pos": 3,
+            "name": "Eduardo Barrichello",
+            "points": 2317
+          },
+          {
+            "pos": 4,
+            "name": "Benjamin Pedersen / Aaron Telitz",
+            "team": "Vasser Sullivan Racing",
+            "points": 2217
+          },
+          {
+            "pos": 5,
+            "name": "Albert Costa",
+            "points": 1959
+          },
+          {
+            "pos": 6,
+            "name": "Brendan Iribe",
+            "points": 1943
+          },
+          {
+            "pos": 7,
+            "name": "Matt Bell / Orey Fidani",
+            "points": 1888
+          },
+          {
+            "pos": 8,
+            "name": "Adam Adelson / Callum Ilott",
+            "points": 1877
+          },
+          {
+            "pos": 9,
+            "name": "Danny Formal / Trent Hindman",
+            "team": "Wayne Taylor Racing",
+            "points": 1862
+          },
+          {
+            "pos": 10,
+            "name": "Frederik Schandorff",
+            "points": 1813
+          }
+        ],
+        "constructors": [
+          {
+            "pos": 1,
+            "team": "#57 Winward Racing",
+            "points": 2693,
+            "champion": true
+          },
+          {
+            "pos": 2,
+            "team": "#96 Turner Motorsport",
+            "points": 2687
+          },
+          {
+            "pos": 3,
+            "team": "#27 Heart of Racing Team",
+            "points": 2577
+          },
+          {
+            "pos": 4,
+            "team": "#12 Vasser Sullivan Racing",
+            "points": 2447
+          },
+          {
+            "pos": 5,
+            "team": "#13 13 Autosport",
+            "points": 2188
+          }
+        ]
+      }
+    ]
+  },
+  "calendar": {
+    "season": "2027",
+    "updated": "2026-11-15T15:40:00Z",
+    "rounds": [
+      {
+        "round": 1,
+        "name": "24 Ore di Daytona",
+        "circuit": "Daytona International Speedway",
+        "date": "2027-01-30"
+      },
+      {
+        "round": 2,
+        "name": "12 Ore di Sebring",
+        "circuit": "Sebring International Raceway",
+        "date": "2027-03-20"
+      },
+      {
+        "round": 3,
+        "name": "Gran Premio di Long Beach",
+        "circuit": "Long Beach (cittadino)",
+        "date": "2027-04-17"
+      },
+      {
+        "round": 4,
+        "name": "Monterey (Laguna Seca)",
+        "circuit": "WeatherTech Raceway Laguna Seca",
+        "date": "2027-05-02"
+      },
+      {
+        "round": 5,
+        "name": "Gran Premio di Detroit",
+        "circuit": "Detroit (cittadino)",
+        "date": "2027-06-05"
+      },
+      {
+        "round": 6,
+        "name": "6 Ore di Watkins Glen",
+        "circuit": "Watkins Glen International",
+        "date": "2027-06-27"
+      },
+      {
+        "round": 7,
+        "name": "Canadian Tire Motorsport Park",
+        "circuit": "Canadian Tire Motorsport Park",
+        "date": "2027-07-11"
+      },
+      {
+        "round": 8,
+        "name": "6 Ore di Road America",
+        "circuit": "Road America",
+        "date": "2027-08-01"
+      },
+      {
+        "round": 9,
+        "name": "GT Challenge al VIR",
+        "circuit": "Virginia International Raceway",
+        "date": "2027-08-22"
+      },
+      {
+        "round": 10,
+        "name": "Battle on the Bricks",
+        "circuit": "Indianapolis Motor Speedway",
+        "date": "2027-09-19"
+      },
+      {
+        "round": 11,
+        "name": "Petit Le Mans",
+        "circuit": "Michelin Raceway Road Atlanta",
+        "date": "2027-10-09"
+      }
+    ]
+  }
 }
