@@ -52,7 +52,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T15:20:00Z",
+    "updated": "2026-11-17T19:50:00Z",
     "nextGp": {
       "name": "24 Ore di Daytona",
       "circuit": "Daytona International Speedway",
@@ -75,8 +75,8 @@
   "results": {
     "gp": "Petit Le Mans",
     "round": 11,
-    "updated": "2026-11-15T15:40:00Z",
-    "summary": "La finale 2026 a Road Atlanta, segnata da un numero record di neutralizzazioni, ha regalato a Porsche Penske Motorsport il primo successo assoluto della Porsche al Petit Le Mans: Laurens Vanthoor ha respinto l'attacco della BMW nel finale e Matt Campbell ha festeggiato una vittoria speciale. La pole era andata a Tom Blomqvist con l'Acura di Meyer Shank, in prima fila con entrambe le vetture nell'ultima gara GTP del marchio. In GTD Pro ha vinto l'Aston Martin di Car Blanche, mentre i titoli sono andati a Cadillac (GTP), Paul Miller Racing (GTD Pro), CrowdStrike by APR (LMP2) e Winward Racing (GTD).",
+    "updated": "2026-11-17T19:50:00Z",
+    "summary": "La finale 2026 a Road Atlanta, segnata da un numero record di neutralizzazioni, ha regalato alla Porsche il primo successo assoluto al Petit Le Mans: la 963 #6 di Penske con Campbell, Estre e Laurens Vanthoor ha preceduto di appena 1,2 secondi la BMW #24 di WRT, con le Cadillac di Wayne Taylor Racing terza e quarta. La pole era andata a Tom Blomqvist con l'Acura di Meyer Shank. In LMP2 ha vinto la #04 di CrowdStrike by APR, in GTD Pro l'Aston Martin #68 di Car Blanche e in GTD la Mercedes-AMG #57 di Winward Racing. I titoli sono andati a Cadillac Whelen (GTP), Paul Miller Racing (GTD Pro), CrowdStrike by APR (LMP2) e Winward Racing (GTD).",
     "tabs": [
       {
         "label": "Gara",
@@ -85,10 +85,142 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Vanthoor · Campbell",
-            "team": "Porsche 963 (Porsche Penske Motorsport)",
-            "gap": "10 ore",
-            "note": "Equipaggio completo e numero di gara non verificati"
+            "name": "Campbell · Estre · L. Vanthoor",
+            "team": "Porsche #6 (Porsche Penske Motorsport)",
+            "gap": "10 ore · 368 giri"
+          },
+          {
+            "pos": "2",
+            "name": "Frijns · van der Linde · D. Vanthoor",
+            "team": "BMW #24 (BMW M Team WRT)",
+            "gap": "+1.205"
+          },
+          {
+            "pos": "3",
+            "name": "Delétraz · Herta · J. Taylor",
+            "team": "Cadillac #40 (Cadillac Wayne Taylor Racing)",
+            "gap": "+8.630"
+          },
+          {
+            "pos": "4",
+            "name": "Albuquerque · Stevens · R. Taylor",
+            "team": "Cadillac #10 (Cadillac Wayne Taylor Racing)",
+            "gap": "+9.266"
+          },
+          {
+            "pos": "5",
+            "name": "De Angelis · Gunn · Riberas",
+            "team": "Aston Martin #23 (Aston Martin THOR Team)",
+            "gap": "+31.466"
+          },
+          {
+            "pos": "6",
+            "name": "Blomqvist · Braun · Dixon",
+            "team": "Acura #60 (Meyer Shank Racing)",
+            "gap": "+42.082"
+          },
+          {
+            "pos": "7",
+            "name": "Aitken · Bamber · Vesti",
+            "team": "Cadillac #31 (Cadillac Whelen)",
+            "gap": "+12 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Andlauer · Heinrich · Nasr",
+            "team": "Porsche #7 (Porsche Penske Motorsport)",
+            "gap": "308 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Frederick · Müller · van der Helm",
+            "team": "Porsche #5 (JDC-Miller MotorSports)",
+            "gap": "290 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Palou · van der Zande · Yelloly",
+            "team": "Acura #93 (Meyer Shank Racing)",
+            "gap": "257 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Eng · Magnussen · Wittmann",
+            "team": "BMW #25 (BMW M Team WRT)",
+            "gap": "161 giri"
+          }
+        ]
+      },
+      {
+        "label": "Gara",
+        "cls": "LMP2",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Kurtz · Quinn · Sowery",
+            "team": "Oreca #04 (CrowdStrike Racing by APR)",
+            "gap": "10 ore · 362 giri"
+          },
+          {
+            "pos": "2",
+            "name": "Clarke · Dillmann · Garg",
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "3",
+            "name": "Abel · Habsburg · Rao",
+            "team": "Oreca #18 (Era Motorsport)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "4",
+            "name": "Álvarez · Farano · Vautier",
+            "team": "Oreca #8 (Tower Motorsports)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "5",
+            "name": "di Resta · Goldburg · Lindh",
+            "team": "Oreca #22 (United Autosports)",
+            "gap": "+1 giro"
+          },
+          {
+            "pos": "6",
+            "name": "Field · Jarvis · van der Snel",
+            "team": "Oreca #37 (Intersport Racing)",
+            "gap": "+2 giri"
+          },
+          {
+            "pos": "7",
+            "name": "Goikhberg · Thompson · Tincknell",
+            "team": "Oreca #52 (Bryan Herta Autosport with PR1/Mathiasen)",
+            "gap": "+2 giri"
+          },
+          {
+            "pos": "8",
+            "name": "Cameron · Edgar · Hyett",
+            "team": "Oreca #99 (AO Racing)",
+            "gap": "+21 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Cumming · Espírito Santo · Fittipaldi",
+            "team": "Oreca #73 (Pratt Miller Motorsports)",
+            "gap": "362 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Fayer · Jensen · McElrea",
+            "team": "Oreca #2 (United Autosports)",
+            "gap": "359 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Hansson · Lütke · Beche",
+            "team": "Oreca #11 (TDS Racing)",
+            "gap": "153 giri"
           }
         ]
       },
@@ -99,10 +231,202 @@
         "rows": [
           {
             "pos": "1",
-            "name": "—",
+            "name": "Hasse-Clot · Sørensen · Drudi",
             "team": "Aston Martin #68 (Car Blanche)",
-            "gap": "10 ore",
-            "note": "Equipaggio non verificato"
+            "gap": "10 ore · 349 giri"
+          },
+          {
+            "pos": "2",
+            "name": "King · Picariello · Tandy",
+            "team": "Porsche #77 (AO Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "3",
+            "name": "De Phillippi · Harper · Verhagen",
+            "team": "BMW #1 (Paul Miller Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "4",
+            "name": "Caldarelli · Mitchell · Perera",
+            "team": "Lamborghini #9 (Pfaff Motorsports)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "5",
+            "name": "Pier Guidi · Rigon · Serra",
+            "team": "Ferrari #62 (Risi Competizione)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "6",
+            "name": "Altoè · Bourdais · Stevenson",
+            "team": "Corvette #74 (DragonSpeed)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "7",
+            "name": "García · Kirchhöfer · Sims",
+            "team": "Corvette #3 (Corvette Racing by Pratt Miller)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "8",
+            "name": "Barker · Olsen · Rockenfeller",
+            "team": "Ford #64 (Ford Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "9",
+            "name": "Barnicoat · Hawksworth · Kirkwood",
+            "team": "Lexus #14 (Vasser Sullivan Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "10",
+            "name": "Mies · Priaulx · Vervisch",
+            "team": "Ford #65 (Ford Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "11",
+            "name": "Catsburg · Milner · Varrone",
+            "team": "Corvette #4 (Corvette Racing by Pratt Miller)",
+            "gap": "+1 giro"
+          },
+          {
+            "pos": "RIT",
+            "name": "Bachler · Jaminet · Preining",
+            "team": "Porsche #911 (Manthey Racing)",
+            "gap": "349 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Agostini · Calado · Molina",
+            "team": "Ferrari #033 (Triarsi Competizione)",
+            "gap": "251 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Esterson · Johnson · Goethe",
+            "team": "McLaren #59 (RLL Team McLaren)",
+            "gap": "181 giri"
+          }
+        ]
+      },
+      {
+        "label": "Gara",
+        "cls": "GTD",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Dontje · Ellis · Ward",
+            "team": "Mercedes-AMG #57 (Winward Racing)",
+            "gap": "10 ore · 346 giri"
+          },
+          {
+            "pos": "2",
+            "name": "Hardwick · Pera · Schuring",
+            "team": "Porsche #912 (Manthey 1st Phorm)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "3",
+            "name": "Eastwood · Filippi · Yoluç",
+            "team": "Corvette #36 (DXDT Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "4",
+            "name": "Stolz · Hodenius · Roe",
+            "team": "Mercedes-AMG #80 (Lone Star Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "5",
+            "name": "Potter · Pumpelly · Farnbacher",
+            "team": "Aston Martin #44 (Magnus Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "6",
+            "name": "Fuoco · Mann · Wadoux",
+            "team": "Ferrari #21 (AF Corse)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "7",
+            "name": "Adelson · Ilott · Sargent",
+            "team": "Porsche #120 (Wright Motorsports)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "8",
+            "name": "Iribe · Rueda · Schandorff",
+            "team": "Ferrari #70 (Inception Racing)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "9",
+            "name": "Koch · Megennis · Triarsi",
+            "team": "Ferrari #023 (Triarsi Competizione)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "10",
+            "name": "Bell · Fidani · Kern",
+            "team": "Corvette #13 (13 Autosport)",
+            "gap": "stesso giro"
+          },
+          {
+            "pos": "11",
+            "name": "Montecalvo · Pedersen · Telitz",
+            "team": "Lexus #12 (Vasser Sullivan Racing)",
+            "gap": "+7 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Heylen · Vanier · Yardley",
+            "team": "Porsche #28 (RS1)",
+            "gap": "293 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Costa · Udell · Patrese",
+            "team": "Ferrari #34 (Conquest Racing)",
+            "gap": "256 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Altzman · Fraga · Monk",
+            "team": "Ford #16 (Myers Riley Motorsports)",
+            "gap": "159 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Bechtolsheimer · Hand · Walker",
+            "team": "Ford #66 (Gradient Racing)",
+            "gap": "159 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Doyle · Formal · Hindman",
+            "team": "Lamborghini #45 (Wayne Taylor Racing)",
+            "gap": "110 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Barrichello · Gamble · Robichon",
+            "team": "Aston Martin #27 (Heart of Racing Team)",
+            "gap": "37 giri"
+          },
+          {
+            "pos": "RIT",
+            "name": "Foley · Gallagher · Selldorff",
+            "team": "BMW #96 (Turner Motorsport)",
+            "gap": "18 giri"
           }
         ]
       },

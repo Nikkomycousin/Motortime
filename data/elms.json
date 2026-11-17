@@ -32,7 +32,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T15:20:00Z",
+    "updated": "2026-11-17T19:50:00Z",
     "nextGp": {
       "name": "4 Ore di Barcellona",
       "circuit": "Circuit de Barcelona-Catalunya",
@@ -215,8 +215,8 @@
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-15T15:40:00Z",
-    "after": "dopo la 4 Ore di Portimão (finale)",
+    "updated": "2026-11-17T19:50:00Z",
+    "after": "classifica finale 2026, dopo la 4 Ore di Portimão",
     "classes": [
       {
         "cls": "LMP2",
@@ -225,15 +225,166 @@
             "pos": 1,
             "name": "Ben Hanley · Griffin Peebles · Grégoire Saucy",
             "team": "United Autosports #22",
+            "points": 110,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Oliver Gray · Esteban Masson · Louis Rousset",
+            "team": "Forestier Racing by Panis #29",
+            "points": 84
+          },
+          {
+            "pos": 3,
+            "name": "Jamie Chadwick · Laurents Hörr · Valerio Rinicella",
+            "team": "IDEC Sport #18",
+            "points": 70
+          },
+          {
+            "pos": 4,
+            "name": "Jake Hughes · Matthias Kaiser",
+            "team": "Algarve Pro Racing #25",
+            "points": 62
+          },
+          {
+            "pos": 5,
+            "name": "Tom Dillmann · Jakub Śmiechowski",
+            "team": "Inter Europol Competition #43",
+            "points": 59
+          },
+          {
+            "pos": 6,
+            "name": "Reshad de Gerus · Bijoy Garg",
+            "team": "Inter Europol Competition #34",
+            "points": 55
+          },
+          {
+            "pos": 7,
+            "name": "Nick Yelloly",
+            "points": 53
+          },
+          {
+            "pos": 8,
+            "name": "Ryan Cullen · Pietro Fittipaldi · Vladislav Lomko",
+            "team": "Vector Sport #10",
+            "points": 44
+          },
+          {
+            "pos": 9,
+            "name": "Ian Aguilera · Adrien Closmenil · Theodor Jensen",
+            "team": "CLX Motorsport #37",
+            "points": 36
+          },
+          {
+            "pos": 10,
+            "name": "Paul-Loup Chatin · Paul Lafargue · Job van Uitert",
+            "team": "IDEC Sport #28",
+            "points": 35
+          },
+          {
+            "pos": 11,
+            "name": "Roy Nissany · Edward Pearson",
+            "team": "Nielsen Racing #24",
+            "points": 35
+          },
+          {
+            "pos": 12,
+            "name": "Tristan Vautier",
+            "points": 29
+          },
+          {
+            "pos": 13,
+            "name": "Ben Barnicoat",
+            "points": 25
+          },
+          {
+            "pos": 14,
+            "name": "Jack Doohan",
+            "points": 21
+          },
+          {
+            "pos": 15,
+            "name": "Sebastian Priaulx · Jonas Ried · Mike Rockenfeller",
+            "team": "Proton Competition #9",
+            "points": 21
+          },
+          {
+            "pos": 16,
+            "name": "Jack Aitken",
+            "points": 12
+          },
+          {
+            "pos": 17,
+            "name": "Alex Lynn",
+            "points": 8
+          },
+          {
+            "pos": 18,
+            "name": "Luca Ghiotto",
+            "points": 6
+          },
+          {
+            "pos": 19,
+            "name": "Pipo Derani",
+            "points": 2
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "United Autosports #22",
-            "drivers": "Hanley · Peebles · Saucy",
+            "points": 111,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "team": "Forestier Racing by Panis #29",
+            "points": 84
+          },
+          {
+            "pos": 3,
+            "team": "IDEC Sport #18",
+            "points": 70
+          },
+          {
+            "pos": 4,
+            "team": "Algarve Pro Racing #25",
+            "points": 62
+          },
+          {
+            "pos": 5,
+            "team": "Inter Europol Competition #43",
+            "points": 59
+          },
+          {
+            "pos": 6,
+            "team": "Inter Europol Competition #34",
+            "points": 55
+          },
+          {
+            "pos": 7,
+            "team": "Vector Sport #10",
+            "points": 44
+          },
+          {
+            "pos": 8,
+            "team": "CLX Motorsport #37",
+            "points": 36
+          },
+          {
+            "pos": 9,
+            "team": "IDEC Sport #28",
+            "points": 35
+          },
+          {
+            "pos": 10,
+            "team": "Nielsen Racing #24",
+            "points": 35
+          },
+          {
+            "pos": 11,
+            "team": "Proton Competition #9",
+            "points": 21
           }
         ]
       },
@@ -244,15 +395,171 @@
             "pos": 1,
             "name": "Malthe Jakobsen · Michael Jensen · Enzo Trulli",
             "team": "Algarve Pro Racing #20",
+            "points": 86,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Scott Huffaker · Sami Meguetounif · Steven Thomas",
+            "team": "TDS Racing #14",
+            "points": 77
+          },
+          {
+            "pos": 3,
+            "name": "Antonio Fuoco · François Perrodo · Matthieu Vaxivière",
+            "team": "AF Corse #83",
+            "points": 67
+          },
+          {
+            "pos": 4,
+            "name": "Doriane Pin · Giorgio Roda · Richard Verschoor",
+            "team": "Duqueine Team #30",
+            "points": 67
+          },
+          {
+            "pos": 5,
+            "name": "Cem Bölükbaşı · Lorenzo Fluxá · Jens Reno Møller",
+            "team": "Vector Sport #7",
+            "points": 65
+          },
+          {
+            "pos": 6,
+            "name": "Manuel Espírito Santo · John Falb · Rik Koen",
+            "team": "Rossa Racing by Virage #19",
+            "points": 59
+          },
+          {
+            "pos": 7,
+            "name": "Oliver Jarvis · Marino Sato · Daniel Schneider",
+            "team": "United Autosports #21",
+            "points": 46
+          },
+          {
+            "pos": 8,
+            "name": "Dane Cameron · P. J. Hyett",
+            "team": "AO by TF #99",
+            "points": 45
+          },
+          {
+            "pos": 9,
+            "name": "Georgios Kolovos · Charles Milesi · Ferdinand Habsburg",
+            "team": "CLX Motorsport #47",
+            "points": 38
+          },
+          {
+            "pos": 10,
+            "name": "James Allen · Kriton Lendoudis · Alex Quinn",
+            "team": "Nielsen Racing #27",
+            "points": 34
+          },
+          {
+            "pos": 11,
+            "name": "Louis Delétraz",
+            "points": 26
+          },
+          {
+            "pos": 12,
+            "name": "Jean Glorieux · Marlon Hernandez",
+            "points": 22
+          },
+          {
+            "pos": 13,
+            "name": "Jonny Edgar",
+            "points": 19
+          },
+          {
+            "pos": 14,
+            "name": "Tristan Vautier",
+            "points": 11
+          },
+          {
+            "pos": 15,
+            "name": "Macéo Capietto",
+            "points": 6
+          },
+          {
+            "pos": 16,
+            "name": "René Binder · Horst Felbermayr Jr. · Horst Felix Felbermayr",
+            "team": "Proton Competition #88",
+            "points": 6
+          },
+          {
+            "pos": 17,
+            "name": "Sebastián Álvarez",
+            "points": 5
+          },
+          {
+            "pos": 18,
+            "name": "Julien Andlauer",
+            "points": 0
+          },
+          {
+            "pos": 19,
+            "name": "Felipe Fraga",
+            "points": 0
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "Algarve Pro Racing #20",
-            "drivers": "Jakobsen · Jensen · Trulli",
+            "points": 86,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "team": "TDS Racing #14",
+            "points": 77
+          },
+          {
+            "pos": 3,
+            "team": "AF Corse #83",
+            "points": 67
+          },
+          {
+            "pos": 4,
+            "team": "Duqueine Team #30",
+            "points": 67
+          },
+          {
+            "pos": 5,
+            "team": "Vector Sport #7",
+            "points": 65
+          },
+          {
+            "pos": 6,
+            "team": "Rossa Racing by Virage #19",
+            "points": 59
+          },
+          {
+            "pos": 7,
+            "team": "United Autosports #21",
+            "points": 46
+          },
+          {
+            "pos": 8,
+            "team": "AO by TF #99",
+            "points": 45
+          },
+          {
+            "pos": 9,
+            "team": "CLX Motorsport #47",
+            "points": 38
+          },
+          {
+            "pos": 10,
+            "team": "Nielsen Racing #27",
+            "points": 34
+          },
+          {
+            "pos": 11,
+            "team": "DKR Engineering #3",
+            "points": 21
+          },
+          {
+            "pos": 12,
+            "team": "Proton Competition #88",
+            "points": 6
           }
         ]
       },
@@ -263,15 +570,179 @@
             "pos": 1,
             "name": "Paul Lanchère · Alexander Jacoby",
             "team": "CLX Motorsport #17",
+            "points": 110,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Louis Iglesias",
+            "team": "CLX Motorsport #17",
+            "points": 96
+          },
+          {
+            "pos": 3,
+            "name": "José Cautela · Mikkel Gaarde Pedersen · Alvise Rodella",
+            "team": "Rinaldi Racing #5",
+            "points": 77
+          },
+          {
+            "pos": 4,
+            "name": "Fabien Michal · Pierre-Alexandre Provost · Hugo Schwarze",
+            "team": "R-ace GP #85",
+            "points": 76
+          },
+          {
+            "pos": 5,
+            "name": "Matthew Richard Bell · Douwe Dedecker · Max van der Snel",
+            "team": "EuroInternational #11",
+            "points": 63
+          },
+          {
+            "pos": 6,
+            "name": "Alexander Bukhantsov · Chun-Ting Chou",
+            "team": "Inter Europol Competition #13",
+            "points": 58
+          },
+          {
+            "pos": 7,
+            "name": "Henry Cubides Olarte",
+            "team": "DKR Engineering #4",
+            "points": 57
+          },
+          {
+            "pos": 8,
+            "name": "Romain Favre · Antti Rammo",
+            "team": "DKR Engineering #4",
+            "points": 57
+          },
+          {
+            "pos": 9,
+            "name": "Daniel Nogales · Matteo Quintarelli · Louis Stern",
+            "team": "Team Virage #8",
+            "points": 46
+          },
+          {
+            "pos": 10,
+            "name": "Wyatt Brichacek",
+            "team": "Ultimate #35",
+            "points": 42
+          },
+          {
+            "pos": 11,
+            "name": "Lucas Fecury · Sebastian Gravlund · Terence Woodward",
+            "team": "Ultimate #35",
+            "points": 42
+          },
+          {
+            "pos": 12,
+            "name": "Ralph Meichtry",
+            "team": "Racing Spirit of Léman #31",
+            "points": 40
+          },
+          {
+            "pos": 13,
+            "name": "Nick Adcock",
+            "team": "M Racing #68",
+            "points": 38
+          },
+          {
+            "pos": 14,
+            "name": "Lenny Ried",
+            "team": "M Racing #68",
+            "points": 38
+          },
+          {
+            "pos": 15,
+            "name": "Grégory de Sybourg",
+            "points": 28
+          },
+          {
+            "pos": 16,
+            "name": "Thomas Imbourg",
+            "points": 20
+          },
+          {
+            "pos": 17,
+            "name": "Quentin Antonel",
+            "points": 18
+          },
+          {
+            "pos": 18,
+            "name": "Alfie Briggs",
+            "points": 18
+          },
+          {
+            "pos": 19,
+            "name": "Gillian Henrion",
+            "points": 15
+          },
+          {
+            "pos": 20,
+            "name": "Bruno Ribeiro",
+            "points": 14
+          },
+          {
+            "pos": 21,
+            "name": "Stéphane Tribaudini",
+            "points": 12
+          },
+          {
+            "pos": 22,
+            "name": "Oskar Kristensen",
+            "points": 8
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "CLX Motorsport #17",
-            "drivers": "Iglesias · Jacoby · Lanchère",
+            "points": 110,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "team": "Rinaldi Racing #5",
+            "points": 77
+          },
+          {
+            "pos": 3,
+            "team": "R-ace GP #85",
+            "points": 76
+          },
+          {
+            "pos": 4,
+            "team": "EuroInternational #11",
+            "points": 63
+          },
+          {
+            "pos": 5,
+            "team": "Inter Europol Competition #13",
+            "points": 58
+          },
+          {
+            "pos": 6,
+            "team": "DKR Engineering #4",
+            "points": 57
+          },
+          {
+            "pos": 7,
+            "team": "Team Virage #8",
+            "points": 46
+          },
+          {
+            "pos": 8,
+            "team": "Ultimate #35",
+            "points": 42
+          },
+          {
+            "pos": 9,
+            "team": "Racing Spirit of Léman #31",
+            "points": 40
+          },
+          {
+            "pos": 10,
+            "team": "M Racing #68",
+            "points": 38
           }
         ]
       },
@@ -282,15 +753,263 @@
             "pos": 1,
             "name": "Charlie Eastwood · Blake McDonald · Alec Udell",
             "team": "TF Sport #33",
+            "points": 88,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Matt Kurzejewski · Richard Lietz · Tom Sargent",
+            "team": "Proton Competition #75",
+            "points": 86
+          },
+          {
+            "pos": 3,
+            "name": "Abdulla Al-Khelaifi · Julian Hanses",
+            "team": "Team Qatar by Iron Lynx #62",
+            "points": 78
+          },
+          {
+            "pos": 4,
+            "name": "Huub van Eijndhoven",
+            "team": "Proton Competition #77",
+            "points": 72
+          },
+          {
+            "pos": 5,
+            "name": "Martin Berry",
+            "points": 58
+          },
+          {
+            "pos": 6,
+            "name": "Mathys Jaubert · Takeshi Kimura · Daniel Serra",
+            "team": "Kessel Racing #57",
+            "points": 52
+          },
+          {
+            "pos": 7,
+            "name": "Lorcan Hanafin · Mex Jansen · Michael Wainwright",
+            "team": "GR Racing #86",
+            "points": 52
+          },
+          {
+            "pos": 8,
+            "name": "Harry King",
+            "points": 44
+          },
+          {
+            "pos": 9,
+            "name": "Duncan Cameron · Matt Griffin · David Perel",
+            "team": "Spirit of Race #55",
+            "points": 38
+          },
+          {
+            "pos": 10,
+            "name": "Max Moritz",
+            "team": "High Class Racing #54",
+            "points": 37
+          },
+          {
+            "pos": 11,
+            "name": "Maxime Martin",
+            "points": 34
+          },
+          {
+            "pos": 12,
+            "name": "Ralf Aron",
+            "points": 31
+          },
+          {
+            "pos": 13,
+            "name": "Klaus Bachler",
+            "points": 31
+          },
+          {
+            "pos": 14,
+            "name": "Conrad Laursen · Charles-Henri Samani",
+            "team": "AF Corse #51",
+            "points": 30
+          },
+          {
+            "pos": 15,
+            "name": "Michael Birch · Garnet Patterson",
+            "team": "United Autosports #23",
+            "points": 22
+          },
+          {
+            "pos": 16,
+            "name": "Davide Rigon",
+            "points": 22
+          },
+          {
+            "pos": 17,
+            "name": "Benjamin Paque",
+            "points": 21
+          },
+          {
+            "pos": 18,
+            "name": "Riccardo Agostini · Custodio Toledo",
+            "team": "Richard Mille AF Corse #50",
+            "points": 20
+          },
+          {
+            "pos": 19,
+            "name": "Alessio Picariello",
+            "points": 18
+          },
+          {
+            "pos": 20,
+            "name": "Rui Andrade · Ameerh Naran · Sérgio Sette Câmara",
+            "team": "Iron Lynx #63",
+            "points": 18
+          },
+          {
+            "pos": 21,
+            "name": "Marius Fossard",
+            "team": "Racing Spirit of Léman #59",
+            "points": 17
+          },
+          {
+            "pos": 22,
+            "name": "Anders Fjordbach",
+            "points": 16
+          },
+          {
+            "pos": 23,
+            "name": "Clément Mateu",
+            "points": 15
+          },
+          {
+            "pos": 24,
+            "name": "Valentin Hasse-Clot",
+            "points": 14
+          },
+          {
+            "pos": 25,
+            "name": "\"Bankcy\"",
+            "points": 14
+          },
+          {
+            "pos": 26,
+            "name": "Adam Christodoulou",
+            "points": 13
+          },
+          {
+            "pos": 27,
+            "name": "Francesco Castellacci",
+            "points": 10
+          },
+          {
+            "pos": 28,
+            "name": "Joel Sturm",
+            "points": 10
+          },
+          {
+            "pos": 29,
+            "name": "Lilou Wadoux",
+            "points": 10
+          },
+          {
+            "pos": 30,
+            "name": "Thomas Preining",
+            "points": 4
+          },
+          {
+            "pos": 31,
+            "name": "Wayne Boyd",
+            "points": 4
+          },
+          {
+            "pos": 32,
+            "name": "Andrew Gilbert · Romain Leroux · Fran Rueda",
+            "points": 1
+          },
+          {
+            "pos": 33,
+            "name": "François Hériau",
+            "points": 1
+          },
+          {
+            "pos": 34,
+            "name": "Anthony McIntosh · Parker Thompson",
+            "points": 1
+          },
+          {
+            "pos": 35,
+            "name": "Dennis Andersen · Laurin Heinrich",
+            "points": 0
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "TF Sport #33",
-            "drivers": "Eastwood · McDonald · Udell",
+            "points": 88,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "team": "Proton Competition #75",
+            "points": 86
+          },
+          {
+            "pos": 3,
+            "team": "Team Qatar by Iron Lynx #62",
+            "points": 78
+          },
+          {
+            "pos": 4,
+            "team": "Proton Competition #77",
+            "points": 72
+          },
+          {
+            "pos": 5,
+            "team": "Kessel Racing #57",
+            "points": 52
+          },
+          {
+            "pos": 6,
+            "team": "GR Racing #86",
+            "points": 52
+          },
+          {
+            "pos": 7,
+            "team": "Spirit of Race #55",
+            "points": 38
+          },
+          {
+            "pos": 8,
+            "team": "High Class Racing #54",
+            "points": 37
+          },
+          {
+            "pos": 9,
+            "team": "AF Corse #51",
+            "points": 30
+          },
+          {
+            "pos": 10,
+            "team": "United Autosports #23",
+            "points": 22
+          },
+          {
+            "pos": 11,
+            "team": "Richard Mille AF Corse #50",
+            "points": 20
+          },
+          {
+            "pos": 12,
+            "team": "Iron Lynx #63",
+            "points": 18
+          },
+          {
+            "pos": 13,
+            "team": "Racing Spirit of Léman #59",
+            "points": 17
+          },
+          {
+            "pos": 14,
+            "team": "Kessel Racing #74",
+            "points": 1
           }
         ]
       }

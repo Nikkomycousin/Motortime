@@ -255,7 +255,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T15:20:00Z",
+    "updated": "2026-11-17T19:50:00Z",
     "nextGp": {
       "name": "Qatar 1812 km",
       "circuit": "Lusail",
@@ -991,7 +991,7 @@
       },
       {
         "cls": "LMGT3",
-        "after": "campioni 2026 (punti finali in aggiornamento)",
+        "after": "team dopo la 6 Ore di Monza (finale); classifica piloti completa in aggiornamento",
         "drivers": [
           {
             "pos": 1,
@@ -1003,9 +1003,94 @@
         "constructors": [
           {
             "pos": 1,
-            "team": "TF Sport #33",
-            "drivers": "Corvette Z06 GT3.R",
+            "team": "Corvette #33 (TF Sport)",
+            "points": 107,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "team": "Porsche #92 (The Bend Manthey)",
+            "points": 99
+          },
+          {
+            "pos": 3,
+            "team": "BMW #69 (Team WRT)",
+            "points": 78
+          },
+          {
+            "pos": 4,
+            "team": "Corvette #34 (Racing Team Turkey by TF)",
+            "points": 70
+          },
+          {
+            "pos": 5,
+            "team": "Aston Martin #23 (Heart of Racing)",
+            "points": 69
+          },
+          {
+            "pos": 6,
+            "team": "Ferrari #21 (Vista AF Corse)",
+            "points": 68
+          },
+          {
+            "pos": 7,
+            "team": "Aston Martin #27 (Heart of Racing)",
+            "points": 64
+          },
+          {
+            "pos": 8,
+            "team": "Porsche #91 (Manthey DK Engineering)",
+            "points": 64
+          },
+          {
+            "pos": 9,
+            "team": "McLaren #10 (Garage 59)",
+            "points": 57
+          },
+          {
+            "pos": 10,
+            "team": "BMW #32 (Team WRT)",
+            "points": 48
+          },
+          {
+            "pos": 11,
+            "team": "Lexus #78 (Akkodis ASP)",
+            "points": 41
+          },
+          {
+            "pos": 12,
+            "team": "Lexus #87 (Akkodis ASP)",
+            "points": 38
+          },
+          {
+            "pos": 13,
+            "team": "Mercedes-AMG #61 (Iron Lynx)",
+            "points": 31
+          },
+          {
+            "pos": 14,
+            "team": "McLaren #58 (Garage 59)",
+            "points": 22
+          },
+          {
+            "pos": 15,
+            "team": "Mercedes-AMG #79 (Iron Lynx)",
+            "points": 18
+          },
+          {
+            "pos": 16,
+            "team": "Ford #88 (Proton Competition)",
+            "points": 16
+          },
+          {
+            "pos": 17,
+            "team": "Ferrari #54 (Vista AF Corse)",
+            "points": 13
+          },
+          {
+            "pos": 18,
+            "team": "Ford #77 (Proton Competition)",
+            "points": 13
           }
         ]
       }
