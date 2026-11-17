@@ -145,20 +145,49 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T22:50:00Z",
+    "updated": "2026-11-17T23:55:00Z",
     "nextGp": {
       "name": "Round 13 · Qatar",
       "circuit": "Lusail",
-      "date": "2026-11-28T23:00:00Z",
-      "dateOnly": true,
+      "date": "2026-11-29T12:00:00Z",
       "label": "Feature Race"
     }
   },
   "weekend": {
     "gp": "Round 13 · Lusail (Qatar)",
-    "circuit": "Lusail",
-    "updated": "2026-11-02T16:30:00Z",
-    "sessions": []
+    "circuit": "Lusail International Circuit",
+    "lat": 25.49,
+    "lon": 51.45,
+    "updated": "2026-11-17T23:55:00Z",
+    "tv8note": "Nessuna diretta in chiaro: la F2 si vede su Sky Sport F1 e in streaming su NOW.",
+    "sessions": [
+      {
+        "name": "Prove libere",
+        "start": "2026-11-27T11:00:00Z",
+        "end": "2026-11-27T11:45:00Z",
+        "live": "Diretta Sky Sport F1 · NOW"
+      },
+      {
+        "name": "Qualifiche",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-11-27T15:30:00Z",
+        "live": "Diretta Sky Sport F1 · NOW",
+        "key": true
+      },
+      {
+        "name": "Sprint Race",
+        "start": "2026-11-28T16:15:00Z",
+        "end": "2026-11-28T17:05:00Z",
+        "live": "Diretta Sky Sport F1 · NOW",
+        "key": true
+      },
+      {
+        "name": "Feature Race",
+        "start": "2026-11-29T12:00:00Z",
+        "live": "Diretta Sky Sport F1 · NOW",
+        "key": true
+      }
+    ]
   },
   "results": {
     "gp": "Baku (Azerbaigian)",

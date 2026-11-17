@@ -52,7 +52,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T22:50:00Z",
+    "updated": "2026-11-17T23:55:00Z",
     "nextGp": {
       "name": "4 Ore di Jerez – Gara 1",
       "circuit": "Circuito de Jerez",
@@ -298,8 +298,8 @@
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-15T18:55:00Z",
-    "after": "dopo Gara 1 di Le Castellet (punti di Gara 2 in arrivo)",
+    "updated": "2026-11-17T23:55:00Z",
+    "after": "dopo la 4 Ore di Le Castellet (Gara 1 e Gara 2)",
     "classes": [
       {
         "cls": "Hypercar",
@@ -308,25 +308,27 @@
             "pos": 1,
             "name": "Pérez Companc · Nielsen · Ye",
             "team": "Ferrari #90 (AF Corse)",
-            "points": 25
+            "points": 51
           },
           {
             "pos": 2,
             "name": "Fuoco · N. Lacorte · R. Lacorte",
             "team": "Ferrari #47 (Cetilar Racing)",
-            "points": 19
+            "points": 37
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "Ferrari #90 (AF Corse)",
-            "points": 25
+            "points": 51,
+            "drivers": "Pérez Companc · Nielsen · Ye"
           },
           {
             "pos": 2,
             "team": "Ferrari #47 (Cetilar Racing)",
-            "points": 19
+            "points": 37,
+            "drivers": "Fuoco · N. Lacorte · R. Lacorte"
           }
         ]
       },
@@ -335,115 +337,197 @@
         "drivers": [
           {
             "pos": 1,
-            "name": "Trulli · Jakobsen · Jensen",
-            "team": "#25 Algarve Pro Racing",
-            "points": 25
+            "name": "Closmenil · Stern · Vaxivière",
+            "team": "#37 CLX Motorsport",
+            "points": 36
           },
           {
             "pos": 2,
-            "name": "Closmenil · Stern · Vaxivière",
-            "team": "#37 CLX Motorsport",
-            "points": 18
+            "name": "Trulli · Jakobsen · Jensen",
+            "team": "#25 Algarve Pro Racing",
+            "points": 35
           },
           {
             "pos": 3,
+            "name": "Milesi · Kolovos · Martins",
+            "team": "#11 Proton Competition",
+            "points": 28
+          },
+          {
+            "pos": 4,
+            "name": "Roda · Aguilera · Robb",
+            "team": "#22 United Autosports",
+            "points": 26
+          },
+          {
+            "pos": 5,
+            "name": "Kurtz · Heinrich · Delétraz",
+            "team": "#4 CrowdStrike Racing by APR",
+            "points": 18
+          },
+          {
+            "pos": 6,
+            "name": "Schwarze · Hörr · Van Rompuy",
+            "team": "#3 DKR Engineering",
+            "points": 16
+          },
+          {
+            "pos": 7,
             "name": "Shields · Yelloly · Kratz",
             "team": "#43 Inter Europol Competition",
             "points": 15
           },
           {
-            "pos": 4,
-            "name": "Schwarze · Hörr · Van Rompuy",
-            "team": "#3 DKR Engineering",
-            "points": 12
+            "pos": 8,
+            "name": "Clarke · Andlauer · Varrone",
+            "team": "#83 AF Corse",
+            "points": 9
           },
           {
-            "pos": 5,
-            "name": "Roda · Aguilera · Robb",
-            "team": "#22 United Autosports",
-            "points": 11
-          },
-          {
-            "pos": 6,
+            "pos": 9,
             "name": "Doohan · Hanson",
             "team": "#55 AF Corse",
             "points": 8
           },
           {
-            "pos": 7,
-            "name": "Kurtz · Heinrich · Delétraz",
-            "team": "#4 CrowdStrike Racing by APR",
+            "pos": 10,
+            "name": "Habsburg · Felbermayr · Felbermayr Jr.",
+            "team": "#66 Proton Competition",
             "points": 6
           },
           {
-            "pos": 8,
+            "pos": 11,
             "name": "Garcia · Huffaker · Thomas",
             "team": "#24 Nielsen Racing",
-            "points": 4
+            "points": 5
           },
           {
-            "pos": 9,
-            "name": "Milesi · Kolovos · Martins",
-            "team": "#11 Proton Competition",
+            "pos": 12,
+            "name": "McElrea · Jensen · Fayer",
+            "team": "#2 United Autosports",
             "points": 2
           },
           {
-            "pos": 10,
-            "name": "Clarke · Andlauer · Varrone",
-            "team": "#83 AF Corse",
-            "points": 1
+            "pos": 13,
+            "name": "Zielonka · Browne",
+            "team": "#16 Team Virage",
+            "points": 0
+          },
+          {
+            "pos": 13,
+            "name": "Wurz · Møller · Jensen",
+            "team": "#20 Algarve Pro Racing",
+            "points": 0
+          },
+          {
+            "pos": 13,
+            "name": "Comeau · Garg · Koolen",
+            "team": "#34 Inter Europol Competition",
+            "points": 0
+          },
+          {
+            "pos": 13,
+            "name": "Rammo · Raber · Pradel",
+            "team": "#30 Duqueine Team",
+            "points": 0
           }
         ],
         "constructors": [
           {
             "pos": 1,
-            "team": "Oreca #25 (Algarve Pro Racing)",
-            "points": 25
+            "team": "Oreca #37 (CLX Motorsport)",
+            "points": 36,
+            "drivers": "Closmenil · Stern · Vaxivière"
           },
           {
             "pos": 2,
-            "team": "Oreca #37 (CLX Motorsport)",
-            "points": 18
+            "team": "Oreca #25 (Algarve Pro Racing)",
+            "points": 35,
+            "drivers": "Trulli · Jakobsen · Jensen"
           },
           {
             "pos": 3,
-            "team": "Oreca #43 (Inter Europol Competition)",
-            "points": 15
+            "team": "Oreca #11 (Proton Competition)",
+            "points": 28,
+            "drivers": "Milesi · Kolovos · Martins"
           },
           {
             "pos": 4,
-            "team": "Oreca #3 (DKR Engineering)",
-            "points": 12
+            "team": "Oreca #22 (United Autosports)",
+            "points": 26,
+            "drivers": "Roda · Aguilera · Robb"
           },
           {
             "pos": 5,
-            "team": "Oreca #22 (United Autosports)",
-            "points": 11
+            "team": "Oreca #4 (CrowdStrike Racing by APR)",
+            "points": 18,
+            "drivers": "Kurtz · Heinrich · Delétraz"
           },
           {
             "pos": 6,
-            "team": "Oreca #55 (AF Corse)",
-            "points": 8
+            "team": "Oreca #3 (DKR Engineering)",
+            "points": 16,
+            "drivers": "Schwarze · Hörr · Van Rompuy"
           },
           {
             "pos": 7,
-            "team": "Oreca #4 (CrowdStrike Racing by APR)",
-            "points": 6
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "points": 15,
+            "drivers": "Shields · Yelloly · Kratz"
           },
           {
             "pos": 8,
-            "team": "Oreca #24 (Nielsen Racing)",
-            "points": 4
+            "team": "Oreca #83 (AF Corse)",
+            "points": 9,
+            "drivers": "Clarke · Andlauer · Varrone"
           },
           {
             "pos": 9,
-            "team": "Oreca #11 (Proton Competition)",
-            "points": 2
+            "team": "Oreca #55 (AF Corse)",
+            "points": 8,
+            "drivers": "Doohan · Hanson"
           },
           {
             "pos": 10,
-            "team": "Oreca #83 (AF Corse)",
-            "points": 1
+            "team": "Oreca #66 (Proton Competition)",
+            "points": 6,
+            "drivers": "Habsburg · Felbermayr · Felbermayr Jr."
+          },
+          {
+            "pos": 11,
+            "team": "Oreca #24 (Nielsen Racing)",
+            "points": 5,
+            "drivers": "Garcia · Huffaker · Thomas"
+          },
+          {
+            "pos": 12,
+            "team": "Oreca #2 (United Autosports)",
+            "points": 2,
+            "drivers": "McElrea · Jensen · Fayer"
+          },
+          {
+            "pos": 13,
+            "team": "Oreca #16 (Team Virage)",
+            "points": 0,
+            "drivers": "Zielonka · Browne"
+          },
+          {
+            "pos": 13,
+            "team": "Oreca #20 (Algarve Pro Racing)",
+            "points": 0,
+            "drivers": "Wurz · Møller · Jensen"
+          },
+          {
+            "pos": 13,
+            "team": "Oreca #34 (Inter Europol Competition)",
+            "points": 0,
+            "drivers": "Comeau · Garg · Koolen"
+          },
+          {
+            "pos": 13,
+            "team": "Oreca #30 (Duqueine Team)",
+            "points": 0,
+            "drivers": "Rammo · Raber · Pradel"
           }
         ]
       },
@@ -454,124 +538,339 @@
             "pos": 1,
             "name": "Al-Khelaifi · Hanses · Martin",
             "team": "#62 Team Qatar by Iron Lynx",
-            "points": 25
+            "points": 35
           },
           {
             "pos": 2,
+            "name": "Perel · Dempsey · Duran",
+            "team": "#50 AF Corse",
+            "points": 29
+          },
+          {
+            "pos": 3,
+            "name": "Marschall · Blattner · Fleming",
+            "team": "#58 Garage 59",
+            "points": 25
+          },
+          {
+            "pos": 4,
             "name": "Naran · Stolz · Pedersen",
             "team": "#88 Iron Lynx",
             "points": 18
           },
           {
-            "pos": 3,
+            "pos": 5,
+            "name": "Piana · Dienst · Salikhov",
+            "team": "#87 Winward Racing",
+            "points": 16
+          },
+          {
+            "pos": 6,
+            "name": "James · Drudi · Robichon",
+            "team": "#27 Heart of Racing Team",
+            "points": 15
+          },
+          {
+            "pos": 6,
             "name": "Dawson · Jewiss",
             "team": "#46 2 Seas Motorsport",
             "points": 15
           },
           {
-            "pos": 4,
-            "name": "L. Ried · de Haan",
+            "pos": 8,
+            "name": "Ried · De Haan",
             "team": "#77 Proton Competition",
             "points": 12
           },
           {
-            "pos": 5,
-            "name": "Perel · Dempsey · Duran",
-            "team": "#50 AF Corse",
-            "points": 10
-          },
-          {
-            "pos": 6,
+            "pos": 9,
             "name": "Schandorff · Birch · Tribaudini",
             "team": "#7 Petrolife Racing Team",
             "points": 8
           },
           {
-            "pos": 7,
+            "pos": 9,
+            "name": "Masson · Jaubert · Kimura",
+            "team": "#57 Car Guy Racing",
+            "points": 8
+          },
+          {
+            "pos": 11,
             "name": "Robin · Edgar · Hasse Clot",
             "team": "#68 Car Blanche by RSL",
+            "points": 7
+          },
+          {
+            "pos": 12,
+            "name": "Maini · Wiebelhaus · Tosi",
+            "team": "#64 Haupt Racing Team",
             "points": 6
           },
           {
-            "pos": 8,
-            "name": "Piana · Dienst · Salikhov",
-            "team": "#87 Winward Racing",
+            "pos": 13,
+            "name": "McIntosh · Hesse · Thompson",
+            "team": "#69 Team WRT",
             "points": 4
           },
           {
-            "pos": 9,
+            "pos": 14,
             "name": "Barrichello · Newell · De Angelis",
             "team": "#26 Heart of Racing Team",
             "points": 2
           },
           {
-            "pos": 10,
+            "pos": 14,
+            "name": "Petrobelli · Pauwels",
+            "team": "#70 Ecurie Ecosse Blackthorn",
+            "points": 2
+          },
+          {
+            "pos": 16,
             "name": "Schuring · Monegro · Lietz",
             "team": "#92 Manthey",
             "points": 1
           },
           {
-            "pos": 11,
+            "pos": 16,
             "name": "Bartone · Schiller · Jans",
             "team": "#9 GetSpeed",
             "points": 1
+          },
+          {
+            "pos": 18,
+            "name": "Bachler · Moritz · Rennhofer",
+            "team": "#91 Manthey",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Fjordbach · Lindberg · Kiefer",
+            "team": "#54 High Class Racing",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Leung · Albag",
+            "team": "#33 2 Seas Motorsport",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Altoè · Moncini",
+            "team": "#93 DFyne Racing Team",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Schumacher · Scherer · Haupt",
+            "team": "#65 Haupt Racing Team",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Rovera · Piovanetti · Machiels",
+            "team": "#51 AF Corse",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Jaminet · Bohn",
+            "team": "#21 Herberth Motorsport",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Ried · King",
+            "team": "#99 Proton Competition",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Makino · Shinohara · Tsujiko",
+            "team": "#45 Ponos Racing",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Leitch · Bergstein · Stati",
+            "team": "#63 Leipert Motorsport",
+            "points": 0
+          },
+          {
+            "pos": 18,
+            "name": "Tomlinson · Loake · Pulcini",
+            "team": "#60 Garage 59",
+            "points": 0
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "#62 Team Qatar by Iron Lynx",
-            "points": 25
+            "points": 35,
+            "drivers": "Al-Khelaifi · Hanses · Martin"
           },
           {
             "pos": 2,
-            "team": "#88 Iron Lynx",
-            "points": 18
+            "team": "#50 AF Corse",
+            "points": 29,
+            "drivers": "Perel · Dempsey · Duran"
           },
           {
             "pos": 3,
-            "team": "#46 2 Seas Motorsport",
-            "points": 15
+            "team": "#58 Garage 59",
+            "points": 25,
+            "drivers": "Marschall · Blattner · Fleming"
           },
           {
             "pos": 4,
-            "team": "#77 Proton Competition",
-            "points": 12
+            "team": "#88 Iron Lynx",
+            "points": 18,
+            "drivers": "Naran · Stolz · Pedersen"
           },
           {
             "pos": 5,
-            "team": "#50 AF Corse",
-            "points": 10
+            "team": "#87 Winward Racing",
+            "points": 16,
+            "drivers": "Piana · Dienst · Salikhov"
           },
           {
             "pos": 6,
-            "team": "#7 Petrolife Racing Team",
-            "points": 8
+            "team": "#27 Heart of Racing Team",
+            "points": 15,
+            "drivers": "James · Drudi · Robichon"
           },
           {
-            "pos": 7,
-            "team": "#68 Car Blanche by RSL",
-            "points": 6
+            "pos": 6,
+            "team": "#46 2 Seas Motorsport",
+            "points": 15,
+            "drivers": "Dawson · Jewiss"
           },
           {
             "pos": 8,
-            "team": "#87 Winward Racing",
-            "points": 4
+            "team": "#77 Proton Competition",
+            "points": 12,
+            "drivers": "Ried · De Haan"
           },
           {
             "pos": 9,
-            "team": "#26 Heart of Racing Team",
-            "points": 2
+            "team": "#7 Petrolife Racing Team",
+            "points": 8,
+            "drivers": "Schandorff · Birch · Tribaudini"
           },
           {
-            "pos": 10,
-            "team": "#92 Manthey",
-            "points": 1
+            "pos": 9,
+            "team": "#57 Car Guy Racing",
+            "points": 8,
+            "drivers": "Masson · Jaubert · Kimura"
           },
           {
             "pos": 11,
+            "team": "#68 Car Blanche by RSL",
+            "points": 7,
+            "drivers": "Robin · Edgar · Hasse Clot"
+          },
+          {
+            "pos": 12,
+            "team": "#64 Haupt Racing Team",
+            "points": 6,
+            "drivers": "Maini · Wiebelhaus · Tosi"
+          },
+          {
+            "pos": 13,
+            "team": "#69 Team WRT",
+            "points": 4,
+            "drivers": "McIntosh · Hesse · Thompson"
+          },
+          {
+            "pos": 14,
+            "team": "#26 Heart of Racing Team",
+            "points": 2,
+            "drivers": "Barrichello · Newell · De Angelis"
+          },
+          {
+            "pos": 14,
+            "team": "#70 Ecurie Ecosse Blackthorn",
+            "points": 2,
+            "drivers": "Petrobelli · Pauwels"
+          },
+          {
+            "pos": 16,
+            "team": "#92 Manthey",
+            "points": 1,
+            "drivers": "Schuring · Monegro · Lietz"
+          },
+          {
+            "pos": 16,
             "team": "#9 GetSpeed",
-            "points": 1
+            "points": 1,
+            "drivers": "Bartone · Schiller · Jans"
+          },
+          {
+            "pos": 18,
+            "team": "#91 Manthey",
+            "points": 0,
+            "drivers": "Bachler · Moritz · Rennhofer"
+          },
+          {
+            "pos": 18,
+            "team": "#54 High Class Racing",
+            "points": 0,
+            "drivers": "Fjordbach · Lindberg · Kiefer"
+          },
+          {
+            "pos": 18,
+            "team": "#33 2 Seas Motorsport",
+            "points": 0,
+            "drivers": "Leung · Albag"
+          },
+          {
+            "pos": 18,
+            "team": "#93 DFyne Racing Team",
+            "points": 0,
+            "drivers": "Altoè · Moncini"
+          },
+          {
+            "pos": 18,
+            "team": "#65 Haupt Racing Team",
+            "points": 0,
+            "drivers": "Schumacher · Scherer · Haupt"
+          },
+          {
+            "pos": 18,
+            "team": "#51 AF Corse",
+            "points": 0,
+            "drivers": "Rovera · Piovanetti · Machiels"
+          },
+          {
+            "pos": 18,
+            "team": "#21 Herberth Motorsport",
+            "points": 0,
+            "drivers": "Jaminet · Bohn"
+          },
+          {
+            "pos": 18,
+            "team": "#99 Proton Competition",
+            "points": 0,
+            "drivers": "Ried · King"
+          },
+          {
+            "pos": 18,
+            "team": "#45 Ponos Racing",
+            "points": 0,
+            "drivers": "Makino · Shinohara · Tsujiko"
+          },
+          {
+            "pos": 18,
+            "team": "#63 Leipert Motorsport",
+            "points": 0,
+            "drivers": "Leitch · Bergstein · Stati"
+          },
+          {
+            "pos": 18,
+            "team": "#60 Garage 59",
+            "points": 0,
+            "drivers": "Tomlinson · Loake · Pulcini"
           }
         ]
       }
