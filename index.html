@@ -11,9 +11,9 @@
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="icon-192.png">
 <title>Motortime</title>
-<script>(function(){var v2=true;try{var q=location.search;if(/[?&]classico/.test(q))localStorage.setItem("mt:v2","0");if(/[?&](anteprima|nuovo)/.test(q))localStorage.removeItem("mt:v2");v2=localStorage.getItem("mt:v2")!=="0"}catch(e){}
+<script>(function(){var v2=true,q=location.search;try{if(/[?&]classico/.test(q))localStorage.setItem("mt:v2","0");if(/[?&](anteprima|nuovo)/.test(q))localStorage.removeItem("mt:v2");v2=localStorage.getItem("mt:v2")!=="0"}catch(e){}
 var l=document.createElement("link");l.rel="stylesheet";
-if(v2){document.documentElement.classList.add("v2");l.href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap"}
+if(v2){document.documentElement.classList.add("v2");try{if(/[?&]prova/.test(q))localStorage.setItem("mt:v3","1");if(/[?&]attuale/.test(q))localStorage.removeItem("mt:v3");if(localStorage.getItem("mt:v3")==="1")document.documentElement.classList.add("v3")}catch(e){}l.href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap"}
 else l.href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,900&display=swap";
 document.head.appendChild(l)})()</script>
 <script>(function(){var t=null;try{t=localStorage.getItem("mt:theme")}catch(e){}if(t!=="light"&&t!=="dark")t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";document.documentElement.dataset.theme=t})()</script>
@@ -517,6 +517,75 @@ document.head.appendChild(l)})()</script>
     html.v2 .hero .gp{font-size:40px}
     html.v2 .grpbar button{font-size:13.5px}
   }
+
+  /* =====================================================================
+     PROVA "SEMAFORO" (html.v3, sopra v2). Attiva con ?prova, torna con ?attuale.
+     Mondo: asfalto notturno, cordolo, monitor dei tempi, colori dei settori.
+     ===================================================================== */
+  html.v3{--asphalt:#0b0c0e;--tarmac:#121418;--tarmac-2:#171a1f;--seam:rgba(255,255,255,.07);--seam-strong:rgba(255,255,255,.13);
+    --sector-green:#2fd36b;--sector-purple:#b06cff;--flag-yellow:#f5c84c;--kerb-white:#efece6;
+    --bg:var(--asphalt);--card:var(--tarmac);--card2:var(--tarmac-2);--line:var(--seam)}
+  html.v3[data-theme=light]{--asphalt:#f1efea;--tarmac:#ffffff;--tarmac-2:#f6f4f0;--seam:rgba(10,12,16,.08);--seam-strong:rgba(10,12,16,.16);
+    --sector-green:#13994a;--sector-purple:#7c3aed;--kerb-white:#ffffff}
+  html.v3 body{background:var(--asphalt);background-image:none}
+  html.v3 h3,html.v3 .hero .gp,html.v3 .rhead h3{text-wrap:balance}
+  html.v3 .card p,html.v3 .rhead p{text-wrap:pretty}
+  /* cordolo in cima: unico richiamo grafico, preso dalla pista */
+  html.v3 header{border-bottom:1px solid var(--seam)}
+  html.v3 header:before{height:4px;background:repeating-linear-gradient(90deg,var(--red) 0 14px,var(--kerb-white) 14px 28px);opacity:1}
+  /* etichette: leggibili, non da terminale. Il monospazio resta solo ai numeri */
+  html.v3 .lbl,html.v3 .sub,html.v3 .dayh,html.v3 .hsec,html.v3 .day,html.v3 .vgp,html.v3 .meta,html.v3 .sbox h4,html.v3 .favs .hsec,html.v3 .fcard .k,html.v3 .clsseg .lbl,html.v3 .src{font-family:var(--f)!important;font-weight:600;letter-spacing:.06em;font-size:11px!important}
+  html.v3 .tag{font-family:var(--f)!important;letter-spacing:.06em}
+  html.v3 .meta span:not(.tag){text-transform:none;letter-spacing:0;font-size:12px}
+  html.v3 .chip,html.v3 .clsseg button{font-family:var(--f);text-transform:none;letter-spacing:0;font-size:13px;font-weight:600;border:0;background:var(--tarmac-2);color:var(--muted);border-radius:999px;padding:7px 13px}
+  html.v3 .chip.on,html.v3 .clsseg button.on{background:var(--text);color:var(--bg)}
+  html.v3 .tabs button{font-family:var(--f);text-transform:none;letter-spacing:0;font-size:10.5px;font-weight:600}
+  /* profondità: solo bordi sottili, niente sfumature decorative */
+  html.v3 .table,html.v3 .rhead,html.v3 .sbox,html.v3 #list,html.v3 .vcard,html.v3 .tv8,html.v3 .fcard,html.v3 .favhint,html.v3 .hero{border:1px solid var(--seam);border-radius:8px;background:var(--tarmac)}
+  html.v3 .serbar{border-color:var(--seam)}html.v3 .serbar button{border-color:var(--seam)}
+  html.v3 .serbar button.on{background:var(--tarmac-2)}
+  html.v3 .grpbar{border-color:var(--seam)}
+  html.v3 .row,html.v3 .sess,html.v3 .card{border-color:var(--seam)}
+  html.v3 .seg{border:0;background:var(--tarmac-2);border-radius:8px;padding:3px;gap:3px}
+  html.v3 .seg button{border:0;border-radius:6px;font-family:var(--f);text-transform:none;letter-spacing:0;font-size:13px;font-weight:600}
+  html.v3 .seg button.on{background:var(--text);color:var(--bg)}
+  html.v3 .podium div{border-color:var(--seam);background:var(--tarmac-2)}
+  html.v3 .podium div:nth-child(2){background:var(--tarmac-2);border-color:var(--seam-strong);border-top:3px solid var(--red)}
+  html.v3 .tv8{background:var(--tarmac)}
+  /* riquadro del prossimo evento: compatto, il semaforo come firma */
+  html.v3 .hero{padding:16px 16px 16px 18px;margin:14px 0 18px;position:relative}
+  html.v3 .hero:before{width:3px;height:auto;top:14px;bottom:14px;inset:14px auto 14px 0;border-radius:0 2px 2px 0}
+  html.v3 .hero .gp{font-size:clamp(26px,7.2vw,42px);margin:8px 0 6px;line-height:.95}
+  html.v3 .hero .when{font-size:13.5px;color:var(--muted)}
+  html.v3 .lights{display:flex;gap:5px;margin:14px 0 8px;padding:0;background:none;width:auto}
+  html.v3 .lights i{width:26px;height:8px;border-radius:2px;background:var(--seam-strong);box-shadow:none}
+  html.v3 .lights i.on{background:#e3121b;box-shadow:0 0 10px rgba(227,18,27,.55)!important}
+  html.v3 .lights.go i{background:var(--sector-green);box-shadow:0 0 10px rgba(47,211,107,.5)!important}
+  html.v3 .clk{display:flex;align-items:baseline;gap:2px;font-family:var(--m);font-variant-numeric:tabular-nums}
+  html.v3 .clk b{font-size:clamp(24px,6.6vw,30px);font-weight:700;letter-spacing:-.03em;color:var(--text)}
+  html.v3 .clk u{text-decoration:none;font-size:12px;color:var(--muted);margin:0 8px 0 2px}
+  html.v3 .clk.go b{color:var(--sector-green)}
+  /* colori dei settori: verde = in pista ora, viola = la prossima */
+  html.v3 .badge.live{background:var(--sector-green);color:#04140a;animation:none;position:relative;padding-left:16px}
+  html.v3 .badge.live:before{content:"";position:absolute;left:6px;top:50%;width:5px;height:5px;margin-top:-2.5px;border-radius:50%;background:#04140a;animation:blink 1.2s ease-in-out infinite}
+  html.v3 .badge.next{background:transparent;color:var(--sector-purple);box-shadow:inset 0 0 0 1px var(--sector-purple)!important}
+  html.v3 .sess.key .t,html.v3 .sbox .sl.key b{color:var(--text)}
+  html.v3 .sess.key .n b:after{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--red);margin-left:8px;vertical-align:2px}
+  /* classifiche come una torre dei tempi */
+  html.v3 .pos{font-size:15px}
+  html.v3 .row.p1 .pos,html.v3 .row.p2 .pos,html.v3 .row.p3 .pos{color:var(--text)}
+  html.v3 .row.p1{box-shadow:inset 3px 0 0 var(--flag-yellow)!important}
+  html.v3 .pts small{color:var(--faint)}
+  /* notizie: la principale comanda, le altre seguono */
+  html.v3 .card.top h3{font-size:23px;font-stretch:115%}
+  html.v3 .card h3{font-size:17px}
+  html.v3 .serbar button small{font-family:var(--f);font-weight:500;font-size:11px;text-transform:none;letter-spacing:0}
+  html.v3 .serbar button.on{background:var(--tarmac-2)}
+  html.v3 .tv8 h4{font-family:var(--f);font-weight:600;font-size:12px;letter-spacing:.04em}
+  html.v3 .side .hero .lights i{width:22px;height:7px;border-radius:2px}
+  html.v3[data-theme=light] body{background-image:none}
+  html.v3 .table>.sub{text-transform:none;letter-spacing:0;font-weight:500;font-size:12.5px!important;line-height:1.45}
+  @media (max-width:1023px){html.v3 .tabs button.on:before{background:var(--text)}}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -819,7 +888,7 @@ function render(){
   $("#list").innerHTML=html;
 }
 
-const V2=document.documentElement.classList.contains("v2");
+const V2=document.documentElement.classList.contains("v2"), V3=document.documentElement.classList.contains("v3");
 const IC={tv:V2?'<span class="ico">TV</span>':"📺",cup:V2?'<span class="ico">WIN</span>':"🏆",med:V2?["P1","P2","P3"]:["🥇","🥈","🥉"]};
 const pad2=n=>String(n).padStart(2,"0");
 function renderInfo(){
@@ -841,6 +910,8 @@ function renderInfo(){
     L.classList.toggle("go",s<=0);
     L.querySelectorAll("i").forEach((x,i)=>x.classList.toggle("on",i<lit));
     const pl=(n,a,b)=>n+" "+(n===1?a:b);
+    if(V3){const sec=Math.floor(s%60);const u=(v,l)=>`<b>${pad2(v)}</b><u>${l}</u>`;
+      $("#cd").innerHTML=s<=0?`<div class="clk go"><b>VIA</b><u>semaforo verde</u></div>`:`<div class="clk">${g?u(g,"g"):""}${u(h,"h")}${u(m,"m")}${u(sec,"s")}</div>${n.dateOnly?'<div class="cdnote">Orario da confermare</div>':""}`;return}
     if(V2){const sec=Math.floor(s%60);const box=(v,l)=>`<div><b>${pad2(v)}</b><span>${l}</span></div>`;
       $("#cd").innerHTML=s<=0?`<div class="clock go"><div><b>LIVE</b><span>Semaforo verde</span></div></div>`:
         `<div class="clock">${box(g,"Giorni")}<i>:</i>${box(h,"Ore")}<i>:</i>${box(m,"Min")}<i>:</i>${box(sec,"Sec")}</div>${n.dateOnly?'<div class="cdnote">Orario da confermare</div>':""}`;return}
