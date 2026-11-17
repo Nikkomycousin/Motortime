@@ -1188,7 +1188,7 @@ function setTheme(c){
   st.setProperty("--red",c); st.setProperty("--red2",`rgb(${mix(r)},${mix(g)},${mix(b)})`); st.setProperty("--tint",`rgba(${r},${g},${b},.16)`);
 }
 function renderGroupBar(){
-  const cur=grpOf(series).id, narrow=innerWidth<400;
+  const cur=grpOf(series).id, narrow=innerWidth<1024;
   $("#grpBar").innerHTML=GROUPS.map(g=>`<button data-g="${g.id}" class="${g.id===cur?"on":""}">${esc(narrow&&g.short?g.short:g.label)}</button>`).join("");
   $("#grpBar").querySelectorAll("button").forEach(b=>b.onclick=()=>{
     const g=GROUPS.find(x=>x.id===b.dataset.g);
