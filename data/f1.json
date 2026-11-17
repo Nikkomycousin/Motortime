@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-17-antonelli-decima-vittoria-las-vegas",
+      "title": "Las Vegas, Antonelli va a caccia della decima vittoria stagionale",
+      "summary": "Alla vigilia del penultimo appuntamento sulla Strip, il pilota della Mercedes punta a ritoccare il proprio bottino di successi nel 2026. Il circus si sposta in Nevada per l'avvio della volata finale del Mondiale.",
+      "tag": "Mercedes",
+      "source": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/sport/2026/11/17/f1-las-vegas-aspetta-il-circus-antonelli-vuole-la-decima_31f8835a-ac03-412b-b0b2-51558a665061.html",
+      "published": "2026-11-17T16:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-17-beganovic-fp1-las-vegas",
       "title": "Las Vegas, Hamilton lascia la Ferrari a Beganovic nelle prove libere 1",
       "summary": "Il giovane della Ferrari Driver Academy guiderà la SF-26 di Hamilton nella prima sessione di libere sulla Strip, sfruttando uno degli slot obbligatori per i rookie. Il britannico tornerà in macchina dalle libere 2.",
@@ -1123,7 +1133,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T20:50:00Z",
+    "updated": "2026-11-17T22:50:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
