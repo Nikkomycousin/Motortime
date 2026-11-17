@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-17-beganovic-fp1-las-vegas",
+      "title": "Las Vegas, Hamilton lascia la Ferrari a Beganovic nelle prove libere 1",
+      "summary": "Il giovane della Ferrari Driver Academy guiderà la SF-26 di Hamilton nella prima sessione di libere sulla Strip, sfruttando uno degli slot obbligatori per i rookie. Il britannico tornerà in macchina dalle libere 2.",
+      "tag": "Ferrari",
+      "source": "planetf1.com",
+      "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-las-vegas-grand-prix-2026-fp1",
+      "published": "2026-11-17T14:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-16-pirelli-strategia-las-vegas",
       "title": "Pirelli porta C3, C4 e C5 a Las Vegas ma non sa quale strategia pagherà",
       "summary": "Per la notte della Strip Pirelli ha scelto le tre mescole più morbide. Con l'asfalto freddo e il rischio graining il fornitore ammette che la tattica migliore resta un'incognita fino alle libere.",
@@ -1113,7 +1123,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T19:00:00Z",
+    "updated": "2026-11-17T20:50:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
