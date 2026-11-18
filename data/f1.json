@@ -1133,7 +1133,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-17T23:55:00Z",
+    "updated": "2026-11-18T07:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
@@ -1144,8 +1144,8 @@
   "weekend": {
     "gp": "GP di Las Vegas",
     "circuit": "Las Vegas Strip Circuit",
-    "updated": "2026-11-10T08:55:00Z",
-    "tv8note": "TV8 trasmetterà qualifiche e gara in differita (orari ancora da annunciare); diretta integrale su Sky Sport F1 e NOW.",
+    "updated": "2026-11-18T07:55:00Z",
+    "tv8note": "TV8 trasmetterà qualifiche e gara in differita (orari della messa in onda non ancora annunciati); diretta integrale su Sky Sport F1 e NOW.",
     "sessions": [
       {
         "name": "Prove libere 1",
