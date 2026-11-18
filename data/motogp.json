@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-18-aprilia-derby-martin-bezzecchi",
+      "title": "Márquez vede il decimo titolo, in Aprilia si accende il derby Martín-Bezzecchi",
+      "summary": "Alla vigilia di Portimão Márquez è a un passo dal decimo mondiale, mentre in casa Aprilia la sfida interna tra Martín e Bezzecchi si fa sempre più calda.",
+      "tag": "Aprilia",
+      "source": "Corsedimoto",
+      "url": "https://www.corsedimoto.com/motogp/motogp-marquez-decimo-titolo-portimao-derby-martin-bezzecchi-aprilia",
+      "published": "2026-11-18T16:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-18-bezzecchi-martin-portimao",
       "title": "Bezzecchi e Martín promuovono Portimão: «Una pista che ci piace»",
       "summary": "Alla vigilia del penultimo appuntamento i due piloti Aprilia si dicono fiduciosi sul tracciato dell'Algarve, dove Bezzecchi vinse lo scorso anno. Martín deve battere Márquez per tenere aperto il Mondiale.",
@@ -212,7 +222,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-18T18:55:00Z",
+    "updated": "2026-11-18T20:50:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",

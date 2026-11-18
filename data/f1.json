@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-18-ferrari-priorita-las-vegas",
+      "title": "Ferrari, la priorità per Las Vegas: la SF-26 deve superare un ostacolo",
+      "summary": "A Maranello hanno individuato il punto su cui lavorare per il weekend sulla Strip: la SF-26 deve risolvere un limite che sui circuiti cittadini veloci e freddi l'ha già penalizzata.",
+      "tag": "Ferrari",
+      "source": "F1 in Generale",
+      "url": "https://f1ingenerale.com/f1/news-f1/f1-ferrari-svela-la-priorita-per-las-vegas-la-sf26-chiamata-a-superare-un-grande-ostacolo/",
+      "published": "2026-11-18T17:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-18-verstappen-vegas-energia",
       "title": "Verstappen avverte: a Las Vegas la gestione dell'energia peserà più del solito",
       "summary": "Dopo una visita in fabbrica a Milton Keynes, l'olandese della Red Bull prevede comportamenti diversi delle vetture sul lungo rettilineo della Strip, dove il recupero di energia sarà decisivo. Verstappen è l'unico ad aver vinto due volte a Las Vegas.",
@@ -1153,7 +1163,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-18T18:55:00Z",
+    "updated": "2026-11-18T20:50:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
