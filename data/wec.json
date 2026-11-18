@@ -255,7 +255,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-18T07:55:00Z",
+    "updated": "2026-11-18T11:30:00Z",
     "nextGp": {
       "name": "Qatar 1812 km",
       "circuit": "Lusail",
@@ -419,62 +419,72 @@
             "pos": "1",
             "name": "Shahin · Pera · Lietz",
             "team": "Porsche #92 (Manthey)",
-            "gap": "173 giri"
+            "gap": "173 giri",
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "—",
+            "name": "Adam · Newell · Barrichello",
             "team": "Aston Martin #23 (Heart of Racing)",
-            "gap": "+0.270"
+            "gap": "+0.270",
+            "points": 18
           },
           {
             "pos": "3",
-            "name": "—",
+            "name": "Edgar · Keating · Catsburg",
             "team": "Corvette #33 (TF Sport)",
             "gap": "+9.600",
-            "note": "Titolo LMGT3 piloti e team"
+            "note": "Titolo LMGT3 piloti e team",
+            "points": 15
           },
           {
             "pos": "4",
-            "name": "—",
+            "name": "McIntosh · Harper · Thompson",
             "team": "BMW #69 (Team WRT)",
-            "gap": "+22.883"
+            "gap": "+22.883",
+            "points": 12
           },
           {
             "pos": "5",
-            "name": "—",
+            "name": "Boguslavskiy · Cottingham · Güven",
             "team": "Porsche #91 (Manthey DK Engineering)",
-            "gap": "+28.246"
+            "gap": "+28.246",
+            "points": 10
           },
           {
             "pos": "6",
-            "name": "—",
+            "name": "Cressoni · Hodenius · Zelger",
             "team": "Mercedes-AMG #79 (Iron Lynx)",
-            "gap": "+30.197"
+            "gap": "+30.197",
+            "points": 8
           },
           {
             "pos": "7",
-            "name": "—",
+            "name": "Andrade · Berry · Martin",
             "team": "Mercedes-AMG #61 (Iron Lynx)",
-            "gap": "+34.659"
+            "gap": "+34.659",
+            "points": 6
           },
           {
             "pos": "8",
-            "name": "—",
+            "name": "Hériau · Mann · Rovera",
             "team": "Ferrari #21 (Vista AF Corse)",
-            "gap": "+36.801"
+            "gap": "+36.801",
+            "points": 4
           },
           {
             "pos": "9",
-            "name": "—",
+            "name": "James · Drudi · Robichon",
             "team": "Aston Martin #27 (Heart of Racing)",
-            "gap": "+1:05.051"
+            "gap": "+1:05.051",
+            "points": 2
           },
           {
             "pos": "10",
-            "name": "—",
+            "name": "David · Van Rompuy",
             "team": "Lexus #78 (Akkodis ASP)",
-            "gap": "+1:06.344"
+            "gap": "+1:06.344",
+            "points": 2
           }
         ]
       },
@@ -627,8 +637,8 @@
     }
   ],
   "standings": {
-    "updated": "2026-11-08T17:00:00Z",
-    "after": "dopo la 6 Ore di Monza (finale, classifica provvisoria)",
+    "updated": "2026-11-18T11:30:00Z",
+    "after": "dopo la 6 Ore di Monza (classifica finale 2026)",
     "classes": [
       {
         "cls": "Hypercar",
@@ -997,7 +1007,350 @@
             "pos": 1,
             "name": "Jonny Edgar",
             "team": "Corvette #33 (TF Sport)",
+            "points": 107,
             "champion": true
+          },
+          {
+            "pos": 2,
+            "name": "Nicky Catsburg",
+            "team": "Corvette #33 (TF Sport)",
+            "points": 103
+          },
+          {
+            "pos": 3,
+            "name": "Richard Lietz",
+            "team": "Porsche #92 (The Bend Manthey)",
+            "points": 99
+          },
+          {
+            "pos": 3,
+            "name": "Riccardo Pera",
+            "team": "Porsche #92 (The Bend Manthey)",
+            "points": 99
+          },
+          {
+            "pos": 3,
+            "name": "Yasser Shahin",
+            "team": "Porsche #92 (The Bend Manthey)",
+            "points": 99
+          },
+          {
+            "pos": 6,
+            "name": "Ben Keating",
+            "team": "Corvette #33 (TF Sport)",
+            "points": 85
+          },
+          {
+            "pos": 7,
+            "name": "Dan Harper",
+            "team": "BMW #69 (Team WRT)",
+            "points": 78
+          },
+          {
+            "pos": 7,
+            "name": "Anthony McIntosh",
+            "team": "BMW #69 (Team WRT)",
+            "points": 78
+          },
+          {
+            "pos": 7,
+            "name": "Parker Thompson",
+            "team": "BMW #69 (Team WRT)",
+            "points": 78
+          },
+          {
+            "pos": 10,
+            "name": "Peter Dempsey",
+            "team": "Corvette #34 (Racing Team Turkey by TF)",
+            "points": 70
+          },
+          {
+            "pos": 10,
+            "name": "Charlie Eastwood",
+            "team": "Corvette #34 (Racing Team Turkey by TF)",
+            "points": 70
+          },
+          {
+            "pos": 10,
+            "name": "Salih Yoluç",
+            "team": "Corvette #34 (Racing Team Turkey by TF)",
+            "points": 70
+          },
+          {
+            "pos": 13,
+            "name": "François Hériau",
+            "team": "Ferrari #21 (Vista AF Corse)",
+            "points": 68
+          },
+          {
+            "pos": 13,
+            "name": "Simon Mann",
+            "team": "Ferrari #21 (Vista AF Corse)",
+            "points": 68
+          },
+          {
+            "pos": 13,
+            "name": "Alessio Rovera",
+            "team": "Ferrari #21 (Vista AF Corse)",
+            "points": 68
+          },
+          {
+            "pos": 13,
+            "name": "Jonny Adam",
+            "team": "Aston Martin #23 (Heart of Racing)",
+            "points": 68
+          },
+          {
+            "pos": 13,
+            "name": "Gray Newell",
+            "team": "Aston Martin #23 (Heart of Racing)",
+            "points": 68
+          },
+          {
+            "pos": 18,
+            "name": "Eduardo Barrichello",
+            "team": "Aston Martin #23 (Heart of Racing)",
+            "points": 66
+          },
+          {
+            "pos": 19,
+            "name": "Mattia Drudi",
+            "team": "Aston Martin #27 (Heart of Racing)",
+            "points": 64
+          },
+          {
+            "pos": 19,
+            "name": "Ian James",
+            "team": "Aston Martin #27 (Heart of Racing)",
+            "points": 64
+          },
+          {
+            "pos": 19,
+            "name": "Zacharie Robichon",
+            "team": "Aston Martin #27 (Heart of Racing)",
+            "points": 64
+          },
+          {
+            "pos": 19,
+            "name": "Timur Boguslavskiy",
+            "team": "Porsche #91 (Manthey DK Engineering)",
+            "points": 64
+          },
+          {
+            "pos": 19,
+            "name": "James Cottingham",
+            "team": "Porsche #91 (Manthey DK Engineering)",
+            "points": 64
+          },
+          {
+            "pos": 19,
+            "name": "Ayhancan Güven",
+            "team": "Porsche #91 (Manthey DK Engineering)",
+            "points": 64
+          },
+          {
+            "pos": 25,
+            "name": "Antares Au",
+            "team": "McLaren #10 (Garage 59)",
+            "points": 57
+          },
+          {
+            "pos": 25,
+            "name": "Tom Fleming",
+            "team": "McLaren #10 (Garage 59)",
+            "points": 57
+          },
+          {
+            "pos": 25,
+            "name": "Marvin Kirchhöfer",
+            "team": "McLaren #10 (Garage 59)",
+            "points": 57
+          },
+          {
+            "pos": 28,
+            "name": "Augusto Farfus",
+            "team": "BMW #32 (Team WRT)",
+            "points": 48
+          },
+          {
+            "pos": 28,
+            "name": "Sean Gelael",
+            "team": "BMW #32 (Team WRT)",
+            "points": 48
+          },
+          {
+            "pos": 28,
+            "name": "Darren Leung",
+            "team": "BMW #32 (Team WRT)",
+            "points": 48
+          },
+          {
+            "pos": 31,
+            "name": "Hadrien David",
+            "team": "Lexus #78 (Akkodis ASP)",
+            "points": 41
+          },
+          {
+            "pos": 31,
+            "name": "Tom Van Rompuy",
+            "team": "Lexus #78 (Akkodis ASP)",
+            "points": 41
+          },
+          {
+            "pos": 33,
+            "name": "José María López",
+            "team": "Lexus #87 (Akkodis ASP)",
+            "points": 38
+          },
+          {
+            "pos": 33,
+            "name": "Clemens Schmid",
+            "team": "Lexus #87 (Akkodis ASP)",
+            "points": 38
+          },
+          {
+            "pos": 33,
+            "name": "Petru Umbrărescu",
+            "team": "Lexus #87 (Akkodis ASP)",
+            "points": 38
+          },
+          {
+            "pos": 36,
+            "name": "Jack Hawksworth",
+            "team": "Lexus #78 (Akkodis ASP)",
+            "points": 36
+          },
+          {
+            "pos": 37,
+            "name": "Rui Andrade",
+            "team": "Mercedes-AMG #61 (Iron Lynx)",
+            "points": 31
+          },
+          {
+            "pos": 37,
+            "name": "Martin Berry",
+            "team": "Mercedes-AMG #61 (Iron Lynx)",
+            "points": 31
+          },
+          {
+            "pos": 37,
+            "name": "Maxime Martin",
+            "team": "Mercedes-AMG #61 (Iron Lynx)",
+            "points": 31
+          },
+          {
+            "pos": 40,
+            "name": "Blake McDonald",
+            "team": "Corvette #33 (TF Sport)",
+            "points": 22
+          },
+          {
+            "pos": 40,
+            "name": "Finn Gehrsitz",
+            "team": "McLaren #58 (Garage 59)",
+            "points": 22
+          },
+          {
+            "pos": 40,
+            "name": "Benjamin Goethe",
+            "team": "McLaren #58 (Garage 59)",
+            "points": 22
+          },
+          {
+            "pos": 40,
+            "name": "Alexander West",
+            "team": "McLaren #58 (Garage 59)",
+            "points": 22
+          },
+          {
+            "pos": 44,
+            "name": "Matteo Cressoni",
+            "team": "Mercedes-AMG #79 (Iron Lynx)",
+            "points": 18
+          },
+          {
+            "pos": 44,
+            "name": "Lin Hodenius",
+            "team": "Mercedes-AMG #79 (Iron Lynx)",
+            "points": 18
+          },
+          {
+            "pos": 44,
+            "name": "Johannes Zelger",
+            "team": "Mercedes-AMG #79 (Iron Lynx)",
+            "points": 18
+          },
+          {
+            "pos": 47,
+            "name": "Stefano Gattuso",
+            "team": "Ford #88 (Proton Competition)",
+            "points": 16
+          },
+          {
+            "pos": 47,
+            "name": "Giammarco Levorato",
+            "team": "Ford #88 (Proton Competition)",
+            "points": 16
+          },
+          {
+            "pos": 47,
+            "name": "Logan Sargeant",
+            "team": "Ford #88 (Proton Competition)",
+            "points": 16
+          },
+          {
+            "pos": 50,
+            "name": "Francesco Castellacci",
+            "team": "Ferrari #54 (Vista AF Corse)",
+            "points": 13
+          },
+          {
+            "pos": 50,
+            "name": "Thomas Flohr",
+            "team": "Ferrari #54 (Vista AF Corse)",
+            "points": 13
+          },
+          {
+            "pos": 50,
+            "name": "Davide Rigon",
+            "team": "Ferrari #54 (Vista AF Corse)",
+            "points": 13
+          },
+          {
+            "pos": 50,
+            "name": "Eric Powell",
+            "team": "Ford #77 (Proton Competition)",
+            "points": 13
+          },
+          {
+            "pos": 50,
+            "name": "Sebastian Priaulx",
+            "team": "Ford #77 (Proton Competition)",
+            "points": 13
+          },
+          {
+            "pos": 50,
+            "name": "Ben Tuck",
+            "team": "Ford #77 (Proton Competition)",
+            "points": 13
+          },
+          {
+            "pos": 56,
+            "name": "Nicolás Varrone",
+            "team": "Corvette #33 (TF Sport)",
+            "points": 4
+          },
+          {
+            "pos": 57,
+            "name": "Esteban Masson",
+            "team": "Lexus #78 (Akkodis ASP)",
+            "points": 3
+          },
+          {
+            "pos": 57,
+            "name": "Kobe Pauwels",
+            "team": "Aston Martin #23 (Heart of Racing)",
+            "points": 3
           }
         ],
         "constructors": [

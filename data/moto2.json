@@ -62,7 +62,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-18T07:55:00Z",
+    "updated": "2026-11-18T11:30:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Portimão",
@@ -112,7 +112,9 @@
         "live": "Diretta Sky Sport MotoGP · NOW · differita TV8",
         "key": true
       }
-    ]
+    ],
+    "lat": 37.23,
+    "lon": -8.63
   },
   "results": {
     "gp": "GP del Qatar",

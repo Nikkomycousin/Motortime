@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-17-aduo-mercedes-antonelli",
+      "title": "Mercedes porta il turbo ADUO a Las Vegas, ma solo sulla monoposto di Antonelli",
+      "summary": "Il nuovo turbo debutta sulla vettura del neo campione, che potrebbe pagare una penalità in griglia per il cambio di componenti. Russell resta con la configurazione attuale per non compromettere la corsa al secondo posto nel mondiale.",
+      "tag": "Mercedes",
+      "source": "Racer",
+      "url": "https://racer.com/2026/11/17/antonelli-set-for-grid-penalty-for-mercedes-aduo-as-team-targets-p2-for-russell",
+      "published": "2026-11-17T20:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-17-antonelli-decima-vittoria-las-vegas",
       "title": "Las Vegas, Antonelli va a caccia della decima vittoria stagionale",
       "summary": "Già campione del mondo, il pilota della Mercedes arriva sulla Strip con l'obiettivo di ritoccare il proprio bottino di successi nel 2026. Las Vegas apre il trittico finale della stagione.",
@@ -1133,7 +1143,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-18T07:55:00Z",
+    "updated": "2026-11-18T11:30:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
@@ -1178,7 +1188,9 @@
         "live": "Diretta Sky Sport F1 · NOW",
         "key": true
       }
-    ]
+    ],
+    "lat": 36.11,
+    "lon": -115.16
   },
   "results": {
     "gp": "GP del Brasile",
