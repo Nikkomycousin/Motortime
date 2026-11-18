@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-18-bezzecchi-martin-portimao",
+      "title": "Bezzecchi e Martín promuovono Portimão: «Una pista che ci piace»",
+      "summary": "Alla vigilia del penultimo appuntamento i due piloti Aprilia si dicono fiduciosi sul tracciato dell'Algarve, dove Bezzecchi vinse lo scorso anno. Martín deve battere Márquez per tenere aperto il Mondiale.",
+      "tag": "Aprilia",
+      "source": "QS Quotidiano Sportivo",
+      "url": "https://sport.quotidiano.net/motomondiale/moto-gp-portogallo-bez-e-martin-in-coro-pista-bella-e-che-piace-ee943a2f",
+      "published": "2026-11-18T14:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-17-marquez-titolo-portimao",
       "title": "Portimão, tutti i conti: Márquez può chiudere il Mondiale già nella Sprint",
       "summary": "Al numero 93 della Ducati basta mantenere un margine sufficiente su Martín al termine della Sprint del sabato per festeggiare il titolo in anticipo. In caso contrario la sfida si deciderà nella gara della domenica.",
@@ -202,7 +212,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-18T13:50:00Z",
+    "updated": "2026-11-18T18:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",
