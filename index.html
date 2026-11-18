@@ -604,6 +604,7 @@ document.head.appendChild(l)})()</script>
   :root[data-theme=light] .mtlogo{--logo-w:#cfcac1}
   @media (max-width:380px){.mtlogo{height:12px}}@media (min-width:1024px){.mtlogo{height:20px}}
 </style>
+<script data-goatcounter="https://motortimeitalia.goatcounter.com/count" data-goatcounter-settings='{"no_onload":true}' async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -1148,6 +1149,7 @@ function showView(v){
   document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("on",b.dataset.v===v));
   ["news","sched","results","video","drivers","cal"].forEach(k=>$("#v-"+k).hidden=k!==v);
   document.body.dataset.view=v;
+  track();
   try{localStorage.setItem("f1v",v)}catch(e){}
 }
 document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{showView(b.dataset.v);scrollTo({top:0,behavior:"smooth"})});
@@ -1378,7 +1380,18 @@ async function load(fresh){
     if(!news.length) $("#list").innerHTML=`<div class="empty">${off?"Il telefono risulta senza internet.<br>Attiva Wi-Fi o dati e riprova.":"Non riesco a scaricare le notizie in questo momento."}<br><button class="btn" onclick="load(true)">Riprova</button><br><small style="color:var(--faint)">Dettaglio: ${esc(lastErr)}</small></div>`;
   }
 }
+let trackT=0;
+function track(){ // statistiche visite (GoatCounter), solo sul sito pubblicato
+  if(!/motortimeitalia\.it$/.test(location.hostname))return;
+  clearTimeout(trackT);trackT=setTimeout(function send(n){
+    const gc=window.goatcounter;
+    if(!gc||!gc.count){if((n|0)<20)trackT=setTimeout(()=>send((n|0)+1),500);return}
+    const view=series==="all"?"":"/"+(document.body.dataset.view||"news");
+    gc.count({path:"/"+series+view,title:document.title});
+  },400);
+}
 function switchSeries(v){
+  setTimeout(track,0);
   series=(v==="all"||SER[v])?v:"all"; try{localStorage.setItem("f1series",series)}catch(e){}
   news=[];info=null;results=null;calendar=null;weekend=null;standings=null;videos=[];h2h=null;filter="Tutte";resMode=0;resCls=0;standCls=0;spoilerHidden=false;askedFor=null;
   applySeriesUI(); if(series!=="f1"){segTo("drivers");}
