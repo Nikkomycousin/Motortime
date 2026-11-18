@@ -75,7 +75,7 @@
   "results": {
     "gp": "4 Ore di Le Castellet",
     "round": 1,
-    "updated": "2026-11-15T18:55:00Z",
+    "updated": "2026-11-18T13:55:00Z",
     "summary": "Seconda doppietta Ferrari nel round d'apertura al Paul Ricard: in Gara 2 la 499P #90 di AF Corse (Pérez Companc, Ye, Nielsen), partita dalla pole, ha controllato la corsa e ha battuto ancora la #47 di Cetilar Racing. In LMP2 la vittoria è andata alla Oreca #11 di Proton Competition (Milesi, Kolovos, Martins), davanti alla #37 di CLX Motorsport. In GT3 ha vinto la McLaren #58 di Garage 59 (Marschall, Blattner, Fleming). Gara 1 di sabato era andata ad AF Corse, Algarve Pro Racing e Team Qatar by Iron Lynx. Il prossimo round è a Jerez a gennaio.",
     "tabs": [
       {
@@ -85,75 +85,80 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Pérez Companc · Ye · Nielsen",
+            "name": "Pérez Companc · Nielsen · Ye",
             "team": "Ferrari #90 (AF Corse)",
-            "gap": "4 ore"
+            "gap": "4 ore",
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "R. Lacorte · N. Lacorte · Fuoco",
+            "name": "Fuoco · N. Lacorte · R. Lacorte",
             "team": "Ferrari #47 (Cetilar Racing)",
-            "gap": ""
+            "gap": "+1:49.952",
+            "points": 18
           }
         ]
       },
       {
         "label": "Gara 1",
+        "cls": "Hypercar",
         "kind": "race",
         "rows": [
           {
             "pos": "1",
-            "name": "Pérez Companc · Ye · Nielsen",
+            "name": "Pérez Companc · Nielsen · Ye",
             "team": "Ferrari #90 (AF Corse)",
-            "gap": "4 ore"
+            "gap": "4 ore",
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "R. Lacorte · N. Lacorte · Fuoco",
+            "name": "Fuoco · N. Lacorte · R. Lacorte",
             "team": "Ferrari #47 (Cetilar Racing)",
             "gap": "+6.348",
-            "note": "Penalità per contatto"
+            "points": 18
           }
-        ],
-        "cls": "Hypercar"
-      },
-      {
-        "label": "Qualifiche Gara 1",
-        "kind": "quali",
-        "rows": [
-          {
-            "pos": "1",
-            "name": "R. Lacorte",
-            "team": "Ferrari #47 (Cetilar Racing)",
-            "time": "1:51.979"
-          },
-          {
-            "pos": "2",
-            "name": "Pérez Companc",
-            "team": "Ferrari #90 (AF Corse)",
-            "time": ""
-          }
-        ],
-        "cls": "Hypercar"
+        ]
       },
       {
         "label": "Qualifiche Gara 2",
+        "cls": "Hypercar",
         "kind": "quali",
         "rows": [
           {
             "pos": "1",
-            "name": "Pérez Companc",
+            "name": "Pérez Companc · Nielsen · Ye",
             "team": "Ferrari #90 (AF Corse)",
-            "time": "1:50.794"
+            "time": "1:50.794",
+            "note": "Pole (+1 punto)"
           },
           {
             "pos": "2",
-            "name": "R. Lacorte",
+            "name": "Fuoco · N. Lacorte · R. Lacorte",
             "team": "Ferrari #47 (Cetilar Racing)",
-            "time": "+0.611"
+            "time": "1:51.405"
           }
-        ],
-        "cls": "Hypercar"
+        ]
+      },
+      {
+        "label": "Qualifiche Gara 1",
+        "cls": "Hypercar",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Fuoco · N. Lacorte · R. Lacorte",
+            "team": "Ferrari #47 (Cetilar Racing)",
+            "time": "1:51.979",
+            "note": "Pole (+1 punto)"
+          },
+          {
+            "pos": "2",
+            "name": "Pérez Companc · Nielsen · Ye",
+            "team": "Ferrari #90 (AF Corse)",
+            "time": "1:53.172"
+          }
+        ]
       },
       {
         "label": "Gara 2",
@@ -164,14 +169,113 @@
             "pos": "1",
             "name": "Milesi · Kolovos · Martins",
             "team": "Oreca #11 (Proton Competition)",
-            "gap": "4 ore"
+            "gap": "4 ore",
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "Vaxivière · Stern · Closmenil",
+            "name": "Closmenil · Stern · Vaxivière",
             "team": "Oreca #37 (CLX Motorsport)",
-            "gap": "",
-            "note": "Classifica completa in aggiornamento"
+            "gap": "stesso giro",
+            "points": 18
+          },
+          {
+            "pos": "3",
+            "name": "Roda · Aguilera · Robb",
+            "team": "Oreca #22 (United Autosports)",
+            "gap": "stesso giro",
+            "points": 15
+          },
+          {
+            "pos": "4",
+            "name": "Kurtz · Heinrich · Delétraz",
+            "team": "Oreca #4 (CrowdStrike Racing by APR)",
+            "gap": "stesso giro",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Trulli · Jakobsen · Jensen",
+            "team": "Oreca #25 (Algarve Pro Racing)",
+            "gap": "stesso giro",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Clarke · Andlauer · Varrone",
+            "team": "Oreca #83 (AF Corse)",
+            "gap": "stesso giro",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Habsburg · Felbermayr · Felbermayr Jr.",
+            "team": "Oreca #66 (Proton Competition)",
+            "gap": "stesso giro",
+            "points": 6
+          },
+          {
+            "pos": "8",
+            "name": "Schwarze · Hörr · Van Rompuy",
+            "team": "Oreca #3 (DKR Engineering)",
+            "gap": "stesso giro",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "McElrea · Jensen · Fayer",
+            "team": "Oreca #2 (United Autosports)",
+            "gap": "stesso giro",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "Garcia · Huffaker · Thomas",
+            "team": "Oreca #24 (Nielsen Racing)",
+            "gap": "stesso giro",
+            "points": 1
+          },
+          {
+            "pos": "11",
+            "name": "Wurz · Møller · Jensen",
+            "team": "Oreca #20 (Algarve Pro Racing)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "12",
+            "name": "Zielonka · Browne",
+            "team": "Oreca #16 (Team Virage)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "13",
+            "name": "Comeau · Garg · Koolen",
+            "team": "Oreca #34 (Inter Europol Competition)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "14",
+            "name": "Shields · Yelloly · Kratz",
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "15",
+            "name": "Rammo · Raber · Pradel",
+            "team": "Oreca #30 (Duqueine Team)",
+            "gap": "+6 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Doohan · Hanson",
+            "team": "Oreca #55 (AF Corse)",
+            "gap": "1 giri",
+            "points": 0
           }
         ]
       },
@@ -182,34 +286,115 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Jensen · Jakobsen · Trulli",
+            "name": "Trulli · Jakobsen · Jensen",
             "team": "Oreca #25 (Algarve Pro Racing)",
-            "gap": "4 ore"
+            "gap": "4 ore",
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "Vaxivière",
+            "name": "Closmenil · Stern · Vaxivière",
             "team": "Oreca #37 (CLX Motorsport)",
-            "gap": "+0.6"
+            "gap": "stesso giro",
+            "points": 18
           },
           {
             "pos": "3",
-            "name": "Yelloly",
+            "name": "Shields · Yelloly · Kratz",
             "team": "Oreca #43 (Inter Europol Competition)",
-            "gap": "+2.1"
-          }
-        ]
-      },
-      {
-        "label": "Qualifiche Gara 1",
-        "cls": "LMP2",
-        "kind": "quali",
-        "rows": [
+            "gap": "stesso giro",
+            "points": 15
+          },
           {
-            "pos": "1",
-            "name": "Roda",
+            "pos": "4",
+            "name": "Schwarze · Hörr · Van Rompuy",
+            "team": "Oreca #3 (DKR Engineering)",
+            "gap": "stesso giro",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Roda · Aguilera · Robb",
             "team": "Oreca #22 (United Autosports)",
-            "time": ""
+            "gap": "stesso giro",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Doohan · Hanson",
+            "team": "Oreca #55 (AF Corse)",
+            "gap": "stesso giro",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Kurtz · Heinrich · Delétraz",
+            "team": "Oreca #4 (CrowdStrike Racing by APR)",
+            "gap": "stesso giro",
+            "points": 6
+          },
+          {
+            "pos": "8",
+            "name": "Garcia · Huffaker · Thomas",
+            "team": "Oreca #24 (Nielsen Racing)",
+            "gap": "stesso giro",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "Milesi · Kolovos · Martins",
+            "team": "Oreca #11 (Proton Competition)",
+            "gap": "stesso giro",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "Clarke · Andlauer · Varrone",
+            "team": "Oreca #83 (AF Corse)",
+            "gap": "stesso giro",
+            "points": 1
+          },
+          {
+            "pos": "11",
+            "name": "Zielonka · Browne",
+            "team": "Oreca #16 (Team Virage)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "12",
+            "name": "Wurz · Møller · Jensen",
+            "team": "Oreca #20 (Algarve Pro Racing)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "13",
+            "name": "Habsburg · Felbermayr · Felbermayr Jr.",
+            "team": "Oreca #66 (Proton Competition)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "14",
+            "name": "Rammo · Raber · Pradel",
+            "team": "Oreca #30 (Duqueine Team)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "15",
+            "name": "Comeau · Garg · Koolen",
+            "team": "Oreca #34 (Inter Europol Competition)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "McElrea · Jensen · Fayer",
+            "team": "Oreca #2 (United Autosports)",
+            "gap": "89 giri",
+            "points": 0
           }
         ]
       },
@@ -220,9 +405,204 @@
         "rows": [
           {
             "pos": "1",
-            "name": "—",
-            "team": "Oreca (Proton Competition)",
-            "time": ""
+            "name": "Milesi · Kolovos · Martins",
+            "team": "Oreca #11 (Proton Competition)",
+            "time": "1:51.955",
+            "note": "Pole (+1 punto)"
+          },
+          {
+            "pos": "2",
+            "name": "Roda · Aguilera · Robb",
+            "team": "Oreca #22 (United Autosports)",
+            "time": "1:52.170"
+          },
+          {
+            "pos": "3",
+            "name": "Rammo · Raber · Pradel",
+            "team": "Oreca #30 (Duqueine Team)",
+            "time": "1:52.492"
+          },
+          {
+            "pos": "4",
+            "name": "Shields · Yelloly · Kratz",
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "time": "1:53.107"
+          },
+          {
+            "pos": "5",
+            "name": "Clarke · Andlauer · Varrone",
+            "team": "Oreca #83 (AF Corse)",
+            "time": "1:53.126"
+          },
+          {
+            "pos": "6",
+            "name": "Wurz · Møller · Jensen",
+            "team": "Oreca #20 (Algarve Pro Racing)",
+            "time": "1:53.273"
+          },
+          {
+            "pos": "7",
+            "name": "Trulli · Jakobsen · Jensen",
+            "team": "Oreca #25 (Algarve Pro Racing)",
+            "time": "1:53.279"
+          },
+          {
+            "pos": "8",
+            "name": "Garcia · Huffaker · Thomas",
+            "team": "Oreca #24 (Nielsen Racing)",
+            "time": "1:53.413"
+          },
+          {
+            "pos": "9",
+            "name": "Schwarze · Hörr · Van Rompuy",
+            "team": "Oreca #3 (DKR Engineering)",
+            "time": "1:53.509"
+          },
+          {
+            "pos": "10",
+            "name": "McElrea · Jensen · Fayer",
+            "team": "Oreca #2 (United Autosports)",
+            "time": "1:53.836"
+          },
+          {
+            "pos": "11",
+            "name": "Zielonka · Browne",
+            "team": "Oreca #16 (Team Virage)",
+            "time": "1:54.116"
+          },
+          {
+            "pos": "12",
+            "name": "Kurtz · Heinrich · Delétraz",
+            "team": "Oreca #4 (CrowdStrike Racing by APR)",
+            "time": "1:54.563"
+          },
+          {
+            "pos": "13",
+            "name": "Habsburg · Felbermayr · Felbermayr Jr.",
+            "team": "Oreca #66 (Proton Competition)",
+            "time": "1:55.124"
+          },
+          {
+            "pos": "14",
+            "name": "Closmenil · Stern · Vaxivière",
+            "team": "Oreca #37 (CLX Motorsport)",
+            "time": "1:55.182"
+          },
+          {
+            "pos": "15",
+            "name": "Doohan · Hanson",
+            "team": "Oreca #55 (AF Corse)",
+            "time": "1:55.544"
+          },
+          {
+            "pos": "16",
+            "name": "Comeau · Garg · Koolen",
+            "team": "Oreca #34 (Inter Europol Competition)",
+            "time": "1:56.889"
+          }
+        ]
+      },
+      {
+        "label": "Qualifiche Gara 1",
+        "cls": "LMP2",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Roda · Aguilera · Robb",
+            "team": "Oreca #22 (United Autosports)",
+            "time": "1:53.160",
+            "note": "Pole (+1 punto)"
+          },
+          {
+            "pos": "2",
+            "name": "Milesi · Kolovos · Martins",
+            "team": "Oreca #11 (Proton Competition)",
+            "time": "1:53.381"
+          },
+          {
+            "pos": "3",
+            "name": "Shields · Yelloly · Kratz",
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "time": "1:53.932"
+          },
+          {
+            "pos": "4",
+            "name": "Rammo · Raber · Pradel",
+            "team": "Oreca #30 (Duqueine Team)",
+            "time": "1:53.949"
+          },
+          {
+            "pos": "5",
+            "name": "Schwarze · Hörr · Van Rompuy",
+            "team": "Oreca #3 (DKR Engineering)",
+            "time": "1:54.317"
+          },
+          {
+            "pos": "6",
+            "name": "Clarke · Andlauer · Varrone",
+            "team": "Oreca #83 (AF Corse)",
+            "time": "1:54.390"
+          },
+          {
+            "pos": "7",
+            "name": "Garcia · Huffaker · Thomas",
+            "team": "Oreca #24 (Nielsen Racing)",
+            "time": "1:54.538"
+          },
+          {
+            "pos": "8",
+            "name": "Wurz · Møller · Jensen",
+            "team": "Oreca #20 (Algarve Pro Racing)",
+            "time": "1:54.638"
+          },
+          {
+            "pos": "9",
+            "name": "Trulli · Jakobsen · Jensen",
+            "team": "Oreca #25 (Algarve Pro Racing)",
+            "time": "1:54.724"
+          },
+          {
+            "pos": "10",
+            "name": "Kurtz · Heinrich · Delétraz",
+            "team": "Oreca #4 (CrowdStrike Racing by APR)",
+            "time": "1:54.914"
+          },
+          {
+            "pos": "11",
+            "name": "McElrea · Jensen · Fayer",
+            "team": "Oreca #2 (United Autosports)",
+            "time": "1:55.136"
+          },
+          {
+            "pos": "12",
+            "name": "Zielonka · Browne",
+            "team": "Oreca #16 (Team Virage)",
+            "time": "1:55.597"
+          },
+          {
+            "pos": "13",
+            "name": "Doohan · Hanson",
+            "team": "Oreca #55 (AF Corse)",
+            "time": "1:56.039"
+          },
+          {
+            "pos": "14",
+            "name": "Closmenil · Stern · Vaxivière",
+            "team": "Oreca #37 (CLX Motorsport)",
+            "time": "1:56.347"
+          },
+          {
+            "pos": "15",
+            "name": "Habsburg · Felbermayr · Felbermayr Jr.",
+            "team": "Oreca #66 (Proton Competition)",
+            "time": "1:56.721"
+          },
+          {
+            "pos": "16",
+            "name": "Comeau · Garg · Koolen",
+            "team": "Oreca #34 (Inter Europol Competition)",
+            "time": "2:02.458"
           }
         ]
       },
@@ -236,7 +616,196 @@
             "name": "Marschall · Blattner · Fleming",
             "team": "McLaren #58 (Garage 59)",
             "gap": "4 ore",
-            "note": "Classifica completa in aggiornamento"
+            "points": 25
+          },
+          {
+            "pos": "2",
+            "name": "Perel · Dempsey · Duran",
+            "team": "Ferrari #50 (AF Corse)",
+            "gap": "stesso giro",
+            "points": 18
+          },
+          {
+            "pos": "3",
+            "name": "James · Drudi · Robichon",
+            "team": "Aston Martin #27 (Heart of Racing Team)",
+            "gap": "stesso giro",
+            "points": 15
+          },
+          {
+            "pos": "4",
+            "name": "Piana · Dienst · Salikhov",
+            "team": "Mercedes-AMG #87 (Winward Racing)",
+            "gap": "stesso giro",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Al-Khelaifi · Hanses · Martin",
+            "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
+            "gap": "stesso giro",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Masson · Jaubert · Kimura",
+            "team": "Ferrari #57 (Car Guy Racing)",
+            "gap": "stesso giro",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Maini · Wiebelhaus · Tosi",
+            "team": "Ford #64 (Haupt Racing Team)",
+            "gap": "stesso giro",
+            "points": 6
+          },
+          {
+            "pos": "8",
+            "name": "McIntosh · Hesse · Thompson",
+            "team": "BMW #69 (Team WRT)",
+            "gap": "stesso giro",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "Petrobelli · Pauwels",
+            "team": "Aston Martin #70 (Ecurie Ecosse Blackthorn)",
+            "gap": "stesso giro",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "Robin · Edgar · Hasse Clot",
+            "team": "Aston Martin #68 (Car Blanche by RSL)",
+            "gap": "stesso giro",
+            "points": 1
+          },
+          {
+            "pos": "11",
+            "name": "Schandorff · Birch · Tribaudini",
+            "team": "Mercedes-AMG #7 (Petrolife Racing Team)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "12",
+            "name": "Leung · Albag",
+            "team": "Mercedes-AMG #33 (2 Seas Motorsport)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "13",
+            "name": "Schuring · Monegro · Lietz",
+            "team": "Porsche #92 (Manthey)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "14",
+            "name": "Barrichello · Newell · De Angelis",
+            "team": "Aston Martin #26 (Heart of Racing Team)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "15",
+            "name": "Naran · Stolz · Pedersen",
+            "team": "Mercedes-AMG #88 (Iron Lynx)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "16",
+            "name": "Dawson · Jewiss",
+            "team": "Mercedes-AMG #46 (2 Seas Motorsport)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "17",
+            "name": "Ried · De Haan",
+            "team": "Porsche #77 (Proton Competition)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "18",
+            "name": "Fjordbach · Lindberg · Kiefer",
+            "team": "Porsche #54 (High Class Racing)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "19",
+            "name": "Rovera · Piovanetti · Machiels",
+            "team": "Ferrari #51 (AF Corse)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "20",
+            "name": "Altoè · Moncini",
+            "team": "Lamborghini #93 (DFyne Racing Team)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "21",
+            "name": "Makino · Shinohara · Tsujiko",
+            "team": "Ferrari #45 (Ponos Racing)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "22",
+            "name": "Leitch · Bergstein · Stati",
+            "team": "Lamborghini #63 (Leipert Motorsport)",
+            "gap": "+3 giri",
+            "points": 0
+          },
+          {
+            "pos": "23",
+            "name": "Ried · King",
+            "team": "Porsche #99 (Proton Competition)",
+            "gap": "+4 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Bartone · Schiller · Jans",
+            "team": "Mercedes-AMG #9 (GetSpeed)",
+            "gap": "58 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Jaminet · Bohn",
+            "team": "Porsche #21 (Herberth Motorsport)",
+            "gap": "49 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Schumacher · Scherer · Haupt",
+            "team": "Ford #65 (Haupt Racing Team)",
+            "gap": "6 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Bachler · Moritz · Rennhofer",
+            "team": "Porsche #91 (Manthey)",
+            "gap": "2 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Tomlinson · Loake · Pulcini",
+            "team": "McLaren #60 (Garage 59)",
+            "gap": "1 giri",
+            "points": 0
           }
         ]
       },
@@ -247,36 +816,199 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Al-Khelafi · Hanses · Martin",
+            "name": "Al-Khelaifi · Hanses · Martin",
             "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
-            "gap": "4 ore"
+            "gap": "4 ore",
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "—",
-            "team": "Mercedes-AMG #88 (Craft-Bamboo Iron Lynx)",
-            "gap": "",
-            "note": "Promossa dopo la penalità alla #9"
+            "name": "Naran · Stolz · Pedersen",
+            "team": "Mercedes-AMG #88 (Iron Lynx)",
+            "gap": "stesso giro",
+            "points": 18
           },
           {
             "pos": "3",
-            "name": "—",
-            "team": "Mercedes-AMG #46 (2Seas Motorsports)",
-            "gap": "",
-            "note": "Promossa dopo la penalità alla #9"
-          }
-        ]
-      },
-      {
-        "label": "Qualifiche Gara 1",
-        "cls": "GT3",
-        "kind": "quali",
-        "rows": [
+            "name": "Dawson · Jewiss",
+            "team": "Mercedes-AMG #46 (2 Seas Motorsport)",
+            "gap": "stesso giro",
+            "points": 15
+          },
           {
-            "pos": "1",
-            "name": "Jans",
-            "team": "Mercedes-AMG #9 (Getspeed)",
-            "time": ""
+            "pos": "4",
+            "name": "Ried · De Haan",
+            "team": "Porsche #77 (Proton Competition)",
+            "gap": "stesso giro",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Perel · Dempsey · Duran",
+            "team": "Ferrari #50 (AF Corse)",
+            "gap": "stesso giro",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Schandorff · Birch · Tribaudini",
+            "team": "Mercedes-AMG #7 (Petrolife Racing Team)",
+            "gap": "stesso giro",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Robin · Edgar · Hasse Clot",
+            "team": "Aston Martin #68 (Car Blanche by RSL)",
+            "gap": "stesso giro",
+            "points": 6
+          },
+          {
+            "pos": "8",
+            "name": "Piana · Dienst · Salikhov",
+            "team": "Mercedes-AMG #87 (Winward Racing)",
+            "gap": "stesso giro",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "Barrichello · Newell · De Angelis",
+            "team": "Aston Martin #26 (Heart of Racing Team)",
+            "gap": "stesso giro",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "Schuring · Monegro · Lietz",
+            "team": "Porsche #92 (Manthey)",
+            "gap": "stesso giro",
+            "points": 1
+          },
+          {
+            "pos": "11",
+            "name": "Bachler · Moritz · Rennhofer",
+            "team": "Porsche #91 (Manthey)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "12",
+            "name": "Fjordbach · Lindberg · Kiefer",
+            "team": "Porsche #54 (High Class Racing)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "13",
+            "name": "James · Drudi · Robichon",
+            "team": "Aston Martin #27 (Heart of Racing Team)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "14",
+            "name": "Altoè · Moncini",
+            "team": "Lamborghini #93 (DFyne Racing Team)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "15",
+            "name": "Bartone · Schiller · Jans",
+            "team": "Mercedes-AMG #9 (GetSpeed)",
+            "gap": "stesso giro",
+            "points": 0
+          },
+          {
+            "pos": "16",
+            "name": "McIntosh · Hesse · Thompson",
+            "team": "BMW #69 (Team WRT)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "17",
+            "name": "Schumacher · Scherer · Haupt",
+            "team": "Ford #65 (Haupt Racing Team)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "18",
+            "name": "Marschall · Blattner · Fleming",
+            "team": "McLaren #58 (Garage 59)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "19",
+            "name": "Jaminet · Bohn",
+            "team": "Porsche #21 (Herberth Motorsport)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "20",
+            "name": "Ried · King",
+            "team": "Porsche #99 (Proton Competition)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "21",
+            "name": "Rovera · Piovanetti · Machiels",
+            "team": "Ferrari #51 (AF Corse)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "22",
+            "name": "Tomlinson · Loake · Pulcini",
+            "team": "McLaren #60 (Garage 59)",
+            "gap": "+3 giri",
+            "points": 0
+          },
+          {
+            "pos": "23",
+            "name": "Makino · Shinohara · Tsujiko",
+            "team": "Ferrari #45 (Ponos Racing)",
+            "gap": "+14 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Petrobelli · Pauwels",
+            "team": "Aston Martin #70 (Ecurie Ecosse Blackthorn)",
+            "gap": "31 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Leung · Albag",
+            "team": "Mercedes-AMG #33 (2 Seas Motorsport)",
+            "gap": "29 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Leitch · Bergstein · Stati",
+            "team": "Lamborghini #63 (Leipert Motorsport)",
+            "gap": "61 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Masson · Jaubert · Kimura",
+            "team": "Ferrari #57 (Car Guy Racing)",
+            "gap": "41 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Maini · Wiebelhaus · Tosi",
+            "team": "Ford #64 (Haupt Racing Team)",
+            "gap": "0 giri",
+            "points": 0
           }
         ]
       },
@@ -287,10 +1019,348 @@
         "rows": [
           {
             "pos": "1",
-            "name": "—",
-            "team": "Ferrari (AF Corse)",
-            "time": "",
-            "note": "Pole dopo la penalità a Heart of Racing"
+            "name": "Perel · Dempsey · Duran",
+            "team": "Ferrari #50 (AF Corse)",
+            "time": "2:01.829",
+            "note": "Pole (+1 punto)"
+          },
+          {
+            "pos": "2",
+            "name": "Bartone · Schiller · Jans",
+            "team": "Mercedes-AMG #9 (GetSpeed)",
+            "time": "2:01.948"
+          },
+          {
+            "pos": "3",
+            "name": "Dawson · Jewiss",
+            "team": "Mercedes-AMG #46 (2 Seas Motorsport)",
+            "time": "2:02.116"
+          },
+          {
+            "pos": "4",
+            "name": "Marschall · Blattner · Fleming",
+            "team": "McLaren #58 (Garage 59)",
+            "time": "2:02.177"
+          },
+          {
+            "pos": "5",
+            "name": "Maini · Wiebelhaus · Tosi",
+            "team": "Ford #64 (Haupt Racing Team)",
+            "time": "2:02.341"
+          },
+          {
+            "pos": "6",
+            "name": "McIntosh · Hesse · Thompson",
+            "team": "BMW #69 (Team WRT)",
+            "time": "2:02.629"
+          },
+          {
+            "pos": "7",
+            "name": "Petrobelli · Pauwels",
+            "team": "Aston Martin #70 (Ecurie Ecosse Blackthorn)",
+            "time": "2:02.749"
+          },
+          {
+            "pos": "8",
+            "name": "Piana · Dienst · Salikhov",
+            "team": "Mercedes-AMG #87 (Winward Racing)",
+            "time": "2:02.853"
+          },
+          {
+            "pos": "9",
+            "name": "James · Drudi · Robichon",
+            "team": "Aston Martin #27 (Heart of Racing Team)",
+            "time": "2:02.902"
+          },
+          {
+            "pos": "10",
+            "name": "Schandorff · Birch · Tribaudini",
+            "team": "Mercedes-AMG #7 (Petrolife Racing Team)",
+            "time": "2:03.050"
+          },
+          {
+            "pos": "11",
+            "name": "Jaminet · Bohn",
+            "team": "Porsche #21 (Herberth Motorsport)",
+            "time": "2:03.123"
+          },
+          {
+            "pos": "12",
+            "name": "Schumacher · Scherer · Haupt",
+            "team": "Ford #65 (Haupt Racing Team)",
+            "time": "2:03.169"
+          },
+          {
+            "pos": "13",
+            "name": "Fjordbach · Lindberg · Kiefer",
+            "team": "Porsche #54 (High Class Racing)",
+            "time": "2:03.503"
+          },
+          {
+            "pos": "14",
+            "name": "Leung · Albag",
+            "team": "Mercedes-AMG #33 (2 Seas Motorsport)",
+            "time": "2:03.599"
+          },
+          {
+            "pos": "15",
+            "name": "Tomlinson · Loake · Pulcini",
+            "team": "McLaren #60 (Garage 59)",
+            "time": "2:03.647"
+          },
+          {
+            "pos": "16",
+            "name": "Ried · De Haan",
+            "team": "Porsche #77 (Proton Competition)",
+            "time": "2:03.860"
+          },
+          {
+            "pos": "17",
+            "name": "Bachler · Moritz · Rennhofer",
+            "team": "Porsche #91 (Manthey)",
+            "time": "2:04.132"
+          },
+          {
+            "pos": "18",
+            "name": "Masson · Jaubert · Kimura",
+            "team": "Ferrari #57 (Car Guy Racing)",
+            "time": "2:04.198"
+          },
+          {
+            "pos": "19",
+            "name": "Schuring · Monegro · Lietz",
+            "team": "Porsche #92 (Manthey)",
+            "time": "2:04.975"
+          },
+          {
+            "pos": "20",
+            "name": "Barrichello · Newell · De Angelis",
+            "team": "Aston Martin #26 (Heart of Racing Team)",
+            "time": "2:05.075"
+          },
+          {
+            "pos": "21",
+            "name": "Rovera · Piovanetti · Machiels",
+            "team": "Ferrari #51 (AF Corse)",
+            "time": "2:06.022"
+          },
+          {
+            "pos": "22",
+            "name": "Leitch · Bergstein · Stati",
+            "team": "Lamborghini #63 (Leipert Motorsport)",
+            "time": "2:06.216"
+          },
+          {
+            "pos": "23",
+            "name": "Altoè · Moncini",
+            "team": "Lamborghini #93 (DFyne Racing Team)",
+            "time": "2:06.267"
+          },
+          {
+            "pos": "24",
+            "name": "Makino · Shinohara · Tsujiko",
+            "team": "Ferrari #45 (Ponos Racing)",
+            "time": "2:06.497"
+          },
+          {
+            "pos": "25",
+            "name": "Ried · King",
+            "team": "Porsche #99 (Proton Competition)",
+            "time": "2:07.653"
+          },
+          {
+            "pos": "26",
+            "name": "Al-Khelaifi · Hanses · Martin",
+            "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
+            "time": "nessun tempo"
+          },
+          {
+            "pos": "27",
+            "name": "Robin · Edgar · Hasse Clot",
+            "team": "Aston Martin #68 (Car Blanche by RSL)",
+            "time": "nessun tempo"
+          },
+          {
+            "pos": "28",
+            "name": "Naran · Stolz · Pedersen",
+            "team": "Mercedes-AMG #88 (Iron Lynx)",
+            "time": "nessun tempo"
+          }
+        ]
+      },
+      {
+        "label": "Qualifiche Gara 1",
+        "cls": "GT3",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Bartone · Schiller · Jans",
+            "team": "Mercedes-AMG #9 (GetSpeed)",
+            "time": "2:02.879",
+            "note": "Pole (+1 punto)"
+          },
+          {
+            "pos": "2",
+            "name": "Marschall · Blattner · Fleming",
+            "team": "McLaren #58 (Garage 59)",
+            "time": "2:02.945"
+          },
+          {
+            "pos": "3",
+            "name": "Schumacher · Scherer · Haupt",
+            "team": "Ford #65 (Haupt Racing Team)",
+            "time": "2:03.017"
+          },
+          {
+            "pos": "4",
+            "name": "Perel · Dempsey · Duran",
+            "team": "Ferrari #50 (AF Corse)",
+            "time": "2:03.051"
+          },
+          {
+            "pos": "5",
+            "name": "Dawson · Jewiss",
+            "team": "Mercedes-AMG #46 (2 Seas Motorsport)",
+            "time": "2:03.184"
+          },
+          {
+            "pos": "6",
+            "name": "Maini · Wiebelhaus · Tosi",
+            "team": "Ford #64 (Haupt Racing Team)",
+            "time": "2:03.259"
+          },
+          {
+            "pos": "7",
+            "name": "James · Drudi · Robichon",
+            "team": "Aston Martin #27 (Heart of Racing Team)",
+            "time": "2:03.376"
+          },
+          {
+            "pos": "8",
+            "name": "Petrobelli · Pauwels",
+            "team": "Aston Martin #70 (Ecurie Ecosse Blackthorn)",
+            "time": "2:03.377"
+          },
+          {
+            "pos": "9",
+            "name": "Barrichello · Newell · De Angelis",
+            "team": "Aston Martin #26 (Heart of Racing Team)",
+            "time": "2:03.553"
+          },
+          {
+            "pos": "10",
+            "name": "Piana · Dienst · Salikhov",
+            "team": "Mercedes-AMG #87 (Winward Racing)",
+            "time": "2:03.561"
+          },
+          {
+            "pos": "11",
+            "name": "McIntosh · Hesse · Thompson",
+            "team": "BMW #69 (Team WRT)",
+            "time": "2:03.847"
+          },
+          {
+            "pos": "12",
+            "name": "Schandorff · Birch · Tribaudini",
+            "team": "Mercedes-AMG #7 (Petrolife Racing Team)",
+            "time": "2:03.899"
+          },
+          {
+            "pos": "13",
+            "name": "Jaminet · Bohn",
+            "team": "Porsche #21 (Herberth Motorsport)",
+            "time": "2:04.035"
+          },
+          {
+            "pos": "14",
+            "name": "Fjordbach · Lindberg · Kiefer",
+            "team": "Porsche #54 (High Class Racing)",
+            "time": "2:04.323"
+          },
+          {
+            "pos": "15",
+            "name": "Ried · De Haan",
+            "team": "Porsche #77 (Proton Competition)",
+            "time": "2:04.501"
+          },
+          {
+            "pos": "16",
+            "name": "Leung · Albag",
+            "team": "Mercedes-AMG #33 (2 Seas Motorsport)",
+            "time": "2:04.580"
+          },
+          {
+            "pos": "17",
+            "name": "Tomlinson · Loake · Pulcini",
+            "team": "McLaren #60 (Garage 59)",
+            "time": "2:04.690"
+          },
+          {
+            "pos": "18",
+            "name": "Masson · Jaubert · Kimura",
+            "team": "Ferrari #57 (Car Guy Racing)",
+            "time": "2:04.938"
+          },
+          {
+            "pos": "19",
+            "name": "Bachler · Moritz · Rennhofer",
+            "team": "Porsche #91 (Manthey)",
+            "time": "2:05.436"
+          },
+          {
+            "pos": "20",
+            "name": "Makino · Shinohara · Tsujiko",
+            "team": "Ferrari #45 (Ponos Racing)",
+            "time": "2:06.908"
+          },
+          {
+            "pos": "21",
+            "name": "Schuring · Monegro · Lietz",
+            "team": "Porsche #92 (Manthey)",
+            "time": "2:07.072"
+          },
+          {
+            "pos": "22",
+            "name": "Altoè · Moncini",
+            "team": "Lamborghini #93 (DFyne Racing Team)",
+            "time": "2:07.149"
+          },
+          {
+            "pos": "23",
+            "name": "Rovera · Piovanetti · Machiels",
+            "team": "Ferrari #51 (AF Corse)",
+            "time": "2:07.232"
+          },
+          {
+            "pos": "24",
+            "name": "Ried · King",
+            "team": "Porsche #99 (Proton Competition)",
+            "time": "2:07.508"
+          },
+          {
+            "pos": "25",
+            "name": "Leitch · Bergstein · Stati",
+            "team": "Lamborghini #63 (Leipert Motorsport)",
+            "time": "2:08.063"
+          },
+          {
+            "pos": "26",
+            "name": "Al-Khelaifi · Hanses · Martin",
+            "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
+            "time": "nessun tempo"
+          },
+          {
+            "pos": "27",
+            "name": "Robin · Edgar · Hasse Clot",
+            "team": "Aston Martin #68 (Car Blanche by RSL)",
+            "time": "nessun tempo"
+          },
+          {
+            "pos": "28",
+            "name": "Naran · Stolz · Pedersen",
+            "team": "Mercedes-AMG #88 (Iron Lynx)",
+            "time": "nessun tempo"
           }
         ]
       }

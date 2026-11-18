@@ -55,7 +55,7 @@
   "results": {
     "gp": "4 Ore di Portimão",
     "round": 6,
-    "updated": "2026-11-15T15:40:00Z",
+    "updated": "2026-11-18T13:58:00Z",
     "summary": "Gran finale della stagione 2026 all'Algarve International Circuit, sabato 10 ottobre. In LMP2 la Oreca #22 di United Autosports (Hanley, Peebles, Saucy) ha vinto partendo dalla pole e ha conquistato il titolo, mentre in Pro-Am la #20 di Algarve Pro Racing ha vinto gara e campionato. CLX Motorsport ha dominato la LMP3 con un giro di vantaggio, confermando Lanchère campione per il secondo anno di fila. In LMGT3 ha vinto la Porsche #75 di Proton, ma il secondo posto è bastato alla Corvette #33 di TF Sport per il titolo.",
     "tabs": [
       {
@@ -68,14 +68,77 @@
             "name": "Hanley · Peebles · Saucy",
             "team": "Oreca #22 (United Autosports)",
             "gap": "4 ore",
-            "note": "Campioni 2026"
+            "points": 25
+          },
+          {
+            "pos": "2",
+            "name": "Chadwick · Rinicella · Hörr",
+            "team": "Oreca #18 (IDEC Sport)",
+            "gap": "+12.089",
+            "points": 18
+          },
+          {
+            "pos": "3",
+            "name": "Śmiechowski · Dillmann · Yelloly",
+            "team": "Oreca #43 (Inter Europol Competition)",
+            "gap": "+14.131",
+            "points": 15
           },
           {
             "pos": "4",
             "name": "Gray · Masson · Rousset",
             "team": "Oreca #29 (Forestier Racing by Panis)",
-            "gap": "",
-            "note": "2ª e 3ª posizione per IDEC Sport #18 e Inter Europol #43, a circa 12 s dal vincitore (ordine non noto)"
+            "gap": "+15.388",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Cullen · Lomko · Fittipaldi",
+            "team": "Oreca #10 (Vector Sport)",
+            "gap": "+43.247",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Kaiser · Hughes · Lynn",
+            "team": "Oreca #25 (Algarve Pro Racing)",
+            "gap": "+47.294",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Closmenil · Jensen · Aguilera",
+            "team": "Oreca #37 (CLX Motorsport)",
+            "gap": "+1:28.206",
+            "points": 6
+          },
+          {
+            "pos": "8",
+            "name": "Garg · de Gerus",
+            "team": "Oreca #34 (Inter Europol Competition)",
+            "gap": "+1 giro",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "Pearson · Nissany · Derani",
+            "team": "Oreca #24 (Nielsen Racing)",
+            "gap": "+1 giro",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "Ried · Priaulx · Rockenfeller",
+            "team": "Oreca #9 (Proton Competition)",
+            "gap": "+1 giro",
+            "points": 1
+          },
+          {
+            "pos": "11",
+            "name": "Lafargue · van Uitert · Chatin",
+            "team": "Oreca #28 (IDEC Sport)",
+            "gap": "+16 giri",
+            "points": 0
           }
         ]
       },
@@ -86,30 +149,87 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Jakobsen · Jensen · Trulli",
+            "name": "Jensen · Trulli · Jakobsen",
             "team": "Oreca #20 (Algarve Pro Racing)",
             "gap": "4 ore",
-            "note": "Campioni 2026"
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "—",
+            "name": "Kolovos · Habsburg · Milesi",
             "team": "Oreca #47 (CLX Motorsport)",
-            "gap": ""
+            "gap": "+17.099",
+            "points": 18
           },
           {
             "pos": "3",
-            "name": "Huffaker",
-            "team": "#14 (TDS Racing)",
-            "gap": "",
-            "note": "Era in testa nell'ultima ora, penalizzato per track limits all'ultimo giro"
+            "name": "Thomas · Meguetounif · Huffaker",
+            "team": "Oreca #14 (TDS Racing)",
+            "gap": "+31.986",
+            "points": 15
+          },
+          {
+            "pos": "4",
+            "name": "Møller · Bölükbaşı · Fluxá",
+            "team": "Oreca #7 (Vector Sport)",
+            "gap": "+1 giro",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Glorieux · Hernandez · Vautier",
+            "team": "Oreca #3 (DKR Engineering)",
+            "gap": "+1 giro",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Falb · Espírito Santo · Koen",
+            "team": "Oreca #19 (Rossa Racing by Virage)",
+            "gap": "+1 giro",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Roda · Verschoor · Pin",
+            "team": "Oreca #30 (Duqueine Team)",
+            "gap": "+1 giro",
+            "points": 6
+          },
+          {
+            "pos": "8",
+            "name": "Lendoudis · Quinn · Allen",
+            "team": "Oreca #27 (Nielsen Racing)",
+            "gap": "+2 giri",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "Schneider · Sato · Jarvis",
+            "team": "Oreca #21 (United Autosports)",
+            "gap": "+2 giri",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "H. Felbermayr · H. F. Felbermayr · Binder",
+            "team": "Oreca #88 (Proton Competition)",
+            "gap": "+3 giri",
+            "points": 1
           },
           {
             "pos": "11",
-            "name": "Fuoco · Perrodo · Vaxivière",
+            "name": "Perrodo · Vaxivière · Fuoco",
             "team": "Oreca #83 (AF Corse)",
-            "gap": "",
-            "note": "Problema tecnico; era leader del campionato alla vigilia"
+            "gap": "+4 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Hyett · Delétraz · Cameron",
+            "team": "Oreca #99 (AO by TF)",
+            "gap": "13 giri",
+            "points": 0
           }
         ]
       },
@@ -120,22 +240,73 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Iglesias · Jacoby · Lanchère",
+            "name": "Lanchère · Jacoby · Iglesias",
             "team": "Ligier #17 (CLX Motorsport)",
             "gap": "4 ore",
-            "note": "Campioni 2026"
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "Cautela · Gaarde Pedersen · Rodella",
+            "name": "Cautela · Rodella · Gaarde Pedersen",
             "team": "Ligier #5 (Rinaldi Racing)",
-            "gap": "+1 giro"
+            "gap": "+1 giro",
+            "points": 18
           },
           {
             "pos": "3",
-            "name": "—",
+            "name": "Rammo · Favre · Henrion",
             "team": "Ligier #4 (DKR Engineering)",
-            "gap": ""
+            "gap": "+1 giro",
+            "points": 15
+          },
+          {
+            "pos": "4",
+            "name": "Bell · Dedecker · van der Snel",
+            "team": "Ligier #11 (EuroInternational)",
+            "gap": "+1 giro",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Adcock · Tribaudini · Briggs",
+            "team": "Ligier #68 (M Racing)",
+            "gap": "+1 giro",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Meichtry · Ried · Kristensen",
+            "team": "Ligier #31 (Racing Spirit of Léman)",
+            "gap": "+1 giro",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Stern · Quintarelli · Nogales",
+            "team": "Ligier #8 (Team Virage)",
+            "gap": "+1 giro",
+            "points": 6
+          },
+          {
+            "pos": "8",
+            "name": "Woodward · Fecury · Gravlund",
+            "team": "Ligier #35 (Ultimate)",
+            "gap": "+1 giro",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "Bukhantsov · Cubides Olarte · Chou",
+            "team": "Ligier #13 (Inter Europol Competition)",
+            "gap": "+1 giro",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "Michal · Provost · Schwarze",
+            "team": "Duqueine #85 (R-ace GP)",
+            "gap": "+2 giri",
+            "points": 1
           }
         ]
       },
@@ -146,29 +317,101 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Kurzejewski · Lietz · Sargent",
+            "name": "Kurzejewski · Sargent · Lietz",
             "team": "Porsche #75 (Proton Competition)",
-            "gap": "4 ore"
+            "gap": "4 ore",
+            "points": 25
           },
           {
             "pos": "2",
-            "name": "Eastwood · McDonald · Udell",
+            "name": "McDonald · Udell · Eastwood",
             "team": "Corvette #33 (TF Sport)",
-            "gap": "+21 s circa",
-            "note": "Campioni 2026"
+            "gap": "+21.077",
+            "points": 18
           },
           {
             "pos": "3",
-            "name": "Paque",
+            "name": "Moritz · Paque · Bachler",
             "team": "Porsche #54 (High Class Racing)",
-            "gap": ""
+            "gap": "+22.183",
+            "points": 15
+          },
+          {
+            "pos": "4",
+            "name": "Mateu · Fossard · Hasse-Clot",
+            "team": "Aston Martin #59 (Racing Spirit of Léman)",
+            "gap": "+37.683",
+            "points": 12
+          },
+          {
+            "pos": "5",
+            "name": "Berry · van Eijndhoven · King",
+            "team": "Porsche #77 (Proton Competition)",
+            "gap": "+1 giro",
+            "points": 10
+          },
+          {
+            "pos": "6",
+            "name": "Samani · Laursen · Rigon",
+            "team": "Ferrari #51 (AF Corse)",
+            "gap": "+1 giro",
+            "points": 8
+          },
+          {
+            "pos": "7",
+            "name": "Toledo · Wadoux · Agostini",
+            "team": "Ferrari #50 (Richard Mille AF Corse)",
+            "gap": "+1 giro",
+            "points": 6
           },
           {
             "pos": "8",
-            "name": "—",
+            "name": "Al-Khelaifi · Hanses · Aron",
             "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
-            "gap": "",
-            "note": "Partita dalla pole, penalizzata per eccesso di velocità in corsia box"
+            "gap": "+1 giro",
+            "points": 4
+          },
+          {
+            "pos": "9",
+            "name": "Wainwright · Hanafin · Jansen",
+            "team": "Ferrari #86 (GR Racing)",
+            "gap": "+1 giro",
+            "points": 2
+          },
+          {
+            "pos": "10",
+            "name": "Birch · Patterson · Boyd",
+            "team": "McLaren #23 (United Autosports)",
+            "gap": "+1 giro",
+            "points": 1
+          },
+          {
+            "pos": "11",
+            "name": "Gilbert · Rueda · Leroux",
+            "team": "Ferrari #74 (Kessel Racing)",
+            "gap": "+1 giro",
+            "points": 0
+          },
+          {
+            "pos": "12",
+            "name": "Cameron · Perel · Griffin",
+            "team": "Ferrari #55 (Spirit of Race)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "13",
+            "name": "Kimura · Jaubert · Serra",
+            "team": "Ferrari #57 (Kessel Racing)",
+            "gap": "+2 giri",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Naran · Andrade · Sette Câmara",
+            "team": "Mercedes-AMG #63 (Iron Lynx)",
+            "gap": "10 giri",
+            "points": 0
           }
         ]
       },
@@ -192,7 +435,7 @@
         "rows": [
           {
             "pos": "1",
-            "name": "—",
+            "name": "Lanchère · Jacoby · Iglesias",
             "team": "Ligier #17 (CLX Motorsport)",
             "time": ""
           }
@@ -205,7 +448,7 @@
         "rows": [
           {
             "pos": "1",
-            "name": "—",
+            "name": "Al-Khelaifi · Hanses · Aron",
             "team": "Mercedes-AMG #62 (Team Qatar by Iron Lynx)",
             "time": ""
           }
