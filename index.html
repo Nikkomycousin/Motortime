@@ -11,7 +11,9 @@
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="icon-192.png" sizes="192x192">
-<title>Motortime</title>
+<title>Motortime · Orari TV in ora italiana di F1, MotoGP, Superbike ed endurance</title>
+<link rel="canonical" href="https://motortimeitalia.it/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Motortime"><meta property="og:title" content="Motortime · Orari TV in ora italiana di F1, MotoGP, Superbike ed endurance"><meta property="og:description" content="Orari italiani, canali TV, risultati, classifiche e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance."><meta property="og:url" content="https://motortimeitalia.it/"><meta property="og:image" content="https://motortimeitalia.it/icon-512.png"><meta property="og:locale" content="it_IT">
 <script>(function(){var v2=true,q=location.search;try{if(/[?&]classico/.test(q))localStorage.setItem("mt:v2","0");if(/[?&](anteprima|nuovo)/.test(q))localStorage.removeItem("mt:v2");v2=localStorage.getItem("mt:v2")!=="0"}catch(e){}
 var l=document.createElement("link");l.rel="stylesheet";
 if(v2){document.documentElement.classList.add("v2");try{if(/[?&]prova/.test(q))localStorage.removeItem("mt:v3");if(/[?&]attuale/.test(q))localStorage.setItem("mt:v3","0");if(localStorage.getItem("mt:v3")!=="0")document.documentElement.classList.add("v3")}catch(e){}l.href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=JetBrains+Mono:wght@400;500;700&display=swap"}
@@ -660,7 +662,7 @@ document.head.appendChild(l)})()</script>
     <div id="h2h" hidden></div>
   </section>
   <section id="v-cal" hidden><div id="cal"></div></section>
-  <footer>Orari italiani, TV, risultati e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance (WEC, ELMS, IMSA, Asian Le Mans).<br>Notizie riassunte dalle principali testate di motorsport: tocca una notizia per aprire l'articolo originale.<br>Motortime è un sito indipendente, non affiliato a Formula 1, FIA, MotoGP, Dorna, WorldSBK o ai team citati.<br><a href="info.html#note-legali">Note legali</a> · <a href="info.html#privacy">Privacy e cookie</a> · <a href="info.html#contatti">Contatti</a></footer>
+  <footer>Orari italiani, TV, risultati e notizie di Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance (WEC, ELMS, IMSA, Asian Le Mans).<br>Notizie riassunte dalle principali testate di motorsport: tocca una notizia per aprire l'articolo originale.<br>Motortime è un sito indipendente, non affiliato a Formula 1, FIA, MotoGP, Dorna, WorldSBK o ai team citati.<br>Orari e classifiche: <a href="formula-1/">Formula 1</a> · <a href="formula-2/">F2</a> · <a href="formula-3/">F3</a> · <a href="motogp/">MotoGP</a> · <a href="moto2/">Moto2</a> · <a href="moto3/">Moto3</a> · <a href="superbike/">Superbike</a> · <a href="supersport/">Supersport</a> · <a href="world-sportbike/">World Sportbike</a> · <a href="wec/">WEC</a> · <a href="elms/">ELMS</a> · <a href="imsa/">IMSA</a> · <a href="asian-le-mans/">Asian Le Mans</a><br><a href="info.html#note-legali">Note legali</a> · <a href="info.html#privacy">Privacy e cookie</a> · <a href="info.html#contatti">Contatti</a></footer>
   </div>
   </div>
   <div class="modal" id="calModal" hidden>
@@ -1182,6 +1184,7 @@ const GROUPS=[
 const BRAND="#e8002d";
 let series="all";
 try{const v=localStorage.getItem("f1series");if(v&&(v==="all"||SER[v]))series=v}catch(e){}
+try{const q=new URLSearchParams(location.search).get("s");if(q&&(q==="all"||SER[q])){series=q;localStorage.setItem("f1series",q)}}catch(e){}
 const S=()=>SER[series]||SER.f1;
 const grpOf=k=>k==="all"?GROUPS[0]:GROUPS.find(g=>(g.ser||[]).includes(k))||GROUPS[0];
 function rgb(h){h=h.replace("#","");return [0,2,4].map(i=>parseInt(h.substr(i,2),16))}
