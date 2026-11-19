@@ -222,7 +222,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-18T23:50:00Z",
+    "updated": "2026-11-19T07:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",
@@ -234,8 +234,8 @@
   "weekend": {
     "gp": "GP del Portogallo",
     "circuit": "Autódromo Internacional do Algarve, Portimão",
-    "updated": "2026-11-18T07:55:00Z",
-    "tv8note": "TV8 trasmette in diretta e in chiaro qualifiche e Sprint del sabato; la gara della domenica va in differita (orario della messa in onda da confermare). Diretta integrale su Sky Sport MotoGP e NOW.",
+    "updated": "2026-11-19T07:55:00Z",
+    "tv8note": "TV8 trasmette in diretta e in chiaro qualifiche, Sprint e gara MotoGP; diretta integrale di tutte le sessioni su Sky Sport MotoGP e NOW.",
     "sessions": [
       {
         "name": "Prove libere 1",
@@ -287,7 +287,11 @@
         "name": "Gara",
         "start": "2026-11-22T13:00:00Z",
         "live": "Diretta Sky Sport MotoGP · NOW",
-        "key": true
+        "key": true,
+        "tv8": {
+          "live": true,
+          "time": "2026-11-22T13:00:00Z"
+        }
       }
     ],
     "lat": 37.23,
