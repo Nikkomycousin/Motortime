@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-16-dillmann-riserva-ford",
+      "title": "Tom Dillmann sarà il pilota di riserva del programma Hypercar Ford",
+      "summary": "Il francese entra nel progetto con cui Ford debutterà nella classe regina del WEC, con il ruolo di riserva per la line-up ufficiale.",
+      "tag": "Mercato",
+      "source": "RACER",
+      "url": "https://racer.com/2026/11/16/dillmann-named-reserve-driver-for-ford-hypercar-program",
+      "published": "2026-11-16T15:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-10-penske-cadillac-trattativa-2028",
       "title": "Penske tratta con Cadillac per un programma ufficiale WEC e IMSA dal 2028",
       "summary": "Chiuso il rapporto con Porsche, la squadra americana valuta una o due Cadillac ufficiali, forse al posto di JOTA nel WEC, e una presenza a Le Mans già nel 2027. Nessuna conferma dalle parti.",
@@ -255,7 +265,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-19T07:55:00Z",
+    "updated": "2026-11-19T10:55:00Z",
     "nextGp": {
       "name": "Qatar 1812 km",
       "circuit": "Lusail",

@@ -1,6 +1,26 @@
 {
   "news": [
     {
+      "id": "2026-11-19-hamilton-fiducia-ferrari",
+      "title": "Hamilton nega problemi di fiducia con la Ferrari dopo gli ordini ignorati",
+      "summary": "Nel media day di Las Vegas il sette volte campione ha respinto l'idea di una frattura con il muretto, dopo aver disatteso due volte le indicazioni del team nelle ultime gare. L'obiettivo resta il secondo posto tra i costruttori.",
+      "tag": "Ferrari",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13613635/lewis-hamilton-denies-lack-of-trust-with-ferrari-after-ignoring-instructions-from-pit-wall-twice-in-recent-races",
+      "published": "2026-11-19T08:30:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-19-verstappen-qatar-abu-dhabi",
+      "title": "Verstappen si fida della F1 sulle gare finali in Qatar e Abu Dhabi",
+      "summary": "Alla vigilia di Las Vegas l'olandese ha detto di avere fiducia nelle valutazioni dei vertici della F1, che hanno confermato i due appuntamenti conclusivi in Medio Oriente nonostante il conflitto nella regione.",
+      "tag": "Calendario",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13613637/max-verstappen-says-he-trusts-f1-bosses-over-plans-to-proceed-with-season-ending-races-in-qatar-and-abu-dhabi-amid-conflict-in-middle-east",
+      "published": "2026-11-19T08:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-18-ferrari-priorita-las-vegas",
       "title": "Ferrari, la priorità per Las Vegas: la SF-26 deve superare un ostacolo",
       "summary": "A Maranello hanno individuato il punto su cui lavorare per il weekend sulla Strip: la SF-26 deve risolvere un limite che sui circuiti cittadini veloci e freddi l'ha già penalizzata.",
@@ -1151,19 +1171,10 @@
       "source": "Fanpage.it",
       "url": "https://www.fanpage.it/sport/live/formula-1-oggi-orari-tv-del-gp-messico-su-tv8-e-sky-e-dove-vederlo-hamilton-in-pole-kimi-antonelli-puo-essere-campione-leclerc-terzo/",
       "published": "2026-11-01T22:00:00Z"
-    },
-    {
-      "id": "2026-11-01-lawson-squalifica",
-      "title": "Lawson squalificato dalle qualifiche, griglia rivoluzionata",
-      "summary": "Hamilton torna in pole dopo un lungo digiuno; penalità anche per Verstappen, che fa guadagnare una posizione ad Antonelli in griglia.",
-      "tag": "Gare",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/category/motori/formula-1/",
-      "published": "2026-11-01T04:00:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-19T07:55:00Z",
+    "updated": "2026-11-19T10:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
