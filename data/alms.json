@@ -1,16 +1,6 @@
 {
   "news": [
     {
-      "id": "2026-11-15-af-corse-doppietta-gara2-paul-ricard",
-      "title": "AF Corse fa doppietta al Paul Ricard: la Ferrari #90 vince anche Gara 2",
-      "summary": "Pérez Companc, Ye e Nielsen bissano il successo di sabato e chiudono il round d'apertura con due vittorie su due, ancora davanti alla 499P di Cetilar Racing.",
-      "tag": "Gare",
-      "source": "sportscar365.com",
-      "url": "https://sportscar365.com/lemans/asian-lms/af-corse-doubles-up-with-sunday-paul-ricard-win/",
-      "published": "2026-11-15T16:30:00Z",
-      "top": true
-    },
-    {
       "id": "2026-11-15-proton-garage59-vincono-classi-gara2",
       "title": "Gara 2: Proton vince in LMP2 su CLX, la McLaren di Garage 59 si prende la GT3",
       "summary": "Nella seconda gara di Le Castellet la Oreca #11 di Proton Competition supera la concorrenza di CLX Motorsport, mentre in GT3 il successo va alla McLaren #58 di Garage 59.",
@@ -19,6 +9,16 @@
       "url": "https://www.dive-bomb.com/article/alms-asian-le-mans-series-paul-ricard-race-report-ferrari-af-corse-win-proton-lmp2-mclaren-gt3",
       "published": "2026-11-15T17:00:00Z",
       "top": false
+    },
+    {
+      "id": "2026-11-15-af-corse-doppietta-gara2-paul-ricard",
+      "title": "AF Corse fa doppietta al Paul Ricard: la Ferrari #90 vince anche Gara 2",
+      "summary": "Pérez Companc, Ye e Nielsen bissano il successo di sabato e chiudono il round d'apertura con due vittorie su due, ancora davanti alla 499P di Cetilar Racing.",
+      "tag": "Gare",
+      "source": "sportscar365.com",
+      "url": "https://sportscar365.com/lemans/asian-lms/af-corse-doubles-up-with-sunday-paul-ricard-win/",
+      "published": "2026-11-15T16:30:00Z",
+      "top": true
     },
     {
       "id": "2026-11-15-apr-team-qatar-vincono-classi-gara1",
@@ -52,7 +52,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-19T13:55:00Z",
+    "updated": "2026-11-19T18:55:00Z",
     "nextGp": {
       "name": "4 Ore di Jerez – Gara 1",
       "circuit": "Circuito de Jerez",

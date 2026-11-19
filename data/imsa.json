@@ -1,6 +1,36 @@
 {
   "news": [
     {
+      "id": "2026-11-09-conquest-franco-2027",
+      "title": "Conquest completa la formazione 2027 con il ritorno di Franco",
+      "summary": "La squadra annuncia il pilota che chiude il suo equipaggio a tempo pieno per la prossima stagione IMSA.",
+      "tag": "Piloti",
+      "source": "racer.com",
+      "url": "https://racer.com/2026/11/09/franco-returns-to-round-out-conquest-s-full-time-2027-imsa-line-up",
+      "published": "2026-11-09T12:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-10-15-cadillac-tre-gtp-2027",
+      "title": "Cadillac schiererà tre GTP nella stagione IMSA 2027",
+      "summary": "Il costruttore campione in carica conferma un programma a tre vetture nella classe regina per il 2027, annunciando anche i piloti.",
+      "tag": "Team",
+      "source": "imsa.com",
+      "url": "https://www.imsa.com/news/2026/10/15/trio-of-cadillac-racing-gtp-cars-confirmed-for-2027-imsa-season/",
+      "published": "2026-10-15T12:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-10-06-winward-crowdstrike-titoli",
+      "title": "Winward e CrowdStrike by APR chiudono i conti per i titoli GTD e LMP2",
+      "summary": "Al Petit Le Mans la Mercedes di Winward Racing si prende la corona GTD, mentre CrowdStrike by APR conquista il campionato LMP2.",
+      "tag": "Campionato",
+      "source": "dailysportscar.com",
+      "url": "https://www.dailysportscar.com/2026/10/06/winward-crowdstrike-by-apr-secure-titles-in-petit-le-mans.html",
+      "published": "2026-10-06T12:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-10-04-porsche-vince-petit-le-mans",
       "title": "Porsche Penske vince finalmente il Petit Le Mans assoluto",
       "summary": "Nella finale di stagione a Road Atlanta la Porsche 963 di Porsche Penske Motorsport conquista il primo successo assoluto del marchio al Petit Le Mans, con Laurens Vanthoor a resistere alla BMW nel finale. Per Matt Campbell è una vittoria di prestigio.",
@@ -19,40 +49,10 @@
       "url": "https://racer.com/2026/10/04/paul-miller-racing-wins-six-way-imsa-gtd-pro-title-battle-at-petit",
       "published": "2026-10-04T12:00:00Z",
       "top": false
-    },
-    {
-      "id": "2026-10-06-winward-crowdstrike-titoli",
-      "title": "Winward e CrowdStrike by APR chiudono i conti per i titoli GTD e LMP2",
-      "summary": "Al Petit Le Mans la Mercedes di Winward Racing si prende la corona GTD, mentre CrowdStrike by APR conquista il campionato LMP2.",
-      "tag": "Campionato",
-      "source": "dailysportscar.com",
-      "url": "https://www.dailysportscar.com/2026/10/06/winward-crowdstrike-by-apr-secure-titles-in-petit-le-mans.html",
-      "published": "2026-10-06T12:00:00Z",
-      "top": false
-    },
-    {
-      "id": "2026-10-15-cadillac-tre-gtp-2027",
-      "title": "Cadillac schiererà tre GTP nella stagione IMSA 2027",
-      "summary": "Il costruttore campione in carica conferma un programma a tre vetture nella classe regina per il 2027, annunciando anche i piloti.",
-      "tag": "Team",
-      "source": "imsa.com",
-      "url": "https://www.imsa.com/news/2026/10/15/trio-of-cadillac-racing-gtp-cars-confirmed-for-2027-imsa-season/",
-      "published": "2026-10-15T12:00:00Z",
-      "top": false
-    },
-    {
-      "id": "2026-11-09-conquest-franco-2027",
-      "title": "Conquest completa la formazione 2027 con il ritorno di Franco",
-      "summary": "La squadra annuncia il pilota che chiude il suo equipaggio a tempo pieno per la prossima stagione IMSA.",
-      "tag": "Piloti",
-      "source": "racer.com",
-      "url": "https://racer.com/2026/11/09/franco-returns-to-round-out-conquest-s-full-time-2027-imsa-line-up",
-      "published": "2026-11-09T12:00:00Z",
-      "top": false
     }
   ],
   "info": {
-    "updated": "2026-11-19T13:55:00Z",
+    "updated": "2026-11-19T18:55:00Z",
     "nextGp": {
       "name": "24 Ore di Daytona",
       "circuit": "Daytona International Speedway",

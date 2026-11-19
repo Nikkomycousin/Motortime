@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-19-antonelli-penalita-las-vegas",
+      "title": "Las Vegas, Antonelli penalizzato di cinque posizioni in griglia",
+      "summary": "Il montaggio della sesta power unit stagionale, con il nuovo turbo ADUO della Mercedes, oltre il limite consentito costa ad Antonelli cinque posti sulla griglia di domenica. Il leader del Mondiale dovrà quindi rimontare per inseguire la vittoria sulla Strip.",
+      "tag": "Mercedes",
+      "source": "Motorsport Week",
+      "url": "https://www.motorsportweek.com/2026/11/19/kimi-antonelli-set-for-las-vegas-grid-penalty/",
+      "published": "2026-11-19T16:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-19-hamilton-fiducia-ferrari",
       "title": "Hamilton nega problemi di fiducia con la Ferrari dopo gli ordini ignorati",
       "summary": "Nel media day di Las Vegas il sette volte campione ha respinto l'idea di una frattura con il muretto, dopo aver disatteso due volte le indicazioni del team nelle ultime gare. L'obiettivo resta il secondo posto tra i costruttori.",
@@ -1162,19 +1172,10 @@
       "source": "Fanpage.it",
       "url": "https://www.fanpage.it/sport/live/formula-1-oggi-orari-tv-del-gp-messico-su-tv8-e-sky-e-dove-vederlo-hamilton-in-pole-kimi-antonelli-puo-essere-campione-leclerc-terzo/",
       "published": "2026-11-01T22:30:00Z"
-    },
-    {
-      "id": "2026-11-01-verstappen-vince-messico",
-      "title": "Verstappen vince il GP del Messico, Hamilton secondo per 8 decimi",
-      "summary": "Max resiste fino all'ultimo giro agli attacchi della Ferrari di Hamilton. Antonelli si accontenta del terzo posto senza rischiare, Leclerc chiude quarto difendendosi da Norris con gomme consumate.",
-      "tag": "Gare",
-      "source": "Fanpage.it",
-      "url": "https://www.fanpage.it/sport/live/formula-1-oggi-orari-tv-del-gp-messico-su-tv8-e-sky-e-dove-vederlo-hamilton-in-pole-kimi-antonelli-puo-essere-campione-leclerc-terzo/",
-      "published": "2026-11-01T22:00:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-19T13:55:00Z",
+    "updated": "2026-11-19T18:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",

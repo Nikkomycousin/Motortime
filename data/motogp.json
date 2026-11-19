@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-19-marquez-14-punti-portimao",
+      "title": "Márquez a Portimão: «Ho in testa solo il 14, il titolo dipende da me»",
+      "summary": "Nella conferenza stampa del giovedì il leader del Mondiale ha spiegato che gli bastano 14 punti nel weekend portoghese per chiudere i conti, senza guardare ai risultati degli altri. Lo spagnolo ha anche escluso di pensare al ritiro dopo il decimo titolo.",
+      "tag": "Mondiale",
+      "source": "Sky Sport",
+      "url": "https://sport.sky.it/motogp/video/2026/11/19/motogp-marquez-intervista-gp-portogallo-portimao-1141093",
+      "published": "2026-11-19T14:30:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-18-aprilia-derby-martin-bezzecchi",
       "title": "Márquez vede il decimo titolo, in Aprilia si accende il derby Martín-Bezzecchi",
       "summary": "Alla vigilia di Portimão Márquez è a un passo dal decimo mondiale, mentre in casa Aprilia la sfida interna tra Martín e Bezzecchi si fa sempre più calda.",
@@ -222,7 +232,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-19T13:55:00Z",
+    "updated": "2026-11-19T18:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",

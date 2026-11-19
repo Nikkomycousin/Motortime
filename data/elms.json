@@ -1,14 +1,14 @@
 {
   "news": [
     {
-      "id": "2026-10-10-united-autosports-campione-lmp2-portimao",
-      "title": "United Autosports vince a Portimão e si prende il titolo LMP2 2026",
-      "summary": "Nell'ultima gara della stagione la Oreca #22 di Hanley, Peebles e Saucy è partita dalla pole e ha vinto con circa 12 secondi di margine, riportando il titolo ELMS a United Autosports per la prima volta dal 2020. Tutti i titoli di classe sono stati decisi in Portogallo.",
-      "tag": "Campionato",
-      "source": "europeanlemansseries.com",
-      "url": "https://www.europeanlemansseries.com/en/news/united-autosports-win-in-portugal-to-lift-2026-lmp2-title/13861",
-      "published": "2026-10-10T18:00:00Z",
-      "top": true
+      "id": "2026-10-12-trulli-campione-pro-am",
+      "title": "Enzo Trulli campione LMP2 Pro-Am con Algarve Pro Racing",
+      "summary": "L'italiano, insieme a Michael Jensen e Malthe Jakobsen, ha vinto la gara di Portimão e il titolo Pro-Am con la Oreca #20, approfittando del problema tecnico che ha frenato la AF Corse #83, leader alla vigilia. I campioni sono stati premiati alla serata di fine stagione.",
+      "tag": "Italiani",
+      "source": "dailysportscar.com",
+      "url": "https://www.dailysportscar.com/2026/10/12/elms-end-of-season-awards.html",
+      "published": "2026-10-12T12:00:00Z",
+      "top": false
     },
     {
       "id": "2026-10-10-portimao-titoli-fino-all-ultimo",
@@ -21,18 +21,18 @@
       "top": false
     },
     {
-      "id": "2026-10-12-trulli-campione-pro-am",
-      "title": "Enzo Trulli campione LMP2 Pro-Am con Algarve Pro Racing",
-      "summary": "L'italiano, insieme a Michael Jensen e Malthe Jakobsen, ha vinto la gara di Portimão e il titolo Pro-Am con la Oreca #20, approfittando del problema tecnico che ha frenato la AF Corse #83, leader alla vigilia. I campioni sono stati premiati alla serata di fine stagione.",
-      "tag": "Italiani",
-      "source": "dailysportscar.com",
-      "url": "https://www.dailysportscar.com/2026/10/12/elms-end-of-season-awards.html",
-      "published": "2026-10-12T12:00:00Z",
-      "top": false
+      "id": "2026-10-10-united-autosports-campione-lmp2-portimao",
+      "title": "United Autosports vince a Portimão e si prende il titolo LMP2 2026",
+      "summary": "Nell'ultima gara della stagione la Oreca #22 di Hanley, Peebles e Saucy è partita dalla pole e ha vinto con circa 12 secondi di margine, riportando il titolo ELMS a United Autosports per la prima volta dal 2020. Tutti i titoli di classe sono stati decisi in Portogallo.",
+      "tag": "Campionato",
+      "source": "europeanlemansseries.com",
+      "url": "https://www.europeanlemansseries.com/en/news/united-autosports-win-in-portugal-to-lift-2026-lmp2-title/13861",
+      "published": "2026-10-10T18:00:00Z",
+      "top": true
     }
   ],
   "info": {
-    "updated": "2026-11-19T13:55:00Z",
+    "updated": "2026-11-19T18:55:00Z",
     "nextGp": {
       "name": "4 Ore di Barcellona",
       "circuit": "Circuit de Barcelona-Catalunya",
