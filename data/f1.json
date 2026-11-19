@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-19-leclerc-giornalista-bandito",
+      "title": "Leclerc sul giornalista escluso dalla FIA: «Sorpreso dalle parole usate»",
+      "summary": "Alla vigilia di Las Vegas il ferrarista ha commentato il caso del cronista del Daily Mail privato dell'accredito dopo un articolo critico nei suoi confronti, dicendosi colpito dai termini dell'articolo ma senza entrare nel merito della decisione federale.",
+      "tag": "Paddock",
+      "source": "Motorsport.com",
+      "url": "https://www.motorsport.com/f1/news/charles-leclerc-on-journalist-ban-i-was-surprised-by-the-choice-of-words/10875509/",
+      "published": "2026-11-19T20:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-19-antonelli-penalita-las-vegas",
       "title": "Las Vegas, Antonelli penalizzato di cinque posizioni in griglia",
       "summary": "Il montaggio della sesta power unit stagionale, con il nuovo turbo ADUO della Mercedes, oltre il limite consentito costa ad Antonelli cinque posti sulla griglia di domenica. Il leader del Mondiale dovrà quindi rimontare per inseguire la vittoria sulla Strip.",
@@ -1163,19 +1173,10 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/2026-f1-mexico-city-grand-prix-results",
       "published": "2026-11-02T01:45:00Z"
-    },
-    {
-      "id": "2026-11-01-antonelli-campione",
-      "title": "Kimi Antonelli è campione del mondo di Formula 1",
-      "summary": "Con il terzo posto in Messico il pilota Mercedes conquista matematicamente il titolo 2026 e diventa il campione più giovane della storia. Un italiano torna campione dopo oltre settant'anni.",
-      "tag": "Mondiale",
-      "source": "Fanpage.it",
-      "url": "https://www.fanpage.it/sport/live/formula-1-oggi-orari-tv-del-gp-messico-su-tv8-e-sky-e-dove-vederlo-hamilton-in-pole-kimi-antonelli-puo-essere-campione-leclerc-terzo/",
-      "published": "2026-11-01T22:30:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-19T18:55:00Z",
+    "updated": "2026-11-19T20:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
