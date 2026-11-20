@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-20-leclerc-ferrari-non-male",
+      "title": "Leclerc dopo le libere di Las Vegas: «La Ferrari non è messa male»",
+      "summary": "Terzo nella sessione bagnata, il monegasco vede segnali incoraggianti per la SF-26 in vista di qualifiche e gara. Restano però molte incognite sul comportamento delle gomme con l'asciutto.",
+      "tag": "Ferrari",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/ferrari-not-in-a-bad-place-after-practice-for-las-vegas-grand-prix-says.2I4MSR4aIpLcKUPUPOxoWS",
+      "published": "2026-11-20T08:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-20-verstappen-motore-vegas",
       "title": "Verstappen solo tredicesimo nelle libere di Las Vegas, frenato da un problema al motore",
       "summary": "Il pilota Red Bull ha chiuso la seconda sessione lontano dai primi e ha lamentato un inconveniente alla power unit. Per lui una giornata da archiviare in fretta in vista delle qualifiche.",
@@ -1167,19 +1177,10 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/",
       "published": "2026-11-02T06:00:00Z"
-    },
-    {
-      "id": "2026-11-02-brasile-orari",
-      "title": "Si vola a Interlagos: gli orari del GP del Brasile",
-      "summary": "Prossima tappa sabato 7 e domenica 8 novembre a San Paolo. Poi Las Vegas, Qatar e il gran finale ad Abu Dhabi il 6 dicembre.",
-      "tag": "Calendario",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/f1-news",
-      "published": "2026-11-02T06:00:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-20T07:55:00Z",
+    "updated": "2026-11-20T10:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
