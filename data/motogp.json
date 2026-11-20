@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-20-portimao-fp1-bezzecchi-martin",
+      "title": "Portimão, Aprilia apre il weekend con la doppietta Bezzecchi-Martín nelle libere 1",
+      "summary": "Nella prima sessione del GP del Portogallo Bezzecchi ha preceduto il compagno Martín, firmando un uno-due Aprilia. Marc Márquez, che qui può chiudere il conto per il titolo, ha chiuso quarto.",
+      "tag": "Aprilia",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/motogp/news/1110321/1/marco-bezzecchi-leads-aprilia-1-2-portugal-motogp-fp1",
+      "published": "2026-11-20T11:35:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-19-marquez-14-punti-portimao",
       "title": "Márquez a Portimão: «Ho in testa solo il 14, il titolo dipende da me»",
       "summary": "Nella conferenza stampa del giovedì il leader del Mondiale ha spiegato che gli bastano 14 punti nel weekend portoghese per chiudere i conti, senza guardare ai risultati degli altri. Lo spagnolo ha anche escluso di pensare al ritiro dopo il decimo titolo.",
@@ -28,6 +38,16 @@
       "source": "QS Quotidiano Sportivo",
       "url": "https://sport.quotidiano.net/motomondiale/moto-gp-portogallo-bez-e-martin-in-coro-pista-bella-e-che-piace-ee943a2f",
       "published": "2026-11-18T14:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-18-dixon-sostituisce-mir",
+      "title": "Mir out a Portimão: la Honda chiama Jake Dixon",
+      "summary": "Il pilota inglese, impegnato in Superbike, prende il posto di Joan Mir per il GP del Portogallo e affiancherà Luca Marini nel team ufficiale Honda.",
+      "tag": "Team",
+      "source": "MotoGP.com",
+      "url": "https://www.motogp.com/en/news/grand-prix/portugal",
+      "published": "2026-11-18T12:00:00Z",
       "top": false
     },
     {
@@ -232,7 +252,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-20T10:55:00Z",
+    "updated": "2026-11-20T13:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",
