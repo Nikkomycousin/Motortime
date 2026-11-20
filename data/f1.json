@@ -1,6 +1,15 @@
 {
   "news": [
     {
+      "id": "2026-11-20-las-vegas-cinque-penalita",
+      "title": "Las Vegas, pioggia di penalità: Piastri e Sainz arretrano di dieci posizioni",
+      "summary": "Sono almeno cinque i piloti che sconteranno arretramenti in griglia sulla Strip per l'uso di componenti della power unit oltre il limite. Oltre ad Antonelli, i colpi più pesanti toccano a Piastri e Sainz, penalizzati di dieci posti.",
+      "tag": "Gare",
+      "source": "RaceFans",
+      "url": "https://www.racefans.net/2026/11/20/five-drivers-to-take-grid-penalties-at-las-vegas-grand-prix/",
+      "published": "2026-11-20T17:00:00Z"
+    },
+    {
       "id": "2026-11-20-leclerc-ferrari-non-male",
       "title": "Leclerc dopo le libere di Las Vegas: «La Ferrari non è messa male»",
       "summary": "Terzo nella sessione bagnata, il monegasco vede segnali incoraggianti per la SF-26 in vista di qualifiche e gara. Restano però molte incognite sul comportamento delle gomme con l'asciutto.",
@@ -1168,19 +1177,10 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/toto-wolff-george-russell-f1-2026-mexican-grand-prix",
       "published": "2026-11-02T07:34:00Z"
-    },
-    {
-      "id": "2026-11-01-bottas-cadillac",
-      "title": "Cadillac indaga sull'incidente di Bottas in Messico",
-      "summary": "Il team americano ha aperto un'indagine interna dopo il crash del finlandese durante la gara.",
-      "tag": "Team",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/",
-      "published": "2026-11-02T06:00:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-20T13:55:00Z",
+    "updated": "2026-11-20T18:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",

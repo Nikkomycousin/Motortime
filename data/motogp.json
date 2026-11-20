@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-20-portimao-practice-alex-marquez",
+      "title": "Portimão, Alex Márquez al rientro guida la Practice; Marc sesto, Martín in Q2 per un soffio",
+      "summary": "Al ritorno dall'infortunio il pilota Gresini ha firmato il miglior tempo del venerdì in Algarve. Il fratello Marc, a un passo dal titolo, è sesto e passa direttamente in Q2, mentre Martín ha strappato l'accesso diretto all'ultimo.",
+      "tag": "Gare",
+      "source": "Motorsport Week",
+      "url": "https://www.motorsportweek.com/2026/11/20/alex-marquez-tops-motogp-practice-in-portugal-as-jorge-martin-scrapes-into-q2/",
+      "published": "2026-11-20T16:15:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-20-portimao-fp1-bezzecchi-martin",
       "title": "Portimão, Aprilia apre il weekend con la doppietta Bezzecchi-Martín nelle libere 1",
       "summary": "Nella prima sessione del GP del Portogallo Bezzecchi ha preceduto il compagno Martín, firmando un uno-due Aprilia. Marc Márquez, che qui può chiudere il conto per il titolo, ha chiuso quarto.",
@@ -252,7 +262,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-20T13:55:00Z",
+    "updated": "2026-11-20T18:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",

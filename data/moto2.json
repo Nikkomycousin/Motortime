@@ -1,6 +1,15 @@
 {
   "news": [
     {
+      "id": "2026-11-20-portimao-practice-agius",
+      "title": "Portimão, Agius domina anche le pre-qualifiche; Gonzalez e Guevara in affanno",
+      "summary": "L'australiano conferma il passo della mattina e chiude il venerdì davanti a tutti. Giornata complicata per i due contendenti al titolo, entrambi lontani dalle prime posizioni.",
+      "tag": "Gare",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/20/moto2/agius-domina-le-pre-qualifiche-a-portimao-in-difficolta-guevara-e-gonzalez.html",
+      "published": "2026-11-20T15:00:00Z"
+    },
+    {
       "id": "2026-11-20-portimao-fp1-agius-record",
       "title": "Portimão, Agius da record nelle libere 1; Gonzalez cade ed è dodicesimo",
       "summary": "Senna Agius ha aperto il weekend portoghese con il miglior tempo di sempre sulla pista dell'Algarve, con Guevara terzo. Il leader del mondiale Gonzalez è scivolato e ha chiuso in dodicesima posizione.",
@@ -72,7 +81,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-20T13:55:00Z",
+    "updated": "2026-11-20T18:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Portimão",

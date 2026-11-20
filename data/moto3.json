@@ -1,6 +1,15 @@
 {
   "news": [
     {
+      "id": "2026-11-20-portimao-practice-almansa",
+      "title": "Portimão, Almansa si ripete nelle pre-qualifiche: Quiles secondo, bene Pini",
+      "summary": "Lo spagnolo resta il riferimento del venerdì portoghese anche nella sessione pomeridiana. Il campione Quiles è il primo degli inseguitori, mentre Pini è il migliore degli italiani in settima posizione.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/moto3-david-almansa-primeggia-anche-nelle-pre-qualifiche-di-portimao-quiles-competitivo-bene-pini/",
+      "published": "2026-11-20T14:15:00Z"
+    },
+    {
       "id": "2026-11-20-portimao-fp1-almansa",
       "title": "Portimão, Almansa apre il weekend davanti a tutti nelle libere 1",
       "summary": "Lo spagnolo ha chiuso il primo turno con oltre sette decimi di margine sul campione Quiles, terzo Muñoz. Buon avvio per Pini, dentro la top 10.",
@@ -62,7 +71,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-20T13:55:00Z",
+    "updated": "2026-11-20T18:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Portimão",

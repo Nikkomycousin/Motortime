@@ -1,6 +1,25 @@
 {
   "news": [
     {
+      "id": "2026-11-20-peugeot-programma-a-rischio",
+      "title": "Peugeot verso lo stop del programma Hypercar prima del 2027",
+      "summary": "Secondo indiscrezioni dal paddock, il marchio francese sarebbe pronto a chiudere l'avventura nel WEC già dopo la stagione 2026. Una decisione ufficiale non è ancora arrivata.",
+      "tag": "Team",
+      "source": "RACER",
+      "url": "https://racer.com/2026/11/20/peugeot-s-wec-program-facing-the-axe-ahead-of-2027-season",
+      "published": "2026-11-20T15:00:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-19-estre-toyota-2027",
+      "title": "Kévin Estre passa alla Toyota per la stagione Hypercar 2027",
+      "summary": "Il francese, a lungo pilota di punta della Porsche, si unisce al programma giapponese per il prossimo Mondiale Endurance.",
+      "tag": "Mercato",
+      "source": "RACER",
+      "url": "https://racer.com/2026/11/19/estre-joins-toyota-for-2027-wec-hypercar-program",
+      "published": "2026-11-19T18:00:00Z"
+    },
+    {
       "id": "2026-11-16-dillmann-riserva-ford",
       "title": "Tom Dillmann sarà il pilota di riserva del programma Hypercar Ford",
       "summary": "Il francese entra nel progetto con cui Ford debutterà nella classe regina del WEC, con il ruolo di riserva per la line-up ufficiale.",
@@ -265,7 +284,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-20T13:55:00Z",
+    "updated": "2026-11-20T18:55:00Z",
     "nextGp": {
       "name": "Qatar 1812 km",
       "circuit": "Lusail",
