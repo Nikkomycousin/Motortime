@@ -1,6 +1,36 @@
 {
   "news": [
     {
+      "id": "2026-11-20-verstappen-motore-vegas",
+      "title": "Verstappen solo tredicesimo nelle libere di Las Vegas, frenato da un problema al motore",
+      "summary": "Il pilota Red Bull ha chiuso la seconda sessione lontano dai primi e ha lamentato un inconveniente alla power unit. Per lui una giornata da archiviare in fretta in vista delle qualifiche.",
+      "tag": "Red Bull",
+      "source": "F1 Oversteer",
+      "url": "https://www.f1oversteer.com/races/george-russell-tops-red-flagged-las-vegas-gp-fp2-as-max-verstappen-bemoans-engine-issue/",
+      "published": "2026-11-20T06:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-20-las-vegas-fp2-russell",
+      "title": "Las Vegas, Russell il più veloce nelle libere 2 sul bagnato davanti a Gasly e Leclerc",
+      "summary": "Con l'asfalto che si asciugava, George Russell ha piazzato il miglior tempo all'ultimo tentativo in una sessione interrotta da una bandiera rossa. Seconda l'Alpine di Gasly, terza la Ferrari di Leclerc, Antonelli ottavo.",
+      "tag": "Gare",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/fp2-russell-beats-gasly-and-leclerc-to-top-spot-in-wet-las-vegas-gp-practice.62NwXdkf1krQs0esgViJtc",
+      "published": "2026-11-20T05:30:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-20-las-vegas-fp1-pioggia",
+      "title": "Las Vegas, la pioggia cancella le libere 1: nessun tempo cronometrato",
+      "summary": "Un forte acquazzone ha bloccato la prima sessione sulla Strip e nessun pilota è riuscito a completare un giro cronometrato. Le squadre arrivano così alle qualifiche con pochissimi dati raccolti.",
+      "tag": "Gare",
+      "source": "news.gp",
+      "url": "https://www.news.gp/it/una-forte-pioggia-interrompe-la-fp1-di-las-vegas-senza-che-siano-stati-registrati-tempi-sul-giro",
+      "published": "2026-11-20T01:45:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-19-leclerc-giornalista-bandito",
       "title": "Leclerc sul giornalista escluso dalla FIA: «Sorpreso dalle parole usate»",
       "summary": "Alla vigilia di Las Vegas il ferrarista ha commentato il caso del cronista del Daily Mail privato dell'accredito dopo un articolo critico nei suoi confronti, dicendosi colpito dai termini dell'articolo ma senza entrare nel merito della decisione federale.",
@@ -68,7 +98,7 @@
       "source": "Racer",
       "url": "https://racer.com/2026/11/17/antonelli-set-for-grid-penalty-for-mercedes-aduo-as-team-targets-p2-for-russell",
       "published": "2026-11-17T20:00:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-17-antonelli-decima-vittoria-las-vegas",
@@ -248,7 +278,7 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/liam-lawson-racing-bulls-f1-2027-announcement",
       "published": "2026-11-12T11:04:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-11-mclaren-novita-las-vegas",
@@ -368,7 +398,7 @@
       "source": "L'Altra Imola",
       "url": "https://www.laltraimola.it/2026/11/10/f1-sfuma-lipotesi-imola-la-fia-conferma-i-gran-premi-di-qatar-e-abu-dhabi/",
       "published": "2026-11-10T12:54:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-10-aduo-terzo-periodo",
@@ -553,7 +583,7 @@
       "source": "RaceFans",
       "url": "https://www.racefans.net/2026/11/08/2026-brazilian-grand-prix-race-result-and-championship-points/",
       "published": "2026-11-08T18:50:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-08-verstappen-rimonta-brasile",
@@ -572,7 +602,7 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-race-report",
       "published": "2026-11-08T18:45:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-07-griglia-brasile-penalita",
@@ -582,7 +612,7 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/brazilian-grand-prix-2026-penalty-fia",
       "published": "2026-11-07T20:40:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-07-alonso-q3-aston",
@@ -602,7 +632,7 @@
       "source": "Crash.net",
       "url": "https://www.crash.net/f1/news/1109818/1/lando-norris-takes-pole-heavily-delayed-wet-brazil-gp-qualifying",
       "published": "2026-11-07T20:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-07-qualifiche-pioggia-bandiera-rossa",
@@ -622,7 +652,7 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/f1-results-brazilian-grand-prix-2026-fp3-interlagos",
       "published": "2026-11-07T15:35:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-07-penalita-motore-verstappen-leclerc-hamilton",
@@ -632,7 +662,7 @@
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/breaking-news/verstappen-and-ferrari-pair-exceed-engine-limits-at-sao-paulo-gp",
       "published": "2026-11-07T14:46:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-10-imola-scadenza-finale",
@@ -691,7 +721,7 @@
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/news/f1-full-results-lando-norris-tops-brazilian-gp-fp1-from-kimi-antonelli",
       "published": "2026-11-06T16:32:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-06-vasseur-confronto-hamilton-leclerc",
@@ -721,7 +751,7 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/george-russell-eyes-lewis-hamilton-heroics-as-brazil-grid-penalty-confirmed",
       "published": "2026-11-06T09:40:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-06-permane-rinnovo-racing-bulls",
@@ -771,7 +801,7 @@
       "source": "Read Motorsport",
       "url": "https://readmotorsport.com/2026/11/05/f1-warns-of-possible-flooding-at-interlagos-ahead-of-sao-paulo-grand-prix/",
       "published": "2026-11-05T15:56:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-05-sette-rookie-fp1-interlagos",
@@ -821,7 +851,7 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/williams-release-statement-after-legend-alan-jones-saddening-death",
       "published": "2026-11-05T08:19:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-05-audi-livrea-interlagos",
@@ -891,7 +921,7 @@
       "source": "Automoto.it",
       "url": "https://www.automoto.it/formula1/f1-leclerc-papa-nascita-bianca-ferrari-beganovic-gp-brasile-haas-camara.html",
       "published": "2026-11-04T15:00:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-04-hamilton-400-gp",
@@ -951,7 +981,7 @@
       "source": "Formula1.com",
       "url": "https://www.formula1.com/en/latest/article/f2-racer-camara-to-make-f1-debut-at-sao-paulo-grand-prix-as-haas-confirm-ocon-will-not-return.12Qa0tpaMZ9kgnEuGJBKFp",
       "published": "2026-11-03T20:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-03-pirelli-mescole-brasile",
@@ -981,7 +1011,7 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/how-mercedes-can-win-f1-2026-constructors-championship",
       "published": "2026-11-03T14:08:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-03-interlagos-pioggia",
@@ -1000,7 +1030,7 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/lewis-hamilton-fia-max-verstappen-mexican-grand-prix-2026-footage",
       "published": "2026-11-03T12:16:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-03-bottas-futuro-cadillac",
@@ -1037,7 +1067,7 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/lewis-hamilton-demands-ferrari-solutions-after-latest-mess-with-charles-leclerc",
       "published": "2026-11-03T05:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-02-russell-messaggio",
@@ -1146,37 +1176,10 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/f1-news",
       "published": "2026-11-02T06:00:00Z"
-    },
-    {
-      "id": "2026-11-02-vasseur-rispetto",
-      "title": "Vasseur dopo il duello Hamilton-Leclerc: \"Questione di rispetto\"",
-      "summary": "Il team principal Ferrari critica il comportamento dei suoi piloti in Messico. Verstappen sostiene che avere due prime guide sia costato la vittoria alla Rossa.",
-      "tag": "Ferrari",
-      "source": "Motorsport.com",
-      "url": "https://www.motorsport.com/f1/news/",
-      "published": "2026-11-02T03:00:00Z"
-    },
-    {
-      "id": "2026-11-02-classifica",
-      "title": "Classifica aggiornata dopo il Messico: lotta Verstappen-Hamilton per il 2° posto",
-      "summary": "Le penalità post-gara ritoccano la classifica. Con Antonelli già campione resta aperta la sfida per il secondo posto, e la Mercedes è vicina al titolo costruttori.",
-      "tag": "Mondiale",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/2026-f1-championship-standings-after-the-mexico-city-grand-prix",
-      "published": "2026-11-02T02:44:00Z"
-    },
-    {
-      "id": "2026-11-02-piastri-penalita",
-      "title": "Piastri perde i punti del Messico dopo una penalità",
-      "summary": "I commissari hanno sanzionato il pilota McLaren dopo la gara, facendolo uscire dalla zona punti. Penalizzati anche i due piloti Alpine: a punti all'esordio Ryo Hirakawa.",
-      "tag": "Gare",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/2026-f1-mexico-city-grand-prix-results",
-      "published": "2026-11-02T01:45:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-19T23:50:00Z",
+    "updated": "2026-11-20T07:55:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
