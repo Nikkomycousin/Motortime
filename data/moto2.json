@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-21-portimao-fp2-pioggia",
+      "title": "Portimão, pioggia leggera nelle libere 2: pochi tempi, Zurutuza il più rapido",
+      "summary": "La seconda sessione di libere della Moto2 si è disputata su pista umida e quasi nessuno ha cercato la prestazione. Il miglior riscontro è stato di Zurutuza, con molti piloti rimasti senza un tempo significativo.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/moto2-la-pioggia-leggera-rallenta-lazione-in-pista-a-portimao-in-pochi-con-un-tempo-nella-fp2/",
+      "published": "2026-11-21T10:15:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-20-portimao-practice-agius",
       "title": "Portimão, Agius domina anche le pre-qualifiche; Gonzalez e Guevara in affanno",
       "summary": "L'australiano conferma il passo della mattina e chiude il venerdì davanti a tutti. Giornata complicata per i due contendenti al titolo, entrambi lontani dalle prime posizioni.",
@@ -81,7 +91,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-21T08:10:00Z",
+    "updated": "2026-11-21T10:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Portimão",

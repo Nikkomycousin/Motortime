@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-21-portimao-fp2-quiles",
+      "title": "Portimão, Quiles risponde ad Almansa e chiude davanti le libere 2; Pini fuori dai dieci",
+      "summary": "Nella seconda sessione di prove libere in Portogallo Maximo Quiles si è preso il miglior tempo replicando ad Almansa, protagonista di venerdì. Giornata più complicata per Pini, rimasto fuori dalla top 10.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/moto3-maximo-quiles-risponde-ad-almansa-nella-fp2-di-portimao-fuori-dalla-top10-pini/",
+      "published": "2026-11-21T09:30:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-20-portimao-practice-almansa",
       "title": "Portimão, Almansa si ripete nelle pre-qualifiche: Quiles secondo, bene Pini",
       "summary": "Lo spagnolo resta il riferimento del venerdì portoghese anche nella sessione pomeridiana. Il campione Quiles è il primo degli inseguitori, mentre Pini è il migliore degli italiani in settima posizione.",
@@ -71,7 +81,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-21T08:10:00Z",
+    "updated": "2026-11-21T10:55:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Portimão",
