@@ -1,6 +1,26 @@
 {
   "news": [
     {
+      "id": "2026-11-21-portimao-pole-bezzecchi-record",
+      "title": "Portimão, Bezzecchi in pole con il record della pista: Márquez secondo",
+      "summary": "Il pilota Aprilia ha firmato la sua sesta pole stagionale abbassando il primato del circuito dell'Algarve. Márquez parte dalla prima fila con il titolo a portata di mano, Martín solo settimo.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/motogp-pole-e-record-della-pista-a-portimao-per-marco-bezzecchi-marquez-fa-il-massimo-martin-barcolla/",
+      "published": "2026-11-21T11:40:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-21-portimao-sprint-anticipata",
+      "title": "Portimão, Sprint anticipata alle 15:30 per il maltempo previsto",
+      "summary": "La direzione gara ha spostato in avanti di mezz'ora la partenza della Sprint a causa delle previsioni di forte pioggia nel pomeriggio. Márquez può chiudere il conto del Mondiale già oggi.",
+      "tag": "Calendario",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/live-motogp-gp-portogallo-2026-in-diretta-marquez-puo-chiudere-i-conti-nella-sprint/",
+      "published": "2026-11-21T12:30:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-20-portimao-practice-alex-marquez",
       "title": "Portimão, Alex Márquez al rientro guida la Practice; Marc sesto, Martín in Q2 per un soffio",
       "summary": "Al ritorno dall'infortunio il pilota Gresini ha firmato il miglior tempo del venerdì in Algarve. Il fratello Marc, a un passo dal titolo, è sesto e passa direttamente in Q2, mentre Martín ha strappato l'accesso diretto all'ultimo.",
@@ -8,7 +28,7 @@
       "source": "Motorsport Week",
       "url": "https://www.motorsportweek.com/2026/11/20/alex-marquez-tops-motogp-practice-in-portugal-as-jorge-martin-scrapes-into-q2/",
       "published": "2026-11-20T16:15:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-20-portimao-fp1-bezzecchi-martin",
@@ -18,7 +38,7 @@
       "source": "Crash.net",
       "url": "https://www.crash.net/motogp/news/1110321/1/marco-bezzecchi-leads-aprilia-1-2-portugal-motogp-fp1",
       "published": "2026-11-20T11:35:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-19-marquez-14-punti-portimao",
@@ -262,7 +282,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-21T10:55:00Z",
+    "updated": "2026-11-21T14:00:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Autódromo Internacional do Algarve, Portimão",
@@ -274,7 +294,7 @@
   "weekend": {
     "gp": "GP del Portogallo",
     "circuit": "Autódromo Internacional do Algarve, Portimão",
-    "updated": "2026-11-19T07:55:00Z",
+    "updated": "2026-11-21T14:00:00Z",
     "tv8note": "TV8 trasmette in diretta e in chiaro qualifiche, Sprint e gara MotoGP; diretta integrale di tutte le sessioni su Sky Sport MotoGP e NOW.",
     "sessions": [
       {
@@ -308,13 +328,13 @@
       },
       {
         "name": "Sprint",
-        "start": "2026-11-21T15:00:00Z",
-        "end": "2026-11-21T15:30:00Z",
+        "start": "2026-11-21T14:30:00Z",
+        "end": "2026-11-21T15:00:00Z",
         "live": "Diretta Sky Sport MotoGP · NOW",
         "key": true,
         "tv8": {
           "live": true,
-          "time": "2026-11-21T15:00:00Z"
+          "time": "2026-11-21T14:30:00Z"
         }
       },
       {
@@ -338,291 +358,11 @@
     "lon": -8.63
   },
   "results": {
-    "gp": "GP del Qatar",
-    "round": 20,
-    "updated": "2026-11-08T18:00:00Z",
-    "summary": "Marco Bezzecchi ha vinto il GP del Qatar partendo dalla pole e restando al comando dall'inizio alla fine, cancellando la delusione della Sprint del sabato, chiusa a terra dopo un contatto con Marc Márquez. Lo spagnolo della Ducati, vincitore della Sprint, ha chiuso secondo a poco più di tre secondi, davanti a Raúl Fernández e Ai Ogura con le Aprilia Trackhouse. Martín, settimo, è ora a 60 punti da Márquez, che a Portimão potrà chiudere il discorso titolo. In griglia solo 16 moto per l'assenza della Yamaha e i forfait di Bagnaia e Marini.",
-    "podium": [
-      {
-        "name": "Marco Bezzecchi"
-      },
-      {
-        "name": "Marc Márquez"
-      },
-      {
-        "name": "Raúl Fernández"
-      }
-    ],
+    "gp": "GP del Portogallo",
+    "round": 21,
+    "updated": "2026-11-21T14:00:00Z",
+    "summary": "Marco Bezzecchi si prende la pole a Portimão con un giro da record della pista in 1:37.201, quasi mezzo secondo meglio di Marc Márquez, che scatterà secondo nella Sprint in cui può già chiudere il Mondiale. Completa la prima fila Di Giannantonio con la Ducati VR46, davanti a Raúl Fernández e Álex Márquez. Più indietro Jorge Martín, solo settimo e alle spalle del compagno: Moreira e Lecuona sono passati dal Q1, interrotto da una bandiera rossa per la caduta del brasiliano.",
     "tabs": [
-      {
-        "label": "Gara",
-        "kind": "race",
-        "rows": [
-          {
-            "pos": "1",
-            "name": "Marco Bezzecchi",
-            "team": "Aprilia Racing",
-            "gap": "22 giri",
-            "points": 25,
-            "note": "Pole position"
-          },
-          {
-            "pos": "2",
-            "name": "Marc Márquez",
-            "team": "Ducati Lenovo",
-            "gap": "+3.083",
-            "points": 20
-          },
-          {
-            "pos": "3",
-            "name": "Raúl Fernández",
-            "team": "Trackhouse Aprilia",
-            "gap": "+3.614",
-            "points": 16
-          },
-          {
-            "pos": "4",
-            "name": "Ai Ogura",
-            "team": "Trackhouse Aprilia",
-            "gap": "+4.885",
-            "points": 13
-          },
-          {
-            "pos": "5",
-            "name": "Enea Bastianini",
-            "team": "Tech3 KTM",
-            "gap": "+6.948",
-            "points": 11
-          },
-          {
-            "pos": "6",
-            "name": "Pedro Acosta",
-            "team": "KTM Factory",
-            "gap": "+7.413",
-            "points": 10
-          },
-          {
-            "pos": "7",
-            "name": "Jorge Martín",
-            "team": "Aprilia Racing",
-            "gap": "+14.023",
-            "points": 9
-          },
-          {
-            "pos": "8",
-            "name": "Fabio Di Giannantonio",
-            "team": "VR46 Ducati",
-            "gap": "+15.517",
-            "points": 8
-          },
-          {
-            "pos": "9",
-            "name": "Johann Zarco",
-            "team": "LCR Honda",
-            "gap": "+16.257",
-            "points": 7
-          },
-          {
-            "pos": "10",
-            "name": "Iker Lecuona",
-            "team": "Gresini Ducati",
-            "gap": "+17.958",
-            "points": 6
-          },
-          {
-            "pos": "11",
-            "name": "Franco Morbidelli",
-            "team": "VR46 Ducati",
-            "gap": "+20.275",
-            "points": 5
-          },
-          {
-            "pos": "12",
-            "name": "Fermín Aldeguer",
-            "team": "Gresini Ducati",
-            "gap": "+20.576",
-            "points": 4
-          },
-          {
-            "pos": "13",
-            "name": "Maverick Viñales",
-            "team": "Tech3 KTM",
-            "gap": "+21.095",
-            "points": 3
-          },
-          {
-            "pos": "14",
-            "name": "Jake Dixon",
-            "team": "Honda HRC",
-            "gap": "+28.734",
-            "points": 2
-          },
-          {
-            "pos": "RIT",
-            "name": "Brad Binder",
-            "team": "KTM Factory",
-            "gap": "16 giri",
-            "points": 0
-          },
-          {
-            "pos": "RIT",
-            "name": "Diogo Moreira",
-            "team": "LCR Honda",
-            "gap": "15 giri",
-            "points": 0
-          },
-          {
-            "pos": "NP",
-            "name": "Francesco Bagnaia",
-            "team": "Ducati Lenovo",
-            "gap": "—",
-            "points": 0,
-            "note": "Fratture al piede destro nella caduta della Sprint"
-          },
-          {
-            "pos": "NP",
-            "name": "Luca Marini",
-            "team": "Honda HRC",
-            "gap": "—",
-            "points": 0,
-            "note": "Ritirato dopo il warm up per affaticamento"
-          }
-        ]
-      },
-      {
-        "label": "Sprint",
-        "kind": "race",
-        "rows": [
-          {
-            "pos": "1",
-            "name": "Marc Márquez",
-            "team": "Ducati Lenovo",
-            "gap": "18:46.450",
-            "points": 12
-          },
-          {
-            "pos": "2",
-            "name": "Fabio Di Giannantonio",
-            "team": "VR46 Ducati",
-            "gap": "+0.862",
-            "points": 9
-          },
-          {
-            "pos": "3",
-            "name": "Jorge Martín",
-            "team": "Aprilia Racing",
-            "gap": "+1.519",
-            "points": 7
-          },
-          {
-            "pos": "4",
-            "name": "Raúl Fernández",
-            "team": "Trackhouse Aprilia",
-            "gap": "+2.700",
-            "points": 6
-          },
-          {
-            "pos": "5",
-            "name": "Johann Zarco",
-            "team": "LCR Honda",
-            "gap": "+3.720",
-            "points": 5
-          },
-          {
-            "pos": "6",
-            "name": "Pedro Acosta",
-            "team": "KTM Factory",
-            "gap": "+4.664",
-            "points": 4
-          },
-          {
-            "pos": "7",
-            "name": "Ai Ogura",
-            "team": "Trackhouse Aprilia",
-            "gap": "+4.858",
-            "points": 3
-          },
-          {
-            "pos": "8",
-            "name": "Enea Bastianini",
-            "team": "Tech3 KTM",
-            "gap": "+5.582",
-            "points": 2
-          },
-          {
-            "pos": "9",
-            "name": "Iker Lecuona",
-            "team": "Gresini Ducati",
-            "gap": "+8.082",
-            "points": 1
-          },
-          {
-            "pos": "10",
-            "name": "Diogo Moreira",
-            "team": "LCR Honda",
-            "gap": "+9.220",
-            "points": 0
-          },
-          {
-            "pos": "11",
-            "name": "Fermín Aldeguer",
-            "team": "Gresini Ducati",
-            "gap": "+9.429",
-            "points": 0
-          },
-          {
-            "pos": "12",
-            "name": "Brad Binder",
-            "team": "KTM Factory",
-            "gap": "+9.483",
-            "points": 0
-          },
-          {
-            "pos": "13",
-            "name": "Luca Marini",
-            "team": "Honda HRC",
-            "gap": "+12.727",
-            "points": 0
-          },
-          {
-            "pos": "14",
-            "name": "Franco Morbidelli",
-            "team": "VR46 Ducati",
-            "gap": "+12.874",
-            "points": 0
-          },
-          {
-            "pos": "15",
-            "name": "Maverick Viñales",
-            "team": "Tech3 KTM",
-            "gap": "+13.483",
-            "points": 0
-          },
-          {
-            "pos": "16",
-            "name": "Jake Dixon",
-            "team": "Honda HRC",
-            "gap": "+19.373",
-            "points": 0
-          },
-          {
-            "pos": "RIT",
-            "name": "Marco Bezzecchi",
-            "team": "Aprilia Racing",
-            "gap": "—",
-            "points": 0,
-            "note": "Caduto dopo il contatto con Márquez (incidente di gara)"
-          },
-          {
-            "pos": "NP",
-            "name": "Francesco Bagnaia",
-            "team": "Ducati Lenovo",
-            "gap": "—",
-            "points": 0,
-            "note": "Tamponato da Aldeguer al via, bandiera rossa"
-          }
-        ]
-      },
       {
         "label": "Qualifiche",
         "kind": "quali",
@@ -631,111 +371,146 @@
             "pos": "1",
             "name": "Marco Bezzecchi",
             "team": "Aprilia Racing",
-            "time": "1:50.028",
-            "note": "Pole (Q2)"
+            "time": "1:37.201",
+            "note": "Pole (Q2) · record della pista"
           },
           {
             "pos": "2",
             "name": "Marc Márquez",
             "team": "Ducati Lenovo",
-            "time": "+0.266"
+            "time": "1:37.695"
           },
           {
             "pos": "3",
             "name": "Fabio Di Giannantonio",
             "team": "VR46 Ducati",
-            "time": "+0.299"
+            "time": "1:37.823"
           },
           {
             "pos": "4",
             "name": "Raúl Fernández",
             "team": "Trackhouse Aprilia",
-            "time": "+0.429"
+            "time": "1:38.117"
           },
           {
             "pos": "5",
-            "name": "Francesco Bagnaia",
-            "team": "Ducati Lenovo",
-            "time": "+0.564"
+            "name": "Álex Márquez",
+            "team": "Gresini Ducati",
+            "time": "1:38.262"
           },
           {
             "pos": "6",
-            "name": "Ai Ogura",
-            "team": "Trackhouse Aprilia",
-            "time": "+0.568"
+            "name": "Pedro Acosta",
+            "team": "KTM Factory",
+            "time": "1:38.304"
           },
           {
             "pos": "7",
-            "name": "Johann Zarco",
-            "team": "LCR Honda",
-            "time": "+0.707"
+            "name": "Jorge Martín",
+            "team": "Aprilia Racing",
+            "time": "1:38.314"
           },
           {
             "pos": "8",
-            "name": "Pedro Acosta",
-            "team": "KTM Factory",
-            "time": "+0.844"
+            "name": "Fermín Aldeguer",
+            "team": "Gresini Ducati",
+            "time": "1:38.515"
           },
           {
             "pos": "9",
-            "name": "Fermín Aldeguer",
-            "team": "Gresini Ducati",
-            "time": "+0.862"
+            "name": "Johann Zarco",
+            "team": "LCR Honda",
+            "time": "1:38.630"
           },
           {
             "pos": "10",
-            "name": "Enea Bastianini",
-            "team": "Tech3 KTM",
-            "time": "+0.973"
+            "name": "Brad Binder",
+            "team": "KTM Factory",
+            "time": "1:38.706"
           },
           {
             "pos": "11",
-            "name": "Jorge Martín",
-            "team": "Aprilia Racing",
-            "time": "+1.036"
+            "name": "Diogo Moreira",
+            "team": "LCR Honda",
+            "time": "1:38.867",
+            "note": "Dal Q1"
           },
           {
             "pos": "12",
-            "name": "Brad Binder",
-            "team": "KTM Factory",
-            "time": "+1.876"
+            "name": "Iker Lecuona",
+            "team": "Ducati Lenovo",
+            "time": "1:39.094",
+            "note": "Dal Q1"
           },
           {
             "pos": "13",
-            "name": "Franco Morbidelli",
-            "team": "VR46 Ducati",
-            "time": "1:51.271",
-            "note": "Eliminati in Q1 (tempi Q1)"
+            "name": "Jack Miller",
+            "team": "Pramac Yamaha",
+            "time": "1:41.850",
+            "note": "Q1"
           },
           {
             "pos": "14",
             "name": "Luca Marini",
             "team": "Honda HRC",
-            "time": "1:51.350"
+            "time": "1:41.886",
+            "note": "Q1"
           },
           {
             "pos": "15",
-            "name": "Iker Lecuona",
-            "team": "Gresini Ducati",
-            "time": "1:51.387"
+            "name": "Ai Ogura",
+            "team": "Trackhouse Aprilia",
+            "time": "1:41.934",
+            "note": "Q1"
           },
           {
             "pos": "16",
-            "name": "Diogo Moreira",
-            "team": "LCR Honda",
-            "time": "1:51.504"
+            "name": "Augusto Fernández",
+            "team": "Pramac Yamaha",
+            "time": "1:42.319",
+            "note": "Q1"
           },
           {
             "pos": "17",
             "name": "Jake Dixon",
             "team": "Honda HRC",
-            "time": "1:51.621"
+            "time": "1:42.385",
+            "note": "Q1"
           },
           {
             "pos": "18",
-            "name": "Maverick Viñales",
+            "name": "Pol Espargaró",
             "team": "Tech3 KTM",
-            "time": "1:51.991"
+            "time": "1:42.599",
+            "note": "Q1"
+          },
+          {
+            "pos": "19",
+            "name": "Álex Rins",
+            "team": "Yamaha Factory",
+            "time": "1:42.796",
+            "note": "Q1"
+          },
+          {
+            "pos": "20",
+            "name": "Fabio Quartararo",
+            "team": "Yamaha Factory",
+            "time": "1:42.966",
+            "note": "Q1"
+          },
+          {
+            "pos": "21",
+            "name": "Franco Morbidelli",
+            "team": "VR46 Ducati",
+            "time": "1:48.767",
+            "note": "Q1"
+          },
+          {
+            "pos": "22",
+            "name": "Enea Bastianini",
+            "team": "Tech3 KTM",
+            "time": "1:51.233",
+            "note": "Q1"
           }
         ]
       }

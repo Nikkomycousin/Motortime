@@ -1088,7 +1088,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-21T10:55:00Z",
+    "updated": "2026-11-21T14:00:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
@@ -1746,8 +1746,8 @@
     ]
   },
   "h2h": {
-    "after": "dopo il GP del Brasile",
-    "updated": "2026-11-08T18:55:00Z",
+    "after": "dopo le qualifiche del GP di Las Vegas (gare: dopo il GP del Brasile)",
+    "updated": "2026-11-21T14:00:00Z",
     "source": "Sky Sports",
     "pairs": [
       {
@@ -1756,7 +1756,7 @@
         "b": "Kimi Antonelli",
         "quali": [
           9,
-          11
+          12
         ],
         "race": [
           6,
@@ -1768,7 +1768,7 @@
         "a": "Charles Leclerc",
         "b": "Lewis Hamilton",
         "quali": [
-          11,
+          12,
           9
         ],
         "race": [
@@ -1781,7 +1781,7 @@
         "a": "Lando Norris",
         "b": "Oscar Piastri",
         "quali": [
-          13,
+          14,
           7
         ],
         "race": [
@@ -1794,7 +1794,7 @@
         "a": "Max Verstappen",
         "b": "Isack Hadjar",
         "quali": [
-          12,
+          13,
           5
         ],
         "race": [
@@ -1809,7 +1809,7 @@
         "b": "Arvid Lindblad",
         "quali": [
           10,
-          7
+          8
         ],
         "race": [
           13,
@@ -1822,7 +1822,7 @@
         "a": "Pierre Gasly",
         "b": "Franco Colapinto",
         "quali": [
-          16,
+          17,
           4
         ],
         "race": [
@@ -1842,14 +1842,14 @@
           10,
           7
         ],
-        "extra": "Con Hirakawa (Messico): Bearman 1-0 in qualifica, 1-0 in gara, 0-1 in gara · Con Câmara (Brasile): Bearman 1-0 in qualifica, 1-0 in gara"
+        "extra": "Con Hirakawa (Messico): Bearman 1-0 in qualifica, 1-0 in gara, 0-1 in gara · Con Câmara (Brasile, Las Vegas): Bearman 1-1 in qualifica, 1-0 in gara"
       },
       {
         "team": "Audi",
         "a": "Nico Hülkenberg",
         "b": "Gabriel Bortoleto",
         "quali": [
-          11,
+          12,
           9
         ],
         "race": [
@@ -1863,7 +1863,7 @@
         "b": "Carlos Sainz",
         "quali": [
           5,
-          15
+          16
         ],
         "race": [
           9,
@@ -1875,7 +1875,7 @@
         "a": "Fernando Alonso",
         "b": "Lance Stroll",
         "quali": [
-          18,
+          19,
           2
         ],
         "race": [
@@ -1888,7 +1888,7 @@
         "a": "Sergio Pérez",
         "b": "Valtteri Bottas",
         "quali": [
-          11,
+          12,
           9
         ],
         "race": [
