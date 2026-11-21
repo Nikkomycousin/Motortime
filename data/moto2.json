@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-21-portimao-moto2-pole-agius",
+      "title": "Moto2 a Portimão, pole da record per Agius; González solo decimo",
+      "summary": "L'australiano si prende la prima posizione con il nuovo primato della pista davanti a Holgado e Guevara. Il leader del Mondiale González partirà invece dalla quarta fila.",
+      "tag": "Gare",
+      "source": "Sky Sport",
+      "url": "https://sport.sky.it/motogp/2026/11/21/moto-2-gp-portogallo-portimao-qualifiche-risultato-oggi",
+      "published": "2026-11-21T14:30:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-21-portimao-fp2-pioggia",
       "title": "Portimão, pioggia leggera nelle libere 2: pochi tempi, Zurutuza il più rapido",
       "summary": "La seconda sessione di libere della Moto2 si è disputata su pista umida e quasi nessuno ha cercato la prestazione. Il miglior riscontro è stato di Zurutuza, con molti piloti rimasti senza un tempo significativo.",
@@ -91,7 +101,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-21T14:00:00Z",
+    "updated": "2026-11-21T19:00:00Z",
     "nextGp": {
       "name": "GP del Portogallo",
       "circuit": "Portimão",
