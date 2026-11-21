@@ -1,6 +1,35 @@
 {
   "news": [
     {
+      "id": "2026-11-21-las-vegas-ferrari-fuori-q2",
+      "title": "Ferrari, disastro a Las Vegas: Leclerc e Hamilton eliminati in Q2",
+      "summary": "Dopo un buon venerdì, le due Rosse non vanno oltre l'11° e il 12° posto in qualifica. Leclerc ammette che la squadra ha sbagliato tutto nella sessione decisiva.",
+      "tag": "Ferrari",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/charles-leclerc-si-sfoga-dopo-le-qualifiche-a-las-vegas-non-ne-abbiamo-fatta-una-giusta/",
+      "published": "2026-11-21T06:00:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-21-las-vegas-qualifiche-verstappen-pole",
+      "title": "Las Vegas, Antonelli il più veloce ma la pole va a Verstappen",
+      "summary": "Antonelli firma il miglior giro in qualifica, ma la penalità di cinque posizioni per il motore consegna la partenza al palo a Verstappen. In prima fila con l'olandese ci sarà Russell, poi Norris.",
+      "tag": "Gare",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/antonelli-quickest-in-las-vegas-gp-qualifying-as-verstappen-inherits-pole-position.6R7udh8iYMHunSOGI6zStK",
+      "published": "2026-11-21T05:15:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-21-las-vegas-fp3-russell",
+      "title": "Las Vegas, Russell davanti a tutti nelle FP3",
+      "summary": "Nell'ultimo turno di libere Russell precede il compagno Antonelli e Norris; Leclerc quarto, Verstappen sesto e Hamilton ottavo.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/f1-risultati-e-classifica-fp3-gp-las-vegas-2026-russell-precede-antonelli-e-norris-4-leclerc-6-verstappen-8-hamilton/",
+      "published": "2026-11-21T01:40:00Z"
+    },
+    {
       "id": "2026-11-20-las-vegas-cinque-penalita",
       "title": "Las Vegas, pioggia di penalità: Piastri e Sainz arretrano di dieci posizioni",
       "summary": "Sono almeno cinque i piloti che sconteranno arretramenti in griglia sulla Strip per l'uso di componenti della power unit oltre il limite. Oltre ad Antonelli, i colpi più pesanti toccano a Piastri e Sainz, penalizzati di dieci posti.",
@@ -56,8 +85,7 @@
       "tag": "Paddock",
       "source": "Motorsport.com",
       "url": "https://www.motorsport.com/f1/news/charles-leclerc-on-journalist-ban-i-was-surprised-by-the-choice-of-words/10875509/",
-      "published": "2026-11-19T20:00:00Z",
-      "top": false
+      "published": "2026-11-19T20:00:00Z"
     },
     {
       "id": "2026-11-19-antonelli-penalita-las-vegas",
@@ -66,8 +94,7 @@
       "tag": "Mercedes",
       "source": "Motorsport Week",
       "url": "https://www.motorsportweek.com/2026/11/19/kimi-antonelli-set-for-las-vegas-grid-penalty/",
-      "published": "2026-11-19T16:00:00Z",
-      "top": true
+      "published": "2026-11-19T16:00:00Z"
     },
     {
       "id": "2026-11-19-hamilton-fiducia-ferrari",
@@ -76,8 +103,7 @@
       "tag": "Ferrari",
       "source": "Sky Sports",
       "url": "https://www.skysports.com/f1/news/13613635/lewis-hamilton-denies-lack-of-trust-with-ferrari-after-ignoring-instructions-from-pit-wall-twice-in-recent-races",
-      "published": "2026-11-19T08:30:00Z",
-      "top": true
+      "published": "2026-11-19T08:30:00Z"
     },
     {
       "id": "2026-11-19-verstappen-qatar-abu-dhabi",
@@ -86,8 +112,7 @@
       "tag": "Calendario",
       "source": "Sky Sports",
       "url": "https://www.skysports.com/f1/news/13613637/max-verstappen-says-he-trusts-f1-bosses-over-plans-to-proceed-with-season-ending-races-in-qatar-and-abu-dhabi-amid-conflict-in-middle-east",
-      "published": "2026-11-19T08:00:00Z",
-      "top": false
+      "published": "2026-11-19T08:00:00Z"
     },
     {
       "id": "2026-11-18-ferrari-priorita-las-vegas",
@@ -96,8 +121,7 @@
       "tag": "Ferrari",
       "source": "F1 in Generale",
       "url": "https://f1ingenerale.com/f1/news-f1/f1-ferrari-svela-la-priorita-per-las-vegas-la-sf26-chiamata-a-superare-un-grande-ostacolo/",
-      "published": "2026-11-18T17:00:00Z",
-      "top": false
+      "published": "2026-11-18T17:00:00Z"
     },
     {
       "id": "2026-11-18-verstappen-vegas-energia",
@@ -106,8 +130,7 @@
       "tag": "Red Bull",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/max-verstappen-raises-different-behaviours-warning-ahead-of-unique-f1-challenge",
-      "published": "2026-11-18T12:00:00Z",
-      "top": false
+      "published": "2026-11-18T12:00:00Z"
     },
     {
       "id": "2026-11-17-aduo-mercedes-antonelli",
@@ -116,8 +139,7 @@
       "tag": "Mercedes",
       "source": "Racer",
       "url": "https://racer.com/2026/11/17/antonelli-set-for-grid-penalty-for-mercedes-aduo-as-team-targets-p2-for-russell",
-      "published": "2026-11-17T20:00:00Z",
-      "top": false
+      "published": "2026-11-17T20:00:00Z"
     },
     {
       "id": "2026-11-17-antonelli-decima-vittoria-las-vegas",
@@ -126,8 +148,7 @@
       "tag": "Mercedes",
       "source": "ANSA",
       "url": "https://www.ansa.it/sito/notizie/sport/2026/11/17/f1-las-vegas-aspetta-il-circus-antonelli-vuole-la-decima_31f8835a-ac03-412b-b0b2-51558a665061.html",
-      "published": "2026-11-17T16:00:00Z",
-      "top": false
+      "published": "2026-11-17T16:00:00Z"
     },
     {
       "id": "2026-11-17-beganovic-fp1-las-vegas",
@@ -136,8 +157,7 @@
       "tag": "Ferrari",
       "source": "planetf1.com",
       "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-las-vegas-grand-prix-2026-fp1",
-      "published": "2026-11-17T14:00:00Z",
-      "top": false
+      "published": "2026-11-17T14:00:00Z"
     },
     {
       "id": "2026-11-16-pirelli-strategia-las-vegas",
@@ -146,8 +166,7 @@
       "tag": "Gare",
       "source": "Motorsport.com",
       "url": "https://www.motorsport.com/f1/news/pirelli-doesnt-know-what-the-best-f1-strategy-is-for-las-vegas-gp/10778949/",
-      "published": "2026-11-16T15:00:00Z",
-      "top": false
+      "published": "2026-11-16T15:00:00Z"
     },
     {
       "id": "2026-11-16-camara-haas-las-vegas",
@@ -156,8 +175,7 @@
       "tag": "Team",
       "source": "Sky Sports",
       "url": "https://www.skysports.com/f1/news/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
-      "published": "2026-11-16T12:00:00Z",
-      "top": false
+      "published": "2026-11-16T12:00:00Z"
     },
     {
       "id": "2026-11-16-ferrari-look-las-vegas",
@@ -166,8 +184,7 @@
       "tag": "Ferrari",
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/news/ferrari-reveals-fresh-look-for-hamilton-and-leclerc-at-the-las-vegas-gp",
-      "published": "2026-11-16T10:00:00Z",
-      "top": false
+      "published": "2026-11-16T10:00:00Z"
     },
     {
       "id": "2026-11-16-hamilton-ferrari-secondo-posto",
@@ -176,8 +193,7 @@
       "tag": "Ferrari",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/lewis-hamilton-says-ferrari-must-165000794.html",
-      "published": "2026-11-16T07:50:00Z",
-      "top": false
+      "published": "2026-11-16T07:50:00Z"
     },
     {
       "id": "2026-11-15-trofeo-neon-las-vegas",
@@ -186,8 +202,7 @@
       "tag": "Paddock",
       "source": "Paddock News 24",
       "url": "https://www.paddocknews24.com/en/news-f1/las-vegas-gp-trophy-revealed-the-neon-design-inspired-by-the-city",
-      "published": "2026-11-15T10:50:00Z",
-      "top": false
+      "published": "2026-11-15T10:50:00Z"
     },
     {
       "id": "2026-11-14-sainz-williams-fine-stagione",
@@ -196,8 +211,7 @@
       "tag": "Team",
       "source": "f1-fansite.com",
       "url": "https://www.f1-fansite.com/f1-news/sainz-would-welcome-an-early-end-to-williams-2026-misery/",
-      "published": "2026-11-14T09:00:00Z",
-      "top": false
+      "published": "2026-11-14T09:00:00Z"
     },
     {
       "id": "2026-11-13-williams-martins-riserva-vegas",
@@ -206,8 +220,7 @@
       "tag": "Team",
       "source": "Motorsport Week",
       "url": "https://www.motorsportweek.com/2026/11/13/williams-f1-las-vegas-gp-reserve-driver/",
-      "published": "2026-11-13T18:10:00Z",
-      "top": false
+      "published": "2026-11-13T18:10:00Z"
     },
     {
       "id": "2026-11-13-antonelli-minaccia-verstappen",
@@ -216,8 +229,7 @@
       "tag": "Mondiale",
       "source": "formula1.com",
       "url": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
-      "published": "2026-11-13T16:43:00Z",
-      "top": false
+      "published": "2026-11-13T16:43:00Z"
     },
     {
       "id": "2026-11-13-mercedes-budget-cap-giovani",
@@ -226,8 +238,7 @@
       "tag": "Mercedes",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/mercedes-fia-formula-1-cost-cap",
-      "published": "2026-11-13T08:14:00Z",
-      "top": false
+      "published": "2026-11-13T08:14:00Z"
     },
     {
       "id": "2026-11-13-verstappen-gomme-freddo-vegas",
@@ -236,8 +247,7 @@
       "tag": "Red Bull",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/max-verstappen-reveals-key-red-bull-factor-in-facing-major-las-vegas-issue",
-      "published": "2026-11-13T06:20:00Z",
-      "top": false
+      "published": "2026-11-13T06:20:00Z"
     },
     {
       "id": "2026-11-13-red-bull-scambio-hadjar",
@@ -246,8 +256,7 @@
       "tag": "Red Bull",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/red-bull-max-verstappen-isack-hadjar-team-radio",
-      "published": "2026-11-13T04:02:00Z",
-      "top": false
+      "published": "2026-11-13T04:02:00Z"
     },
     {
       "id": "2026-11-12-mercato-2027-ultimi-sedili",
@@ -256,8 +265,7 @@
       "tag": "Mercato",
       "source": "formula1.com",
       "url": "https://www.formula1.com/en/latest/article/analysis-why-the-f1-driver-market-might-produce-one-last-twist-for-2027.6t7AwtqfHWkDqSgQZ3ElQ3",
-      "published": "2026-11-12T19:30:00Z",
-      "top": false
+      "published": "2026-11-12T19:30:00Z"
     },
     {
       "id": "2026-11-12-tsolov-riserva-red-bull-2027",
@@ -266,8 +274,7 @@
       "tag": "Red Bull",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/red-bull-nikola-tsolov-f1-2027-reserve-driver",
-      "published": "2026-11-12T15:29:00Z",
-      "top": false
+      "published": "2026-11-12T15:29:00Z"
     },
     {
       "id": "2026-11-12-russell-accademia-kart",
@@ -276,8 +283,7 @@
       "tag": "Mercedes",
       "source": "formula1.com",
       "url": "https://www.formula1.com/en/latest/article/karting-is-where-it-all-started-for-me-russell-launches-new-academy-to-develop-young-racers.5kVDwrQLjkeQ8bYLZ5sqQ2",
-      "published": "2026-11-12T13:09:00Z",
-      "top": false
+      "published": "2026-11-12T13:09:00Z"
     },
     {
       "id": "2026-11-12-honda-indagine-batteria-stroll",
@@ -286,8 +292,7 @@
       "tag": "Team",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/honda-investigation-lance-stroll-aston-martin-battery",
-      "published": "2026-11-12T12:47:00Z",
-      "top": false
+      "published": "2026-11-12T12:47:00Z"
     },
     {
       "id": "2026-11-12-racing-bulls-lawson-lindblad-2027",
@@ -296,8 +301,7 @@
       "tag": "Mercato",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/liam-lawson-racing-bulls-f1-2027-announcement",
-      "published": "2026-11-12T11:04:00Z",
-      "top": false
+      "published": "2026-11-12T11:04:00Z"
     },
     {
       "id": "2026-11-11-mclaren-novita-las-vegas",
@@ -306,8 +310,7 @@
       "tag": "McLaren",
       "source": "racer.com",
       "url": "https://racer.com/2026/11/11/more-new-mclaren-developments-for-las-vegas-gp-as-team-pushes-to-keep-momentum-building",
-      "published": "2026-11-11T17:24:00Z",
-      "top": false
+      "published": "2026-11-11T17:24:00Z"
     },
     {
       "id": "2026-11-11-mercedes-brasile-gomme-fredde",
@@ -316,8 +319,7 @@
       "tag": "Mercedes",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/mercedes-brazilian-grand-prix-2026-investigation",
-      "published": "2026-11-11T16:21:00Z",
-      "top": false
+      "published": "2026-11-11T16:21:00Z"
     },
     {
       "id": "2026-11-11-limite-potenza-bagnato",
@@ -326,8 +328,7 @@
       "tag": "Paddock",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/f1-drivers-air-frustrations-after-speed-limit-introduction",
-      "published": "2026-11-11T11:30:00Z",
-      "top": false
+      "published": "2026-11-11T11:30:00Z"
     },
     {
       "id": "2026-11-11-bearman-haas-tre-settimane",
@@ -336,8 +337,7 @@
       "tag": "Team",
       "source": "formula1.com",
       "url": "https://www.formula1.com/en/latest/article/bearman-relieved-horrible-three-weeks-for-haas-are-over.2DZIcOEVILLVUfQT00bStA",
-      "published": "2026-11-11T10:35:00Z",
-      "top": false
+      "published": "2026-11-11T10:35:00Z"
     },
     {
       "id": "2026-11-11-camara-haas-resto-stagione",
@@ -346,8 +346,7 @@
       "tag": "Mercato",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/rafael-camara-reveals-discussions-to-see-out-f1-season-with-haas",
-      "published": "2026-11-11T01:05:00Z",
-      "top": false
+      "published": "2026-11-11T01:05:00Z"
     },
     {
       "id": "2026-11-10-hamilton-confine-gaza",
@@ -356,8 +355,7 @@
       "tag": "Paddock",
       "source": "Grande Prêmio",
       "url": "https://grandepremio.com/en/f1/f1-today-hamilton-visits-gaza-border-as-f1-drops-imola-and-las-vegas-finale-threat-emerges/",
-      "published": "2026-11-10T22:17:00Z",
-      "top": false
+      "published": "2026-11-10T22:17:00Z"
     },
     {
       "id": "2026-11-10-vowles-williams-passo-falso",
@@ -366,8 +364,7 @@
       "tag": "Team",
       "source": "Sky Sports",
       "url": "https://www.skysports.com/f1/news/13610745/james-vowles-williams-boss-admits-team-got-carried-away-with-success-but-says-2026-f1-season-struggles-are-only-a-blip",
-      "published": "2026-11-10T19:46:00Z",
-      "top": false
+      "published": "2026-11-10T19:46:00Z"
     },
     {
       "id": "2026-11-10-ocon-haas-tribunale",
@@ -376,8 +373,7 @@
       "tag": "Team",
       "source": "F1GrandPrix.it",
       "url": "https://f1grandprix.motorionline.com/ocon-haas-licenziamento-battaglia-legale-wolff/",
-      "published": "2026-11-10T17:00:00Z",
-      "top": false
+      "published": "2026-11-10T17:00:00Z"
     },
     {
       "id": "2026-11-10-pirelli-wet-critiche",
@@ -386,8 +382,7 @@
       "tag": "Paddock",
       "source": "F1GrandPrix.it",
       "url": "https://f1grandprix.motorionline.com/f1-pirelli-le-gomme-wet-finiscono-sotto-accusa/",
-      "published": "2026-11-10T16:00:00Z",
-      "top": false
+      "published": "2026-11-10T16:00:00Z"
     },
     {
       "id": "2026-11-10-alonso-non-si-diverte",
@@ -396,8 +391,7 @@
       "tag": "Team",
       "source": "F1GrandPrix.it",
       "url": "https://f1grandprix.motorionline.com/alonso-non-si-diverte-piu-f1-problemi-honda/",
-      "published": "2026-11-10T15:00:00Z",
-      "top": false
+      "published": "2026-11-10T15:00:00Z"
     },
     {
       "id": "2026-11-10-verstappen-chiede-indagine",
@@ -406,8 +400,7 @@
       "tag": "Red Bull",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/max-verstappen-calls-for-red-bull-investigation-there-is-something-wrong",
-      "published": "2026-11-10T13:20:00Z",
-      "top": false
+      "published": "2026-11-10T13:20:00Z"
     },
     {
       "id": "2026-11-10-fia-conferma-qatar-abu-dhabi",
@@ -416,8 +409,7 @@
       "tag": "Calendario",
       "source": "L'Altra Imola",
       "url": "https://www.laltraimola.it/2026/11/10/f1-sfuma-lipotesi-imola-la-fia-conferma-i-gran-premi-di-qatar-e-abu-dhabi/",
-      "published": "2026-11-10T12:54:00Z",
-      "top": false
+      "published": "2026-11-10T12:54:00Z"
     },
     {
       "id": "2026-11-10-aduo-terzo-periodo",
@@ -435,8 +427,7 @@
       "tag": "Calendario",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/qatar-abu-dhabi-grand-prix-f1-2026-calendar-decision",
-      "published": "2026-11-10T11:23:00Z",
-      "top": false
+      "published": "2026-11-10T11:23:00Z"
     },
     {
       "id": "2026-11-10-ferrari-nero-giallo-las-vegas",
@@ -445,8 +436,7 @@
       "tag": "Ferrari",
       "source": "Formula1.it",
       "url": "https://www.formula1.it/news/33893/1/ferrari-una-veste-inedita-per-las-vegas-ecco-la-nuova-collezione",
-      "published": "2026-11-10T09:28:00Z",
-      "top": false
+      "published": "2026-11-10T09:28:00Z"
     },
     {
       "id": "2026-11-09-norris-gomme-las-vegas",
@@ -473,8 +463,7 @@
       "tag": "Mondiale",
       "source": "RACER",
       "url": "https://racer.com/2026/11/09/las-vegas-gp-to-be-free-to-watch-on-apple-tv",
-      "published": "2026-11-09T19:58:00Z",
-      "top": false
+      "published": "2026-11-09T19:58:00Z"
     },
     {
       "id": "2026-11-09-lawson-racing-bulls-attesa",
@@ -483,8 +472,7 @@
       "tag": "Mercato",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/red-bull-liam-lawson-racing-bulls-stall-contract-decision",
-      "published": "2026-11-09T18:55:00Z",
-      "top": false
+      "published": "2026-11-09T18:55:00Z"
     },
     {
       "id": "2026-11-09-wolff-russell-secondo",
@@ -493,8 +481,7 @@
       "tag": "Mercedes",
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/news/russell-plays-down-verstappen-chase-as-wolff-wants-him-to-finish-second",
-      "published": "2026-11-09T16:30:00Z",
-      "top": false
+      "published": "2026-11-09T16:30:00Z"
     },
     {
       "id": "2026-11-09-hamilton-ferrari-indagine-sf26",
@@ -503,8 +490,7 @@
       "tag": "Ferrari",
       "source": "planetf1.com",
       "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-sf-26-investigation-f1-2026-brazilian-grand-prix",
-      "published": "2026-11-09T16:23:00Z",
-      "top": false
+      "published": "2026-11-09T16:23:00Z"
     },
     {
       "id": "2026-11-09-piastri-lascia-webber",
@@ -513,8 +499,7 @@
       "tag": "McLaren",
       "source": "RACER",
       "url": "https://racer.com/2026/11/09/piastri-parts-ways-with-manager-webber",
-      "published": "2026-11-09T12:33:00Z",
-      "top": false
+      "published": "2026-11-09T12:33:00Z"
     },
     {
       "id": "2026-11-09-mekies-verstappen-simulazioni",
@@ -523,8 +508,7 @@
       "tag": "Red Bull",
       "source": "formula1.com",
       "url": "https://www.formula1.com/en/latest/article/mekies-explains-how-verstappen-outperformed-red-bulls-own-simulations-in-brazil.1ps87tyvjdEf23vDCaDXOZ",
-      "published": "2026-11-09T12:30:00Z",
-      "top": false
+      "published": "2026-11-09T12:30:00Z"
     },
     {
       "id": "2026-11-09-leclerc-allarme-las-vegas",
@@ -533,8 +517,7 @@
       "tag": "Ferrari",
       "source": "grandepremio.com",
       "url": "https://grandepremio.com/en/f1/leclerc-warns-ferrari-faces-more-trouble-in-las-vegas-after-undriveable-sao-paulo-gp/",
-      "published": "2026-11-09T11:30:00Z",
-      "top": false
+      "published": "2026-11-09T11:30:00Z"
     },
     {
       "id": "2026-11-09-ben-sulayem-qatar-abu-dhabi",
@@ -543,8 +526,7 @@
       "tag": "Calendario",
       "source": "The National",
       "url": "https://www.thenationalnews.com/sport/f1/2026/11/09/exclusive-mohammed-ben-sulayem-abu-dhabi-qatar-gp/",
-      "published": "2026-11-09T09:40:00Z",
-      "top": false
+      "published": "2026-11-09T09:40:00Z"
     },
     {
       "id": "2026-11-09-audi-haas-settimo-posto",
@@ -553,8 +535,7 @@
       "tag": "Team",
       "source": "Formula1.it",
       "url": "https://www.formula1.it/news/33874/1/audi-mette-nel-mirino-la-haas-tre-punti-di-distacco-e-un-finale-tutto-da-vivere",
-      "published": "2026-11-09T07:55:00Z",
-      "top": false
+      "published": "2026-11-09T07:55:00Z"
     },
     {
       "id": "2026-11-08-penalita-dopo-brasile",
@@ -572,8 +553,7 @@
       "tag": "Gare",
       "source": "The Race",
       "url": "https://www.the-race.com/formula-1/winners-and-losers-from-f1-2026-brazilian-grand-prix/",
-      "published": "2026-11-08T20:50:00Z",
-      "top": false
+      "published": "2026-11-08T20:50:00Z"
     },
     {
       "id": "2026-11-08-vasseur-ferrari-incostante",
@@ -582,8 +562,7 @@
       "tag": "Ferrari",
       "source": "PaddockNews24",
       "url": "https://paddocknews24.com/news-f1-notizie/f1-vasseur-fa-chiarezza-individuate-le-cause-delle-difficolta-ferrari-in-brasile",
-      "published": "2026-11-08T20:30:00Z",
-      "top": false
+      "published": "2026-11-08T20:30:00Z"
     },
     {
       "id": "2026-11-08-ferrari-brasile-delusione",
@@ -601,8 +580,7 @@
       "tag": "Mercedes",
       "source": "RaceFans",
       "url": "https://www.racefans.net/2026/11/08/2026-brazilian-grand-prix-race-result-and-championship-points/",
-      "published": "2026-11-08T18:50:00Z",
-      "top": false
+      "published": "2026-11-08T18:50:00Z"
     },
     {
       "id": "2026-11-08-verstappen-rimonta-brasile",
@@ -620,8 +598,7 @@
       "tag": "Gare",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-race-report",
-      "published": "2026-11-08T18:45:00Z",
-      "top": false
+      "published": "2026-11-08T18:45:00Z"
     },
     {
       "id": "2026-11-07-griglia-brasile-penalita",
@@ -630,8 +607,7 @@
       "tag": "Ferrari",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/brazilian-grand-prix-2026-penalty-fia",
-      "published": "2026-11-07T20:40:00Z",
-      "top": false
+      "published": "2026-11-07T20:40:00Z"
     },
     {
       "id": "2026-11-07-alonso-q3-aston",
@@ -640,8 +616,7 @@
       "tag": "Team",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-qualifying-report",
-      "published": "2026-11-07T20:35:00Z",
-      "top": false
+      "published": "2026-11-07T20:35:00Z"
     },
     {
       "id": "2026-11-07-norris-pole-interlagos",
@@ -650,8 +625,7 @@
       "tag": "Gare",
       "source": "Crash.net",
       "url": "https://www.crash.net/f1/news/1109818/1/lando-norris-takes-pole-heavily-delayed-wet-brazil-gp-qualifying",
-      "published": "2026-11-07T20:30:00Z",
-      "top": false
+      "published": "2026-11-07T20:30:00Z"
     },
     {
       "id": "2026-11-07-qualifiche-pioggia-bandiera-rossa",
@@ -660,8 +634,7 @@
       "tag": "Gare",
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/breaking-news/positive-update-raises-hopes-of-qualifying-restart-as-new-start-time-emerges",
-      "published": "2026-11-07T19:30:00Z",
-      "top": false
+      "published": "2026-11-07T19:30:00Z"
     },
     {
       "id": "2026-11-07-libere3-verstappen-interlagos",
@@ -670,8 +643,7 @@
       "tag": "Gare",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/f1-results-brazilian-grand-prix-2026-fp3-interlagos",
-      "published": "2026-11-07T15:35:00Z",
-      "top": false
+      "published": "2026-11-07T15:35:00Z"
     },
     {
       "id": "2026-11-07-penalita-motore-verstappen-leclerc-hamilton",
@@ -680,8 +652,7 @@
       "tag": "Gare",
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/breaking-news/verstappen-and-ferrari-pair-exceed-engine-limits-at-sao-paulo-gp",
-      "published": "2026-11-07T14:46:00Z",
-      "top": false
+      "published": "2026-11-07T14:46:00Z"
     },
     {
       "id": "2026-11-10-imola-scadenza-finale",
@@ -690,8 +661,7 @@
       "tag": "Calendario",
       "source": "dpa / Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/reports-formula-one-tuesday-deadline-121834758.html",
-      "published": "2026-11-07T12:18:00Z",
-      "top": false
+      "published": "2026-11-07T12:18:00Z"
     },
     {
       "id": "2026-11-07-verstappen-sterzo-interlagos",
@@ -700,8 +670,7 @@
       "tag": "Red Bull",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/max-verstappen-urges-red-bull-problem-fix-as-wet-weather-plea-issued",
-      "published": "2026-11-07T11:20:00Z",
-      "top": false
+      "published": "2026-11-07T11:20:00Z"
     },
     {
       "id": "2026-11-07-russell-indagine-mercedes",
@@ -710,8 +679,7 @@
       "tag": "Mercedes",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/george-russell-praying-mercedes-issues-end-as-post-mexico-investigation-launched",
-      "published": "2026-11-07T08:00:00Z",
-      "top": false
+      "published": "2026-11-07T08:00:00Z"
     },
     {
       "id": "2026-11-06-camara-reprimenda-leclerc",
@@ -729,8 +697,7 @@
       "tag": "Gare",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-fp2-report",
-      "published": "2026-11-06T20:02:00Z",
-      "top": false
+      "published": "2026-11-06T20:02:00Z"
     },
     {
       "id": "2026-11-06-libere1-norris-interlagos",
@@ -739,8 +706,7 @@
       "tag": "Gare",
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/news/f1-full-results-lando-norris-tops-brazilian-gp-fp1-from-kimi-antonelli",
-      "published": "2026-11-06T16:32:00Z",
-      "top": false
+      "published": "2026-11-06T16:32:00Z"
     },
     {
       "id": "2026-11-06-vasseur-confronto-hamilton-leclerc",
@@ -749,8 +715,7 @@
       "tag": "Ferrari",
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/f1-alta-tensione-in-casa-ferrari-vasseur-convoca-hamilton-e-leclerc-per-un-confronto-in-brasile/",
-      "published": "2026-11-06T13:45:00Z",
-      "top": false
+      "published": "2026-11-06T13:45:00Z"
     },
     {
       "id": "2026-11-06-domenicali-medio-oriente",
@@ -759,8 +724,7 @@
       "tag": "Calendario",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/f1-boss-gives-cautious-at-this-stage-verdict-on-season-ending-middle-east-races",
-      "published": "2026-11-06T10:55:00Z",
-      "top": false
+      "published": "2026-11-06T10:55:00Z"
     },
     {
       "id": "2026-11-06-russell-penalita-motore",
@@ -769,8 +733,7 @@
       "tag": "Mercedes",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/george-russell-eyes-lewis-hamilton-heroics-as-brazil-grid-penalty-confirmed",
-      "published": "2026-11-06T09:40:00Z",
-      "top": false
+      "published": "2026-11-06T09:40:00Z"
     },
     {
       "id": "2026-11-06-permane-rinnovo-racing-bulls",
@@ -779,8 +742,7 @@
       "tag": "Team",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/red-bull-make-key-decision-as-senior-racing-bulls-figure-handed-contract-extension",
-      "published": "2026-11-06T09:05:00Z",
-      "top": false
+      "published": "2026-11-06T09:05:00Z"
     },
     {
       "id": "2026-11-05-verstappen-interlagos",
@@ -789,8 +751,7 @@
       "tag": "Red Bull",
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/f1-max-verstappen-interlagos-e-fantastica-ci-sono-tante-variabili-essere-secondo-nel-mondiale-e-una-sorpresa/",
-      "published": "2026-11-05T17:51:00Z",
-      "top": false
+      "published": "2026-11-05T17:51:00Z"
     },
     {
       "id": "2026-11-05-alonso-interlagos",
@@ -799,8 +760,7 @@
       "tag": "Team",
       "source": "f1world.it",
       "url": "https://f1world.it/gp-brasile-la-conferenza-stampa-alonso-camara-e-verstappen/",
-      "published": "2026-11-05T17:48:00Z",
-      "top": false
+      "published": "2026-11-05T17:48:00Z"
     },
     {
       "id": "2026-11-05-camara-conferenza",
@@ -809,8 +769,7 @@
       "tag": "Paddock",
       "source": "Napoli Magazine",
       "url": "https://www.napolimagazine.com/motori/articolo/f1-camara-al-debutto-nel-suo-brasile-prover-a-divertirmi-05-11-2026",
-      "published": "2026-11-05T17:36:00Z",
-      "top": false
+      "published": "2026-11-05T17:36:00Z"
     },
     {
       "id": "2026-11-05-allerta-pioggia-interlagos",
@@ -819,8 +778,7 @@
       "tag": "Gare",
       "source": "Read Motorsport",
       "url": "https://readmotorsport.com/2026/11/05/f1-warns-of-possible-flooding-at-interlagos-ahead-of-sao-paulo-grand-prix/",
-      "published": "2026-11-05T15:56:00Z",
-      "top": false
+      "published": "2026-11-05T15:56:00Z"
     },
     {
       "id": "2026-11-05-sette-rookie-fp1-interlagos",
@@ -829,8 +787,7 @@
       "tag": "Paddock",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/the-seven-f1-rookies-who-will-drive-in-sao-paulo-grand-prix-fp1",
-      "published": "2026-11-05T14:50:00Z",
-      "top": false
+      "published": "2026-11-05T14:50:00Z"
     },
     {
       "id": "2026-11-06-antonelli-livrea-senna",
@@ -839,8 +796,7 @@
       "tag": "Mercedes",
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/f1-kimi-antonelli-avra-una-livrea-speciale-in-brasile-nel-ricordo-del-mito-ayrton-senna/",
-      "published": "2026-11-05T14:00:00Z",
-      "top": false
+      "published": "2026-11-05T14:00:00Z"
     },
     {
       "id": "2026-11-05-stroll-salta-media-day",
@@ -849,8 +805,7 @@
       "tag": "Paddock",
       "source": "F1 Live Pulse",
       "url": "https://blog.f1livepulse.com/it/stroll-non-sara-al-media-day-di-san-paolo-colpito-da-uninfezione",
-      "published": "2026-11-05T12:19:00Z",
-      "top": false
+      "published": "2026-11-05T12:19:00Z"
     },
     {
       "id": "2026-11-05-leclerc-hamilton-chiarimento",
@@ -859,8 +814,7 @@
       "tag": "Ferrari",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/charles-leclerc-confirms-lewis-hamilton-talks-intention-after-grey-area-exposed",
-      "published": "2026-11-05T09:40:00Z",
-      "top": false
+      "published": "2026-11-05T09:40:00Z"
     },
     {
       "id": "2026-11-05-morto-alan-jones",
@@ -869,8 +823,7 @@
       "tag": "Paddock",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/williams-release-statement-after-legend-alan-jones-saddening-death",
-      "published": "2026-11-05T08:19:00Z",
-      "top": false
+      "published": "2026-11-05T08:19:00Z"
     },
     {
       "id": "2026-11-05-audi-livrea-interlagos",
@@ -879,8 +832,7 @@
       "tag": "Team",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/audi-take-covers-off-striking-sao-paulo-grand-prix-special-livery",
-      "published": "2026-11-05T07:33:00Z",
-      "top": false
+      "published": "2026-11-05T07:33:00Z"
     },
     {
       "id": "2026-11-05-norris-aggiornamenti-mclaren",
@@ -889,8 +841,7 @@
       "tag": "McLaren",
       "source": "Sky Sports",
       "url": "https://www.skysports.com/f1/news/13607894/lando-norris-mclaren-driver-unsure-if-sao-paulo-grand-prix-upgrades-will-improve-horrible-mclaren-car",
-      "published": "2026-11-05T06:07:00Z",
-      "top": false
+      "published": "2026-11-05T06:07:00Z"
     },
     {
       "id": "2026-11-04-fsg-cadillac",
@@ -899,8 +850,7 @@
       "tag": "Team",
       "source": "Grande Prêmio",
       "url": "https://grandepremio.com/en/f1/f1-today-liverpool-owners-linked-with-cadillac-leclerc-becomes-a-father-and-hamilton-nears-400/",
-      "published": "2026-11-04T22:30:00Z",
-      "top": false
+      "published": "2026-11-04T22:30:00Z"
     },
     {
       "id": "2026-11-04-cadillac-sospensione-bottas",
@@ -909,8 +859,7 @@
       "tag": "Team",
       "source": "Grande Prêmio",
       "url": "https://grandepremio.com/en/f1/f1-today-liverpool-owners-linked-with-cadillac-leclerc-becomes-a-father-and-hamilton-nears-400/",
-      "published": "2026-11-04T22:30:00Z",
-      "top": false
+      "published": "2026-11-04T22:30:00Z"
     },
     {
       "id": "2026-11-04-mercedes-tute-viola",
@@ -919,8 +868,7 @@
       "tag": "Mercedes",
       "source": "Formula1.it",
       "url": "https://www.formula1.it/news/33735/1/la-mercedes-si-tinge-di-viola-in-brasile-svelate-le-tute-speciali-per-il-gp",
-      "published": "2026-11-04T16:25:00Z",
-      "top": false
+      "published": "2026-11-04T16:25:00Z"
     },
     {
       "id": "2026-11-04-vasseur-anteprima-brasile",
@@ -929,8 +877,7 @@
       "tag": "Ferrari",
       "source": "Motorsport.com",
       "url": "https://it.motorsport.com/f1/news/f1-vasseur-a-interlagos-dovremo-rimanere-concentrati-per-sfruttare-al-meglio-ogni-opportunita/10871514/",
-      "published": "2026-11-04T16:00:00Z",
-      "top": false
+      "published": "2026-11-04T16:00:00Z"
     },
     {
       "id": "2026-11-04-leclerc-papa-beganovic-fp1",
@@ -939,8 +886,7 @@
       "tag": "Ferrari",
       "source": "Automoto.it",
       "url": "https://www.automoto.it/formula1/f1-leclerc-papa-nascita-bianca-ferrari-beganovic-gp-brasile-haas-camara.html",
-      "published": "2026-11-04T15:00:00Z",
-      "top": false
+      "published": "2026-11-04T15:00:00Z"
     },
     {
       "id": "2026-11-04-hamilton-400-gp",
@@ -949,8 +895,7 @@
       "tag": "Ferrari",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/lewis-hamilton-key-milestones-ahead-of-landmark-400th-f1-grand-prix",
-      "published": "2026-11-04T10:40:00Z",
-      "top": false
+      "published": "2026-11-04T10:40:00Z"
     },
     {
       "id": "2026-11-04-herta-fp1-interlagos",
@@ -959,8 +904,7 @@
       "tag": "Team",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/colton-herta-takes-second-stab-at-overcoming-crucial-fia-hurdle-in-pursuit-of-f1",
-      "published": "2026-11-04T09:50:00Z",
-      "top": false
+      "published": "2026-11-04T09:50:00Z"
     },
     {
       "id": "2026-11-04-antonelli-trofeo",
@@ -969,8 +913,7 @@
       "tag": "Mondiale",
       "source": "Fanpage.it",
       "url": "https://fanpage.it/sport/motori/kimi-antonelli-non-ha-ancora-avuto-il-trofeo-di-campione-f1-per-tenerlo-dovra-pagare-35mila-euro",
-      "published": "2026-11-04T06:24:00Z",
-      "top": false
+      "published": "2026-11-04T06:24:00Z"
     },
     {
       "id": "2026-11-04-brundle-avverte-ferrari",
@@ -979,8 +922,7 @@
       "tag": "Ferrari",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/martin-brundle-hands-ferrari-ominous-warning-as-hamilton-and-leclerc-feud-ignites",
-      "published": "2026-11-04T05:30:00Z",
-      "top": false
+      "published": "2026-11-04T05:30:00Z"
     },
     {
       "id": "2026-11-03-wolff-sponsor-antonelli",
@@ -989,8 +931,7 @@
       "tag": "Mercedes",
       "source": "Grande Prêmio",
       "url": "https://grandepremio.com/en/f1/f1-today-haas-confirms-camara-debut-verstappen-blasts-fia-and-mercedes-reveals-antonelli-gamble/",
-      "published": "2026-11-03T22:30:00Z",
-      "top": false
+      "published": "2026-11-03T22:30:00Z"
     },
     {
       "id": "2026-11-03-camara-debutto-haas",
@@ -999,8 +940,7 @@
       "tag": "Mercato",
       "source": "Formula1.com",
       "url": "https://www.formula1.com/en/latest/article/f2-racer-camara-to-make-f1-debut-at-sao-paulo-grand-prix-as-haas-confirm-ocon-will-not-return.12Qa0tpaMZ9kgnEuGJBKFp",
-      "published": "2026-11-03T20:30:00Z",
-      "top": false
+      "published": "2026-11-03T20:30:00Z"
     },
     {
       "id": "2026-11-03-pirelli-mescole-brasile",
@@ -1009,8 +949,7 @@
       "tag": "Gare",
       "source": "Coffee Corner Motorsport",
       "url": "https://coffeecornermotorsport.com/brazil-grand-prix-2026-tyre-preview/",
-      "published": "2026-11-03T18:40:00Z",
-      "top": false
+      "published": "2026-11-03T18:40:00Z"
     },
     {
       "id": "2026-11-03-alonso-barcellona-indycar",
@@ -1019,8 +958,7 @@
       "tag": "Calendario",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/fernando-alonso-issues-cannot-survive-claim-as-barcelona-secures-major-coup",
-      "published": "2026-11-03T18:15:00Z",
-      "top": false
+      "published": "2026-11-03T18:15:00Z"
     },
     {
       "id": "2026-11-03-mercedes-titolo-costruttori",
@@ -1029,8 +967,7 @@
       "tag": "Mercedes",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/how-mercedes-can-win-f1-2026-constructors-championship",
-      "published": "2026-11-03T14:08:00Z",
-      "top": false
+      "published": "2026-11-03T14:08:00Z"
     },
     {
       "id": "2026-11-03-interlagos-pioggia",
@@ -1048,8 +985,7 @@
       "tag": "Ferrari",
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/lewis-hamilton-fia-max-verstappen-mexican-grand-prix-2026-footage",
-      "published": "2026-11-03T12:16:00Z",
-      "top": false
+      "published": "2026-11-03T12:16:00Z"
     },
     {
       "id": "2026-11-03-bottas-futuro-cadillac",
@@ -1085,8 +1021,7 @@
       "tag": "Ferrari",
       "source": "RacingNews365",
       "url": "https://racingnews365.com/lewis-hamilton-demands-ferrari-solutions-after-latest-mess-with-charles-leclerc",
-      "published": "2026-11-03T05:30:00Z",
-      "top": false
+      "published": "2026-11-03T05:30:00Z"
     },
     {
       "id": "2026-11-02-russell-messaggio",
@@ -1150,37 +1085,10 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/f1-news",
       "published": "2026-11-02T09:00:00Z"
-    },
-    {
-      "id": "2026-11-02-vettel-consiglio",
-      "title": "Vettel consiglia Antonelli dopo aver perso il record",
-      "summary": "Il tedesco, finora campione più giovane, ha un messaggio per Kimi. Tutto il paddock celebra il nuovo campione: secondo i rivali ha fatto sembrare tutti gli altri lenti.",
-      "tag": "Mondiale",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/f1-news",
-      "published": "2026-11-02T08:10:00Z"
-    },
-    {
-      "id": "2026-11-01-leclerc-hamilton-contatto",
-      "title": "Leclerc-Hamilton, contatto sfiorato al via: Ferrari perde la vittoria",
-      "summary": "Le due Ferrari erano prima e seconda nel primo giro, poi la lotta interna e la penalità a Leclerc. Hamilton: l'episodio ha compromesso la vittoria.",
-      "tag": "Ferrari",
-      "source": "F1GrandPrix.it",
-      "url": "https://f1grandprix.motorionline.com/",
-      "published": "2026-11-02T08:00:00Z"
-    },
-    {
-      "id": "2026-11-02-russell",
-      "title": "Russell sparisce dopo la gara, Mercedes spiega il motivo",
-      "summary": "L'uscita anticipata di Russell dal paddock ha guastato in parte la festa per Antonelli. Nuovo video Mercedes mostra la frustrazione di Russell e Wolff, ormai fuori dalla corsa al titolo.",
-      "tag": "Mercedes",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/toto-wolff-george-russell-f1-2026-mexican-grand-prix",
-      "published": "2026-11-02T07:34:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-20T23:50:00Z",
+    "updated": "2026-11-21T08:10:00Z",
     "nextGp": {
       "name": "GP di Las Vegas",
       "circuit": "Las Vegas Strip Circuit",
@@ -1238,339 +1146,163 @@
     "lon": -115.16
   },
   "results": {
-    "gp": "GP del Brasile",
-    "round": 20,
-    "updated": "2026-11-08T22:55:00Z",
-    "summary": "Gara condizionata dalla pioggia a Interlagos: tutti al via con le intermedie, poi slick e di nuovo intermedie nel finale. Antonelli scatta meglio e comanda fino al testacoda al giro 16 che spiana la strada a Norris, vincitore dalla pole. Verstappen rimonta dal fondo fino al secondo posto e completa la doppietta Red Bull sul podio con Hadjar; Mercedes quarta e quinta ma campione costruttori. Ferrari in difficoltà: Leclerc ottavo dopo una penalità di 5 secondi per il contatto con Lawson, Hamilton nono con un giro di ritardo.",
+    "gp": "GP di Las Vegas",
+    "round": 21,
+    "updated": "2026-11-21T08:10:00Z",
+    "summary": "Sulla Strip il tempo più veloce è di Kimi Antonelli, che però sconta cinque posizioni di penalità per la sostituzione del motore: la pole passa così a Max Verstappen, con Russell e Norris alle sue spalle e Hadjar quinto. Serata nera per la Ferrari, con Leclerc e Hamilton entrambi fuori in Q2. Griglia rimescolata anche dalle penalità di Piastri, Sainz e Bearman per componenti della power unit.",
     "tabs": [
-      {
-        "label": "Gara",
-        "kind": "race",
-        "rows": [
-          {
-            "pos": "1",
-            "name": "Lando Norris",
-            "team": "McLaren",
-            "gap": "71 giri",
-            "points": 25
-          },
-          {
-            "pos": "2",
-            "name": "Max Verstappen",
-            "team": "Red Bull",
-            "gap": "+14.602",
-            "points": 18,
-            "note": "Partito dal fondo"
-          },
-          {
-            "pos": "3",
-            "name": "Isack Hadjar",
-            "team": "Red Bull",
-            "gap": "+24.485",
-            "points": 15
-          },
-          {
-            "pos": "4",
-            "name": "George Russell",
-            "team": "Mercedes",
-            "gap": "+33.991",
-            "points": 12
-          },
-          {
-            "pos": "5",
-            "name": "Kimi Antonelli",
-            "team": "Mercedes",
-            "gap": "+36.017",
-            "points": 10,
-            "note": "+5 s (unsafe release), resta quinto"
-          },
-          {
-            "pos": "6",
-            "name": "Oscar Piastri",
-            "team": "McLaren",
-            "gap": "+56.475",
-            "points": 8
-          },
-          {
-            "pos": "7",
-            "name": "Liam Lawson",
-            "team": "Racing Bulls",
-            "gap": "+1:15.402",
-            "points": 6
-          },
-          {
-            "pos": "8",
-            "name": "Charles Leclerc",
-            "team": "Ferrari",
-            "gap": "+1:18.586",
-            "points": 4,
-            "note": "+5 s (contatto con Lawson)"
-          },
-          {
-            "pos": "9",
-            "name": "Lewis Hamilton",
-            "team": "Ferrari",
-            "gap": "+1 giro",
-            "points": 2
-          },
-          {
-            "pos": "10",
-            "name": "Nico Hülkenberg",
-            "team": "Audi",
-            "gap": "+1 giro",
-            "points": 1
-          },
-          {
-            "pos": "11",
-            "name": "Arvid Lindblad",
-            "team": "Racing Bulls",
-            "gap": "+1 giro",
-            "points": 0
-          },
-          {
-            "pos": "12",
-            "name": "Fernando Alonso",
-            "team": "Aston Martin",
-            "gap": "+1 giro",
-            "points": 0
-          },
-          {
-            "pos": "13",
-            "name": "Franco Colapinto",
-            "team": "Alpine",
-            "gap": "+1 giro",
-            "points": 0
-          },
-          {
-            "pos": "14",
-            "name": "Pierre Gasly",
-            "team": "Alpine",
-            "gap": "+1 giro",
-            "points": 0
-          },
-          {
-            "pos": "15",
-            "name": "Alexander Albon",
-            "team": "Williams",
-            "gap": "+1 giro",
-            "points": 0
-          },
-          {
-            "pos": "16",
-            "name": "Gabriel Bortoleto",
-            "team": "Audi",
-            "gap": "+1 giro",
-            "points": 0
-          },
-          {
-            "pos": "17",
-            "name": "Oliver Bearman",
-            "team": "Haas",
-            "gap": "+1 giro",
-            "points": 0,
-            "note": "+5 s (unsafe release)"
-          },
-          {
-            "pos": "18",
-            "name": "Sergio Pérez",
-            "team": "Cadillac",
-            "gap": "+2 giri",
-            "points": 0
-          },
-          {
-            "pos": "19",
-            "name": "Carlos Sainz",
-            "team": "Williams",
-            "gap": "+2 giri",
-            "points": 0
-          },
-          {
-            "pos": "20",
-            "name": "Rafael Câmara",
-            "team": "Haas",
-            "gap": "+2 giri",
-            "points": 0
-          },
-          {
-            "pos": "RIT",
-            "name": "Lance Stroll",
-            "team": "Aston Martin",
-            "gap": "Ritirato",
-            "points": 0
-          },
-          {
-            "pos": "NP",
-            "name": "Valtteri Bottas",
-            "team": "Cadillac",
-            "gap": "Non partito",
-            "points": 0,
-            "note": "Dado ruota bloccato in griglia"
-          }
-        ]
-      },
       {
         "label": "Qualifiche",
         "kind": "quali",
         "rows": [
           {
             "pos": "1",
-            "name": "Lando Norris",
-            "team": "McLaren",
-            "time": "1:27.470",
-            "note": "Pole"
+            "name": "Kimi Antonelli",
+            "team": "Mercedes",
+            "time": "1:33.893",
+            "note": "Miglior tempo · 5 posizioni di penalità (motore), parte 6°"
           },
           {
             "pos": "2",
-            "name": "George Russell",
-            "team": "Mercedes",
-            "time": "1:27.674",
-            "note": "5 posizioni di penalità (motore)"
+            "name": "Max Verstappen",
+            "team": "Red Bull",
+            "time": "1:34.151",
+            "note": "Pole position dopo la penalità di Antonelli"
           },
           {
             "pos": "3",
-            "name": "Kimi Antonelli",
+            "name": "George Russell",
             "team": "Mercedes",
-            "time": "1:28.095"
+            "time": "1:34.224"
           },
           {
             "pos": "4",
-            "name": "Charles Leclerc",
-            "team": "Ferrari",
-            "time": "1:28.289",
-            "note": "10 posizioni di penalità (motore)"
+            "name": "Lando Norris",
+            "team": "McLaren",
+            "time": "1:34.244"
           },
           {
             "pos": "5",
-            "name": "Liam Lawson",
-            "team": "Racing Bulls",
-            "time": "1:28.321"
+            "name": "Isack Hadjar",
+            "team": "Red Bull",
+            "time": "1:34.592"
           },
           {
             "pos": "6",
-            "name": "Nico Hülkenberg",
-            "team": "Audi",
-            "time": "1:28.668"
+            "name": "Arvid Lindblad",
+            "team": "Racing Bulls",
+            "time": ""
           },
           {
             "pos": "7",
-            "name": "Isack Hadjar",
-            "team": "Red Bull",
-            "time": "1:28.763"
+            "name": "Oscar Piastri",
+            "team": "McLaren",
+            "time": "",
+            "note": "10 posizioni di penalità (power unit)"
           },
           {
             "pos": "8",
-            "name": "Oliver Bearman",
-            "team": "Haas",
-            "time": "1:29.831"
+            "name": "Liam Lawson",
+            "team": "Racing Bulls",
+            "time": ""
           },
           {
             "pos": "9",
-            "name": "Fernando Alonso",
-            "team": "Aston Martin",
-            "time": "1:30.311"
+            "name": "Pierre Gasly",
+            "team": "Alpine",
+            "time": ""
           },
           {
             "pos": "10",
-            "name": "Alexander Albon",
-            "team": "Williams",
-            "time": "1:30.456"
+            "name": "Franco Colapinto",
+            "team": "Alpine",
+            "time": ""
           },
           {
             "pos": "11",
-            "name": "Lewis Hamilton",
+            "name": "Charles Leclerc",
             "team": "Ferrari",
-            "time": "1:30.001",
-            "note": "Eliminato in Q2 · partirà in fondo (power unit)"
+            "time": "",
+            "note": "Eliminato in Q2"
           },
           {
             "pos": "12",
-            "name": "Oscar Piastri",
-            "team": "McLaren",
-            "time": "1:30.369",
+            "name": "Lewis Hamilton",
+            "team": "Ferrari",
+            "time": "",
             "note": "Eliminato in Q2"
           },
           {
             "pos": "13",
-            "name": "Rafael Câmara",
-            "team": "Haas",
-            "time": "1:31.515",
-            "note": "Eliminato in Q2 · incidente"
-          },
-          {
-            "pos": "14",
-            "name": "Arvid Lindblad",
-            "team": "Racing Bulls",
-            "time": "1:31.687",
+            "name": "Nico Hülkenberg",
+            "team": "Audi",
+            "time": "",
             "note": "Eliminato in Q2"
           },
           {
-            "pos": "15",
+            "pos": "14",
             "name": "Carlos Sainz",
             "team": "Williams",
-            "time": "1:31.785",
+            "time": "",
+            "note": "Eliminato in Q2 · 10 posizioni di penalità (power unit)"
+          },
+          {
+            "pos": "15",
+            "name": "Gabriel Bortoleto",
+            "team": "Audi",
+            "time": "",
             "note": "Eliminato in Q2"
           },
           {
             "pos": "16",
-            "name": "Max Verstappen",
-            "team": "Red Bull",
-            "time": "—",
-            "note": "Non sceso in pista in Q2 · partirà in fondo (30 posizioni)"
+            "name": "Alexander Albon",
+            "team": "Williams",
+            "time": "",
+            "note": "Eliminato in Q2"
           },
           {
             "pos": "17",
-            "name": "Franco Colapinto",
-            "team": "Alpine",
-            "time": "1:33.327",
+            "name": "Rafael Câmara",
+            "team": "Haas",
+            "time": "1:36.220",
             "note": "Eliminato in Q1"
           },
           {
             "pos": "18",
-            "name": "Pierre Gasly",
-            "team": "Alpine",
-            "time": "1:33.449",
+            "name": "Sergio Pérez",
+            "team": "Cadillac",
+            "time": "1:37.383",
             "note": "Eliminato in Q1"
           },
           {
             "pos": "19",
-            "name": "Lance Stroll",
+            "name": "Fernando Alonso",
             "team": "Aston Martin",
-            "time": "1:33.653",
+            "time": "1:37.400",
             "note": "Eliminato in Q1"
           },
           {
             "pos": "20",
-            "name": "Valtteri Bottas",
-            "team": "Cadillac",
-            "time": "1:33.774",
+            "name": "Lance Stroll",
+            "team": "Aston Martin",
+            "time": "1:37.550",
             "note": "Eliminato in Q1"
           },
           {
             "pos": "21",
-            "name": "Sergio Pérez",
+            "name": "Valtteri Bottas",
             "team": "Cadillac",
-            "time": "1:34.509",
-            "note": "Eliminato in Q1 · 30 posizioni di penalità (motore)"
+            "time": "1:37.601",
+            "note": "Eliminato in Q1"
           },
           {
             "pos": "22",
-            "name": "Gabriel Bortoleto",
-            "team": "Audi",
-            "time": "1:41.564",
-            "note": "Eliminato in Q1 · testacoda"
+            "name": "Oliver Bearman",
+            "team": "Haas",
+            "time": "1:48.005",
+            "note": "Eliminato in Q1 · penalità per componenti della power unit"
           }
         ]
-      }
-    ],
-    "podium": [
-      {
-        "name": "Lando Norris"
-      },
-      {
-        "name": "Max Verstappen"
-      },
-      {
-        "name": "Isack Hadjar"
       }
     ]
   },
