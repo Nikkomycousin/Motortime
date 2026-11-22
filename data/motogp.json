@@ -342,7 +342,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-22T19:00:00Z",
+    "updated": "2026-11-22T21:00:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
@@ -416,9 +416,170 @@
   "results": {
     "gp": "GP del Portogallo",
     "round": 21,
-    "updated": "2026-11-21T19:00:00Z",
-    "summary": "Marco Bezzecchi domina la Sprint di Portimão partendo dalla pole e chiude con oltre otto secondi di margine su Raúl Fernández, con Álex Márquez a completare il podio. Marc Márquez, a cui bastava il successo per laurearsi campione, scivola a due giri dalla fine e rimanda la festa alla gara di domenica. Martín è quinto e accorcia leggermente, mentre i punti di Bezzecchi e Martín regalano all'Aprilia Racing il titolo a squadre con un round d'anticipo.",
+    "updated": "2026-11-22T21:00:00Z",
+    "summary": "Marco Bezzecchi completa un weekend perfetto a Portimão: dopo pole e Sprint vince anche il Gran Premio, con quasi quattro secondi su Jorge Martín e Raúl Fernández terzo per una tripletta Aprilia. Fabio Di Giannantonio è il migliore delle Ducati al quarto posto davanti a Ogura e Aldeguer. Marc Márquez gestisce e chiude ottavo, quanto basta per laurearsi campione del mondo MotoGP 2026. Fuori Álex Márquez, Acosta e Zarco, mentre Moreira è caduto all'ultimo giro.",
     "tabs": [
+      {
+        "label": "Gara",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Marco Bezzecchi",
+            "team": "Aprilia Racing",
+            "gap": "Vincitore",
+            "points": 25
+          },
+          {
+            "pos": "2",
+            "name": "Jorge Martín",
+            "team": "Aprilia Racing",
+            "gap": "+3.845",
+            "points": 20
+          },
+          {
+            "pos": "3",
+            "name": "Raúl Fernández",
+            "team": "Trackhouse Aprilia",
+            "gap": "+5.711",
+            "points": 16
+          },
+          {
+            "pos": "4",
+            "name": "Fabio Di Giannantonio",
+            "team": "VR46 Ducati",
+            "gap": "+8.828",
+            "points": 13
+          },
+          {
+            "pos": "5",
+            "name": "Ai Ogura",
+            "team": "Trackhouse Aprilia",
+            "gap": "+10.305",
+            "points": 11
+          },
+          {
+            "pos": "6",
+            "name": "Fermín Aldeguer",
+            "team": "Gresini Ducati",
+            "gap": "+14.107",
+            "points": 10
+          },
+          {
+            "pos": "7",
+            "name": "Brad Binder",
+            "team": "KTM Factory",
+            "gap": "+17.465",
+            "points": 9
+          },
+          {
+            "pos": "8",
+            "name": "Marc Márquez",
+            "team": "Ducati Lenovo",
+            "gap": "+18.162",
+            "points": 8
+          },
+          {
+            "pos": "9",
+            "name": "Luca Marini",
+            "team": "Honda HRC",
+            "gap": "+18.599",
+            "points": 7
+          },
+          {
+            "pos": "10",
+            "name": "Iker Lecuona",
+            "team": "Ducati Lenovo",
+            "gap": "+22.275",
+            "points": 6
+          },
+          {
+            "pos": "11",
+            "name": "Enea Bastianini",
+            "team": "Tech3 KTM",
+            "gap": "+24.028",
+            "points": 5
+          },
+          {
+            "pos": "12",
+            "name": "Fabio Quartararo",
+            "team": "Yamaha Factory",
+            "gap": "+25.059",
+            "points": 4
+          },
+          {
+            "pos": "13",
+            "name": "Jack Miller",
+            "team": "Pramac Yamaha",
+            "gap": "+25.746",
+            "points": 3
+          },
+          {
+            "pos": "14",
+            "name": "Álex Rins",
+            "team": "Yamaha Factory",
+            "gap": "+33.146",
+            "points": 2
+          },
+          {
+            "pos": "15",
+            "name": "Franco Morbidelli",
+            "team": "VR46 Ducati",
+            "gap": "+34.495",
+            "points": 1
+          },
+          {
+            "pos": "16",
+            "name": "Pol Espargaró",
+            "team": "Tech3 KTM",
+            "gap": "+34.724",
+            "points": 0
+          },
+          {
+            "pos": "17",
+            "name": "Jake Dixon",
+            "team": "Honda HRC",
+            "gap": "+34.951",
+            "points": 0
+          },
+          {
+            "pos": "18",
+            "name": "Augusto Fernández",
+            "team": "Pramac Yamaha",
+            "gap": "+1'03.917",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Diogo Moreira",
+            "team": "LCR Honda",
+            "gap": "—",
+            "points": 0,
+            "note": "Caduto all'ultimo giro"
+          },
+          {
+            "pos": "RIT",
+            "name": "Álex Márquez",
+            "team": "Gresini Ducati",
+            "gap": "—",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Pedro Acosta",
+            "team": "KTM Factory",
+            "gap": "—",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Johann Zarco",
+            "team": "LCR Honda",
+            "gap": "—",
+            "points": 0
+          }
+        ]
+      },
       {
         "label": "Sprint",
         "kind": "race",
@@ -731,31 +892,42 @@
           }
         ]
       }
+    ],
+    "podium": [
+      {
+        "name": "Marco Bezzecchi"
+      },
+      {
+        "name": "Jorge Martín"
+      },
+      {
+        "name": "Raúl Fernández"
+      }
     ]
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-21T19:00:00Z",
-    "after": "dopo la Sprint del GP del Portogallo (round 21 di 22)",
+    "updated": "2026-11-22T21:00:00Z",
+    "after": "dopo il GP del Portogallo (round 21 di 22)",
     "drivers": [
       {
         "pos": 1,
         "name": "Marc Márquez",
         "team": "Ducati Lenovo",
-        "points": 431,
+        "points": 439,
         "champion": true
       },
       {
         "pos": 2,
         "name": "Jorge Martín",
         "team": "Aprilia Racing",
-        "points": 376
+        "points": 396
       },
       {
         "pos": 3,
         "name": "Marco Bezzecchi",
         "team": "Aprilia Racing",
-        "points": 369
+        "points": 394
       },
       {
         "pos": 4,
@@ -767,19 +939,19 @@
         "pos": 5,
         "name": "Ai Ogura",
         "team": "Trackhouse Aprilia",
-        "points": 298
+        "points": 309
       },
       {
         "pos": 6,
         "name": "Fabio Di Giannantonio",
         "team": "VR46 Ducati",
-        "points": 285
+        "points": 298
       },
       {
         "pos": 7,
         "name": "Raúl Fernández",
         "team": "Trackhouse Aprilia",
-        "points": 267
+        "points": 283
       },
       {
         "pos": 8,
@@ -797,31 +969,31 @@
         "pos": 10,
         "name": "Enea Bastianini",
         "team": "Tech3 KTM",
-        "points": 147
+        "points": 152
       },
       {
         "pos": 11,
         "name": "Fermín Aldeguer",
         "team": "Gresini Ducati",
-        "points": 129
+        "points": 139
       },
       {
         "pos": 12,
         "name": "Brad Binder",
         "team": "KTM Factory",
-        "points": 118
+        "points": 127
       },
       {
         "pos": 13,
         "name": "Luca Marini",
         "team": "Honda HRC",
-        "points": 117
+        "points": 124
       },
       {
         "pos": 14,
         "name": "Fabio Quartararo",
         "team": "Yamaha Factory",
-        "points": 81
+        "points": 85
       },
       {
         "pos": 15,
@@ -833,7 +1005,7 @@
         "pos": 16,
         "name": "Franco Morbidelli",
         "team": "VR46 Ducati",
-        "points": 70
+        "points": 71
       },
       {
         "pos": 17,
@@ -843,27 +1015,27 @@
       },
       {
         "pos": 18,
+        "name": "Jack Miller",
+        "team": "Pramac Yamaha",
+        "points": 34
+      },
+      {
+        "pos": 19,
         "name": "Joan Mir",
         "team": "Honda HRC",
         "points": 33
       },
       {
-        "pos": 19,
-        "name": "Jack Miller",
-        "team": "Pramac Yamaha",
-        "points": 31
-      },
-      {
         "pos": 20,
         "name": "Álex Rins",
         "team": "Yamaha Factory",
-        "points": 29
+        "points": 31
       },
       {
         "pos": 21,
         "name": "Iker Lecuona",
         "team": "Ducati Lenovo",
-        "points": 19
+        "points": 25
       },
       {
         "pos": 22,
@@ -942,50 +1114,50 @@
       {
         "pos": 1,
         "team": "Aprilia Racing",
-        "points": 745,
+        "points": 790,
         "drivers": "Martín · Bezzecchi",
         "champion": true
       },
       {
         "pos": 2,
         "team": "Ducati Lenovo",
-        "points": 605,
+        "points": 619,
         "drivers": "Márquez · Bagnaia"
       },
       {
         "pos": 3,
         "team": "Trackhouse Aprilia",
-        "points": 565,
+        "points": 592,
         "drivers": "Ogura · Fernández"
       },
       {
         "pos": 4,
         "team": "KTM Factory",
-        "points": 433,
+        "points": 442,
         "drivers": "Acosta · Binder"
       },
       {
         "pos": 5,
         "team": "VR46 Ducati",
-        "points": 355,
+        "points": 369,
         "drivers": "Di Giannantonio · Morbidelli"
       },
       {
         "pos": 6,
         "team": "Gresini Ducati",
-        "points": 351,
+        "points": 361,
         "drivers": "Márquez · Aldeguer"
       },
       {
         "pos": 7,
         "team": "Tech3 KTM",
-        "points": 169,
+        "points": 174,
         "drivers": "Bastianini · Viñales"
       },
       {
         "pos": 8,
         "team": "Honda HRC",
-        "points": 158,
+        "points": 165,
         "drivers": "Marini · Mir"
       },
       {
@@ -997,13 +1169,13 @@
       {
         "pos": 10,
         "team": "Yamaha Factory",
-        "points": 110,
+        "points": 116,
         "drivers": "Quartararo · Rins"
       },
       {
         "pos": 11,
         "team": "Pramac Yamaha",
-        "points": 49,
+        "points": 52,
         "drivers": "Miller · Razgatlıoğlu"
       }
     ]
