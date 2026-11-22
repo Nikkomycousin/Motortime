@@ -1090,12 +1090,11 @@
     }
   ],
   "info": {
-    "updated": "2026-11-22T08:05:00Z",
+    "updated": "2026-11-22T10:55:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",
-      "date": "2026-11-28T23:00:00Z",
-      "dateOnly": true,
+      "date": "2026-11-29T16:00:00Z",
       "label": "Gara"
     }
   },
@@ -1104,8 +1103,41 @@
     "circuit": "Lusail International Circuit",
     "lat": 25.49,
     "lon": 51.45,
-    "updated": "2026-11-22T08:05:00Z",
-    "sessions": []
+    "updated": "2026-11-22T10:55:00Z",
+    "tv8note": "TV8 trasmetterà qualifiche e gara in differita (orari della messa in onda non ancora annunciati); diretta integrale su Sky Sport F1 e NOW.",
+    "sessions": [
+      {
+        "name": "Prove libere 1",
+        "start": "2026-11-27T13:30:00Z",
+        "end": "2026-11-27T14:30:00Z",
+        "live": "Diretta Sky Sport F1 · NOW"
+      },
+      {
+        "name": "Prove libere 2",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2026-11-27T18:00:00Z",
+        "live": "Diretta Sky Sport F1 · NOW"
+      },
+      {
+        "name": "Prove libere 3",
+        "start": "2026-11-28T14:30:00Z",
+        "end": "2026-11-28T15:30:00Z",
+        "live": "Diretta Sky Sport F1 · NOW"
+      },
+      {
+        "name": "Qualifiche",
+        "start": "2026-11-28T18:00:00Z",
+        "end": "2026-11-28T19:00:00Z",
+        "live": "Diretta Sky Sport F1 · NOW",
+        "key": true
+      },
+      {
+        "name": "Gara (57 giri)",
+        "start": "2026-11-29T16:00:00Z",
+        "live": "Diretta Sky Sport F1 · NOW",
+        "key": true
+      }
+    ]
   },
   "results": {
     "gp": "GP di Las Vegas",
