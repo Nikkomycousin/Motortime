@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-22-moto3-portimao-quiles-vince",
+      "title": "Moto3, Quiles vince ancora a Portimão: primo podio per Salmela",
+      "summary": "Il campione del mondo centra il dodicesimo successo stagionale dopo un ultimo giro movimentato, davanti a Rico Salmela e Adrián Fernández. All'ultima curva contatto tra Almansa e Uriarte; Pini chiude a ridosso della top 5.",
+      "tag": "Gare",
+      "source": "Moto.it",
+      "url": "https://www.moto.it/MotoGP/moto3-quiles-vince-portimao-davanti-salmela-primo-podio-fernandez-contatto-almansa-uriarte-finale-classifica-video.html",
+      "published": "2026-11-22T10:50:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-21-portimao-moto3-pole-almansa",
       "title": "Moto3 a Portimão, Almansa in pole; Pini e Quiles in terza fila",
       "summary": "Il pilota Intact GP conquista la pole con quasi mezzo secondo su Uriarte e Muñoz. Guido Pini scatterà ottavo, appena dietro Quiles.",
@@ -8,7 +18,7 @@
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/moto3-david-almansa-domina-le-qualifiche-e-centra-la-pole-a-portimao-pini-in-terza-fila/",
       "published": "2026-11-21T13:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-21-portimao-pole-almansa",
@@ -18,7 +28,7 @@
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/moto3-david-almansa-domina-le-qualifiche-e-centra-la-pole-a-portimao-pini-in-terza-fila/",
       "published": "2026-11-21T13:35:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-21-portimao-fp2-quiles",
@@ -37,7 +47,8 @@
       "tag": "Gare",
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/moto3-david-almansa-primeggia-anche-nelle-pre-qualifiche-di-portimao-quiles-competitivo-bene-pini/",
-      "published": "2026-11-20T14:15:00Z"
+      "published": "2026-11-20T14:15:00Z",
+      "top": false
     },
     {
       "id": "2026-11-20-portimao-fp1-almansa",
@@ -67,7 +78,7 @@
       "source": "Moto.it",
       "url": "https://www.moto.it/MotoGP/moto3-david-almansa-domina-qatar-podio-fernandez-quiles-11-pini-classifica.html",
       "published": "2026-11-08T16:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-08-portimao-orari",
@@ -97,17 +108,18 @@
       "source": "MotoGP.com",
       "url": "https://www.motogp.com/en/news/2026/10/10/quiles-se-proclama-campeon-del-mundo-de-moto3-con-una-nueva-victoria/1174842",
       "published": "2026-10-11T08:00:00Z",
-      "top": true
+      "top": false
     }
   ],
   "info": {
-    "updated": "2026-11-22T11:00:00Z",
+    "updated": "2026-11-22T13:55:00Z",
     "nextGp": {
-      "name": "GP del Portogallo",
-      "circuit": "Portimão",
-      "date": "2026-11-22T10:00:00Z",
+      "name": "GP di Valencia",
+      "circuit": "Circuit Ricardo Tormo, Valencia",
+      "date": "2026-11-28T23:00:00Z",
+      "dateOnly": true,
       "label": "Gara",
-      "note": "Penultimo round: titolo piloti già assegnato a Quiles, Almansa in corsa per il secondo posto"
+      "note": "Ultimo round: Quiles già campione, si decide il resto del podio iridato"
     }
   },
   "weekend": {
@@ -835,7 +847,7 @@
   },
   "calendar": {
     "season": 2026,
-    "updated": "2026-11-11T15:45:00Z",
+    "updated": "2026-11-22T13:55:00Z",
     "rounds": [
       {
         "round": 1,
@@ -1000,7 +1012,9 @@
         "round": 21,
         "name": "GP del Portogallo",
         "circuit": "Portimão",
-        "date": "2026-11-22"
+        "date": "2026-11-22",
+        "winner": "Máximo Quiles",
+        "team": "Aspar · KTM"
       },
       {
         "round": 22,

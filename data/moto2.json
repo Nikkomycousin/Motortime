@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-22-moto2-portimao-munoz-vince",
+      "title": "Moto2, prima vittoria per Muñoz a Portimão; González a terra, titolo rinviato",
+      "summary": "In una gara caotica, interrotta anche dalla bandiera rossa, Dani Muñoz conquista il suo primo successo nella categoria. Il leader González cade senza colpe e resta a zero: Guevara si avvicina e la sfida per il titolo si deciderà a Valencia.",
+      "tag": "Gare",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/22/moto2/munoz-vince-portimao-gonzalez-out-guevara-tiene-aperta-la-lotta-fino-a-valencia.html",
+      "published": "2026-11-22T12:05:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-21-portimao-moto2-pole-agius",
       "title": "Moto2 a Portimão, pole da record per Agius; González solo decimo",
       "summary": "L'australiano si prende la prima posizione con il nuovo primato della pista davanti a Holgado e Guevara. Il leader del Mondiale González partirà invece dalla quarta fila.",
@@ -8,7 +18,7 @@
       "source": "Sky Sport",
       "url": "https://sport.sky.it/motogp/2026/11/21/moto-2-gp-portogallo-portimao-qualifiche-risultato-oggi",
       "published": "2026-11-21T14:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-21-portimao-fp2-pioggia",
@@ -27,7 +37,8 @@
       "tag": "Gare",
       "source": "GPOne",
       "url": "https://www.gpone.com/it/2026/11/20/moto2/agius-domina-le-pre-qualifiche-a-portimao-in-difficolta-guevara-e-gonzalez.html",
-      "published": "2026-11-20T15:00:00Z"
+      "published": "2026-11-20T15:00:00Z",
+      "top": false
     },
     {
       "id": "2026-11-20-portimao-fp1-agius-record",
@@ -37,7 +48,7 @@
       "source": "GPOne",
       "url": "https://www.gpone.com/it/2026/11/20/moto2/portimao-fp1-da-record-per-agius-3deg-guevara-12deg-con-caduta-il-leader-gonzalez.html",
       "published": "2026-11-20T10:40:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-10-guevara-motore-triumph",
@@ -77,7 +88,7 @@
       "source": "MotoGP.com",
       "url": "https://www.motogp.com/en/news/2026/11/08/m2-qat-rac-report/1184245",
       "published": "2026-11-08T15:10:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-08-gonzalez-allunga",
@@ -87,7 +98,7 @@
       "source": "GPblog",
       "url": "https://www.gpblog.com/en/motogp/moto2-full-race-results-guevara-reitred-qatar-gonzalez",
       "published": "2026-11-08T14:55:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-07-qatar-pole-escrig",
@@ -101,13 +112,14 @@
     }
   ],
   "info": {
-    "updated": "2026-11-22T11:00:00Z",
+    "updated": "2026-11-22T13:55:00Z",
     "nextGp": {
-      "name": "GP del Portogallo",
-      "circuit": "Portimão",
-      "date": "2026-11-22T11:15:00Z",
+      "name": "GP di Valencia",
+      "circuit": "Circuit Ricardo Tormo, Valencia",
+      "date": "2026-11-28T23:00:00Z",
+      "dateOnly": true,
       "label": "Gara",
-      "note": "Penultimo round: Gonzalez è campione se chiude con almeno 12 punti in più di Guevara"
+      "note": "Ultimo round: González e Guevara si giocano il titolo, separati da pochi punti"
     }
   },
   "weekend": {
@@ -861,7 +873,7 @@
   },
   "calendar": {
     "season": 2026,
-    "updated": "2026-11-11T15:45:00Z",
+    "updated": "2026-11-22T13:55:00Z",
     "rounds": [
       {
         "round": 1,
@@ -1026,7 +1038,9 @@
         "round": 21,
         "name": "GP del Portogallo",
         "circuit": "Portimão",
-        "date": "2026-11-22"
+        "date": "2026-11-22",
+        "winner": "Daniel Muñoz",
+        "team": "Italtrans · Kalex"
       },
       {
         "round": 22,

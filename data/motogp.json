@@ -1,6 +1,26 @@
 {
   "news": [
     {
+      "id": "2026-11-22-marquez-campione-portimao",
+      "title": "Marc Márquez è campione del mondo MotoGP 2026 a Portimão",
+      "summary": "Dopo la caduta nella Sprint, il pilota Ducati chiude i conti nella gara della domenica e si prende l'ottavo titolo in top class, il decimo della carriera. A Valencia correrà da campione già incoronato.",
+      "tag": "Mondiale",
+      "source": "Corsedimoto",
+      "url": "https://www.corsedimoto.com/motogp/motogp-portimao-tripletta-aprilia-marc-marquez-vince-decimo-titolo-mondiale",
+      "published": "2026-11-22T13:50:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-22-portimao-gara-bezzecchi-tripletta-aprilia",
+      "title": "Portimão, Bezzecchi vince la gara e guida una tripletta Aprilia",
+      "summary": "Weekend perfetto per Bezzecchi, che dopo pole e Sprint si aggiudica anche il GP davanti ad altre due Aprilia. Una festa per la casa di Noale nel giorno in cui Márquez si laurea campione.",
+      "tag": "Aprilia",
+      "source": "Motorsport Week",
+      "url": "https://www.motorsportweek.com/2026/11/22/marco-bezzecchi-wins-portuguese-gp-as-marc-marquez-clinches-8th-motogp-world-title/",
+      "published": "2026-11-22T13:48:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-22-portimao-warm-up-aldeguer",
       "title": "Portimão, warm up su pista umida: Aldeguer il più rapido, Márquez prudente",
       "summary": "Nel breve warm up della domenica, con asfalto ancora bagnato e gomme rain, il miglior tempo è di Fermín Aldeguer. Bezzecchi nono e Martín undicesimo, mentre Márquez ha girato senza prendersi rischi in vista della gara che può valere il titolo.",
@@ -18,7 +38,7 @@
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/motogp-marco-bezzecchi-fa-il-vuoto-nella-sprint-di-portimao-marquez-cade-e-rimanda-la-festa/",
       "published": "2026-11-21T15:10:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-21-aprilia-racing-titolo-team",
@@ -28,7 +48,7 @@
       "source": "Sportface",
       "url": "https://news.sportface.it/motori/motogp/motogp-portogallo-2026-sprint-bezzecchi-marquez-aprilia-titolo-team/2832485",
       "published": "2026-11-21T15:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-21-marquez-cosa-serve-titolo-portimao",
@@ -88,7 +108,7 @@
       "source": "Sky Sport",
       "url": "https://sport.sky.it/motogp/video/2026/11/19/motogp-marquez-intervista-gp-portogallo-portimao-1141093",
       "published": "2026-11-19T14:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-18-aprilia-derby-martin-bezzecchi",
@@ -128,7 +148,7 @@
       "source": "MotoGP.com",
       "url": "https://www.motogp.com/en/news/2026/11/17/how-can-marc-marquez-be-crowned-world-champion-in-portugal/1185545",
       "published": "2026-11-17T14:00:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-17-martin-portimao-meglio",
@@ -158,7 +178,7 @@
       "source": "GPOne",
       "url": "https://gpone.com/en/2026/11/16/motogp/bagnaia-to-miss-the-portimao-grand-prix-lecuona-to-replace-him.html",
       "published": "2026-11-16T11:00:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-14-test-valencia-aperti-pubblico",
@@ -198,7 +218,7 @@
       "source": "GPOne",
       "url": "https://www.gpone.com/en/2026/11/13/motogp/bagnaia-undergoes-surgery-wants-to-race-at-portimao-ducati-prepares-plan-b-with-pirro-and-lecuona.html",
       "published": "2026-11-13T10:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-12-ducati-presentazione-campiglio-2027",
@@ -278,7 +298,7 @@
       "source": "ANSA",
       "url": "https://www.ansa.it/sito/notizie/sport/2026/11/09/motogp-appuntamento-a-portimao-marc-marquez-prepara-la-festa_dfffb1c6-2eb1-4a5e-8714-ebee9586b43c.html",
       "published": "2026-11-09T17:30:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-08-bezzecchi-vince-lusail",
@@ -288,7 +308,7 @@
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/ordine-darrivo-motogp-gp-qatar-2026-risultati-e-classifica-gara/",
       "published": "2026-11-08T16:50:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-08-bagnaia-fratture-piede",
@@ -322,13 +342,14 @@
     }
   ],
   "info": {
-    "updated": "2026-11-22T11:00:00Z",
+    "updated": "2026-11-22T13:55:00Z",
     "nextGp": {
-      "name": "GP del Portogallo",
-      "circuit": "Autódromo Internacional do Algarve, Portimão",
-      "date": "2026-11-22T13:00:00Z",
+      "name": "GP di Valencia",
+      "circuit": "Circuit Ricardo Tormo, Valencia",
+      "date": "2026-11-28T23:00:00Z",
+      "dateOnly": true,
       "label": "Gara",
-      "note": "Márquez caduto nella Sprint: domenica gli basta non perdere più di 6 punti su Martín per il titolo"
+      "note": "Ultimo round della stagione: Márquez arriva a Valencia già campione del mondo"
     }
   },
   "weekend": {
@@ -726,7 +747,8 @@
         "pos": 1,
         "name": "Marc Márquez",
         "team": "Ducati Lenovo",
-        "points": 431
+        "points": 431,
+        "champion": true
       },
       {
         "pos": 2,
@@ -993,7 +1015,7 @@
   },
   "calendar": {
     "season": 2026,
-    "updated": "2026-11-21T19:00:00Z",
+    "updated": "2026-11-22T13:55:00Z",
     "rounds": [
       {
         "round": 1,
@@ -1179,7 +1201,9 @@
         "name": "GP del Portogallo",
         "circuit": "Portimão",
         "date": "2026-11-22",
-        "sprintWinner": "Marco Bezzecchi"
+        "sprintWinner": "Marco Bezzecchi",
+        "winner": "Marco Bezzecchi",
+        "team": "Aprilia Racing"
       },
       {
         "round": 22,
