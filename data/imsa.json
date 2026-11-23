@@ -454,8 +454,8 @@
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-18T11:30:00Z",
-    "after": "prima della finale (dopo Indianapolis, round 10) · i campioni 2026 sono già segnati, i punti finali non sono ancora disponibili",
+    "updated": "2026-11-23T14:40:00Z",
+    "after": "classifica finale 2026, dopo il Petit Le Mans",
     "classes": [
       {
         "cls": "GTP",
@@ -464,149 +464,252 @@
             "pos": 1,
             "name": "Jack Aitken",
             "team": "Cadillac Whelen",
-            "points": 2752,
+            "points": 3020,
             "champion": true
           },
           {
             "pos": 2,
             "name": "Laurin Heinrich",
             "team": "JDC-Miller / Porsche Penske",
-            "points": 2605
+            "points": 2859
           },
           {
             "pos": 3,
             "name": "Nick Yelloly / Renger van der Zande",
             "team": "Acura Meyer Shank Racing",
-            "points": 2481
+            "points": 2723
           },
           {
             "pos": 4,
-            "name": "Earl Bamber",
-            "team": "Cadillac Whelen",
-            "points": 2404
+            "name": "Kévin Estre",
+            "team": "Porsche Penske Motorsport",
+            "points": 2709
           },
           {
             "pos": 5,
-            "name": "Julien Andlauer / Felipe Nasr",
-            "team": "Porsche Penske Motorsport",
-            "points": 2384
+            "name": "Earl Bamber",
+            "team": "Cadillac Whelen",
+            "points": 2672
           },
           {
             "pos": 6,
-            "name": "Kévin Estre",
-            "team": "Porsche Penske Motorsport",
-            "points": 2333
+            "name": "Sheldon van der Linde / Dries Vanthoor",
+            "team": "BMW M Team WRT",
+            "points": 2650
           },
           {
             "pos": 7,
-            "name": "Sheldon van der Linde / Dries Vanthoor",
-            "team": "BMW M Team WRT",
-            "points": 2300
+            "name": "Julien Andlauer / Felipe Nasr",
+            "team": "Porsche Penske Motorsport",
+            "points": 2638
           },
           {
             "pos": 8,
-            "name": "Tijmen van der Helm",
-            "team": "JDC-Miller MotorSports",
-            "points": 2285
+            "name": "Louis Delétraz / Jordan Taylor",
+            "team": "Wayne Taylor Racing",
+            "points": 2556
           },
           {
             "pos": 9,
-            "name": "Louis Delétraz / Jordan Taylor",
-            "team": "Wayne Taylor Racing",
-            "points": 2231
+            "name": "Tijmen van der Helm",
+            "team": "JDC-Miller MotorSports",
+            "points": 2525
           },
           {
             "pos": 10,
             "name": "Tom Blomqvist / Colin Braun",
             "team": "Acura Meyer Shank Racing",
-            "points": 2180
+            "points": 2465
           },
           {
             "pos": 11,
             "name": "Filipe Albuquerque / Ricky Taylor",
             "team": "Wayne Taylor Racing",
-            "points": 2147
+            "points": 2448
           },
           {
             "pos": 12,
-            "name": "Philipp Eng / Marco Wittmann",
-            "team": "BMW M Team WRT",
-            "points": 2116
+            "name": "Laurens Vanthoor",
+            "team": "Porsche Penske Motorsport",
+            "points": 2386
           },
           {
             "pos": 13,
-            "name": "Laurens Vanthoor",
-            "team": "Porsche Penske Motorsport",
-            "points": 2010
+            "name": "Philipp Eng / Marco Wittmann",
+            "team": "BMW M Team WRT",
+            "points": 2338
           },
           {
             "pos": 14,
             "name": "Roman De Angelis / Ross Gunn",
             "team": "Heart of Racing (Aston Martin THOR)",
-            "points": 1959
+            "points": 2242
           },
           {
             "pos": 15,
             "name": "Frederik Vesti",
             "team": "Cadillac Whelen",
-            "points": 1663
+            "points": 1931
+          },
+          {
+            "pos": 16,
+            "name": "Kaylen Frederick",
+            "team": "JDC-Miller MotorSports",
+            "points": 1424
+          },
+          {
+            "pos": 17,
+            "name": "Matt Campbell",
+            "team": "Porsche Penske Motorsport",
+            "points": 1030
+          },
+          {
+            "pos": 18,
+            "name": "Robin Frijns",
+            "team": "BMW M Team WRT",
+            "points": 956
+          },
+          {
+            "pos": 19,
+            "name": "Colton Herta",
+            "team": "Cadillac Wayne Taylor Racing",
+            "points": 873
+          },
+          {
+            "pos": 20,
+            "name": "Scott Dixon",
+            "team": "Meyer Shank Racing",
+            "points": 845
+          },
+          {
+            "pos": 21,
+            "name": "Álex Palou",
+            "team": "Meyer Shank Racing",
+            "points": 809
+          },
+          {
+            "pos": 22,
+            "name": "Will Stevens",
+            "team": "Cadillac Wayne Taylor Racing",
+            "points": 756
+          },
+          {
+            "pos": 23,
+            "name": "Alex Riberas",
+            "team": "Aston Martin THOR Team",
+            "points": 755
+          },
+          {
+            "pos": 24,
+            "name": "Kevin Magnussen",
+            "team": "BMW M Team WRT",
+            "points": 704
+          },
+          {
+            "pos": 25,
+            "name": "Kakunoshin Ohta",
+            "team": "",
+            "points": 643
+          },
+          {
+            "pos": 26,
+            "name": "Nico Pino",
+            "team": "",
+            "points": 518
+          },
+          {
+            "pos": 27,
+            "name": "Nico Müller",
+            "team": "JDC-Miller MotorSports",
+            "points": 480
+          },
+          {
+            "pos": 28,
+            "name": "Connor Zilisch",
+            "team": "",
+            "points": 340
+          },
+          {
+            "pos": 29,
+            "name": "René Rast",
+            "team": "",
+            "points": 323
+          },
+          {
+            "pos": 30,
+            "name": "Raffaele Marciello",
+            "team": "",
+            "points": 252
+          },
+          {
+            "pos": 31,
+            "name": "A. J. Allmendinger",
+            "team": "",
+            "points": 248
+          },
+          {
+            "pos": 32,
+            "name": "Marco Sørensen",
+            "team": "",
+            "points": 231
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "#31 Cadillac Whelen",
-            "points": 2752
+            "points": 3020,
+            "champion": true
           },
           {
             "pos": 2,
             "team": "#93 Acura Meyer Shank Racing",
-            "points": 2481
+            "points": 2723
           },
           {
             "pos": 3,
-            "team": "#7 Porsche Penske Motorsport",
-            "points": 2384
+            "team": "#6 Porsche Penske Motorsport",
+            "points": 2709
           },
           {
             "pos": 4,
-            "team": "#6 Porsche Penske Motorsport",
-            "points": 2333
+            "team": "#24 BMW M Team WRT",
+            "points": 2650
           },
           {
             "pos": 5,
-            "team": "#24 BMW M Team WRT",
-            "points": 2300
+            "team": "#7 Porsche Penske Motorsport",
+            "points": 2638
           },
           {
             "pos": 6,
-            "team": "#5 JDC-Miller MotorSports",
-            "points": 2285
+            "team": "#40 Cadillac Wayne Taylor Racing",
+            "points": 2556
           },
           {
             "pos": 7,
-            "team": "#40 Wayne Taylor Racing",
-            "points": 2231
+            "team": "#5 JDC-Miller MotorSports",
+            "points": 2525
           },
           {
             "pos": 8,
             "team": "#60 Acura Meyer Shank Racing",
-            "points": 2180
+            "points": 2465
           },
           {
             "pos": 9,
-            "team": "#10 Wayne Taylor Racing",
-            "points": 2147
+            "team": "#10 Cadillac Wayne Taylor Racing",
+            "points": 2448
           },
           {
             "pos": 10,
             "team": "#25 BMW M Team WRT",
-            "points": 2116
+            "points": 2338
           },
           {
             "pos": 11,
             "team": "#23 Aston Martin THOR Team",
-            "points": 1959
+            "points": 2242
           }
         ]
       },
@@ -615,152 +718,314 @@
         "drivers": [
           {
             "pos": 1,
-            "name": "Jeremy Clarke / Tom Dillmann",
-            "team": "Inter Europol Competition",
-            "points": 1950
+            "name": "George Kurtz / Alex Quinn",
+            "team": "CrowdStrike Racing by APR",
+            "points": 2322,
+            "champion": true
           },
           {
             "pos": 2,
-            "name": "George Kurtz / Alex Quinn",
-            "team": "CrowdStrike Racing by APR",
-            "points": 1946,
-            "champion": true
+            "name": "Jeremy Clarke / Tom Dillmann",
+            "team": "Inter Europol Competition",
+            "points": 2302
           },
           {
             "pos": 3,
             "name": "Dan Goldburg",
             "team": "United Autosports USA",
-            "points": 1849
+            "points": 2127
           },
           {
             "pos": 4,
             "name": "Dane Cameron / P.J. Hyett",
             "team": "AO Racing",
-            "points": 1842
+            "points": 2087
           },
           {
             "pos": 5,
             "name": "Misha Goikhberg",
             "team": "Bryan Herta Autosport with PR1/Mathiasen",
-            "points": 1761
+            "points": 2021
           },
           {
             "pos": 6,
             "name": "John Farano",
             "team": "Tower Motorsports",
-            "points": 1667
+            "points": 1967
           },
           {
             "pos": 7,
-            "name": "Phil Fayer / Mikkel Jensen",
+            "name": "Paul di Resta",
             "team": "United Autosports USA",
-            "points": 1591
+            "points": 1837
           },
           {
             "pos": 8,
-            "name": "Paul di Resta",
+            "name": "Phil Fayer / Mikkel Jensen",
             "team": "United Autosports USA",
-            "points": 1559
+            "points": 1835
           },
           {
             "pos": 9,
-            "name": "Tobias Lütke",
-            "team": "TDS Racing",
-            "points": 1550
+            "name": "Chris Cumming / Pietro Fittipaldi",
+            "team": "Pratt Miller Motorsports",
+            "points": 1782
           },
           {
             "pos": 10,
-            "name": "Chris Cumming / Pietro Fittipaldi",
-            "team": "Pratt Miller Motorsports",
-            "points": 1500
+            "name": "Tobias Lütke",
+            "team": "TDS Racing",
+            "points": 1775
           },
           {
             "pos": 11,
-            "name": "Harry Tincknell",
-            "team": "Bryan Herta Autosport with PR1/Mathiasen",
-            "points": 1449
+            "name": "Toby Sowery",
+            "team": "CrowdStrike Racing by APR",
+            "points": 1729
           },
           {
             "pos": 12,
-            "name": "Sebastián Álvarez",
-            "team": "Tower Motorsports",
-            "points": 1366
+            "name": "Harry Tincknell",
+            "team": "Bryan Herta Autosport with PR1/Mathiasen",
+            "points": 1709
           },
           {
             "pos": 13,
-            "name": "Toby Sowery",
-            "team": "CrowdStrike Racing by APR",
-            "points": 1353
+            "name": "Sebastián Álvarez",
+            "team": "Tower Motorsports",
+            "points": 1666
           },
           {
             "pos": 14,
-            "name": "Mathias Beche",
-            "team": "TDS Racing",
-            "points": 1286
+            "name": "Bijoy Garg",
+            "team": "Inter Europol Competition",
+            "points": 1632
           },
           {
             "pos": 15,
-            "name": "Bijoy Garg",
-            "team": "Inter Europol Competition",
-            "points": 1280
+            "name": "Mathias Beche",
+            "team": "TDS Racing",
+            "points": 1511
+          },
+          {
+            "pos": 16,
+            "name": "Jonny Edgar",
+            "team": "AO Racing",
+            "points": 1505
+          },
+          {
+            "pos": 16,
+            "name": "Rasmus Lindh",
+            "team": "United Autosports",
+            "points": 1505
+          },
+          {
+            "pos": 18,
+            "name": "Tristan Vautier",
+            "team": "Tower Motorsports",
+            "points": 1464
+          },
+          {
+            "pos": 19,
+            "name": "Jacob Abel / Ferdinand Habsburg / Naveen Rao",
+            "team": "Era Motorsport",
+            "points": 1420
+          },
+          {
+            "pos": 20,
+            "name": "Parker Thompson",
+            "team": "Bryan Herta Autosport with PR1/Mathiasen",
+            "points": 1361
+          },
+          {
+            "pos": 21,
+            "name": "Hunter McElrea",
+            "team": "United Autosports",
+            "points": 1336
+          },
+          {
+            "pos": 22,
+            "name": "David Heinemeier Hansson",
+            "team": "TDS Racing",
+            "points": 1265
+          },
+          {
+            "pos": 23,
+            "name": "Manuel Espírito Santo",
+            "team": "Pratt Miller Motorsports",
+            "points": 1225
+          },
+          {
+            "pos": 24,
+            "name": "Jon Field / Oliver Jarvis",
+            "team": "Intersport Racing",
+            "points": 1182
+          },
+          {
+            "pos": 25,
+            "name": "Seth Lucas",
+            "team": "",
+            "points": 710
+          },
+          {
+            "pos": 26,
+            "name": "Christian Rasmussen",
+            "team": "",
+            "points": 666
+          },
+          {
+            "pos": 27,
+            "name": "Ben Hanley",
+            "team": "",
+            "points": 521
+          },
+          {
+            "pos": 28,
+            "name": "Charles Milesi",
+            "team": "",
+            "points": 480
+          },
+          {
+            "pos": 29,
+            "name": "Max van der Snel",
+            "team": "Intersport Racing",
+            "points": 472
+          },
+          {
+            "pos": 30,
+            "name": "Nick Boulle",
+            "team": "",
+            "points": 374
+          },
+          {
+            "pos": 31,
+            "name": "Malthe Jakobsen",
+            "team": "",
+            "points": 373
+          },
+          {
+            "pos": 32,
+            "name": "António Félix da Costa",
+            "team": "",
+            "points": 355
+          },
+          {
+            "pos": 33,
+            "name": "Nick Cassidy / Georgios Kolovos / Nolan Siegel / Jakub Śmiechowski",
+            "team": "",
+            "points": 325
+          },
+          {
+            "pos": 34,
+            "name": "Ricky Taylor",
+            "team": "",
+            "points": 312
+          },
+          {
+            "pos": 35,
+            "name": "Grégoire Saucy",
+            "team": "",
+            "points": 310
+          },
+          {
+            "pos": 36,
+            "name": "Ben Keating",
+            "team": "",
+            "points": 278
+          },
+          {
+            "pos": 37,
+            "name": "Josh Burdon / Sennan Fielding / Gerry Kraut",
+            "team": "",
+            "points": 268
+          },
+          {
+            "pos": 38,
+            "name": "Job van Uitert",
+            "team": "",
+            "points": 258
+          },
+          {
+            "pos": 39,
+            "name": "Sébastien Bourdais / Kyffin Simpson",
+            "team": "",
+            "points": 250
+          },
+          {
+            "pos": 40,
+            "name": "Logan Sargeant",
+            "team": "",
+            "points": 244
+          },
+          {
+            "pos": 41,
+            "name": "Enzo Fittipaldi",
+            "team": "Pratt Miller Motorsports",
+            "points": 222
+          },
+          {
+            "pos": 42,
+            "name": "Dylan Murry / Nicklas Nielsen / François Perrodo / Matthieu Vaxivière",
+            "team": "",
+            "points": 199
           }
         ],
         "constructors": [
           {
             "pos": 1,
-            "team": "#43 Inter Europol Competition",
-            "points": 1950
+            "team": "#04 CrowdStrike Racing by APR",
+            "points": 2322,
+            "champion": true
           },
           {
             "pos": 2,
-            "team": "#04 CrowdStrike Racing by APR",
-            "points": 1946,
-            "champion": true
+            "team": "#43 Inter Europol Competition",
+            "points": 2302
           },
           {
             "pos": 3,
             "team": "#22 United Autosports USA",
-            "points": 1849
+            "points": 2127
           },
           {
             "pos": 4,
             "team": "#99 AO Racing",
-            "points": 1842
+            "points": 2087
           },
           {
             "pos": 5,
             "team": "#52 Bryan Herta Autosport with PR1/Mathiasen",
-            "points": 1761
+            "points": 2021
           },
           {
             "pos": 6,
             "team": "#8 Tower Motorsports",
-            "points": 1667
+            "points": 1967
           },
           {
             "pos": 7,
             "team": "#2 United Autosports USA",
-            "points": 1591
+            "points": 1835
           },
           {
             "pos": 8,
-            "team": "#11 TDS Racing",
-            "points": 1550
+            "team": "#18 Era Motorsport",
+            "points": 1794
           },
           {
             "pos": 9,
             "team": "#73 Pratt Miller Motorsports",
-            "points": 1500
+            "points": 1782
           },
           {
             "pos": 10,
-            "team": "#18 Era Motorsport",
-            "points": 1471
+            "team": "#11 TDS Racing",
+            "points": 1775
           },
           {
             "pos": 11,
             "team": "#37 Intersport Racing",
-            "points": 921
+            "points": 1182
           },
           {
             "pos": 12,
@@ -784,162 +1049,336 @@
         "drivers": [
           {
             "pos": 1,
-            "name": "Nicky Catsburg / Tommy Milner",
-            "team": "Corvette Racing by Pratt Miller Motorsports",
-            "points": 2729
-          },
-          {
-            "pos": 2,
             "name": "Connor De Phillippi / Neil Verhagen",
             "team": "Paul Miller Racing",
-            "points": 2682,
+            "points": 3012,
             "champion": true
           },
           {
-            "pos": 3,
+            "pos": 2,
             "name": "Andrea Caldarelli / Sandy Mitchell",
             "team": "Pfaff Motorsports",
-            "points": 2676
+            "points": 2979
+          },
+          {
+            "pos": 3,
+            "name": "Nicky Catsburg / Tommy Milner",
+            "team": "Corvette Racing by Pratt Miller Motorsports",
+            "points": 2949
           },
           {
             "pos": 4,
-            "name": "Christopher Mies / Frédéric Vervisch",
-            "team": "Ford Racing",
-            "points": 2605
+            "name": "Harry King / Nick Tandy",
+            "team": "AO Racing",
+            "points": 2921
           },
           {
             "pos": 5,
-            "name": "Ben Barker / Dennis Olsen",
+            "name": "Christopher Mies / Frédéric Vervisch",
             "team": "Ford Racing",
-            "points": 2580
+            "points": 2825
           },
           {
             "pos": 6,
-            "name": "Harry King / Nick Tandy",
-            "team": "AO Racing",
-            "points": 2575
+            "name": "Ben Barker / Dennis Olsen",
+            "team": "Ford Racing",
+            "points": 2821
           },
           {
             "pos": 7,
             "name": "Ben Barnicoat / Jack Hawksworth",
             "team": "Vasser Sullivan Racing",
-            "points": 2550
+            "points": 2779
           },
           {
             "pos": 8,
             "name": "Antonio García / Alexander Sims",
             "team": "Corvette Racing by Pratt Miller Motorsports",
-            "points": 2518
+            "points": 2776
           },
           {
             "pos": 9,
             "name": "Max Esterson / Nikita Johnson",
             "team": "RLL Team McLaren",
-            "points": 2200
+            "points": 2392
           },
           {
             "pos": 10,
             "name": "Klaus Bachler",
             "team": "Manthey Racing",
-            "points": 1114
+            "points": 1379
           },
           {
             "pos": 11,
             "name": "Riccardo Agostini / James Calado",
             "team": "Triarsi Competizione",
-            "points": 1060
+            "points": 1240
           },
           {
             "pos": 12,
             "name": "Davide Rigon / Daniel Serra",
             "team": "Risi Competizione",
-            "points": 922
+            "points": 1206
           },
           {
             "pos": 13,
             "name": "Thomas Preining",
             "team": "Manthey Racing",
-            "points": 904
+            "points": 1169
           },
           {
             "pos": 14,
             "name": "Valentin Hasse-Clot",
             "team": "Car Blanche",
-            "points": 762
+            "points": 1134
           },
           {
             "pos": 15,
+            "name": "Alessio Picariello",
+            "team": "AO Racing",
+            "points": 926
+          },
+          {
+            "pos": 16,
+            "name": "Marco Sørensen",
+            "team": "Car Blanche",
+            "points": 908
+          },
+          {
+            "pos": 17,
+            "name": "Nico Varrone",
+            "team": "Corvette Racing by Pratt Miller",
+            "points": 848
+          },
+          {
+            "pos": 18,
+            "name": "Marvin Kirchhöfer",
+            "team": "Corvette Racing by Pratt Miller",
+            "points": 779
+          },
+          {
+            "pos": 19,
+            "name": "Sebastian Priaulx",
+            "team": "Ford Racing",
+            "points": 737
+          },
+          {
+            "pos": 20,
+            "name": "Miguel Molina",
+            "team": "Triarsi Competizione",
+            "points": 707
+          },
+          {
+            "pos": 21,
+            "name": "Dan Harper",
+            "team": "Paul Miller Racing",
+            "points": 701
+          },
+          {
+            "pos": 22,
+            "name": "Mike Rockenfeller",
+            "team": "Ford Racing",
+            "points": 700
+          },
+          {
+            "pos": 23,
+            "name": "Kyle Kirkwood",
+            "team": "Vasser Sullivan Racing",
+            "points": 694
+          },
+          {
+            "pos": 24,
+            "name": "Alessandro Pier Guidi",
+            "team": "Risi Competizione",
+            "points": 672
+          },
+          {
+            "pos": 25,
             "name": "Max Hesse",
             "team": "Paul Miller Racing",
             "points": 658
+          },
+          {
+            "pos": 25,
+            "name": "Ricardo Feller",
+            "team": "",
+            "points": 658
+          },
+          {
+            "pos": 27,
+            "name": "Chaz Mostert",
+            "team": "",
+            "points": 584
+          },
+          {
+            "pos": 28,
+            "name": "Franck Perera",
+            "team": "Pfaff Motorsports",
+            "points": 532
+          },
+          {
+            "pos": 29,
+            "name": "Jason Hart / Scott Noble / Luca Stolz",
+            "team": "",
+            "points": 512
+          },
+          {
+            "pos": 30,
+            "name": "Dean MacDonald",
+            "team": "",
+            "points": 470
+          },
+          {
+            "pos": 31,
+            "name": "Mattia Drudi",
+            "team": "Car Blanche",
+            "points": 382
+          },
+          {
+            "pos": 32,
+            "name": "Maro Engel / Kenny Habul / Will Power",
+            "team": "",
+            "points": 350
+          },
+          {
+            "pos": 33,
+            "name": "Maxime Martin",
+            "team": "",
+            "points": 322
+          },
+          {
+            "pos": 34,
+            "name": "Ayhancan Güven",
+            "team": "",
+            "points": 278
+          },
+          {
+            "pos": 35,
+            "name": "Mirko Bortolotti / James Hinchcliffe",
+            "team": "",
+            "points": 271
+          },
+          {
+            "pos": 36,
+            "name": "Giacomo Altoè / Sébastien Bourdais / Casper Stevenson",
+            "team": "DragonSpeed",
+            "points": 268
+          },
+          {
+            "pos": 37,
+            "name": "Mathieu Jaminet",
+            "team": "Manthey Racing",
+            "points": 265
+          },
+          {
+            "pos": 38,
+            "name": "Alessio Rovera",
+            "team": "",
+            "points": 258
+          },
+          {
+            "pos": 39,
+            "name": "Scott Andrews",
+            "team": "",
+            "points": 236
+          },
+          {
+            "pos": 40,
+            "name": "Aaron Telitz",
+            "team": "",
+            "points": 234
+          },
+          {
+            "pos": 41,
+            "name": "Anthony Bartone / Maximilian Götz / Jules Gounon / Fabian Schiller",
+            "team": "",
+            "points": 225
+          },
+          {
+            "pos": 42,
+            "name": "Jüri Vips",
+            "team": "",
+            "points": 222
+          },
+          {
+            "pos": 43,
+            "name": "Michael Christensen / Loek Hartog",
+            "team": "",
+            "points": 210
+          },
+          {
+            "pos": 44,
+            "name": "Benjamin Goethe",
+            "team": "RLL Team McLaren",
+            "points": 192
           }
         ],
         "constructors": [
           {
             "pos": 1,
-            "team": "#4 Corvette Racing by Pratt Miller Motorsports",
-            "points": 2729
-          },
-          {
-            "pos": 2,
             "team": "#1 Paul Miller Racing",
-            "points": 2682,
+            "points": 3017,
             "champion": true
           },
           {
-            "pos": 3,
+            "pos": 2,
             "team": "#9 Pfaff Motorsports",
-            "points": 2676
+            "points": 2979
+          },
+          {
+            "pos": 3,
+            "team": "#4 Corvette Racing by Pratt Miller Motorsports",
+            "points": 2949
           },
           {
             "pos": 4,
-            "team": "#65 Ford Racing",
-            "points": 2605
+            "team": "#77 AO Racing",
+            "points": 2921
           },
           {
             "pos": 5,
-            "team": "#64 Ford Racing",
-            "points": 2580
+            "team": "#65 Ford Racing",
+            "points": 2825
           },
           {
             "pos": 6,
-            "team": "#77 AO Racing",
-            "points": 2575
+            "team": "#64 Ford Racing",
+            "points": 2821
           },
           {
             "pos": 7,
             "team": "#14 Vasser Sullivan Racing",
-            "points": 2550
+            "points": 2779
           },
           {
             "pos": 8,
             "team": "#3 Corvette Racing by Pratt Miller Motorsports",
-            "points": 2518
+            "points": 2776
           },
           {
             "pos": 9,
             "team": "#59 RLL Team McLaren",
-            "points": 2200
+            "points": 2392
           },
           {
             "pos": 10,
             "team": "#911 Manthey Racing",
-            "points": 1114
+            "points": 1379
           },
           {
             "pos": 11,
             "team": "#033 Triarsi Competizione",
-            "points": 1060
+            "points": 1257
           },
           {
             "pos": 12,
             "team": "#62 Risi Competizione",
-            "points": 922
+            "points": 1206
           },
           {
             "pos": 13,
             "team": "#68 Car Blanche",
-            "points": 762
+            "points": 1144
           },
           {
             "pos": 14,
@@ -950,6 +1389,21 @@
             "pos": 15,
             "team": "#75 75 Express",
             "points": 350
+          },
+          {
+            "pos": 16,
+            "team": "#74 DragonSpeed",
+            "points": 268
+          },
+          {
+            "pos": 17,
+            "team": "#15 Vasser Sullivan Racing",
+            "points": 234
+          },
+          {
+            "pos": 18,
+            "team": "#69 Bartone Bros with GetSpeed",
+            "points": 225
           }
         ]
       },
@@ -960,170 +1414,617 @@
             "pos": 1,
             "name": "Philip Ellis / Russell Ward",
             "team": "Winward Racing",
-            "points": 2373,
+            "points": 3078,
             "champion": true
           },
           {
             "pos": 2,
             "name": "Robby Foley / Patrick Gallagher",
             "team": "Turner Motorsport",
-            "points": 2337
+            "points": 2843
           },
           {
             "pos": 3,
             "name": "Eduardo Barrichello",
             "team": "Heart of Racing Team",
-            "points": 2317
+            "points": 2742
           },
           {
             "pos": 4,
             "name": "Benjamin Pedersen / Aaron Telitz",
             "team": "Vasser Sullivan Racing",
-            "points": 2217
+            "points": 2677
           },
           {
             "pos": 5,
-            "name": "Albert Costa",
-            "team": "Conquest Racing",
-            "points": 1959
+            "name": "Matt Bell / Orey Fidani",
+            "team": "13 Autosport",
+            "points": 2414
           },
           {
             "pos": 6,
             "name": "Brendan Iribe",
             "team": "Inception Racing",
-            "points": 1943
+            "points": 2398
           },
           {
             "pos": 7,
-            "name": "Matt Bell / Orey Fidani",
-            "team": "13 Autosport",
-            "points": 1888
+            "name": "Adam Adelson / Callum Ilott",
+            "team": "Wright Motorsports",
+            "points": 2387
           },
           {
             "pos": 8,
-            "name": "Adam Adelson / Callum Ilott",
-            "team": "Wright Motorsports",
-            "points": 1877
+            "name": "Albert Costa",
+            "team": "Conquest Racing",
+            "points": 2363
           },
           {
             "pos": 9,
-            "name": "Danny Formal / Trent Hindman",
-            "team": "Wayne Taylor Racing",
-            "points": 1862
+            "name": "Frederik Schandorff",
+            "team": "Inception Racing",
+            "points": 2268
           },
           {
             "pos": 10,
-            "name": "Frederik Schandorff",
-            "team": "Inception Racing",
-            "points": 1813
+            "name": "Tom Gamble",
+            "team": "Heart of Racing Team",
+            "points": 2217
           },
           {
             "pos": 11,
-            "name": "Tom Gamble",
-            "team": "Heart of Racing Team",
-            "points": 1792
+            "name": "Danny Formal / Trent Hindman",
+            "team": "Wayne Taylor Racing",
+            "points": 2215
           },
           {
             "pos": 12,
-            "name": "Giacomo Altoè",
-            "team": "DragonSpeed",
-            "points": 1698
+            "name": "Mason Filippi",
+            "team": "DXDT Racing",
+            "points": 2061
           },
           {
             "pos": 13,
             "name": "Lorenzo Patrese",
             "team": "Conquest Racing",
-            "points": 1635
+            "points": 2039
           },
           {
             "pos": 14,
             "name": "Jake Walker",
             "team": "Gradient Racing",
-            "points": 1615
+            "points": 2033
           },
           {
             "pos": 15,
             "name": "Felipe Fraga / Sheena Monk",
             "team": "Myers Riley Motorsports",
-            "points": 1604
+            "points": 2011
+          },
+          {
+            "pos": 16,
+            "name": "Giacomo Altoè",
+            "team": "DragonSpeed",
+            "points": 1978
+          },
+          {
+            "pos": 17,
+            "name": "Casper Stevenson",
+            "team": "",
+            "points": 1544
+          },
+          {
+            "pos": 18,
+            "name": "Indy Dontje",
+            "team": "Winward Racing",
+            "points": 1464
+          },
+          {
+            "pos": 19,
+            "name": "Frankie Montecalvo",
+            "team": "Vasser Sullivan Racing",
+            "points": 1461
+          },
+          {
+            "pos": 20,
+            "name": "Corey Lewis",
+            "team": "",
+            "points": 1431
+          },
+          {
+            "pos": 21,
+            "name": "Lin Hodenius / James Roe",
+            "team": "Lone Star Racing",
+            "points": 1372
+          },
+          {
+            "pos": 22,
+            "name": "Antonio Fuoco / Simon Mann",
+            "team": "AF Corse",
+            "points": 1318
+          },
+          {
+            "pos": 23,
+            "name": "Valentin Hasse-Clot",
+            "team": "",
+            "points": 1308
+          },
+          {
+            "pos": 24,
+            "name": "Zacharie Robichon",
+            "team": "Heart of Racing Team",
+            "points": 1307
+          },
+          {
+            "pos": 25,
+            "name": "Scott Andrews",
+            "team": "",
+            "points": 1299
+          },
+          {
+            "pos": 26,
+            "name": "Kenton Koch / Robert Megennis / Onofrio Triarsi",
+            "team": "Triarsi Competizione",
+            "points": 1264
+          },
+          {
+            "pos": 27,
+            "name": "Lars Kern",
+            "team": "13 Autosport",
+            "points": 1221
+          },
+          {
+            "pos": 28,
+            "name": "Francis Selldorff",
+            "team": "Turner Motorsport",
+            "points": 1212
+          },
+          {
+            "pos": 29,
+            "name": "Spencer Pumpelly",
+            "team": "Magnus Racing",
+            "points": 1197
+          },
+          {
+            "pos": 30,
+            "name": "Ryan Hardwick / Riccardo Pera",
+            "team": "Manthey 1st Phorm",
+            "points": 1189
+          },
+          {
+            "pos": 31,
+            "name": "Tom Sargent",
+            "team": "Wright Motorsports",
+            "points": 1187
+          },
+          {
+            "pos": 32,
+            "name": "Lilou Wadoux",
+            "team": "AF Corse",
+            "points": 1178
+          },
+          {
+            "pos": 33,
+            "name": "Robert Wickens",
+            "team": "",
+            "points": 1133
+          },
+          {
+            "pos": 34,
+            "name": "Charlie Eastwood",
+            "team": "DXDT Racing",
+            "points": 1120
+          },
+          {
+            "pos": 35,
+            "name": "Jan Heylen",
+            "team": "RS1",
+            "points": 1005
+          },
+          {
+            "pos": 36,
+            "name": "Till Bechtolsheimer",
+            "team": "Gradient Racing",
+            "points": 936
+          },
+          {
+            "pos": 37,
+            "name": "Henrik Hedman",
+            "team": "",
+            "points": 931
+          },
+          {
+            "pos": 38,
+            "name": "Salih Yoluç",
+            "team": "DXDT Racing",
+            "points": 928
+          },
+          {
+            "pos": 39,
+            "name": "Rory van der Steur",
+            "team": "",
+            "points": 913
+          },
+          {
+            "pos": 40,
+            "name": "Graham Doyle",
+            "team": "Wayne Taylor Racing",
+            "points": 907
+          },
+          {
+            "pos": 41,
+            "name": "Morris Schuring",
+            "team": "Manthey 1st Phorm",
+            "points": 839
+          },
+          {
+            "pos": 42,
+            "name": "Jenson Altzman",
+            "team": "Myers Riley Motorsports",
+            "points": 836
+          },
+          {
+            "pos": 43,
+            "name": "Manny Franco",
+            "team": "",
+            "points": 769
+          },
+          {
+            "pos": 44,
+            "name": "Joey Hand",
+            "team": "Gradient Racing",
+            "points": 746
+          },
+          {
+            "pos": 45,
+            "name": "Ollie Millroy",
+            "team": "",
+            "points": 739
+          },
+          {
+            "pos": 46,
+            "name": "John Potter",
+            "team": "Magnus Racing",
+            "points": 729
+          },
+          {
+            "pos": 47,
+            "name": "Alec Udell",
+            "team": "Conquest Racing",
+            "points": 652
+          },
+          {
+            "pos": 48,
+            "name": "Fran Rueda",
+            "team": "Inception Racing",
+            "points": 645
+          },
+          {
+            "pos": 49,
+            "name": "Trenton Estep / Marius Fossard",
+            "team": "",
+            "points": 630
+          },
+          {
+            "pos": 50,
+            "name": "Ryan Yardley",
+            "team": "RS1",
+            "points": 618
+          },
+          {
+            "pos": 51,
+            "name": "Dillon Machavern",
+            "team": "",
+            "points": 559
+          },
+          {
+            "pos": 52,
+            "name": "Richard Lietz",
+            "team": "",
+            "points": 553
+          },
+          {
+            "pos": 53,
+            "name": "Sébastien Baud",
+            "team": "",
+            "points": 429
+          },
+          {
+            "pos": 54,
+            "name": "Zachary Vanier",
+            "team": "RS1",
+            "points": 405
+          },
+          {
+            "pos": 55,
+            "name": "Mario Farnbacher",
+            "team": "Magnus Racing",
+            "points": 393
+          },
+          {
+            "pos": 56,
+            "name": "Lucas Auer",
+            "team": "",
+            "points": 382
+          },
+          {
+            "pos": 57,
+            "name": "Madison Snow / Nicki Thiim",
+            "team": "",
+            "points": 336
+          },
+          {
+            "pos": 58,
+            "name": "Mattia Drudi",
+            "team": "",
+            "points": 335
+          },
+          {
+            "pos": 59,
+            "name": "Luca Stolz",
+            "team": "Lone Star Racing",
+            "points": 308
+          },
+          {
+            "pos": 60,
+            "name": "Ben Green",
+            "team": "",
+            "points": 295
+          },
+          {
+            "pos": 61,
+            "name": "Roman De Angelis",
+            "team": "",
+            "points": 285
+          },
+          {
+            "pos": 61,
+            "name": "Tommaso Mosca",
+            "team": "",
+            "points": 285
+          },
+          {
+            "pos": 63,
+            "name": "Ralf Aron",
+            "team": "",
+            "points": 273
+          },
+          {
+            "pos": 64,
+            "name": "Jack Hawksworth",
+            "team": "",
+            "points": 260
+          },
+          {
+            "pos": 64,
+            "name": "Yifei Ye",
+            "team": "",
+            "points": 260
+          },
+          {
+            "pos": 66,
+            "name": "Marcus Ericsson",
+            "team": "",
+            "points": 249
+          },
+          {
+            "pos": 67,
+            "name": "Jens Klingmann",
+            "team": "",
+            "points": 240
+          },
+          {
+            "pos": 68,
+            "name": "Esteban Masson",
+            "team": "",
+            "points": 237
+          },
+          {
+            "pos": 69,
+            "name": "Devlin DeFrancesco",
+            "team": "",
+            "points": 234
+          },
+          {
+            "pos": 70,
+            "name": "Carl Bennett",
+            "team": "",
+            "points": 226
+          },
+          {
+            "pos": 71,
+            "name": "Eric Lux",
+            "team": "",
+            "points": 220
+          },
+          {
+            "pos": 72,
+            "name": "David Fumanelli",
+            "team": "",
+            "points": 202
+          },
+          {
+            "pos": 72,
+            "name": "Harry King / Mikkel O. Pedersen",
+            "team": "",
+            "points": 202
+          },
+          {
+            "pos": 74,
+            "name": "Andrea Caldarelli",
+            "team": "",
+            "points": 193
+          },
+          {
+            "pos": 75,
+            "name": "Thierry Vermeulen",
+            "team": "",
+            "points": 188
+          },
+          {
+            "pos": 76,
+            "name": "Matteo Cairoli",
+            "team": "",
+            "points": 174
+          },
+          {
+            "pos": 77,
+            "name": "Peter Ludwig / Dave Musial / Dave Musial Jr.",
+            "team": "",
+            "points": 172
+          },
+          {
+            "pos": 78,
+            "name": "Scott McLaughlin",
+            "team": "",
+            "points": 168
+          },
+          {
+            "pos": 79,
+            "name": "Elliott Skeer",
+            "team": "",
+            "points": 131
+          },
+          {
+            "pos": 80,
+            "name": "Jaxon Evans",
+            "team": "",
+            "points": 130
+          },
+          {
+            "pos": 80,
+            "name": "Romain Grosjean",
+            "team": "",
+            "points": 130
+          },
+          {
+            "pos": 82,
+            "name": "Sven Müller / Eric Zitza",
+            "team": "",
+            "points": 111
           }
         ],
         "constructors": [
           {
             "pos": 1,
             "team": "#57 Winward Racing",
-            "points": 2693,
+            "points": 3078,
             "champion": true
           },
           {
             "pos": 2,
             "team": "#96 Turner Motorsport",
-            "points": 2687
+            "points": 2843
           },
           {
             "pos": 3,
             "team": "#27 Heart of Racing Team",
-            "points": 2577
+            "points": 2742
           },
           {
             "pos": 4,
             "team": "#12 Vasser Sullivan Racing",
-            "points": 2447
+            "points": 2677
           },
           {
             "pos": 5,
             "team": "#13 13 Autosport",
-            "points": 2188
+            "points": 2414
           },
           {
             "pos": 6,
-            "team": "#34 Conquest Racing",
-            "points": 2159
+            "team": "#70 Inception Racing",
+            "points": 2398
           },
           {
             "pos": 7,
-            "team": "#70 Inception Racing",
-            "points": 2153
+            "team": "#120 Wright Motorsports",
+            "points": 2387
           },
           {
             "pos": 8,
-            "team": "#120 Wright Motorsports",
-            "points": 2127
+            "team": "#34 Conquest Racing",
+            "points": 2363
           },
           {
             "pos": 9,
             "team": "#45 Wayne Taylor Racing",
-            "points": 2042
+            "points": 2215
           },
           {
             "pos": 10,
-            "team": "#81 DragonSpeed",
-            "points": 1978
+            "team": "#36 DXDT Racing",
+            "points": 2061
           },
           {
             "pos": 11,
             "team": "#66 Gradient Racing",
-            "points": 1855
+            "points": 2033
           },
           {
             "pos": 12,
             "team": "#16 Myers Riley Motorsports",
-            "points": 1824
+            "points": 2011
           },
           {
             "pos": 13,
-            "team": "#36 DXDT Racing",
-            "points": 1742
+            "team": "#81 DragonSpeed",
+            "points": 1978
           },
           {
             "pos": 14,
-            "team": "#19 van der Steur Racing",
+            "team": "#19 van der Steur Racing / #068 Car Blanche",
             "points": 1543
           },
           {
             "pos": 15,
             "team": "#80 Lone Star Racing",
-            "points": 1064
+            "points": 1372
+          },
+          {
+            "pos": 16,
+            "team": "#21 AF Corse USA",
+            "points": 1318
+          },
+          {
+            "pos": 17,
+            "team": "#023 Triarsi Competizione",
+            "points": 1264
+          },
+          {
+            "pos": 18,
+            "team": "#912 Manthey 1st Phorm",
+            "points": 1189
+          },
+          {
+            "pos": 19,
+            "team": "#28 RS1",
+            "points": 1005
+          },
+          {
+            "pos": 20,
+            "team": "#44 Magnus Racing",
+            "points": 729
+          },
+          {
+            "pos": 21,
+            "team": "#89 Vasser Sullivan Racing",
+            "points": 260
+          },
+          {
+            "pos": 22,
+            "team": "#177 AO Racing",
+            "points": 202
+          },
+          {
+            "pos": 23,
+            "team": "#46 Pfaff Motorsports",
+            "points": 193
+          },
+          {
+            "pos": 24,
+            "team": "#123 Mühlner Motorsport",
+            "points": 172
           }
         ]
       }
