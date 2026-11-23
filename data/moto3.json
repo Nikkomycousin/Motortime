@@ -112,7 +112,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-23T14:10:00Z",
+    "updated": "2026-11-23T18:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
@@ -126,8 +126,8 @@
     "circuit": "Circuit Ricardo Tormo, Valencia",
     "lat": 39.485,
     "lon": -0.63,
-    "updated": "2026-11-22T19:00:00Z",
-    "tv8note": "Diretta integrale su Sky Sport MotoGP e NOW; la gara va su TV8 in differita (orario da confermare).",
+    "updated": "2026-11-23T18:55:00Z",
+    "tv8note": "TV8 trasmette in diretta le qualifiche del sabato; la gara della domenica va in differita (orario da confermare). Diretta integrale su Sky Sport MotoGP e NOW.",
     "sessions": [
       {
         "name": "Prove libere 1",
@@ -151,8 +151,12 @@
         "name": "Qualifiche",
         "start": "2026-11-28T11:45:00Z",
         "end": "2026-11-28T12:25:00Z",
-        "live": "Diretta Sky Sport MotoGP · NOW",
-        "key": true
+        "live": "Diretta Sky Sport MotoGP · NOW · TV8",
+        "key": true,
+        "tv8": {
+          "live": true,
+          "time": "2026-11-28T11:45:00Z"
+        }
       },
       {
         "name": "Gara",

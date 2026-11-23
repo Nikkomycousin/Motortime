@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-23-cosa-resta-in-palio-dopo-las-vegas",
+      "title": "Titoli già assegnati, ma in Qatar e ad Abu Dhabi c'è ancora molto in palio",
+      "summary": "Con Antonelli e Mercedes già campioni, restano aperte le lotte per il secondo posto tra i piloti, dove Verstappen deve guardarsi da Hamilton e Russell, e per le posizioni d'onore tra i costruttori dietro la Mercedes.",
+      "tag": "Mondiale",
+      "source": "Grande Prêmio",
+      "url": "https://grandepremio.com/en/f1/what-is-still-at-stake-in-the-2026-f1-championship-after-las-vegas/",
+      "published": "2026-11-23T12:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-22-ferrari-hamilton-leclerc-vegas-vasseur",
       "title": "Ferrari, nuovo contatto Hamilton-Leclerc a Las Vegas: Vasseur torna a parlare ai piloti",
       "summary": "Dopo un altro duello ravvicinato tra i due ferraristi a Las Vegas, il team principal ha fatto capire che episodi simili non possono ripetersi. È previsto un nuovo confronto con entrambi prima del Qatar.",
@@ -1079,19 +1089,10 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/toyota-issues-incredibly-emotional-letter-after-unforgettable-hirakawa-f1-debut",
       "published": "2026-11-02T17:45:00Z"
-    },
-    {
-      "id": "2026-11-02-aston-martin",
-      "title": "Aston Martin delusa in Messico: \"Abbiamo sottovalutato la sfida\"",
-      "summary": "Weekend difficile per il team di Silverstone, che ammette di aver sbagliato l'approccio a una pista considerata alla portata.",
-      "tag": "Team",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/f1-news",
-      "published": "2026-11-02T14:00:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-23T14:10:00Z",
+    "updated": "2026-11-23T18:55:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",
@@ -1104,8 +1105,8 @@
     "circuit": "Lusail International Circuit",
     "lat": 25.49,
     "lon": 51.45,
-    "updated": "2026-11-22T10:55:00Z",
-    "tv8note": "TV8 trasmetterà qualifiche e gara in differita (orari della messa in onda non ancora annunciati); diretta integrale su Sky Sport F1 e NOW.",
+    "updated": "2026-11-23T18:55:00Z",
+    "tv8note": "Su TV8 qualifiche e gara in differita (orari della messa in onda non ancora annunciati), nessuna diretta in chiaro; diretta integrale su Sky Sport F1 e NOW.",
     "sessions": [
       {
         "name": "Prove libere 1",
