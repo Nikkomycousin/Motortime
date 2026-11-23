@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-23-moto2-titolo-valencia-conti",
+      "title": "Moto2, titolo a Valencia: González ha 4,5 punti su Guevara",
+      "summary": "Dopo Portimão González guida con 286,5 punti contro i 282 di Guevara, che ha difeso il settimo posto per pochi centesimi. Se Guevara vince a Valencia è campione anche con González secondo.",
+      "tag": "Mondiale",
+      "source": "MCNews",
+      "url": "https://www.mcnews.com.au/2026-portuguese-moto2-moto3-race-results/",
+      "published": "2026-11-23T09:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-22-moto2-portimao-munoz-vince",
       "title": "Moto2, prima vittoria per Muñoz a Portimão; González a terra, titolo rinviato",
       "summary": "In una gara caotica, interrotta anche dalla bandiera rossa, Dani Muñoz conquista il suo primo successo nella categoria. Il leader González cade senza colpe e resta a zero: Guevara si avvicina e la sfida per il titolo si deciderà a Valencia.",
@@ -112,7 +122,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-23T14:00:00Z",
+    "updated": "2026-11-23T14:10:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

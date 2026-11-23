@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-22-zarco-long-lap-valencia",
+      "title": "Zarco penalizzato: Long Lap a Valencia per il contatto con Alex Márquez",
+      "summary": "I commissari hanno giudicato Zarco responsabile della collisione con Alex Márquez nel GP del Portogallo. Il pilota LCR Honda sconterà un Long Lap Penalty nella gara finale di Valencia.",
+      "tag": "Gare",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/22/motogp/johann-zarco-penalizzato-per-il-contatto-con-alex-marquez-long-lap-penalty-a-valencia.html",
+      "published": "2026-11-22T18:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-23-martin-orgoglioso-sfida-marquez",
       "title": "Martín orgoglioso della sfida con Márquez: «Tornerò a vincere il titolo»",
       "summary": "Il pilota Aprilia, vicecampione con un round ancora da correre, rivendica la lotta mondiale con Márquez e promette di riprovarci nel 2027 per riprendersi il numero uno.",
@@ -362,7 +372,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-23T12:50:00Z",
+    "updated": "2026-11-23T14:10:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
