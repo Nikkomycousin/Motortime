@@ -112,7 +112,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-22T22:50:00Z",
+    "updated": "2026-11-23T08:15:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
@@ -163,21 +163,10 @@
     ]
   },
   "results": {
-    "gp": "GP del Qatar",
-    "round": 20,
-    "updated": "2026-11-11T15:45:00Z",
-    "summary": "A Lusail Daniel Holgado ha preso il largo nella seconda metà di gara e ha vinto con oltre due secondi di margine, firmando il secondo successo del 2026 per l'Aspar. Iván Ortolá, partito 14°, ha strappato il secondo posto sul traguardo al poleman Álex Escrig per appena due centesimi. La giornata decisiva per il titolo è stata però quella di Izan Guevara, fermato da un problema tecnico al 14° giro, mentre Manuel González, sesto, è salito a +13,5 in classifica. Fuori al via Collin Veijer dopo un contatto alla prima curva.",
-    "podium": [
-      {
-        "name": "Daniel Holgado"
-      },
-      {
-        "name": "Iván Ortolá"
-      },
-      {
-        "name": "Álex Escrig"
-      }
-    ],
+    "gp": "GP del Portogallo",
+    "round": 21,
+    "updated": "2026-11-23T08:10:00Z",
+    "summary": "Daniel Muñoz conquista a Portimão il primo successo in Moto2, davanti ad Alonso López e al poleman Senna Agius. La gara è stata interrotta con bandiera rossa all'ottavo giro dopo la caduta di Salač: Manuel González, finito nel groviglio con una gomma forata, non è stato riammesso alla ripartenza perché rientrato ai box in senso contrario. Izan Guevara chiude settimo e si porta a 4,5 punti dal leader: il titolo si decide a Valencia.",
     "tabs": [
       {
         "label": "Gara",
@@ -185,375 +174,124 @@
         "rows": [
           {
             "pos": "1",
-            "name": "Daniel Holgado",
-            "team": "Aspar · Kalex",
-            "gap": "35'13.340",
+            "name": "Daniel Muñoz",
+            "team": "Italtrans · Kalex",
+            "gap": "Vincitore",
             "points": 25
           },
           {
             "pos": "2",
-            "name": "Iván Ortolá",
-            "team": "MSI · Kalex",
-            "gap": "+2.265",
-            "points": 20,
-            "note": "Partito 14°"
+            "name": "Alonso López",
+            "team": "Gresini · Kalex",
+            "gap": "—",
+            "points": 20
           },
           {
             "pos": "3",
-            "name": "Álex Escrig",
-            "team": "Klint · Forward",
-            "gap": "+2.285",
+            "name": "Senna Agius",
+            "team": "Intact GP · Kalex",
+            "gap": "—",
             "points": 16
           },
           {
             "pos": "4",
             "name": "David Alonso",
             "team": "Aspar · Kalex",
-            "gap": "+4.143",
+            "gap": "—",
             "points": 13
           },
           {
             "pos": "5",
-            "name": "Daniel Muñoz",
-            "team": "Italtrans · Kalex",
-            "gap": "+4.962",
+            "name": "Iván Ortolá",
+            "team": "MSI · Kalex",
+            "gap": "—",
             "points": 11
           },
           {
             "pos": "6",
-            "name": "Manuel González",
-            "team": "Intact GP · Kalex",
-            "gap": "+8.396",
+            "name": "Daniel Holgado",
+            "team": "Aspar · Kalex",
+            "gap": "—",
             "points": 10
           },
           {
             "pos": "7",
-            "name": "Senna Agius",
-            "team": "Intact GP · Kalex",
-            "gap": "+9.034",
+            "name": "Izan Guevara",
+            "team": "Pramac · Boscoscuro",
+            "gap": "—",
             "points": 9
           },
           {
             "pos": "8",
-            "name": "José Antonio Rueda",
-            "team": "KTM Ajo · Kalex",
-            "gap": "+9.237",
+            "name": "Adrián Huertas",
+            "team": "Italtrans · Kalex",
+            "gap": "—",
             "points": 8
           },
           {
             "pos": "9",
-            "name": "Filip Salač",
-            "team": "American Racing · Kalex",
-            "gap": "+9.362",
+            "name": "Collin Veijer",
+            "team": "KTM Ajo · Kalex",
+            "gap": "—",
             "points": 7
           },
           {
             "pos": "10",
-            "name": "Celestino Vietti",
-            "team": "SpeedRS · Boscoscuro",
-            "gap": "+10.470",
+            "name": "Zonta van den Goorbergh",
+            "team": "RW Racing · Kalex",
+            "gap": "—",
             "points": 6
           },
           {
             "pos": "11",
-            "name": "Alonso López",
-            "team": "Gresini · Kalex",
-            "gap": "+12.104",
+            "name": "Álex Escrig",
+            "team": "Klint · Forward",
+            "gap": "—",
             "points": 5
           },
           {
             "pos": "12",
-            "name": "Adrián Huertas",
-            "team": "Italtrans · Kalex",
-            "gap": "+16.080",
+            "name": "Ángel Piqueras",
+            "team": "MSI · Kalex",
+            "gap": "—",
             "points": 4
           },
           {
             "pos": "13",
-            "name": "Joe Roberts",
-            "team": "American Racing · Kalex",
-            "gap": "+17.263",
+            "name": "Alberto Ferrández",
+            "team": "Pramac · Boscoscuro",
+            "gap": "—",
             "points": 3
           },
           {
             "pos": "14",
-            "name": "Ayumu Sasaki",
-            "team": "RW Racing · Kalex",
-            "gap": "+18.943",
+            "name": "Arón Canet",
+            "team": "Marc VDS · Boscoscuro",
+            "gap": "—",
             "points": 2
           },
           {
             "pos": "15",
-            "name": "Barry Baltus",
-            "team": "Fantic · Kalex",
-            "gap": "+20.052",
+            "name": "Xabi Zurutuza",
+            "team": "Klint · Forward",
+            "gap": "—",
             "points": 1
           },
           {
-            "pos": "16",
-            "name": "Luca Lunetta",
-            "team": "SpeedRS · Boscoscuro",
-            "gap": "+21.516",
-            "points": 0
-          },
-          {
-            "pos": "17",
-            "name": "Xabi Zurutuza",
-            "team": "Klint · Forward",
-            "gap": "+21.814",
-            "points": 0
-          },
-          {
-            "pos": "18",
-            "name": "Tony Arbolino",
-            "team": "Fantic · Kalex",
-            "gap": "+25.968",
-            "points": 0
-          },
-          {
-            "pos": "19",
-            "name": "Alberto Ferrández",
-            "team": "Pramac · Boscoscuro",
-            "gap": "+26.091",
-            "points": 0
-          },
-          {
-            "pos": "20",
-            "name": "Ángel Piqueras",
-            "team": "MSI · Kalex",
-            "gap": "+26.230",
-            "points": 0
-          },
-          {
-            "pos": "21",
-            "name": "Deniz Öncü",
-            "team": "Marc VDS · Boscoscuro",
-            "gap": "+28.285",
-            "points": 0
-          },
-          {
-            "pos": "22",
-            "name": "Mario Aji",
-            "team": "Honda Team Asia · Kalex",
-            "gap": "+30.997",
-            "points": 0
-          },
-          {
-            "pos": "23",
-            "name": "Matteo Ferrari",
-            "team": "SpeedRS · Boscoscuro",
-            "gap": "+33.841",
-            "points": 0
-          },
-          {
             "pos": "RIT",
-            "name": "Izan Guevara",
-            "team": "Pramac · Boscoscuro",
-            "gap": "",
-            "points": 0,
-            "note": "Problema tecnico al 14° giro"
-          },
-          {
-            "pos": "RIT",
-            "name": "Zonta van den Goorbergh",
-            "team": "RW Racing · Kalex",
-            "gap": "",
-            "points": 0
-          },
-          {
-            "pos": "RIT",
-            "name": "Taiyo Furusato",
-            "team": "Honda Team Asia · Kalex",
-            "gap": "",
-            "points": 0
-          },
-          {
-            "pos": "RIT",
-            "name": "Collin Veijer",
-            "team": "KTM Ajo · Kalex",
-            "gap": "",
-            "points": 0,
-            "note": "Caduto alla prima curva dopo un contatto"
-          }
-        ]
-      },
-      {
-        "label": "Qualifiche",
-        "kind": "quali",
-        "rows": [
-          {
-            "pos": "1",
-            "name": "Álex Escrig",
-            "team": "Klint · Forward",
-            "time": "1'55.241",
-            "note": "Pole e record della pista"
-          },
-          {
-            "pos": "2",
             "name": "Manuel González",
             "team": "Intact GP · Kalex",
-            "time": "+0.126",
-            "note": "Penalizzato: parte 5°"
+            "gap": "—",
+            "points": 0,
+            "note": "Foratura dopo la bandiera rossa, non riammesso alla ripartenza"
           },
           {
-            "pos": "3",
-            "name": "Daniel Holgado",
-            "team": "Aspar · Kalex",
-            "time": "+0.233"
-          },
-          {
-            "pos": "4",
-            "name": "Celestino Vietti",
-            "team": "SpeedRS · Boscoscuro",
-            "time": "+0.239"
-          },
-          {
-            "pos": "5",
-            "name": "Collin Veijer",
-            "team": "KTM Ajo · Kalex",
-            "time": "+0.338"
-          },
-          {
-            "pos": "6",
-            "name": "Senna Agius",
-            "team": "Intact GP · Kalex",
-            "time": "+0.361"
-          },
-          {
-            "pos": "7",
-            "name": "Izan Guevara",
-            "team": "Pramac · Boscoscuro",
-            "time": "+0.528",
-            "note": "Penalizzato: parte 10°"
-          },
-          {
-            "pos": "8",
-            "name": "José Antonio Rueda",
-            "team": "KTM Ajo · Kalex",
-            "time": "+0.643"
-          },
-          {
-            "pos": "9",
-            "name": "Adrián Huertas",
-            "team": "Italtrans · Kalex",
-            "time": "+0.658"
-          },
-          {
-            "pos": "10",
+            "pos": "RIT",
             "name": "Filip Salač",
             "team": "American Racing · Kalex",
-            "time": "+0.661"
-          },
-          {
-            "pos": "11",
-            "name": "Barry Baltus",
-            "team": "Fantic · Kalex",
-            "time": "+0.681"
-          },
-          {
-            "pos": "12",
-            "name": "David Alonso",
-            "team": "Aspar · Kalex",
-            "time": "+0.705"
-          },
-          {
-            "pos": "13",
-            "name": "Daniel Muñoz",
-            "team": "Italtrans · Kalex",
-            "time": "+0.822"
-          },
-          {
-            "pos": "14",
-            "name": "Iván Ortolá",
-            "team": "MSI · Kalex",
-            "time": "+0.849"
-          },
-          {
-            "pos": "15",
-            "name": "Zonta van den Goorbergh",
-            "team": "RW Racing · Kalex",
-            "time": "+0.938"
-          },
-          {
-            "pos": "16",
-            "name": "Xabi Zurutuza",
-            "team": "Klint · Forward",
-            "time": "+1.040"
-          },
-          {
-            "pos": "17",
-            "name": "Alonso López",
-            "team": "Gresini · Kalex",
-            "time": "+1.075"
-          },
-          {
-            "pos": "18",
-            "name": "Ayumu Sasaki",
-            "team": "RW Racing · Kalex",
-            "time": "+1.144"
-          },
-          {
-            "pos": "19",
-            "name": "Taiyo Furusato",
-            "team": "Honda Team Asia · Kalex",
-            "time": "1'56.206",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "20",
-            "name": "Joe Roberts",
-            "team": "American Racing · Kalex",
-            "time": "1'56.314",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "21",
-            "name": "Mario Aji",
-            "team": "Honda Team Asia · Kalex",
-            "time": "1'56.354",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "22",
-            "name": "Alberto Ferrández",
-            "team": "Pramac · Boscoscuro",
-            "time": "1'56.403",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "23",
-            "name": "Tony Arbolino",
-            "team": "Fantic · Kalex",
-            "time": "1'56.467",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "24",
-            "name": "Luca Lunetta",
-            "team": "SpeedRS · Boscoscuro",
-            "time": "1'56.473",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "25",
-            "name": "Ángel Piqueras",
-            "team": "MSI · Kalex",
-            "time": "1'56.487",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "26",
-            "name": "Deniz Öncü",
-            "team": "Marc VDS · Boscoscuro",
-            "time": "1'56.900",
-            "note": "Eliminato in Q1"
-          },
-          {
-            "pos": "27",
-            "name": "Matteo Ferrari",
-            "team": "SpeedRS · Boscoscuro",
-            "time": "1'57.656",
-            "note": "Eliminato in Q1"
+            "gap": "—",
+            "points": 0,
+            "note": "Caduta al giro 8, bandiera rossa"
           }
         ]
       }
@@ -561,8 +299,8 @@
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-11T15:45:00Z",
-    "after": "dopo il GP del Qatar",
+    "updated": "2026-11-23T08:10:00Z",
+    "after": "dopo il GP del Portogallo",
     "drivers": [
       {
         "pos": 1,
@@ -574,31 +312,31 @@
         "pos": 2,
         "name": "Izan Guevara",
         "team": "Pramac · Boscoscuro",
-        "points": 273
+        "points": 282
       },
       {
         "pos": 3,
         "name": "Iván Ortolá",
         "team": "MSI · Kalex",
-        "points": 219.5
+        "points": 230.5
       },
       {
         "pos": 4,
         "name": "Daniel Holgado",
         "team": "Aspar · Kalex",
-        "points": 215
+        "points": 225
       },
       {
         "pos": 5,
         "name": "David Alonso",
         "team": "Aspar · Kalex",
-        "points": 204
+        "points": 217
       },
       {
         "pos": 6,
         "name": "Senna Agius",
         "team": "Intact GP · Kalex",
-        "points": 175
+        "points": 191
       },
       {
         "pos": 7,
@@ -608,33 +346,33 @@
       },
       {
         "pos": 8,
+        "name": "Alonso López",
+        "team": "Gresini · Kalex",
+        "points": 154.5
+      },
+      {
+        "pos": 9,
         "name": "Celestino Vietti",
         "team": "SpeedRS · Boscoscuro",
         "points": 146
       },
       {
-        "pos": 9,
-        "name": "Alonso López",
-        "team": "Gresini · Kalex",
-        "points": 134.5
-      },
-      {
         "pos": 10,
         "name": "Daniel Muñoz",
         "team": "Italtrans · Kalex",
-        "points": 97
+        "points": 122
       },
       {
         "pos": 11,
         "name": "Collin Veijer",
         "team": "KTM Ajo · Kalex",
-        "points": 89.5
+        "points": 96.5
       },
       {
         "pos": 12,
         "name": "Álex Escrig",
         "team": "Klint · Forward",
-        "points": 85
+        "points": 90
       },
       {
         "pos": 13,
@@ -644,15 +382,15 @@
       },
       {
         "pos": 14,
-        "name": "Barry Baltus",
-        "team": "Fantic · Kalex",
-        "points": 61
+        "name": "Adrián Huertas",
+        "team": "Italtrans · Kalex",
+        "points": 64
       },
       {
         "pos": 15,
-        "name": "Adrián Huertas",
-        "team": "Italtrans · Kalex",
-        "points": 56
+        "name": "Barry Baltus",
+        "team": "Fantic · Kalex",
+        "points": 61
       },
       {
         "pos": 16,
@@ -688,31 +426,31 @@
         "pos": 21,
         "name": "Ángel Piqueras",
         "team": "MSI · Kalex",
-        "points": 20
+        "points": 24
       },
       {
         "pos": 22,
         "name": "Alberto Ferrández",
         "team": "Pramac · Boscoscuro",
-        "points": 17.5
+        "points": 20.5
       },
       {
         "pos": 23,
-        "name": "Arón Canet",
-        "team": "Marc VDS · Boscoscuro",
-        "points": 17.5
+        "name": "Zonta van den Goorbergh",
+        "team": "RW Racing · Kalex",
+        "points": 20
       },
       {
         "pos": 24,
-        "name": "Taiyo Furusato",
-        "team": "Honda Team Asia · Kalex",
-        "points": 17
+        "name": "Arón Canet",
+        "team": "Marc VDS · Boscoscuro",
+        "points": 19.5
       },
       {
         "pos": 25,
-        "name": "Zonta van den Goorbergh",
-        "team": "RW Racing · Kalex",
-        "points": 14
+        "name": "Taiyo Furusato",
+        "team": "Honda Team Asia · Kalex",
+        "points": 17
       },
       {
         "pos": 26,
@@ -728,13 +466,13 @@
       },
       {
         "pos": 28,
-        "name": "Marcos Ramírez",
+        "name": "Xabi Zurutuza",
         "team": "Klint · Forward",
-        "points": 0
+        "points": 1
       },
       {
         "pos": 29,
-        "name": "Xabi Zurutuza",
+        "name": "Marcos Ramírez",
         "team": "Klint · Forward",
         "points": 0
       },
@@ -779,25 +517,25 @@
       {
         "pos": 1,
         "team": "Intact GP · Kalex",
-        "points": 461.5,
+        "points": 477.5,
         "drivers": "González, Agius"
       },
       {
         "pos": 2,
         "team": "Aspar · Kalex",
-        "points": 419,
+        "points": 442,
         "drivers": "Holgado, Alonso"
       },
       {
         "pos": 3,
         "team": "Pramac · Boscoscuro",
-        "points": 290.5,
+        "points": 302.5,
         "drivers": "Guevara, Ferrández"
       },
       {
         "pos": 4,
         "team": "MSI · Kalex",
-        "points": 239.5,
+        "points": 254.5,
         "drivers": "Ortolá, Piqueras"
       },
       {
@@ -808,26 +546,26 @@
       },
       {
         "pos": 6,
+        "team": "Italtrans · Kalex",
+        "points": 186,
+        "drivers": "Muñoz, Huertas"
+      },
+      {
+        "pos": 7,
         "team": "SpeedRS · Boscoscuro",
         "points": 173,
         "drivers": "Vietti, Lunetta"
       },
       {
-        "pos": 7,
-        "team": "Italtrans · Kalex",
-        "points": 153,
-        "drivers": "Muñoz, Huertas"
-      },
-      {
         "pos": 8,
         "team": "Gresini · Kalex",
-        "points": 145.5,
+        "points": 165.5,
         "drivers": "López, García"
       },
       {
         "pos": 9,
         "team": "KTM Ajo · Kalex",
-        "points": 145.5,
+        "points": 152.5,
         "drivers": "Veijer, Rueda"
       },
       {
@@ -839,19 +577,19 @@
       {
         "pos": 11,
         "team": "Klint · Forward",
-        "points": 85,
+        "points": 91,
         "drivers": "Escrig, Zurutuza"
       },
       {
         "pos": 12,
         "team": "Marc VDS · Boscoscuro",
-        "points": 65,
+        "points": 67,
         "drivers": "Öncü, Canet"
       },
       {
         "pos": 13,
         "team": "RW Racing · Kalex",
-        "points": 40,
+        "points": 46,
         "drivers": "Sasaki, van den Goorbergh"
       },
       {

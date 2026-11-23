@@ -1,6 +1,26 @@
 {
   "news": [
     {
+      "id": "2026-11-23-martin-orgoglioso-sfida-marquez",
+      "title": "Martín orgoglioso della sfida con Márquez: «Tornerò a vincere il titolo»",
+      "summary": "Il pilota Aprilia, vicecampione con un round ancora da correre, rivendica la lotta mondiale con Márquez e promette di riprovarci nel 2027 per riprendersi il numero uno.",
+      "tag": "Aprilia",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/motogp/news/1110827/1/jorge-martin-proud-motogp-title-fight-marc-marquez-vows-put-my-name-trophy",
+      "published": "2026-11-23T07:30:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-23-aprilia-rimpianti-valencia",
+      "title": "Aprilia tra rimpianti e ambizioni: a Valencia può ancora pungere Ducati",
+      "summary": "Dopo la tripletta di Portimão a Noale si ripensa ai punti lasciati per strada in stagione, ma nell'ultimo round la casa veneta può ancora giocare un brutto scherzo alla Ducati campione.",
+      "tag": "Aprilia",
+      "source": "Corsedimoto",
+      "url": "https://www.corsedimoto.com/motogp/aprilia-rimpianti-valencia-scherzetto-ducati-motogp",
+      "published": "2026-11-23T06:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-22-marquez-campione-portimao",
       "title": "Marc Márquez è campione del mondo MotoGP 2026 a Portimão",
       "summary": "Dopo la caduta nella Sprint, il pilota Ducati chiude i conti nella gara della domenica e si prende l'ottavo titolo in top class, il decimo della carriera. A Valencia correrà da campione già incoronato.",
@@ -342,7 +362,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-22T23:50:00Z",
+    "updated": "2026-11-23T08:15:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

@@ -112,7 +112,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-22T22:50:00Z",
+    "updated": "2026-11-23T08:15:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
@@ -372,33 +372,33 @@
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-11T15:45:00Z",
-    "after": "dopo il GP del Qatar",
+    "updated": "2026-11-23T08:10:00Z",
+    "after": "dopo il GP del Portogallo",
     "drivers": [
       {
         "pos": 1,
         "name": "Máximo Quiles",
         "team": "Aspar · KTM",
-        "points": 392,
+        "points": 417,
         "champion": true
       },
       {
         "pos": 2,
         "name": "David Almansa",
         "team": "Intact GP · KTM",
-        "points": 255
+        "points": 268
       },
       {
         "pos": 3,
         "name": "Álvaro Carpe",
         "team": "Red Bull KTM Ajo · KTM",
-        "points": 218
+        "points": 226
       },
       {
         "pos": 4,
         "name": "Brian Uriarte",
         "team": "Red Bull KTM Ajo · KTM",
-        "points": 212
+        "points": 222
       },
       {
         "pos": 5,
@@ -414,75 +414,75 @@
       },
       {
         "pos": 7,
+        "name": "Valentín Perrone",
+        "team": "Red Bull KTM Tech3 · KTM",
+        "points": 130
+      },
+      {
+        "pos": 8,
         "name": "Hakim Danish",
         "team": "MSI · KTM",
         "points": 129
       },
       {
-        "pos": 8,
-        "name": "Valentín Perrone",
-        "team": "Red Bull KTM Tech3 · KTM",
-        "points": 124
+        "pos": 9,
+        "name": "Adrián Fernández",
+        "team": "Leopard · Honda",
+        "points": 116
       },
       {
-        "pos": 9,
+        "pos": 10,
+        "name": "Rico Salmela",
+        "team": "Red Bull KTM Tech3 · KTM",
+        "points": 116
+      },
+      {
+        "pos": 11,
         "name": "Matteo Bertelle",
         "team": "Level Up MTA · KTM",
         "points": 109
       },
       {
-        "pos": 10,
-        "name": "Adrián Fernández",
-        "team": "Leopard · Honda",
-        "points": 100
-      },
-      {
-        "pos": 11,
-        "name": "Rico Salmela",
-        "team": "Red Bull KTM Tech3 · KTM",
-        "points": 96
-      },
-      {
         "pos": 12,
         "name": "Guido Pini",
         "team": "Leopard · Honda",
-        "points": 87
+        "points": 96
       },
       {
         "pos": 13,
         "name": "Adrián Cruces",
         "team": "CIP Green Power · KTM",
-        "points": 85
+        "points": 89
       },
       {
         "pos": 14,
         "name": "Joel Esteban",
         "team": "Level Up MTA · KTM",
-        "points": 83
+        "points": 88
       },
       {
         "pos": 15,
-        "name": "David Muñoz",
-        "team": "Intact GP · KTM",
-        "points": 77
+        "name": "Joel Kelso",
+        "team": "GRYD · Honda",
+        "points": 88
       },
       {
         "pos": 16,
-        "name": "Joel Kelso",
-        "team": "GRYD · Honda",
-        "points": 77
+        "name": "David Muñoz",
+        "team": "Intact GP · KTM",
+        "points": 80
       },
       {
         "pos": 17,
-        "name": "Eddie O'Shea",
-        "team": "GRYD · Honda",
-        "points": 71
+        "name": "Casey O'Gorman",
+        "team": "SIC58 · Honda",
+        "points": 72
       },
       {
         "pos": 18,
-        "name": "Casey O'Gorman",
-        "team": "SIC58 · Honda",
-        "points": 70
+        "name": "Eddie O'Shea",
+        "team": "GRYD · Honda",
+        "points": 71
       },
       {
         "pos": 19,
@@ -494,13 +494,13 @@
         "pos": 20,
         "name": "Jesús Ríos",
         "team": "Rivacold Snipers · Honda",
-        "points": 50
+        "points": 51
       },
       {
         "pos": 21,
         "name": "Scott Ogden",
         "team": "CIP Green Power · KTM",
-        "points": 42
+        "points": 49
       },
       {
         "pos": 22,
@@ -579,39 +579,39 @@
       {
         "pos": 1,
         "team": "Aspar · KTM",
-        "points": 539,
+        "points": 564,
         "drivers": "Quiles, Morelli",
         "champion": true
       },
       {
         "pos": 2,
         "team": "Red Bull KTM Ajo · KTM",
-        "points": 430,
+        "points": 448,
         "drivers": "Carpe, Uriarte"
       },
       {
         "pos": 3,
         "team": "Intact GP · KTM",
-        "points": 345,
+        "points": 361,
         "drivers": "Almansa, Muñoz"
       },
       {
         "pos": 4,
         "team": "Red Bull KTM Tech3 · KTM",
-        "points": 220,
+        "points": 246,
         "drivers": "Perrone, Salmela"
       },
       {
         "pos": 5,
-        "team": "Level Up MTA · KTM",
-        "points": 192,
-        "drivers": "Bertelle, Esteban"
+        "team": "Leopard · Honda",
+        "points": 212,
+        "drivers": "Fernández, Pini"
       },
       {
         "pos": 6,
-        "team": "Leopard · Honda",
-        "points": 187,
-        "drivers": "Fernández, Pini"
+        "team": "Level Up MTA · KTM",
+        "points": 197,
+        "drivers": "Bertelle, Esteban"
       },
       {
         "pos": 7,
@@ -621,32 +621,32 @@
       },
       {
         "pos": 8,
+        "team": "GRYD · Honda",
+        "points": 159,
+        "drivers": "Kelso, O'Shea"
+      },
+      {
+        "pos": 9,
         "team": "Honda Team Asia · Honda",
         "points": 157,
         "drivers": "Pratama, Mitani"
       },
       {
-        "pos": 9,
-        "team": "GRYD · Honda",
-        "points": 148,
-        "drivers": "Kelso, O'Shea"
-      },
-      {
         "pos": 10,
         "team": "CIP Green Power · KTM",
-        "points": 127,
+        "points": 138,
         "drivers": "Cruces, Ogden"
       },
       {
         "pos": 11,
         "team": "SIC58 · Honda",
-        "points": 74,
+        "points": 76,
         "drivers": "O'Gorman, Rammerstorfer"
       },
       {
         "pos": 12,
         "team": "Rivacold Snipers · Honda",
-        "points": 50,
+        "points": 51,
         "drivers": "Ríos, Singhapong"
       },
       {
