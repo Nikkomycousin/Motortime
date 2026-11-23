@@ -112,7 +112,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-23T12:50:00Z",
+    "updated": "2026-11-23T14:00:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
@@ -165,7 +165,7 @@
   "results": {
     "gp": "GP del Portogallo",
     "round": 21,
-    "updated": "2026-11-22T21:00:00Z",
+    "updated": "2026-11-23T14:00:00Z",
     "summary": "Il campione del mondo Máximo Quiles conquista anche Portimão, il suo dodicesimo successo stagionale, al termine di una gara corsa su pista in via di asciugatura. Rico Salmela coglie il primo podio in carriera a meno di mezzo secondo, davanti ad Adrián Fernández. David Almansa, partito dalla pole, chiude quarto dopo un contatto con Uriarte all'ultimo giro e una penalità di tre secondi. Guido Pini è settimo, unico italiano nella top ten.",
     "podium": [
       {
@@ -367,12 +367,175 @@
             "points": 0
           }
         ]
+      },
+      {
+        "label": "Qualifiche",
+        "kind": "quali",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "David Almansa",
+            "team": "Intact GP · KTM",
+            "time": "1'45.652"
+          },
+          {
+            "pos": "2",
+            "name": "Brian Uriarte",
+            "team": "Red Bull KTM Ajo · KTM",
+            "time": "+0.462"
+          },
+          {
+            "pos": "3",
+            "name": "David Muñoz",
+            "team": "Intact GP · KTM",
+            "time": "+0.580"
+          },
+          {
+            "pos": "4",
+            "name": "Joel Kelso",
+            "team": "GRYD · Honda",
+            "time": "+0.599"
+          },
+          {
+            "pos": "5",
+            "name": "Joel Esteban",
+            "team": "Level Up MTA · KTM",
+            "time": "+0.663"
+          },
+          {
+            "pos": "6",
+            "name": "Rico Salmela",
+            "team": "Red Bull KTM Tech3 · KTM",
+            "time": "+0.702"
+          },
+          {
+            "pos": "7",
+            "name": "Máximo Quiles",
+            "team": "Aspar · KTM",
+            "time": "+0.731"
+          },
+          {
+            "pos": "8",
+            "name": "Guido Pini",
+            "team": "Leopard · Honda",
+            "time": "+0.745"
+          },
+          {
+            "pos": "9",
+            "name": "Álvaro Carpe",
+            "team": "Red Bull KTM Ajo · KTM",
+            "time": "+0.760"
+          },
+          {
+            "pos": "10",
+            "name": "Valentín Perrone",
+            "team": "Red Bull KTM Tech3 · KTM",
+            "time": "+0.950"
+          },
+          {
+            "pos": "11",
+            "name": "Adrián Cruces",
+            "team": "CIP Green Power · KTM",
+            "time": "+1.026"
+          },
+          {
+            "pos": "12",
+            "name": "Hakim Danish",
+            "team": "MSI · KTM",
+            "time": "+1.028"
+          },
+          {
+            "pos": "13",
+            "name": "Scott Ogden",
+            "team": "CIP Green Power · KTM",
+            "time": "+1.059"
+          },
+          {
+            "pos": "14",
+            "name": "Adrián Fernández",
+            "team": "Leopard · Honda",
+            "time": "+1.127"
+          },
+          {
+            "pos": "15",
+            "name": "Marco Morelli",
+            "team": "Aspar · KTM",
+            "time": "+1.472"
+          },
+          {
+            "pos": "16",
+            "name": "Veda Ega Pratama",
+            "team": "Honda Team Asia · Honda",
+            "time": "+1.581"
+          },
+          {
+            "pos": "17",
+            "name": "Zen Mitani",
+            "team": "Honda Team Asia · Honda",
+            "time": "+1.797"
+          },
+          {
+            "pos": "18",
+            "name": "Ruché Moodley",
+            "team": "CODE Motorsports · KTM",
+            "time": "+2.558"
+          },
+          {
+            "pos": "19",
+            "name": "Ryusei Yamanaka",
+            "team": "MSI · KTM",
+            "time": "1'47.896",
+            "note": "Eliminato in Q1"
+          },
+          {
+            "pos": "20",
+            "name": "Eddie O'Shea",
+            "team": "GRYD · Honda",
+            "time": "1'48.140"
+          },
+          {
+            "pos": "21",
+            "name": "Jesús Ríos",
+            "team": "Rivacold Snipers · Honda",
+            "time": "1'48.285"
+          },
+          {
+            "pos": "22",
+            "name": "Kiattisak Singhapong",
+            "team": "Rivacold Snipers · Honda",
+            "time": "1'48.329"
+          },
+          {
+            "pos": "23",
+            "name": "Cormac Buchanan",
+            "team": "CODE Motorsports · KTM",
+            "time": "1'48.391"
+          },
+          {
+            "pos": "24",
+            "name": "Casey O'Gorman",
+            "team": "SIC58 · Honda",
+            "time": "1'48.421"
+          },
+          {
+            "pos": "25",
+            "name": "Beñat Fernández",
+            "team": "Level Up MTA · KTM",
+            "time": "1'48.524"
+          },
+          {
+            "pos": "26",
+            "name": "Leo Rammerstorfer",
+            "team": "SIC58 · Honda",
+            "time": "1'48.821"
+          }
+        ]
       }
     ]
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-23T08:10:00Z",
+    "updated": "2026-11-23T14:00:00Z",
     "after": "dopo il GP del Portogallo",
     "drivers": [
       {
@@ -386,139 +549,139 @@
         "pos": 2,
         "name": "David Almansa",
         "team": "Intact GP · KTM",
-        "points": 268
+        "points": 266
       },
       {
         "pos": 3,
         "name": "Álvaro Carpe",
         "team": "Red Bull KTM Ajo · KTM",
-        "points": 226
+        "points": 224
       },
       {
         "pos": 4,
         "name": "Brian Uriarte",
         "team": "Red Bull KTM Ajo · KTM",
-        "points": 222
+        "points": 217
       },
       {
         "pos": 5,
-        "name": "Veda Ega Pratama",
-        "team": "Honda Team Asia · Honda",
-        "points": 148
+        "name": "Adrián Fernández",
+        "team": "Leopard · Honda",
+        "points": 193
       },
       {
         "pos": 6,
-        "name": "Marco Morelli",
-        "team": "Aspar · KTM",
-        "points": 147
+        "name": "Veda Ega Pratama",
+        "team": "Honda Team Asia · Honda",
+        "points": 144
       },
       {
         "pos": 7,
-        "name": "Valentín Perrone",
-        "team": "Red Bull KTM Tech3 · KTM",
-        "points": 130
+        "name": "Marco Morelli",
+        "team": "Aspar · KTM",
+        "points": 141
       },
       {
         "pos": 8,
-        "name": "Hakim Danish",
-        "team": "MSI · KTM",
-        "points": 129
+        "name": "Valentín Perrone",
+        "team": "Red Bull KTM Tech3 · KTM",
+        "points": 127
       },
       {
         "pos": 9,
-        "name": "Adrián Fernández",
-        "team": "Leopard · Honda",
-        "points": 116
+        "name": "Hakim Danish",
+        "team": "MSI · KTM",
+        "points": 125
       },
       {
         "pos": 10,
         "name": "Rico Salmela",
         "team": "Red Bull KTM Tech3 · KTM",
-        "points": 116
+        "points": 113
       },
       {
         "pos": 11,
         "name": "Matteo Bertelle",
         "team": "Level Up MTA · KTM",
-        "points": 109
+        "points": 103
       },
       {
         "pos": 12,
         "name": "Guido Pini",
         "team": "Leopard · Honda",
-        "points": 96
+        "points": 95
       },
       {
         "pos": 13,
-        "name": "Adrián Cruces",
-        "team": "CIP Green Power · KTM",
-        "points": 89
+        "name": "Joel Kelso",
+        "team": "GRYD · Honda",
+        "points": 85
       },
       {
         "pos": 14,
-        "name": "Joel Esteban",
-        "team": "Level Up MTA · KTM",
-        "points": 88
+        "name": "Adrián Cruces",
+        "team": "CIP Green Power · KTM",
+        "points": 84
       },
       {
         "pos": 15,
-        "name": "Joel Kelso",
-        "team": "GRYD · Honda",
-        "points": 88
+        "name": "Joel Esteban",
+        "team": "Level Up MTA · KTM",
+        "points": 83
       },
       {
         "pos": 16,
         "name": "David Muñoz",
         "team": "Intact GP · KTM",
-        "points": 80
+        "points": 75
       },
       {
         "pos": 17,
         "name": "Casey O'Gorman",
         "team": "SIC58 · Honda",
-        "points": 72
+        "points": 68
       },
       {
         "pos": 18,
         "name": "Eddie O'Shea",
         "team": "GRYD · Honda",
-        "points": 71
+        "points": 66
       },
       {
         "pos": 19,
         "name": "Ryusei Yamanaka",
         "team": "MSI · KTM",
-        "points": 56
+        "points": 53
       },
       {
         "pos": 20,
         "name": "Jesús Ríos",
         "team": "Rivacold Snipers · Honda",
-        "points": 51
+        "points": 49
       },
       {
         "pos": 21,
         "name": "Scott Ogden",
         "team": "CIP Green Power · KTM",
-        "points": 49
+        "points": 46
       },
       {
         "pos": 22,
-        "name": "Zen Mitani",
-        "team": "Honda Team Asia · Honda",
-        "points": 8
-      },
-      {
-        "pos": 23,
         "name": "David González",
         "team": "Intact GP · KTM",
         "points": 7
       },
       {
+        "pos": 23,
+        "name": "Zen Mitani",
+        "team": "Honda Team Asia · Honda",
+        "points": 6
+      },
+      {
         "pos": 24,
         "name": "Marcos Uriarte",
         "team": "Intact GP · KTM",
-        "points": 6
+        "points": 5
       },
       {
         "pos": 25,
@@ -530,30 +693,30 @@
         "pos": 26,
         "name": "Leo Rammerstorfer",
         "team": "SIC58 · Honda",
-        "points": 4
+        "points": 2
       },
       {
         "pos": 27,
-        "name": "Ruché Moodley",
-        "team": "CODE Motorsports · KTM",
-        "points": 1
-      },
-      {
-        "pos": 28,
         "name": "Kiattisak Singhapong",
         "team": "Rivacold Snipers · Honda",
         "points": 1
       },
       {
+        "pos": 28,
+        "name": "Ruché Moodley",
+        "team": "CODE Motorsports · KTM",
+        "points": 0
+      },
+      {
         "pos": 29,
-        "name": "Nicola Fabio Carraro",
-        "team": "Rivacold Snipers · Honda",
+        "name": "Ryota Ogiwara",
+        "team": "CODE Motorsports · KTM",
         "points": 0
       },
       {
         "pos": 30,
-        "name": "Ryota Ogiwara",
-        "team": "CODE Motorsports · KTM",
+        "name": "Nicola Fabio Carraro",
+        "team": "Rivacold Snipers · Honda",
         "points": 0
       },
       {
@@ -579,80 +742,80 @@
       {
         "pos": 1,
         "team": "Aspar · KTM",
-        "points": 564,
+        "points": 558,
         "drivers": "Quiles, Morelli",
         "champion": true
       },
       {
         "pos": 2,
         "team": "Red Bull KTM Ajo · KTM",
-        "points": 448,
+        "points": 441,
         "drivers": "Carpe, Uriarte"
       },
       {
         "pos": 3,
         "team": "Intact GP · KTM",
-        "points": 361,
+        "points": 353,
         "drivers": "Almansa, Muñoz"
       },
       {
         "pos": 4,
-        "team": "Red Bull KTM Tech3 · KTM",
-        "points": 246,
-        "drivers": "Perrone, Salmela"
+        "team": "Leopard · Honda",
+        "points": 288,
+        "drivers": "Fernández, Pini"
       },
       {
         "pos": 5,
-        "team": "Leopard · Honda",
-        "points": 212,
-        "drivers": "Fernández, Pini"
+        "team": "Red Bull KTM Tech3 · KTM",
+        "points": 240,
+        "drivers": "Perrone, Salmela"
       },
       {
         "pos": 6,
         "team": "Level Up MTA · KTM",
-        "points": 197,
+        "points": 186,
         "drivers": "Bertelle, Esteban"
       },
       {
         "pos": 7,
         "team": "MSI · KTM",
-        "points": 185,
+        "points": 178,
         "drivers": "Danish, Yamanaka"
       },
       {
         "pos": 8,
-        "team": "GRYD · Honda",
-        "points": 159,
-        "drivers": "Kelso, O'Shea"
+        "team": "Honda Team Asia · Honda",
+        "points": 151,
+        "drivers": "Pratama, Mitani"
       },
       {
         "pos": 9,
-        "team": "Honda Team Asia · Honda",
-        "points": 157,
-        "drivers": "Pratama, Mitani"
+        "team": "GRYD · Honda",
+        "points": 151,
+        "drivers": "Kelso, O'Shea"
       },
       {
         "pos": 10,
         "team": "CIP Green Power · KTM",
-        "points": 138,
+        "points": 130,
         "drivers": "Cruces, Ogden"
       },
       {
         "pos": 11,
         "team": "SIC58 · Honda",
-        "points": 76,
+        "points": 70,
         "drivers": "O'Gorman, Rammerstorfer"
       },
       {
         "pos": 12,
         "team": "Rivacold Snipers · Honda",
-        "points": 51,
+        "points": 49,
         "drivers": "Ríos, Singhapong"
       },
       {
         "pos": 13,
         "team": "CODE Motorsports · KTM",
-        "points": 6,
+        "points": 5,
         "drivers": "Moodley, Mononyane"
       }
     ]
