@@ -1,14 +1,14 @@
 {
   "news": [
     {
-      "id": "2026-11-22-las-vegas-gara-verstappen",
-      "title": "Verstappen vince la battaglia di Las Vegas, doppio podio McLaren",
-      "summary": "Gara ricca di sorpassi sulla Strip: Verstappen la spunta su Norris e Piastri, con Antonelli quarto dopo un problema nel finale. Ottimo quinto e sesto posto per le Alpine.",
-      "tag": "Gare",
-      "source": "Formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
-      "published": "2026-11-22T05:45:00Z",
-      "top": true
+      "id": "2026-11-22-ferrari-hamilton-leclerc-vegas-vasseur",
+      "title": "Ferrari, nuovo contatto Hamilton-Leclerc a Las Vegas: Vasseur torna a parlare ai piloti",
+      "summary": "Dopo un altro duello ravvicinato tra i due ferraristi a Las Vegas, il team principal ha fatto capire che episodi simili non possono ripetersi. È previsto un nuovo confronto con entrambi prima del Qatar.",
+      "tag": "Ferrari",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13615086/lewis-hamilton-charles-leclerc-clashes-cannot-continue-after-las-vegas-gp-with-frederic-vasseur-to-speak-to-drivers-again",
+      "published": "2026-11-22T20:00:00Z",
+      "top": false
     },
     {
       "id": "2026-11-22-las-vegas-ferrari-penalita",
@@ -19,6 +19,16 @@
       "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
       "published": "2026-11-22T05:50:00Z",
       "top": false
+    },
+    {
+      "id": "2026-11-22-las-vegas-gara-verstappen",
+      "title": "Verstappen vince la battaglia di Las Vegas, doppio podio McLaren",
+      "summary": "Gara ricca di sorpassi sulla Strip: Verstappen la spunta su Norris e Piastri, con Antonelli quarto dopo un problema nel finale. Ottimo quinto e sesto posto per le Alpine.",
+      "tag": "Gare",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
+      "published": "2026-11-22T05:45:00Z",
+      "top": true
     },
     {
       "id": "2026-11-21-las-vegas-ferrari-fuori-q2",
@@ -1078,19 +1088,10 @@
       "source": "RacingNews365",
       "url": "https://racingnews365.com/f1-news",
       "published": "2026-11-02T14:00:00Z"
-    },
-    {
-      "id": "2026-11-02-pirelli-bridgestone",
-      "title": "Pirelli minimizza la possibile minaccia Bridgestone",
-      "summary": "Il fornitore unico di gomme risponde alle voci su un ritorno del marchio giapponese in Formula 1.",
-      "tag": "Paddock",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/f1-news",
-      "published": "2026-11-02T10:40:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-23T08:40:00Z",
+    "updated": "2026-11-23T10:55:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",
