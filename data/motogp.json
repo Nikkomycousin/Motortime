@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-24-valencia-addii-martin-aprilia",
+      "title": "Valencia, gara d'addio per diversi piloti: anche Martín all'ultima con Aprilia",
+      "summary": "Il finale di stagione al Ricardo Tormo chiude il capitolo attuale per vari protagonisti che nel 2027 cambieranno squadra. Tra loro c'è Jorge Martín, alla sua ultima uscita con la moto di Noale prima del passaggio a un nuovo team.",
+      "tag": "Mercato",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/motogp/news/1110859/1/motogp-valencia-every-rider-changing-team-or-starting-their-final-race",
+      "published": "2026-11-24T12:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-24-martin-bezzecchi-sfida-secondo-posto",
       "title": "Valencia, Martín e Bezzecchi si giocano il secondo posto: solo due punti tra loro",
       "summary": "Con il titolo già a Márquez, l'ultimo round decide la piazza d'onore: Martín ha appena due lunghezze di vantaggio sul compagno Bezzecchi, reduce dal tris di Portimão.",
@@ -382,7 +392,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-24T10:55:00Z",
+    "updated": "2026-11-24T13:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
