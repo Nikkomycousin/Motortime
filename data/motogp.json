@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-24-martin-bezzecchi-sfida-secondo-posto",
+      "title": "Valencia, Martín e Bezzecchi si giocano il secondo posto: solo due punti tra loro",
+      "summary": "Con il titolo già a Márquez, l'ultimo round decide la piazza d'onore: Martín ha appena due lunghezze di vantaggio sul compagno Bezzecchi, reduce dal tris di Portimão.",
+      "tag": "Aprilia",
+      "source": "grandepremio.com",
+      "url": "https://grandepremio.com/en/motogp/martin-and-bezzecchi-face-explosive-valencia-showdown-with-just-two-points-between-them/",
+      "published": "2026-11-24T08:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-22-zarco-long-lap-valencia",
       "title": "Zarco penalizzato: Long Lap a Valencia per il contatto con Alex Márquez",
       "summary": "I commissari hanno giudicato Zarco responsabile della collisione con Alex Márquez nel GP del Portogallo. Il pilota LCR Honda sconterà un Long Lap Penalty nella gara finale di Valencia.",
@@ -372,7 +382,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-24T07:55:00Z",
+    "updated": "2026-11-24T10:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
@@ -386,8 +396,8 @@
     "circuit": "Circuit Ricardo Tormo, Valencia",
     "lat": 39.485,
     "lon": -0.63,
-    "updated": "2026-11-22T19:00:00Z",
-    "tv8note": "TV8 trasmette in diretta e in chiaro qualifiche e Sprint del sabato; la gara della domenica va su TV8 in differita (orario da confermare). Diretta integrale su Sky Sport MotoGP e NOW.",
+    "updated": "2026-11-24T10:55:00Z",
+    "tv8note": "TV8 trasmette in diretta e in chiaro qualifiche e Sprint del sabato; la gara della domenica va su TV8 in differita alle 17:00. Diretta integrale su Sky Sport MotoGP e NOW.",
     "sessions": [
       {
         "name": "Prove libere 1",
@@ -438,8 +448,12 @@
       {
         "name": "Gara",
         "start": "2026-11-29T13:00:00Z",
-        "live": "Diretta Sky Sport MotoGP · NOW",
-        "key": true
+        "live": "Diretta Sky Sport MotoGP · NOW · TV8 (differita)",
+        "key": true,
+        "tv8": {
+          "live": false,
+          "time": "2026-11-29T16:00:00Z"
+        }
       }
     ]
   },
