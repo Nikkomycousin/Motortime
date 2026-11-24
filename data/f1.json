@@ -1,887 +1,184 @@
 {
   "news": [
     {
-      "id": "2026-11-23-cosa-resta-in-palio-dopo-las-vegas",
-      "title": "Titoli già assegnati, ma in Qatar e ad Abu Dhabi c'è ancora molto in palio",
-      "summary": "Con Antonelli e Mercedes già campioni, restano aperte le lotte per il secondo posto tra i piloti, dove Verstappen deve guardarsi da Hamilton e Russell, e per le posizioni d'onore tra i costruttori dietro la Mercedes.",
-      "tag": "Mondiale",
-      "source": "Grande Prêmio",
-      "url": "https://grandepremio.com/en/f1/what-is-still-at-stake-in-the-2026-f1-championship-after-las-vegas/",
-      "published": "2026-11-23T12:00:00Z",
-      "top": false
+      "id": "2026-11-02-lawson-futuro",
+      "title": "Lawson in bilico per il 2027 nonostante l'ottima stagione",
+      "summary": "Racing Bulls deve ancora scegliere tra Lawson, Lindblad e Tsolov per i due sedili del prossimo anno. Chandhok avverte che lasciare a piedi il neozelandese sarebbe un'ingiustizia.",
+      "tag": "Mercato",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/liam-lawson-racing-bulls-future-karun-chandhok",
+      "published": "2026-11-02T18:32:00Z"
     },
     {
-      "id": "2026-11-22-ferrari-hamilton-leclerc-vegas-vasseur",
-      "title": "Ferrari, nuovo contatto Hamilton-Leclerc a Las Vegas: Vasseur torna a parlare ai piloti",
-      "summary": "Dopo un altro duello ravvicinato tra i due ferraristi a Las Vegas, il team principal ha fatto capire che episodi simili non possono ripetersi. È previsto un nuovo confronto con entrambi prima del Qatar.",
+      "id": "2026-11-02-russell-messaggio",
+      "title": "Russell rompe il silenzio: \"Stagione sfuggita di mano, tornerò al mio livello\"",
+      "summary": "Il giorno dopo il titolo perso, Russell ha affidato ai social un messaggio in cui ammette il calo della seconda metà di stagione. Mercedes era stata multata di 5.000 euro per la sua assenza dai media in Messico.",
+      "tag": "Mercedes",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/george-russell-issues-statement-from-the-heart-after-catastrophic-title-defeat",
+      "published": "2026-11-02T19:42:00Z"
+    },
+    {
+      "id": "2026-11-03-hamilton-ferrari-soluzioni",
+      "title": "Hamilton: \"La squadra viene prima, con Leclerc troveremo una soluzione\"",
+      "summary": "Dopo il contatto alla curva 4 che è costato la vittoria in Messico, Hamilton chiede alla Ferrari regole chiare tra i piloti. Il chiarimento con Leclerc avverrà lontano dai microfoni.",
       "tag": "Ferrari",
-      "source": "Sky Sports",
-      "url": "https://www.skysports.com/f1/news/13615086/lewis-hamilton-charles-leclerc-clashes-cannot-continue-after-las-vegas-gp-with-frederic-vasseur-to-speak-to-drivers-again",
-      "published": "2026-11-22T20:00:00Z",
-      "top": false
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/lewis-hamilton-demands-ferrari-solutions-after-latest-mess-with-charles-leclerc",
+      "published": "2026-11-03T05:30:00Z"
     },
     {
-      "id": "2026-11-22-las-vegas-ferrari-penalita",
-      "title": "Ferrari, doppia penalità a Las Vegas: Hamilton 7° e Leclerc 10°",
-      "summary": "Entrambe le Rosse vengono punite con 10 secondi: Hamilton per un vantaggio ottenuto fuori pista su Norris, Leclerc per il contatto con il compagno durante il loro duello.",
-      "tag": "Ferrari",
-      "source": "Formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
-      "published": "2026-11-22T05:50:00Z",
-      "top": false
+      "id": "2026-11-03-medio-oriente-garanzie",
+      "title": "La F1 rassicura i team: Qatar e Abu Dhabi si correranno",
+      "summary": "Secondo Reuters, Formula 1 ha garantito alle squadre che le due gare finali in Medio Oriente si svolgeranno con misure di sicurezza adeguate, invitando i team a evitare commenti pubblici sulla guerra con l'Iran.",
+      "tag": "Calendario",
+      "source": "Reuters / TimesLIVE",
+      "url": "https://www.timeslive.co.za/motoring/2026-11-03-f1-assures-teams-middle-east-grands-prix-will-go-ahead-report-says/",
+      "published": "2026-11-03T07:00:00Z"
     },
     {
-      "id": "2026-11-22-las-vegas-gara-verstappen",
-      "title": "Verstappen vince la battaglia di Las Vegas, doppio podio McLaren",
-      "summary": "Gara ricca di sorpassi sulla Strip: Verstappen la spunta su Norris e Piastri, con Antonelli quarto dopo un problema nel finale. Ottimo quinto e sesto posto per le Alpine.",
-      "tag": "Gare",
-      "source": "Formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
-      "published": "2026-11-22T05:45:00Z",
-      "top": true
-    },
-    {
-      "id": "2026-11-21-las-vegas-ferrari-fuori-q2",
-      "title": "Ferrari, disastro a Las Vegas: Leclerc e Hamilton eliminati in Q2",
-      "summary": "Dopo un buon venerdì, le due Rosse non vanno oltre l'11° e il 12° posto in qualifica. Leclerc ammette che la squadra ha sbagliato tutto nella sessione decisiva.",
-      "tag": "Ferrari",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/charles-leclerc-si-sfoga-dopo-le-qualifiche-a-las-vegas-non-ne-abbiamo-fatta-una-giusta/",
-      "published": "2026-11-21T06:00:00Z",
-      "top": true
-    },
-    {
-      "id": "2026-11-21-las-vegas-qualifiche-verstappen-pole",
-      "title": "Las Vegas, Antonelli il più veloce ma la pole va a Verstappen",
-      "summary": "Antonelli firma il miglior giro in qualifica, ma la penalità di cinque posizioni per il motore consegna la partenza al palo a Verstappen. In prima fila con l'olandese ci sarà Russell, poi Norris.",
-      "tag": "Gare",
-      "source": "Formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/antonelli-quickest-in-las-vegas-gp-qualifying-as-verstappen-inherits-pole-position.6R7udh8iYMHunSOGI6zStK",
-      "published": "2026-11-21T05:15:00Z",
-      "top": true
-    },
-    {
-      "id": "2026-11-21-las-vegas-fp3-russell",
-      "title": "Las Vegas, Russell davanti a tutti nelle FP3",
-      "summary": "Nell'ultimo turno di libere Russell precede il compagno Antonelli e Norris; Leclerc quarto, Verstappen sesto e Hamilton ottavo.",
-      "tag": "Gare",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/f1-risultati-e-classifica-fp3-gp-las-vegas-2026-russell-precede-antonelli-e-norris-4-leclerc-6-verstappen-8-hamilton/",
-      "published": "2026-11-21T01:40:00Z"
-    },
-    {
-      "id": "2026-11-20-las-vegas-cinque-penalita",
-      "title": "Las Vegas, pioggia di penalità: Piastri e Sainz arretrano di dieci posizioni",
-      "summary": "Sono almeno cinque i piloti che sconteranno arretramenti in griglia sulla Strip per l'uso di componenti della power unit oltre il limite. Oltre ad Antonelli, i colpi più pesanti toccano a Piastri e Sainz, penalizzati di dieci posti.",
-      "tag": "Gare",
-      "source": "RaceFans",
-      "url": "https://www.racefans.net/2026/11/20/five-drivers-to-take-grid-penalties-at-las-vegas-grand-prix/",
-      "published": "2026-11-20T17:00:00Z"
-    },
-    {
-      "id": "2026-11-20-leclerc-ferrari-non-male",
-      "title": "Leclerc dopo le libere di Las Vegas: «La Ferrari non è messa male»",
-      "summary": "Terzo nella sessione bagnata, il monegasco vede segnali incoraggianti per la SF-26 in vista di qualifiche e gara. Restano però molte incognite sul comportamento delle gomme con l'asciutto.",
-      "tag": "Ferrari",
-      "source": "Formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/ferrari-not-in-a-bad-place-after-practice-for-las-vegas-grand-prix-says.2I4MSR4aIpLcKUPUPOxoWS",
-      "published": "2026-11-20T08:00:00Z",
-      "top": false
-    },
-    {
-      "id": "2026-11-20-verstappen-motore-vegas",
-      "title": "Verstappen solo tredicesimo nelle libere di Las Vegas, frenato da un problema al motore",
-      "summary": "Il pilota Red Bull ha chiuso la seconda sessione lontano dai primi e ha lamentato un inconveniente alla power unit. Per lui una giornata da archiviare in fretta in vista delle qualifiche.",
+      "id": "2026-11-03-hadjar-tifoso",
+      "title": "Hadjar ammonito per aver spinto un tifoso, Verstappen lo difende",
+      "summary": "I commissari hanno dato un richiamo formale a Hadjar, che aveva allontanato un fan che lo aveva toccato nel paddock. Verstappen ha detto di comprenderlo e di essere andato vicino a reagire allo stesso modo.",
       "tag": "Red Bull",
-      "source": "F1 Oversteer",
-      "url": "https://www.f1oversteer.com/races/george-russell-tops-red-flagged-las-vegas-gp-fp2-as-max-verstappen-bemoans-engine-issue/",
-      "published": "2026-11-20T06:00:00Z",
-      "top": false
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/max-verstappen-fia-isack-hadjar-fan-incident",
+      "published": "2026-11-03T09:47:00Z"
     },
     {
-      "id": "2026-11-20-las-vegas-fp2-russell",
-      "title": "Las Vegas, Russell il più veloce nelle libere 2 sul bagnato davanti a Gasly e Leclerc",
-      "summary": "Con l'asfalto che si asciugava, George Russell ha piazzato il miglior tempo all'ultimo tentativo in una sessione interrotta da una bandiera rossa. Seconda l'Alpine di Gasly, terza la Ferrari di Leclerc, Antonelli ottavo.",
+      "id": "2026-11-03-bottas-futuro-cadillac",
+      "title": "Bottas aspetta: il sedile Cadillac 2027 non è ancora confermato",
+      "summary": "Il finlandese dice che la decisione spetterà ai vertici americani del team, mentre Herta e Vesti vengono indicati come possibili sostituti. Pérez invece ha già rinnovato fino al 2029.",
+      "tag": "Mercato",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/valtteri-bottas-cadillac-rumours-f1-future",
+      "published": "2026-11-03T12:03:00Z"
+    },
+    {
+      "id": "2026-11-03-hamilton-clipping",
+      "title": "Hamilton chiede alla FIA di intervenire sul \"clipping\" dei motori",
+      "summary": "Dopo il Messico Hamilton ha sollecitato la FIA a rivedere la gestione dell'energia che, a suo dire, rende quasi impossibili i sorpassi. Via radio si era lamentato di non riuscire ad attaccare Verstappen per la velocità della Red Bull sul dritto.",
+      "tag": "Ferrari",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/lewis-hamilton-fia-max-verstappen-mexican-grand-prix-2026-footage",
+      "published": "2026-11-03T12:16:00Z"
+    },
+    {
+      "id": "2026-11-03-interlagos-pioggia",
+      "title": "Interlagos, possibile pioggia su qualifiche e gara",
+      "summary": "Le prime previsioni per il weekend brasiliano indicano tempo instabile: il rischio maggiore di temporali riguarda le qualifiche di sabato, ma anche la domenica potrebbe essere bagnata.",
       "tag": "Gare",
+      "source": "Grande Prêmio",
+      "url": "https://grandepremio.com/en/f1/sao-paulo-gp-2026-weather-forecast-will-rain-affect-f1-qualifying-and-race-at-interlagos/",
+      "published": "2026-11-03T13:30:00Z"
+    },
+    {
+      "id": "2026-11-03-mercedes-titolo-costruttori",
+      "title": "Mercedes può chiudere il Mondiale Costruttori già in Brasile",
+      "summary": "Con 126 punti di margine sulla Ferrari, alla Mercedes basta guadagnarne almeno tre a Interlagos per rendere il titolo matematico. In caso contrario la sfida si sposterà al Qatar.",
+      "tag": "Mercedes",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/how-mercedes-can-win-f1-2026-constructors-championship",
+      "published": "2026-11-03T14:08:00Z"
+    },
+    {
+      "id": "2026-11-03-alonso-barcellona-indycar",
+      "title": "Alonso: senza Barcellona il motorsport spagnolo rischia di non sopravvivere",
+      "summary": "Il pilota Aston Martin difende il Montmeló, che dal 2027 si alternerà con Spa e salterà la stagione 2027 della F1. Sull'arrivo dell'IndyCar in Europa è scettico: prevede solo una o due tappe fuori dagli USA.",
+      "tag": "Calendario",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/fernando-alonso-issues-cannot-survive-claim-as-barcelona-secures-major-coup",
+      "published": "2026-11-03T18:15:00Z"
+    },
+    {
+      "id": "2026-11-03-pirelli-mescole-brasile",
+      "title": "Interlagos, Pirelli sceglie gomme più morbide: C3, C4 e C5",
+      "summary": "Per il GP del Brasile Pirelli porta una gamma un gradino più morbida rispetto al 2025. Due tratti di asfalto rifatto tra le curve 3-5 e 8-9 potrebbero cambiare il degrado sui long run, e senza Sprint i team avranno tre libere per studiarlo.",
+      "tag": "Gare",
+      "source": "Coffee Corner Motorsport",
+      "url": "https://coffeecornermotorsport.com/brazil-grand-prix-2026-tyre-preview/",
+      "published": "2026-11-03T18:40:00Z"
+    },
+    {
+      "id": "2026-11-03-camara-debutto-haas",
+      "title": "Câmara debutta in F1 a Interlagos con la Haas, Ocon fuori fino a fine anno",
+      "summary": "La Haas anticipa l'esordio del leader della F2 nel GP di casa, accanto a Bearman. Ocon non tornerà al volante in questa stagione; Hirakawa, che lo aveva sostituito in Messico, è impegnato nel WEC a Monza.",
+      "tag": "Mercato",
       "source": "Formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/fp2-russell-beats-gasly-and-leclerc-to-top-spot-in-wet-las-vegas-gp-practice.62NwXdkf1krQs0esgViJtc",
-      "published": "2026-11-20T05:30:00Z",
-      "top": true
+      "url": "https://www.formula1.com/en/latest/article/f2-racer-camara-to-make-f1-debut-at-sao-paulo-grand-prix-as-haas-confirm-ocon-will-not-return.12Qa0tpaMZ9kgnEuGJBKFp",
+      "published": "2026-11-03T20:30:00Z"
     },
     {
-      "id": "2026-11-20-las-vegas-fp1-pioggia",
-      "title": "Las Vegas, la pioggia cancella le libere 1: nessun tempo cronometrato",
-      "summary": "Un forte acquazzone ha bloccato la prima sessione sulla Strip e nessun pilota è riuscito a completare un giro cronometrato. Le squadre arrivano così alle qualifiche con pochissimi dati raccolti.",
-      "tag": "Gare",
-      "source": "news.gp",
-      "url": "https://www.news.gp/it/una-forte-pioggia-interrompe-la-fp1-di-las-vegas-senza-che-siano-stati-registrati-tempi-sul-giro",
-      "published": "2026-11-20T01:45:00Z",
-      "top": false
+      "id": "2026-11-03-wolff-sponsor-antonelli",
+      "title": "Wolff: due sponsor lasciarono la Mercedes per la promozione di Antonelli",
+      "summary": "Il team principal rivela che due partner si sfilarono, poco convinti che il giovane italiano fosse pronto a sostituire Hamilton. La squadra si fidò dei propri dati e la scommessa ha portato al titolo mondiale 2026.",
+      "tag": "Mercedes",
+      "source": "Grande Prêmio",
+      "url": "https://grandepremio.com/en/f1/f1-today-haas-confirms-camara-debut-verstappen-blasts-fia-and-mercedes-reveals-antonelli-gamble/",
+      "published": "2026-11-03T22:30:00Z"
     },
     {
-      "id": "2026-11-19-leclerc-giornalista-bandito",
-      "title": "Leclerc sul giornalista escluso dalla FIA: «Sorpreso dalle parole usate»",
-      "summary": "Alla vigilia di Las Vegas il ferrarista ha commentato il caso del cronista del Daily Mail privato dell'accredito dopo un articolo critico nei suoi confronti, dicendosi colpito dai termini dell'articolo ma senza entrare nel merito della decisione federale.",
-      "tag": "Paddock",
+      "id": "2026-11-04-brundle-avverte-ferrari",
+      "title": "Brundle avverte la Ferrari: lo scontro Hamilton-Leclerc si ripeterà",
+      "summary": "Secondo Martin Brundle il duello interno visto al via in Messico, costato a Leclerc una penalità e alla Ferrari la vittoria, è destinato a ripresentarsi. Il commentatore invita il team a gestire la rivalità prima del Brasile.",
+      "tag": "Ferrari",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/martin-brundle-hands-ferrari-ominous-warning-as-hamilton-and-leclerc-feud-ignites",
+      "published": "2026-11-04T05:30:00Z"
+    },
+    {
+      "id": "2026-11-04-antonelli-trofeo",
+      "title": "Antonelli riceverà il trofeo iridato al Gala FIA del 12 dicembre",
+      "summary": "Il campione del mondo 2026 non alzerà la coppa in pista: la FIA gliela consegnerà alla cerimonia di premiazione di fine anno. L'originale resta alla Federazione, al pilota andrà una replica ufficiale dal valore stimato di circa 35mila euro.",
+      "tag": "Mondiale",
+      "source": "Fanpage.it",
+      "url": "https://fanpage.it/sport/motori/kimi-antonelli-non-ha-ancora-avuto-il-trofeo-di-campione-f1-per-tenerlo-dovra-pagare-35mila-euro",
+      "published": "2026-11-04T06:24:00Z"
+    },
+    {
+      "id": "2026-11-04-herta-fp1-interlagos",
+      "title": "Herta ci riprova: FP1 a Interlagos con Cadillac per la superlicenza",
+      "summary": "Colton Herta guiderà la Cadillac al posto di Pérez nelle prime libere in Brasile per completare i 100 km necessari a ottenere l'ultimo punto della superlicenza. In Messico un errore nel calcolo dei punti lo aveva lasciato a un passo dall'obiettivo.",
+      "tag": "Team",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/colton-herta-takes-second-stab-at-overcoming-crucial-fia-hurdle-in-pursuit-of-f1",
+      "published": "2026-11-04T09:50:00Z"
+    },
+    {
+      "id": "2026-11-04-hamilton-400-gp",
+      "title": "Hamilton taglia il traguardo dei 400 Gran Premi in Brasile",
+      "summary": "A Interlagos il pilota Ferrari disputerà il suo 400° GP in carriera, diventando solo il secondo nella storia della F1 a raggiungere questa cifra.",
+      "tag": "Ferrari",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/lewis-hamilton-key-milestones-ahead-of-landmark-400th-f1-grand-prix",
+      "published": "2026-11-04T10:40:00Z"
+    },
+    {
+      "id": "2026-11-04-leclerc-papa-beganovic-fp1",
+      "title": "Leclerc diventa papà: salta le FP1 di Interlagos, al suo posto Beganovic",
+      "summary": "Martedì è nata Bianca, la prima figlia di Charles e Alexandra: il monegasco salterà gli impegni media del giovedì e la prima sessione di libere. Sulla SF-26 in FP1 salirà Dino Beganovic della Ferrari Driver Academy, mentre Leclerc è atteso in Brasile venerdì.",
+      "tag": "Ferrari",
+      "source": "Automoto.it",
+      "url": "https://www.automoto.it/formula1/f1-leclerc-papa-nascita-bianca-ferrari-beganovic-gp-brasile-haas-camara.html",
+      "published": "2026-11-04T15:00:00Z"
+    },
+    {
+      "id": "2026-11-04-vasseur-anteprima-brasile",
+      "title": "Vasseur verso Interlagos: Ferrari compatta per cogliere ogni occasione",
+      "summary": "Dopo i progressi visti in Messico e le polemiche sul duello interno, il team principal della Ferrari chiede alla squadra di restare concentrata nel weekend sprint brasiliano per massimizzare il risultato.",
+      "tag": "Ferrari",
       "source": "Motorsport.com",
-      "url": "https://www.motorsport.com/f1/news/charles-leclerc-on-journalist-ban-i-was-surprised-by-the-choice-of-words/10875509/",
-      "published": "2026-11-19T20:00:00Z"
+      "url": "https://it.motorsport.com/f1/news/f1-vasseur-a-interlagos-dovremo-rimanere-concentrati-per-sfruttare-al-meglio-ogni-opportunita/10871514/",
+      "published": "2026-11-04T16:00:00Z"
     },
     {
-      "id": "2026-11-19-antonelli-penalita-las-vegas",
-      "title": "Las Vegas, Antonelli penalizzato di cinque posizioni in griglia",
-      "summary": "Il montaggio della sesta power unit stagionale, con il nuovo turbo ADUO della Mercedes, oltre il limite consentito costa ad Antonelli cinque posti sulla griglia di domenica. Il leader del Mondiale dovrà quindi rimontare per inseguire la vittoria sulla Strip.",
+      "id": "2026-11-04-mercedes-tute-viola",
+      "title": "Mercedes in viola a Interlagos: tute speciali per Antonelli e Russell",
+      "summary": "Nel weekend brasiliano i due piloti Mercedes indosseranno tute viola nate dalla collaborazione con un marchio bancario locale, protagonista anche di una fan zone a San Paolo con una replica della W17.",
       "tag": "Mercedes",
-      "source": "Motorsport Week",
-      "url": "https://www.motorsportweek.com/2026/11/19/kimi-antonelli-set-for-las-vegas-grid-penalty/",
-      "published": "2026-11-19T16:00:00Z"
-    },
-    {
-      "id": "2026-11-19-hamilton-fiducia-ferrari",
-      "title": "Hamilton nega problemi di fiducia con la Ferrari dopo gli ordini ignorati",
-      "summary": "Nel media day di Las Vegas il sette volte campione ha respinto l'idea di una frattura con il muretto, dopo aver disatteso due volte le indicazioni del team nelle ultime gare. L'obiettivo resta il secondo posto tra i costruttori.",
-      "tag": "Ferrari",
-      "source": "Sky Sports",
-      "url": "https://www.skysports.com/f1/news/13613635/lewis-hamilton-denies-lack-of-trust-with-ferrari-after-ignoring-instructions-from-pit-wall-twice-in-recent-races",
-      "published": "2026-11-19T08:30:00Z"
-    },
-    {
-      "id": "2026-11-19-verstappen-qatar-abu-dhabi",
-      "title": "Verstappen si fida della F1 sulle gare finali in Qatar e Abu Dhabi",
-      "summary": "Alla vigilia di Las Vegas l'olandese ha detto di avere fiducia nelle valutazioni dei vertici della F1, che hanno confermato i due appuntamenti conclusivi in Medio Oriente nonostante il conflitto nella regione.",
-      "tag": "Calendario",
-      "source": "Sky Sports",
-      "url": "https://www.skysports.com/f1/news/13613637/max-verstappen-says-he-trusts-f1-bosses-over-plans-to-proceed-with-season-ending-races-in-qatar-and-abu-dhabi-amid-conflict-in-middle-east",
-      "published": "2026-11-19T08:00:00Z"
-    },
-    {
-      "id": "2026-11-18-ferrari-priorita-las-vegas",
-      "title": "Ferrari, la priorità per Las Vegas: la SF-26 deve superare un ostacolo",
-      "summary": "A Maranello hanno individuato il punto su cui lavorare per il weekend sulla Strip: la SF-26 deve risolvere un limite che sui circuiti cittadini veloci e freddi l'ha già penalizzata.",
-      "tag": "Ferrari",
-      "source": "F1 in Generale",
-      "url": "https://f1ingenerale.com/f1/news-f1/f1-ferrari-svela-la-priorita-per-las-vegas-la-sf26-chiamata-a-superare-un-grande-ostacolo/",
-      "published": "2026-11-18T17:00:00Z"
-    },
-    {
-      "id": "2026-11-18-verstappen-vegas-energia",
-      "title": "Verstappen avverte: a Las Vegas la gestione dell'energia peserà più del solito",
-      "summary": "Dopo una visita in fabbrica a Milton Keynes, l'olandese della Red Bull prevede comportamenti diversi delle vetture sul lungo rettilineo della Strip, dove il recupero di energia sarà decisivo. Verstappen è l'unico ad aver vinto due volte a Las Vegas.",
-      "tag": "Red Bull",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/max-verstappen-raises-different-behaviours-warning-ahead-of-unique-f1-challenge",
-      "published": "2026-11-18T12:00:00Z"
-    },
-    {
-      "id": "2026-11-17-aduo-mercedes-antonelli",
-      "title": "Mercedes porta il turbo ADUO a Las Vegas, ma solo sulla monoposto di Antonelli",
-      "summary": "Il nuovo turbo debutta sulla vettura del neo campione, che potrebbe pagare una penalità in griglia per il cambio di componenti. Russell resta con la configurazione attuale per non compromettere la corsa al secondo posto nel mondiale.",
-      "tag": "Mercedes",
-      "source": "Racer",
-      "url": "https://racer.com/2026/11/17/antonelli-set-for-grid-penalty-for-mercedes-aduo-as-team-targets-p2-for-russell",
-      "published": "2026-11-17T20:00:00Z"
-    },
-    {
-      "id": "2026-11-17-antonelli-decima-vittoria-las-vegas",
-      "title": "Las Vegas, Antonelli va a caccia della decima vittoria stagionale",
-      "summary": "Già campione del mondo, il pilota della Mercedes arriva sulla Strip con l'obiettivo di ritoccare il proprio bottino di successi nel 2026. Las Vegas apre il trittico finale della stagione.",
-      "tag": "Mercedes",
-      "source": "ANSA",
-      "url": "https://www.ansa.it/sito/notizie/sport/2026/11/17/f1-las-vegas-aspetta-il-circus-antonelli-vuole-la-decima_31f8835a-ac03-412b-b0b2-51558a665061.html",
-      "published": "2026-11-17T16:00:00Z"
-    },
-    {
-      "id": "2026-11-17-beganovic-fp1-las-vegas",
-      "title": "Las Vegas, Hamilton lascia la Ferrari a Beganovic nelle prove libere 1",
-      "summary": "Il giovane della Ferrari Driver Academy guiderà la SF-26 di Hamilton nella prima sessione di libere sulla Strip, sfruttando uno degli slot obbligatori per i rookie. Il britannico tornerà in macchina dalle libere 2.",
-      "tag": "Ferrari",
-      "source": "planetf1.com",
-      "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-las-vegas-grand-prix-2026-fp1",
-      "published": "2026-11-17T14:00:00Z"
-    },
-    {
-      "id": "2026-11-16-pirelli-strategia-las-vegas",
-      "title": "Pirelli porta C3, C4 e C5 a Las Vegas ma non sa quale strategia pagherà",
-      "summary": "Per la notte della Strip Pirelli ha scelto le tre mescole più morbide. Con l'asfalto freddo e il rischio graining il fornitore ammette che la tattica migliore resta un'incognita fino alle libere.",
-      "tag": "Gare",
-      "source": "Motorsport.com",
-      "url": "https://www.motorsport.com/f1/news/pirelli-doesnt-know-what-the-best-f1-strategy-is-for-las-vegas-gp/10778949/",
-      "published": "2026-11-16T15:00:00Z"
-    },
-    {
-      "id": "2026-11-16-camara-haas-las-vegas",
-      "title": "Câmara confermato alla Haas per Las Vegas, Hirakawa userà la vettura nelle libere 1",
-      "summary": "La Haas tiene il leader della F2 Rafael Câmara accanto a Bearman anche nel GP di Las Vegas, dopo l'esordio di Interlagos. Ryo Hirakawa salirà in macchina nella prima sessione di prove libere.",
-      "tag": "Team",
-      "source": "Sky Sports",
-      "url": "https://www.skysports.com/f1/news/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
-      "published": "2026-11-16T12:00:00Z"
-    },
-    {
-      "id": "2026-11-16-ferrari-look-las-vegas",
-      "title": "Ferrari, look speciale per Hamilton e Leclerc nel weekend di Las Vegas",
-      "summary": "La Scuderia ha confermato che a Las Vegas i suoi piloti si presenteranno con un'immagine rinnovata per l'appuntamento sulla Strip. Una scelta celebrativa per uno degli eventi più spettacolari del calendario.",
-      "tag": "Ferrari",
-      "source": "GPblog",
-      "url": "https://www.gpblog.com/en/news/ferrari-reveals-fresh-look-for-hamilton-and-leclerc-at-the-las-vegas-gp",
-      "published": "2026-11-16T10:00:00Z"
-    },
-    {
-      "id": "2026-11-16-hamilton-ferrari-secondo-posto",
-      "title": "Hamilton: prima difendere il secondo posto costruttori, poi pensare al 2027",
-      "summary": "Verso Las Vegas Hamilton chiede alla Ferrari di concentrarsi sul vicecampionato costruttori ancora in palio. Solo dopo, secondo il britannico, la squadra potrà voltare pagina e dedicarsi al progetto 2027.",
-      "tag": "Ferrari",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/lewis-hamilton-says-ferrari-must-165000794.html",
-      "published": "2026-11-16T07:50:00Z"
-    },
-    {
-      "id": "2026-11-15-trofeo-neon-las-vegas",
-      "title": "Las Vegas svela il trofeo del vincitore: si illumina come un'insegna della Strip",
-      "summary": "Gli organizzatori del GP di Las Vegas hanno presentato il nuovo trofeo per il vincitore, con un design luminoso al neon ispirato alle insegne della città. Sarà consegnato sul podio della gara di sabato notte.",
-      "tag": "Paddock",
-      "source": "Paddock News 24",
-      "url": "https://www.paddocknews24.com/en/news-f1/las-vegas-gp-trophy-revealed-the-neon-design-inspired-by-the-city",
-      "published": "2026-11-15T10:50:00Z"
-    },
-    {
-      "id": "2026-11-14-sainz-williams-fine-stagione",
-      "title": "Sainz: «Con questa Williams preferirei che Las Vegas fosse l'ultima gara»",
-      "summary": "Lo spagnolo ammette che la FW48 è lenta in ogni condizione e che il finale di stagione si preannuncia in salita. Per questo vedrebbe con favore una chiusura anticipata del 2026, con la testa già al progetto 2027.",
-      "tag": "Team",
-      "source": "f1-fansite.com",
-      "url": "https://www.f1-fansite.com/f1-news/sainz-would-welcome-an-early-end-to-williams-2026-misery/",
-      "published": "2026-11-14T09:00:00Z"
-    },
-    {
-      "id": "2026-11-13-williams-martins-riserva-vegas",
-      "title": "Williams sceglie Victor Martins come riserva per il GP di Las Vegas",
-      "summary": "Con Browning impegnato in Super Formula, sarà il francese dell'Academy Williams a tenersi pronto per sostituire Albon o Sainz. Non accadeva da Singapore.",
-      "tag": "Team",
-      "source": "Motorsport Week",
-      "url": "https://www.motorsportweek.com/2026/11/13/williams-f1-las-vegas-gp-reserve-driver/",
-      "published": "2026-11-13T18:10:00Z"
-    },
-    {
-      "id": "2026-11-13-antonelli-minaccia-verstappen",
-      "title": "Antonelli indica Verstappen come il rivale più pericoloso per il 2027",
-      "summary": "Il campione del mondo ritiene che sarà l'olandese a creargli più problemi nella difesa del titolo. Pesano le rimonte di Verstappen e la crescita della Red Bull nel finale di stagione.",
-      "tag": "Mondiale",
-      "source": "formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
-      "published": "2026-11-13T16:43:00Z"
-    },
-    {
-      "id": "2026-11-13-mercedes-budget-cap-giovani",
-      "title": "Wolff svela la proposta Mercedes alla FIA: più margine per pagare i giovani",
-      "summary": "Mercedes ha chiesto alla FIA una deroga al budget cap per alzare gli stipendi dei dipendenti nei primi anni di carriera. Wolff ammette che l'idea non è stata accolta con entusiasmo, mentre anche Williams spinge per rivedere il tetto di spesa.",
-      "tag": "Mercedes",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/mercedes-fia-formula-1-cost-cap",
-      "published": "2026-11-13T08:14:00Z"
-    },
-    {
-      "id": "2026-11-13-verstappen-gomme-freddo-vegas",
-      "title": "Verstappen: a Las Vegas la chiave sarà mandare in temperatura le gomme",
-      "summary": "Con l'asfalto previsto intorno ai 10-12 gradi, Verstappen indica il riscaldamento degli pneumatici come fattore decisivo per la Red Bull, insieme alla gestione dell'energia sul lungo rettilineo. L'olandese ammette di non sapere se la squadra sarà la favorita, visti i problemi passati sulle piste fredde e a bassa aderenza.",
-      "tag": "Red Bull",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/max-verstappen-reveals-key-red-bull-factor-in-facing-major-las-vegas-issue",
-      "published": "2026-11-13T06:20:00Z"
-    },
-    {
-      "id": "2026-11-13-red-bull-scambio-hadjar",
-      "title": "Mekies spiega perché Verstappen non ha restituito il secondo posto a Hadjar",
-      "summary": "In Brasile Hadjar aveva lasciato passare Verstappen chiedendo di riavere la posizione se Norris fosse rimasto irraggiungibile. Secondo Mekies lo scambio inverso era previsto, ma la pioggia ha aperto un distacco di oltre nove secondi rendendolo inutile.",
-      "tag": "Red Bull",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/red-bull-max-verstappen-isack-hadjar-team-radio",
-      "published": "2026-11-13T04:02:00Z"
-    },
-    {
-      "id": "2026-11-12-mercato-2027-ultimi-sedili",
-      "title": "Mercato 2027 quasi chiuso: Bottas in bilico in Cadillac, Herta in attesa",
-      "summary": "Con Lawson e Lindblad confermati in Racing Bulls resta da definire un ultimo posto: Bottas non ha certezze in Cadillac e il collaudatore Herta è il candidato principale. Bearman dovrebbe restare in Haas, mentre Ocon potrebbe ripartire da un ruolo di riserva.",
-      "tag": "Mercato",
-      "source": "formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/analysis-why-the-f1-driver-market-might-produce-one-last-twist-for-2027.6t7AwtqfHWkDqSgQZ3ElQ3",
-      "published": "2026-11-12T19:30:00Z"
-    },
-    {
-      "id": "2026-11-12-tsolov-riserva-red-bull-2027",
-      "title": "Tsolov sarà il pilota di riserva di Red Bull e Racing Bulls nel 2027",
-      "summary": "Rimasto senza sedile titolare, il bulgaro secondo in F2 avrà un programma fatto di FP1, test gomme, simulatore e chilometri con monoposto vecchie per prepararsi al debutto.",
-      "tag": "Red Bull",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/red-bull-nikola-tsolov-f1-2027-reserve-driver",
-      "published": "2026-11-12T15:29:00Z"
-    },
-    {
-      "id": "2026-11-12-russell-accademia-kart",
-      "title": "Russell lancia la GR63 Academy per scoprire giovani talenti del kart",
-      "summary": "Il pilota Mercedes ha fondato un'accademia di karting che partirà nel 2027: selezioni aperte a Silverstone da dicembre e un campionato interamente finanziato per i 25 migliori. In palio una stagione 2028 pagata.",
-      "tag": "Mercedes",
-      "source": "formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/karting-is-where-it-all-started-for-me-russell-launches-new-academy-to-develop-young-racers.5kVDwrQLjkeQ8bYLZ5sqQ2",
-      "published": "2026-11-12T13:09:00Z"
-    },
-    {
-      "id": "2026-11-12-honda-indagine-batteria-stroll",
-      "title": "Honda indaga sulla batteria dopo il quattordicesimo ritiro di Stroll",
-      "summary": "Il guasto che ha fermato Stroll in Brasile si è già ripetuto più volte e la causa resta sconosciuta: Honda analizzerà dati e componenti per settimane per non portarsi il problema nel 2027.",
-      "tag": "Team",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/honda-investigation-lance-stroll-aston-martin-battery",
-      "published": "2026-11-12T12:47:00Z"
-    },
-    {
-      "id": "2026-11-12-racing-bulls-lawson-lindblad-2027",
-      "title": "Racing Bulls conferma Lawson e Lindblad anche per il 2027",
-      "summary": "La squadra di Faenza ha ufficializzato la coppia attuale per la prossima stagione: Lawson, nono nel mondiale con 15 arrivi a punti, si guadagna la conferma dopo settimane di incertezza.",
-      "tag": "Mercato",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/liam-lawson-racing-bulls-f1-2027-announcement",
-      "published": "2026-11-12T11:04:00Z"
-    },
-    {
-      "id": "2026-11-11-mclaren-novita-las-vegas",
-      "title": "McLaren porta altre novità a Las Vegas: le basi della monoposto 2027",
-      "summary": "Dopo il successo di Norris a Interlagos con ala anteriore e fondo nuovi, Stella annuncia ulteriori componenti per Las Vegas. L'ala anteriore introdotta in Brasile sarà presente anche sulla vettura di lancio 2027.",
-      "tag": "McLaren",
-      "source": "racer.com",
-      "url": "https://racer.com/2026/11/11/more-new-mclaren-developments-for-las-vegas-gp-as-team-pushes-to-keep-momentum-building",
-      "published": "2026-11-11T17:24:00Z"
-    },
-    {
-      "id": "2026-11-11-mercedes-brasile-gomme-fredde",
-      "title": "Mercedes spiega il Brasile: W17 fuori finestra con le gomme fredde",
-      "summary": "Dall'analisi del team emerge che sul bagnato le gomme lavoravano sotto la temperatura ideale, rendendo la vettura molto sovrasterzante. Antonelli e Russell avevano descritto la macchina come «rotta» e hanno chiuso solo quarto e quinto.",
-      "tag": "Mercedes",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/mercedes-brazilian-grand-prix-2026-investigation",
-      "published": "2026-11-11T16:21:00Z"
-    },
-    {
-      "id": "2026-11-11-limite-potenza-bagnato",
-      "title": "Limite di potenza sul bagnato, Lindblad e Bortoleto: «Impossibile sorpassare»",
-      "summary": "A Interlagos la potenza elettrica è stata ridotta da 350 a 250 kW per motivi di sicurezza sul bagnato. I due rookie lamentano che il taglio in rettilineo ha reso quasi impossibile attaccare o staccare gli avversari.",
-      "tag": "Paddock",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/f1-drivers-air-frustrations-after-speed-limit-introduction",
-      "published": "2026-11-11T11:30:00Z"
-    },
-    {
-      "id": "2026-11-11-bearman-haas-tre-settimane",
-      "title": "Bearman: «Tre settimane orribili per la Haas, per fortuna sono finite»",
-      "summary": "Dopo i ritiri di Austin e Città del Messico, a Interlagos Bearman è scivolato al 17° posto per soste lente ai box. La Haas resta settima tra i costruttori con appena tre punti di margine sull'Audi a tre gare dalla fine.",
-      "tag": "Team",
-      "source": "formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/bearman-relieved-horrible-three-weeks-for-haas-are-over.2DZIcOEVILLVUfQT00bStA",
-      "published": "2026-11-11T10:35:00Z"
-    },
-    {
-      "id": "2026-11-11-camara-haas-resto-stagione",
-      "title": "Câmara e la Haas trattano per il finale di stagione: «Non so ancora»",
-      "summary": "L'ingaggio del brasiliano era stato annunciato solo per Interlagos e ora si discute se resterà fino ad Abu Dhabi. Restare in F1 significherebbe però rinunciare alla corsa al titolo F2, di cui è leader.",
-      "tag": "Mercato",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/rafael-camara-reveals-discussions-to-see-out-f1-season-with-haas",
-      "published": "2026-11-11T01:05:00Z"
-    },
-    {
-      "id": "2026-11-10-hamilton-confine-gaza",
-      "title": "Hamilton al confine con Gaza prima di Las Vegas per conoscere gli aiuti umanitari",
-      "summary": "Il pilota Ferrari si è recato sul lato egiziano del valico di Rafah, incontrando operatori e responsabili della Mezzaluna Rossa a El Arish. Una visita fuori dalla pista arrivata due giorni dopo il suo 400° Gran Premio.",
-      "tag": "Paddock",
-      "source": "Grande Prêmio",
-      "url": "https://grandepremio.com/en/f1/f1-today-hamilton-visits-gaza-border-as-f1-drops-imola-and-las-vegas-finale-threat-emerges/",
-      "published": "2026-11-10T22:17:00Z"
-    },
-    {
-      "id": "2026-11-10-vowles-williams-passo-falso",
-      "title": "Vowles: «Ci siamo fatti prendere dall'entusiasmo, il 2026 è solo un passo falso»",
-      "summary": "Il team principal Williams riconosce che la squadra si è montata la testa dopo il quinto posto del 2025 e che il cambio di regolamento l'ha fatta scivolare al nono posto con 12 punti. Vowles dice di non sentire pressione sul suo ruolo e ritiene che il tetto di spesa stia allargando il divario tra i team.",
-      "tag": "Team",
-      "source": "Sky Sports",
-      "url": "https://www.skysports.com/f1/news/13610745/james-vowles-williams-boss-admits-team-got-carried-away-with-success-but-says-2026-f1-season-struggles-are-only-a-blip",
-      "published": "2026-11-10T19:46:00Z"
-    },
-    {
-      "id": "2026-11-10-ocon-haas-tribunale",
-      "title": "Ocon-Haas, il licenziamento rischia di finire in tribunale",
-      "summary": "Secondo Speed Week la separazione tra Ocon e la Haas, decisa dopo lo scontro con Komatsu in Messico, potrebbe sfociare in una disputa contrattuale. Ocon nega qualsiasi contatto fisico, mentre Wolff difende la scelta del team principal.",
-      "tag": "Team",
-      "source": "F1GrandPrix.it",
-      "url": "https://f1grandprix.motorionline.com/ocon-haas-licenziamento-battaglia-legale-wolff/",
-      "published": "2026-11-10T17:00:00Z"
-    },
-    {
-      "id": "2026-11-10-pirelli-wet-critiche",
-      "title": "Gomme da bagnato sotto accusa dopo Interlagos, Pirelli si difende",
-      "summary": "Hadjar, Verstappen e Sainz lamentano aquaplaning e una finestra di utilizzo troppo stretta per wet e intermedie; Norris teme il freddo di Las Vegas. Pirelli ribatte che intermedie e soft hanno funzionato come previsto.",
-      "tag": "Paddock",
-      "source": "F1GrandPrix.it",
-      "url": "https://f1grandprix.motorionline.com/f1-pirelli-le-gomme-wet-finiscono-sotto-accusa/",
-      "published": "2026-11-10T16:00:00Z"
-    },
-    {
-      "id": "2026-11-10-alonso-non-si-diverte",
-      "title": "Alonso ammette: «Non mi diverto più, faccio il mio lavoro»",
-      "summary": "Lo spagnolo è frustrato dal deficit della power unit Honda sui rettilinei, pur lodando la tenuta in curva dell'Aston Martin sul bagnato in Brasile. Il team, assicura, sa dove intervenire in vista del 2027.",
-      "tag": "Team",
-      "source": "F1GrandPrix.it",
-      "url": "https://f1grandprix.motorionline.com/alonso-non-si-diverte-piu-f1-problemi-honda/",
-      "published": "2026-11-10T15:00:00Z"
-    },
-    {
-      "id": "2026-11-10-verstappen-chiede-indagine",
-      "title": "Verstappen chiede a Red Bull di indagare: «In Brasile qualcosa non andava»",
-      "summary": "Secondo a Interlagos partendo dal fondo, Verstappen lamenta un sovrasterzo anomalo con le gomme slick nelle curve veloci e vuole capire se sulla vettura si sia rotto qualcosa o ci sia stata una perdita aerodinamica.",
-      "tag": "Red Bull",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/max-verstappen-calls-for-red-bull-investigation-there-is-something-wrong",
-      "published": "2026-11-10T13:20:00Z"
-    },
-    {
-      "id": "2026-11-10-fia-conferma-qatar-abu-dhabi",
-      "title": "Ufficiale: la FIA conferma Qatar e Abu Dhabi, Imola esce di scena",
-      "summary": "Ben Sulayem ha annunciato sui canali FIA che il conto alla rovescia per Lusail e Yas Marina è iniziato: il Mondiale si chiuderà in Medio Oriente come previsto. Tramonta così l'ipotesi di Imola come riserva per il 6 dicembre.",
-      "tag": "Calendario",
-      "source": "L'Altra Imola",
-      "url": "https://www.laltraimola.it/2026/11/10/f1-sfuma-lipotesi-imola-la-fia-conferma-i-gran-premi-di-qatar-e-abu-dhabi/",
-      "published": "2026-11-10T12:54:00Z"
-    },
-    {
-      "id": "2026-11-10-aduo-terzo-periodo",
-      "title": "ADUO, terzo periodo: la FIA non concede nuovi aiuti ai motoristi",
-      "summary": "La revisione FIA sulle gare da Zandvoort ad Austin lascia invariate le concessioni: Red Bull Powertrains resta il riferimento, Mercedes ha un'omologazione extra, mentre Ferrari, Audi e Honda mantengono il pacchetto massimo. La prossima verifica riguarderà le prime sei gare del 2027.",
-      "tag": "Paddock",
-      "source": "Sky Sport",
-      "url": "https://sport.sky.it/formula-1/2026/11/10/f1-risultati-aduo-2026-power-unit-fia",
-      "published": "2026-11-10T12:38:00Z"
-    },
-    {
-      "id": "2026-11-10-imola-verso-stop",
-      "title": "Imola verso lo stop: la F1 pronta a confermare Qatar e Abu Dhabi",
-      "summary": "Il termine per attivare Imola come riserva è arrivato e la FOM si prepara ad annunciare che il finale si correrà regolarmente a Lusail e Yas Marina. L'ufficialità potrebbe arrivare già in giornata.",
-      "tag": "Calendario",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/qatar-abu-dhabi-grand-prix-f1-2026-calendar-decision",
-      "published": "2026-11-10T11:23:00Z"
-    },
-    {
-      "id": "2026-11-10-ferrari-nero-giallo-las-vegas",
-      "title": "Ferrari in nero e giallo a Las Vegas: nuova divisa per Hamilton e Leclerc",
-      "summary": "Per il weekend sulla Strip la Scuderia abbandona il classico rosso nell'abbigliamento del team: insieme a PUMA ha preparato una collezione nera con dettagli gialli, con maglia e cappellino dedicati ai due piloti.",
-      "tag": "Ferrari",
       "source": "Formula1.it",
-      "url": "https://www.formula1.it/news/33893/1/ferrari-una-veste-inedita-per-las-vegas-ecco-la-nuova-collezione",
-      "published": "2026-11-10T09:28:00Z"
-    },
-    {
-      "id": "2026-11-09-norris-gomme-las-vegas",
-      "title": "Norris teme Las Vegas: con il freddo le gomme 2026 saranno difficilissime",
-      "summary": "Il vincitore di Interlagos prevede un weekend complicato sul circuito della Strip, dove le basse temperature metteranno in crisi pneumatici dalla finestra di utilizzo molto stretta. Preoccupazioni simili sono arrivate anche da Verstappen e Hadjar.",
-      "tag": "Gare",
-      "source": "Grande Prêmio",
-      "url": "https://grandepremio.com/en/f1/f1-today-red-bull-reveals-verstappen-hadjar-team-order-plan-as-norris-warns-of-las-vegas-trouble/",
-      "published": "2026-11-09T22:30:00Z"
-    },
-    {
-      "id": "2026-11-09-mercedes-indaga-antonelli",
-      "title": "Mercedes indaga sull'instabilità al posteriore che ha fatto girare Antonelli",
-      "summary": "Il campione del mondo ha segnalato un comportamento anomalo del retrotreno nelle curve veloci dopo il passaggio alle slick, prima del testacoda alla Senna S. La squadra sta analizzando il cambio di bilanciamento della vettura.",
-      "tag": "Mercedes",
-      "source": "Grande Prêmio",
-      "url": "https://grandepremio.com/en/f1/f1-today-red-bull-reveals-verstappen-hadjar-team-order-plan-as-norris-warns-of-las-vegas-trouble/",
-      "published": "2026-11-09T22:30:00Z"
-    },
-    {
-      "id": "2026-11-09-vicecampione-cinque-in-33-punti",
-      "title": "Vicecampionato aperto: cinque piloti racchiusi in 33 punti prima di Las Vegas",
-      "summary": "Con il titolo già di Antonelli, la sfida per il secondo posto coinvolge Verstappen, Russell, Hamilton, Leclerc e Norris, separati da appena 33 punti. Las Vegas apre il trittico finale con Qatar e Abu Dhabi, ancora legati alla situazione nel Golfo.",
-      "tag": "Mondiale",
-      "source": "RACER",
-      "url": "https://racer.com/2026/11/09/las-vegas-gp-to-be-free-to-watch-on-apple-tv",
-      "published": "2026-11-09T19:58:00Z"
-    },
-    {
-      "id": "2026-11-09-lawson-racing-bulls-attesa",
-      "title": "Lawson convince Red Bull, ma il sedile Racing Bulls 2027 resta in sospeso",
-      "summary": "Mekies ha elogiato la gara di Lawson in Brasile, precisando però che la scelta spetta alla Racing Bulls e che non c'è fretta. In corsa per il posto c'è anche Tsolov dalla F2.",
-      "tag": "Mercato",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/red-bull-liam-lawson-racing-bulls-stall-contract-decision",
-      "published": "2026-11-09T18:55:00Z"
-    },
-    {
-      "id": "2026-11-09-wolff-russell-secondo",
-      "title": "Wolff vuole Russell vicecampione, ma George pensa alla prestazione",
-      "summary": "Il team principal Mercedes punta al secondo posto di Russell, ora a 17 punti da Verstappen, e lascia intendere che potrebbe essere favorito su Antonelli nelle ultime gare. Il britannico però dice di badare più al rendimento che ai risultati.",
-      "tag": "Mercedes",
-      "source": "GPblog",
-      "url": "https://www.gpblog.com/en/news/russell-plays-down-verstappen-chase-as-wolff-wants-him-to-finish-second",
-      "published": "2026-11-09T16:30:00Z"
-    },
-    {
-      "id": "2026-11-09-hamilton-ferrari-indagine-sf26",
-      "title": "Hamilton «devastato» dopo Interlagos: Ferrari indaga sulla SF-26 prima di Las Vegas",
-      "summary": "Il britannico, nono al traguardo in Brasile, ha puntato il dito su gomme e sovrasterzo nelle condizioni difficili di Interlagos. A Maranello è partita un'analisi approfondita della vettura in vista del prossimo appuntamento.",
-      "tag": "Ferrari",
-      "source": "planetf1.com",
-      "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-sf-26-investigation-f1-2026-brazilian-grand-prix",
-      "published": "2026-11-09T16:23:00Z"
-    },
-    {
-      "id": "2026-11-09-piastri-lascia-webber",
-      "title": "Piastri chiude il rapporto con il manager Mark Webber dopo sette anni",
-      "summary": "Il pilota McLaren e lo staff guidato da Mark e Ann Webber si separano di comune accordo; la scelta segue la presenza ridotta di Webber ai circuiti in questa stagione. Piastri ha ringraziato entrambi per il sostegno ricevuto dal 2019.",
-      "tag": "McLaren",
-      "source": "RACER",
-      "url": "https://racer.com/2026/11/09/piastri-parts-ways-with-manager-webber",
-      "published": "2026-11-09T12:33:00Z"
-    },
-    {
-      "id": "2026-11-09-mekies-verstappen-simulazioni",
-      "title": "Mekies: «In Brasile Verstappen è andato oltre le nostre simulazioni»",
-      "summary": "Il team principal Red Bull ha spiegato che la rimonta di Verstappen dal fondo al secondo posto a Interlagos ha superato quanto previsto dagli strumenti di simulazione della squadra. Secondo Mekies non è la prima volta che l'olandese batte i numeri del simulatore.",
-      "tag": "Red Bull",
-      "source": "formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/mekies-explains-how-verstappen-outperformed-red-bulls-own-simulations-in-brazil.1ps87tyvjdEf23vDCaDXOZ",
-      "published": "2026-11-09T12:30:00Z"
-    },
-    {
-      "id": "2026-11-09-leclerc-allarme-las-vegas",
-      "title": "Leclerc avverte: con il freddo di Las Vegas la Ferrari rischia di soffrire ancora",
-      "summary": "Dopo un Brasile in cui la vettura era quasi inguidabile per la difficoltà a scaldare le gomme, il monegasco teme che le basse temperature notturne del Nevada possano riproporre lo stesso problema.",
-      "tag": "Ferrari",
-      "source": "grandepremio.com",
-      "url": "https://grandepremio.com/en/f1/leclerc-warns-ferrari-faces-more-trouble-in-las-vegas-after-undriveable-sao-paulo-gp/",
-      "published": "2026-11-09T11:30:00Z"
-    },
-    {
-      "id": "2026-11-09-ben-sulayem-qatar-abu-dhabi",
-      "title": "Ben Sulayem: Qatar e Abu Dhabi restano in calendario nonostante le tensioni",
-      "summary": "Il presidente della FIA assicura che le ultime due gare del 2026 si disputeranno come previsto, anche se la Dakar 2027 lascia l'Arabia Saudita per motivi di sicurezza. Nella stessa intervista apre al ritorno dei V8 e a un possibile dodicesimo team cinese.",
-      "tag": "Calendario",
-      "source": "The National",
-      "url": "https://www.thenationalnews.com/sport/f1/2026/11/09/exclusive-mohammed-ben-sulayem-abu-dhabi-qatar-gp/",
-      "published": "2026-11-09T09:40:00Z"
-    },
-    {
-      "id": "2026-11-09-audi-haas-settimo-posto",
-      "title": "Audi a tre punti dalla Haas: lotta aperta per il settimo posto costruttori",
-      "summary": "Dopo Interlagos la Haas resta davanti all'Audi 31 a 28 nella classifica costruttori. Hülkenberg ha salvato un punto nonostante una penalità di 10 secondi, mentre Bortoleto ha chiuso sedicesimo nella gara di casa.",
-      "tag": "Team",
-      "source": "Formula1.it",
-      "url": "https://www.formula1.it/news/33874/1/audi-mette-nel-mirino-la-haas-tre-punti-di-distacco-e-un-finale-tutto-da-vivere",
-      "published": "2026-11-09T07:55:00Z"
-    },
-    {
-      "id": "2026-11-08-penalita-dopo-brasile",
-      "title": "Penalità post gara in Brasile: Leclerc scivola ottavo, Lawson guadagna una posizione",
-      "summary": "I commissari danno 5 secondi a Leclerc per il contatto con Lawson alla curva 12 e altrettanti ad Antonelli e Bearman per rilasci pericolosi ai box; Antonelli conserva comunque il quinto posto.",
-      "tag": "Gare",
-      "source": "GPblog",
-      "url": "https://www.gpblog.com/en/breaking-news/fia-delivers-double-penalty-following-brazilian-gp-investigations",
-      "published": "2026-11-08T21:31:00Z"
-    },
-    {
-      "id": "2026-11-08-camara-bottas-brasile",
-      "title": "Brasile amaro per Câmara e Bottas: esordio in fondo e mancato via",
-      "summary": "Al debutto in F1 con la Haas, Câmara ha chiuso ultimo tra i classificati a due giri, frenato anche dalle penalità per i limiti della pista. Bottas invece non è partito per un dado ruota avvitato storto che ha bloccato la ruota in griglia.",
-      "tag": "Gare",
-      "source": "The Race",
-      "url": "https://www.the-race.com/formula-1/winners-and-losers-from-f1-2026-brazilian-grand-prix/",
-      "published": "2026-11-08T20:50:00Z"
-    },
-    {
-      "id": "2026-11-08-vasseur-ferrari-incostante",
-      "title": "Vasseur: «Ferrari troppo discontinua in gara», sotto accusa le pressioni gomme",
-      "summary": "Il team principal ha spiegato che il calo di Hamilton dopo l'ottima partenza è legato probabilmente alla pressione degli pneumatici, problema che ha frenato la Ferrari per tutta la gara di Interlagos.",
-      "tag": "Ferrari",
-      "source": "PaddockNews24",
-      "url": "https://paddocknews24.com/news-f1-notizie/f1-vasseur-fa-chiarezza-individuate-le-cause-delle-difficolta-ferrari-in-brasile",
-      "published": "2026-11-08T20:30:00Z"
-    },
-    {
-      "id": "2026-11-08-ferrari-brasile-delusione",
-      "title": "Ferrari senza acuti in Brasile: Leclerc settimo, Hamilton nono doppiato",
-      "summary": "Hamilton, scattato dal fondo, ha dovuto restituire una posizione a Bearman e nel finale è finito in testacoda tentando le slick sul bagnato; Leclerc non è andato oltre la settima piazza.",
-      "tag": "Ferrari",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-race-report",
-      "published": "2026-11-08T18:52:00Z"
-    },
-    {
-      "id": "2026-11-08-mercedes-campione-costruttori",
-      "title": "Mercedes campione del mondo costruttori con tre gare d'anticipo",
-      "summary": "Nonostante i testacoda di Antonelli e Russell, la squadra di Brackley chiude quarta e quinta e mette al sicuro il titolo: il vantaggio su Ferrari non è più colmabile.",
-      "tag": "Mercedes",
-      "source": "RaceFans",
-      "url": "https://www.racefans.net/2026/11/08/2026-brazilian-grand-prix-race-result-and-championship-points/",
-      "published": "2026-11-08T18:50:00Z"
-    },
-    {
-      "id": "2026-11-08-verstappen-rimonta-brasile",
-      "title": "Verstappen dal fondo al secondo posto, Hadjar completa il podio Red Bull",
-      "summary": "Partito in coda per la penalità sulla power unit, l'olandese risale fino alla seconda piazza; nel corso della gara Red Bull ha scambiato le posizioni dei suoi piloti.",
-      "tag": "Red Bull",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil",
-      "published": "2026-11-08T18:48:00Z"
-    },
-    {
-      "id": "2026-11-08-norris-vince-interlagos",
-      "title": "Norris domina sotto la pioggia di Interlagos e vince il GP del Brasile",
-      "summary": "Il pilota McLaren, partito dalla pole, approfitta del testacoda di Antonelli al giro 16 e controlla la gara fino al traguardo con quasi 15 secondi di margine.",
-      "tag": "Gare",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-race-report",
-      "published": "2026-11-08T18:45:00Z"
-    },
-    {
-      "id": "2026-11-07-griglia-brasile-penalita",
-      "title": "Griglia del Brasile rivoluzionata: Antonelli in prima fila, Leclerc e Hamilton indietro",
-      "summary": "Russell scala di cinque posizioni per il motore e cede la prima fila al compagno. Leclerc perde dieci posti, mentre Hamilton (cambio completo di power unit), Verstappen e Pérez partiranno dal fondo.",
-      "tag": "Ferrari",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/brazilian-grand-prix-2026-penalty-fia",
-      "published": "2026-11-07T20:40:00Z"
-    },
-    {
-      "id": "2026-11-07-alonso-q3-aston",
-      "title": "Alonso porta l'Aston Martin in Q3 per la prima volta nel 2026",
-      "summary": "Sul bagnato lo spagnolo ha centrato la prima Q3 stagionale della squadra, chiudendo nono. In Q2 sono usciti invece Hamilton e Piastri, con Câmara finito contro il muro al debutto.",
-      "tag": "Team",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-qualifying-report",
-      "published": "2026-11-07T20:35:00Z"
-    },
-    {
-      "id": "2026-11-07-norris-pole-interlagos",
-      "title": "Interlagos, Norris in pole nel caos della pioggia davanti a Russell",
-      "summary": "Il pilota McLaren ha domato la pista bagnata in Q3 rifilando 0,204 secondi a Russell. Per Norris è la terza pole del 2026; Antonelli completa il podio virtuale delle qualifiche.",
-      "tag": "Gare",
-      "source": "Crash.net",
-      "url": "https://www.crash.net/f1/news/1109818/1/lando-norris-takes-pole-heavily-delayed-wet-brazil-gp-qualifying",
-      "published": "2026-11-07T20:30:00Z"
-    },
-    {
-      "id": "2026-11-07-qualifiche-pioggia-bandiera-rossa",
-      "title": "Interlagos, diluvio sulle qualifiche: bandiera rossa e ripartenza dopo 83 minuti",
-      "summary": "Un violento temporale ha costretto la direzione gara a esporre la bandiera rossa a pochi minuti dall'inizio della Q1, con acqua stagnante in pista e un'allerta meteo per il pubblico. Dopo l'ispezione della safety car la sessione è ripresa alle 16:26 locali (20:26 italiane).",
-      "tag": "Gare",
-      "source": "GPblog",
-      "url": "https://www.gpblog.com/en/breaking-news/positive-update-raises-hopes-of-qualifying-restart-as-new-start-time-emerges",
-      "published": "2026-11-07T19:30:00Z"
-    },
-    {
-      "id": "2026-11-07-libere3-verstappen-interlagos",
-      "title": "Interlagos, Verstappen il più rapido nelle libere 3 davanti ad Antonelli",
-      "summary": "Nell'ultima sessione di prove l'olandese della Red Bull ha girato in 1:11.622, appena 25 millesimi meglio di Antonelli, con Norris e Russell a seguire. Pomeriggio complicato per Hamilton, fermato da vibrazioni al motore e fumo in abitacolo.",
-      "tag": "Gare",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/f1-results-brazilian-grand-prix-2026-fp3-interlagos",
-      "published": "2026-11-07T15:35:00Z"
-    },
-    {
-      "id": "2026-11-07-penalita-motore-verstappen-leclerc-hamilton",
-      "title": "Interlagos, Verstappen, Pérez, Leclerc e Hamilton oltre il limite delle power unit",
-      "summary": "Il rapporto tecnico FIA segnala che i quattro hanno montato componenti oltre l'allocazione stagionale, con Verstappen e Pérez fuori quota su tre elementi. Le penalità in griglia saranno definite dopo le qualifiche.",
-      "tag": "Gare",
-      "source": "GPblog",
-      "url": "https://www.gpblog.com/en/breaking-news/verstappen-and-ferrari-pair-exceed-engine-limits-at-sao-paulo-gp",
-      "published": "2026-11-07T14:46:00Z"
-    },
-    {
-      "id": "2026-11-10-imola-scadenza-finale",
-      "title": "Scade oggi il termine per Imola: il finale in Medio Oriente resta in bilico",
-      "summary": "Il 10 novembre è l'ultima data utile per attivare Imola come gara sostitutiva il 6 dicembre, come confermato anche da Komatsu. Qatar e Abu Dhabi restano in calendario; se saltassero dopo oggi, la stagione potrebbe chiudersi a Las Vegas.",
-      "tag": "Calendario",
-      "source": "dpa / Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/reports-formula-one-tuesday-deadline-121834758.html",
-      "published": "2026-11-07T12:18:00Z"
-    },
-    {
-      "id": "2026-11-07-verstappen-sterzo-interlagos",
-      "title": "Verstappen chiede a Red Bull di risolvere un problema allo sterzo prima delle qualifiche",
-      "summary": "L'olandese, terzo nelle seconde libere a 0,259 da Antonelli, ha lamentato un difetto allo sterzo già emerso in FP1; il team aveva fermato in anticipo la sua sessione per intervenire sull'assetto da gara. Per le qualifiche il rischio pioggia è stimato tra il 50 e il 70%.",
-      "tag": "Red Bull",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/max-verstappen-urges-red-bull-problem-fix-as-wet-weather-plea-issued",
-      "published": "2026-11-07T11:20:00Z"
-    },
-    {
-      "id": "2026-11-07-russell-indagine-mercedes",
-      "title": "Russell spera nella fine dei guai: Mercedes indaga dopo il Messico",
-      "summary": "Dopo un GP del Messico segnato da un problema in partenza e da una penalità, Russell arriva a Interlagos con aspettative basse. Secondo i suoi ingegneri solo sei gare della stagione sono state prive di inconvenienti.",
-      "tag": "Mercedes",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/george-russell-praying-mercedes-issues-end-as-post-mexico-investigation-launched",
-      "published": "2026-11-07T08:00:00Z"
-    },
-    {
-      "id": "2026-11-06-camara-reprimenda-leclerc",
-      "title": "Interlagos, solo una reprimenda a Câmara per l'ostacolo a Leclerc nelle libere 2",
-      "summary": "I commissari hanno chiuso l'indagine sull'episodio delle seconde libere con una reprimenda per l'esordiente della Haas, che aveva rallentato il giro veloce del ferrarista. Nessuna penalità in griglia per il brasiliano.",
-      "tag": "Paddock",
-      "source": "F1Mania",
-      "url": "https://www.f1mania.net/f1/f1-camara-recebe-reprimenda-por-bloquear-leclerc-no-tl2-do-brasil/",
-      "published": "2026-11-06T22:10:00Z"
-    },
-    {
-      "id": "2026-11-06-libere2-antonelli-interlagos",
-      "title": "Interlagos, Antonelli davanti a tutti nelle seconde libere; Leclerc-Câmara sotto indagine",
-      "summary": "Nella seconda sessione di prove in Brasile il campione Antonelli ha preceduto Norris di circa due decimi e mezzo, con Verstappen terzo. I commissari esamineranno dopo la sessione un contatto tra Leclerc e l'esordiente della Haas Câmara.",
-      "tag": "Gare",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-fp2-report",
-      "published": "2026-11-06T20:02:00Z"
-    },
-    {
-      "id": "2026-11-06-libere1-norris-interlagos",
-      "title": "Interlagos, Norris il più veloce nelle prime libere davanti ad Antonelli",
-      "summary": "Con la McLaren aggiornata Norris chiude la FP1 in 1:11.717, 82 millesimi meglio del neocampione Antonelli; terzo Verstappen e quarto Hamilton con la Ferrari. Breve bandiera rossa per il guasto all'Audi del debuttante Slater, Albon fermo per un problema al servosterzo.",
-      "tag": "Gare",
-      "source": "GPblog",
-      "url": "https://www.gpblog.com/en/news/f1-full-results-lando-norris-tops-brazilian-gp-fp1-from-kimi-antonelli",
-      "published": "2026-11-06T16:32:00Z"
-    },
-    {
-      "id": "2026-11-06-vasseur-confronto-hamilton-leclerc",
-      "title": "Ferrari, Vasseur riunisce Hamilton e Leclerc per chiarire dopo il Messico",
-      "summary": "Dopo il duello ravvicinato di Città del Messico e le dichiarazioni incrociate dei due piloti, il team principal ha convocato Hamilton e Leclerc a Interlagos per un faccia a faccia sulle regole interne.",
-      "tag": "Ferrari",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/f1-alta-tensione-in-casa-ferrari-vasseur-convoca-hamilton-e-leclerc-per-un-confronto-in-brasile/",
-      "published": "2026-11-06T13:45:00Z"
-    },
-    {
-      "id": "2026-11-06-domenicali-medio-oriente",
-      "title": "Domenicali prudente: Qatar e Abu Dhabi restano in programma «a questo punto»",
-      "summary": "Nella presentazione dei conti di Liberty Media l'amministratore delegato della F1 ha confermato l'intenzione di chiudere la stagione in Medio Oriente, senza però dare garanzie assolute. I ricavi, dopo il calo di primavera, sono tornati ai livelli del 2025.",
-      "tag": "Calendario",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/f1-boss-gives-cautious-at-this-stage-verdict-on-season-ending-middle-east-races",
-      "published": "2026-11-06T10:55:00Z"
-    },
-    {
-      "id": "2026-11-06-russell-penalita-motore",
-      "title": "Russell partirà cinque posizioni più indietro a Interlagos per il motore",
-      "summary": "La Mercedes ha montato un nuovo motore termico oltre il limite stagionale sulla vettura di Russell, che sconterà cinque posizioni sulla griglia del GP del Brasile. Il pilota ha spiegato che la squadra ha scelto questo weekend per assorbire la penalità.",
-      "tag": "Mercedes",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/george-russell-eyes-lewis-hamilton-heroics-as-brazil-grid-penalty-confirmed",
-      "published": "2026-11-06T09:40:00Z"
-    },
-    {
-      "id": "2026-11-06-permane-rinnovo-racing-bulls",
-      "title": "Racing Bulls, Permane rinnova da team principal fino al 2031",
-      "summary": "Alan Permane ha firmato un nuovo contratto di lungo periodo con la Racing Bulls, dove resterà team principal e co-amministratore delegato per la parte sportiva fino alla fine del 2031.",
-      "tag": "Team",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/red-bull-make-key-decision-as-senior-racing-bulls-figure-handed-contract-extension",
-      "published": "2026-11-06T09:05:00Z"
-    },
-    {
-      "id": "2026-11-05-verstappen-interlagos",
-      "title": "Verstappen: «Interlagos imprevedibile, il secondo posto nel Mondiale è una sorpresa»",
-      "summary": "Nella conferenza del giovedì l'olandese della Red Bull ha elogiato la pista brasiliana, dove pioggia e consumo delle gomme possono rimescolare le carte. Si è detto stupito di trovarsi secondo in classifica alle spalle del campione Antonelli.",
-      "tag": "Red Bull",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/f1-max-verstappen-interlagos-e-fantastica-ci-sono-tante-variabili-essere-secondo-nel-mondiale-e-una-sorpresa/",
-      "published": "2026-11-05T17:51:00Z"
-    },
-    {
-      "id": "2026-11-05-alonso-interlagos",
-      "title": "Alonso frena le attese a Interlagos: «Per noi competitivi vuol dire 12° o 13°»",
-      "summary": "Il pilota Aston Martin, che a Interlagos ha vinto entrambi i suoi titoli, vede la squadra in crescita da Sepang ma punta a una qualifica a centro gruppo per raccogliere punti. Non teme problemi in caso di pioggia, pur ricordando quanto la salita della pista renda insidioso il bagnato.",
-      "tag": "Team",
-      "source": "f1world.it",
-      "url": "https://f1world.it/gp-brasile-la-conferenza-stampa-alonso-camara-e-verstappen/",
-      "published": "2026-11-05T17:48:00Z"
-    },
-    {
-      "id": "2026-11-05-camara-conferenza",
-      "title": "Câmara in conferenza: «A Interlagos voglio capire la Haas e divertirmi»",
-      "summary": "Il brasiliano, al debutto in F1 al posto di Ocon, non ha mai girato a Interlagos e si è preparato al simulatore. Sul possibile addio alla corsa al titolo F2 dice che con il team non se n'è ancora parlato.",
-      "tag": "Paddock",
-      "source": "Napoli Magazine",
-      "url": "https://www.napolimagazine.com/motori/articolo/f1-camara-al-debutto-nel-suo-brasile-prover-a-divertirmi-05-11-2026",
-      "published": "2026-11-05T17:36:00Z"
-    },
-    {
-      "id": "2026-11-05-allerta-pioggia-interlagos",
-      "title": "Allerta maltempo a Interlagos: rischio allagamenti per le qualifiche",
-      "summary": "La F1 ha avvisato le squadre che forti piogge potrebbero creare pozze d'acqua in pista, con le qualifiche di sabato come sessione più esposta. Anche domenica sono previsti temporali, con temperature massime intorno ai 19 gradi.",
-      "tag": "Gare",
-      "source": "Read Motorsport",
-      "url": "https://readmotorsport.com/2026/11/05/f1-warns-of-possible-flooding-at-interlagos-ahead-of-sao-paulo-grand-prix/",
-      "published": "2026-11-05T15:56:00Z"
-    },
-    {
-      "id": "2026-11-05-sette-rookie-fp1-interlagos",
-      "title": "Sette debuttanti al volante nelle FP1 di Interlagos",
-      "summary": "Nella prima sessione di prove a San Paolo scenderanno in pista Fornaroli (McLaren), Beganovic (Ferrari), Browning (Williams), Slater (Audi), Mini (Alpine) e Herta (Cadillac), oltre a Câmara che con la Haas correrà l'intero weekend.",
-      "tag": "Paddock",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/the-seven-f1-rookies-who-will-drive-in-sao-paulo-grand-prix-fp1",
-      "published": "2026-11-05T14:50:00Z"
-    },
-    {
-      "id": "2026-11-06-antonelli-livrea-senna",
-      "title": "Antonelli porta i colori di Senna a Interlagos con una livrea speciale",
-      "summary": "Il neo campione del mondo correrà in Brasile con una Mercedes dalla grafica dedicata ad Ayrton Senna, omaggio al tre volte iridato nel suo Gran Premio di casa.",
-      "tag": "Mercedes",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/f1-kimi-antonelli-avra-una-livrea-speciale-in-brasile-nel-ricordo-del-mito-ayrton-senna/",
-      "published": "2026-11-05T14:00:00Z"
-    },
-    {
-      "id": "2026-11-05-stroll-salta-media-day",
-      "title": "Stroll salta il media day di Interlagos per un'infezione virale",
-      "summary": "Il pilota Aston Martin si sta riprendendo da un virus contratto dopo il GP del Messico e non sarà in pista con i media giovedì. Il team è fiducioso di riaverlo nel paddock già venerdì; Alonso lo sostituisce in conferenza stampa.",
-      "tag": "Paddock",
-      "source": "F1 Live Pulse",
-      "url": "https://blog.f1livepulse.com/it/stroll-non-sara-al-media-day-di-san-paolo-colpito-da-uninfezione",
-      "published": "2026-11-05T12:19:00Z"
-    },
-    {
-      "id": "2026-11-05-leclerc-hamilton-chiarimento",
-      "title": "Leclerc: parlerò con Hamilton del duello in Messico, regole da chiarire",
-      "summary": "Il monegasco annuncia un confronto con il compagno sul contatto di Città del Messico, giudicando anche la manovra di Hamilton al limite. Chiede inoltre regole più rigide per eliminare le zone grigie dei tracciati.",
-      "tag": "Ferrari",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/charles-leclerc-confirms-lewis-hamilton-talks-intention-after-grey-area-exposed",
-      "published": "2026-11-05T09:40:00Z"
-    },
-    {
-      "id": "2026-11-05-morto-alan-jones",
-      "title": "Addio ad Alan Jones, campione del mondo 1980 con la Williams",
-      "summary": "L'australiano è scomparso a 80 anni, pochi giorni dopo il compleanno, dopo una breve malattia. Portò alla Williams il primo titolo piloti e in carriera vinse 12 Gran Premi, prima di diventare commentatore e commissario FIA.",
-      "tag": "Paddock",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/williams-release-statement-after-legend-alan-jones-saddening-death",
-      "published": "2026-11-05T08:19:00Z"
-    },
-    {
-      "id": "2026-11-05-audi-livrea-interlagos",
-      "title": "Audi, livrea speciale per Interlagos dedicata a Bortoleto",
-      "summary": "Per la gara di casa del brasiliano la monoposto sfoggia il motivo della pavimentazione tipica di San Paolo. Lo stesso disegno compare su tute, abbigliamento dei meccanici e box.",
-      "tag": "Team",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/audi-take-covers-off-striking-sao-paulo-grand-prix-special-livery",
-      "published": "2026-11-05T07:33:00Z"
-    },
-    {
-      "id": "2026-11-05-norris-aggiornamenti-mclaren",
-      "title": "Norris scettico sulle novità McLaren per Interlagos: «La macchina è difficile»",
-      "summary": "La McLaren porta in Brasile ala anteriore, ala posteriore e fondo nuovi, ma Norris dubita che bastino a risolvere i problemi di guida della vettura. Il britannico rifiuta però di parlare di stagione fallimentare.",
-      "tag": "McLaren",
-      "source": "Sky Sports",
-      "url": "https://www.skysports.com/f1/news/13607894/lando-norris-mclaren-driver-unsure-if-sao-paulo-grand-prix-upgrades-will-improve-horrible-mclaren-car",
-      "published": "2026-11-05T06:07:00Z"
+      "url": "https://www.formula1.it/news/33735/1/la-mercedes-si-tinge-di-viola-in-brasile-svelate-le-tute-speciali-per-il-gp",
+      "published": "2026-11-04T16:25:00Z"
     },
     {
       "id": "2026-11-04-fsg-cadillac",
@@ -902,197 +199,901 @@
       "published": "2026-11-04T22:30:00Z"
     },
     {
-      "id": "2026-11-04-mercedes-tute-viola",
-      "title": "Mercedes in viola a Interlagos: tute speciali per Antonelli e Russell",
-      "summary": "Nel weekend brasiliano i due piloti Mercedes indosseranno tute viola nate dalla collaborazione con un marchio bancario locale, protagonista anche di una fan zone a San Paolo con una replica della W17.",
-      "tag": "Mercedes",
-      "source": "Formula1.it",
-      "url": "https://www.formula1.it/news/33735/1/la-mercedes-si-tinge-di-viola-in-brasile-svelate-le-tute-speciali-per-il-gp",
-      "published": "2026-11-04T16:25:00Z"
+      "id": "2026-11-05-norris-aggiornamenti-mclaren",
+      "title": "Norris scettico sulle novità McLaren per Interlagos: «La macchina è difficile»",
+      "summary": "La McLaren porta in Brasile ala anteriore, ala posteriore e fondo nuovi, ma Norris dubita che bastino a risolvere i problemi di guida della vettura. Il britannico rifiuta però di parlare di stagione fallimentare.",
+      "tag": "McLaren",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13607894/lando-norris-mclaren-driver-unsure-if-sao-paulo-grand-prix-upgrades-will-improve-horrible-mclaren-car",
+      "published": "2026-11-05T06:07:00Z"
     },
     {
-      "id": "2026-11-04-vasseur-anteprima-brasile",
-      "title": "Vasseur verso Interlagos: Ferrari compatta per cogliere ogni occasione",
-      "summary": "Dopo i progressi visti in Messico e le polemiche sul duello interno, il team principal della Ferrari chiede alla squadra di restare concentrata nel weekend sprint brasiliano per massimizzare il risultato.",
-      "tag": "Ferrari",
-      "source": "Motorsport.com",
-      "url": "https://it.motorsport.com/f1/news/f1-vasseur-a-interlagos-dovremo-rimanere-concentrati-per-sfruttare-al-meglio-ogni-opportunita/10871514/",
-      "published": "2026-11-04T16:00:00Z"
-    },
-    {
-      "id": "2026-11-04-leclerc-papa-beganovic-fp1",
-      "title": "Leclerc diventa papà: salta le FP1 di Interlagos, al suo posto Beganovic",
-      "summary": "Martedì è nata Bianca, la prima figlia di Charles e Alexandra: il monegasco salterà gli impegni media del giovedì e la prima sessione di libere. Sulla SF-26 in FP1 salirà Dino Beganovic della Ferrari Driver Academy, mentre Leclerc è atteso in Brasile venerdì.",
-      "tag": "Ferrari",
-      "source": "Automoto.it",
-      "url": "https://www.automoto.it/formula1/f1-leclerc-papa-nascita-bianca-ferrari-beganovic-gp-brasile-haas-camara.html",
-      "published": "2026-11-04T15:00:00Z"
-    },
-    {
-      "id": "2026-11-04-hamilton-400-gp",
-      "title": "Hamilton taglia il traguardo dei 400 Gran Premi in Brasile",
-      "summary": "A Interlagos il pilota Ferrari disputerà il suo 400° GP in carriera, diventando solo il secondo nella storia della F1 a raggiungere questa cifra.",
-      "tag": "Ferrari",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/lewis-hamilton-key-milestones-ahead-of-landmark-400th-f1-grand-prix",
-      "published": "2026-11-04T10:40:00Z"
-    },
-    {
-      "id": "2026-11-04-herta-fp1-interlagos",
-      "title": "Herta ci riprova: FP1 a Interlagos con Cadillac per la superlicenza",
-      "summary": "Colton Herta guiderà la Cadillac al posto di Pérez nelle prime libere in Brasile per completare i 100 km necessari a ottenere l'ultimo punto della superlicenza. In Messico un errore nel calcolo dei punti lo aveva lasciato a un passo dall'obiettivo.",
+      "id": "2026-11-05-audi-livrea-interlagos",
+      "title": "Audi, livrea speciale per Interlagos dedicata a Bortoleto",
+      "summary": "Per la gara di casa del brasiliano la monoposto sfoggia il motivo della pavimentazione tipica di San Paolo. Lo stesso disegno compare su tute, abbigliamento dei meccanici e box.",
       "tag": "Team",
       "source": "RacingNews365",
-      "url": "https://racingnews365.com/colton-herta-takes-second-stab-at-overcoming-crucial-fia-hurdle-in-pursuit-of-f1",
-      "published": "2026-11-04T09:50:00Z"
+      "url": "https://racingnews365.com/audi-take-covers-off-striking-sao-paulo-grand-prix-special-livery",
+      "published": "2026-11-05T07:33:00Z"
     },
     {
-      "id": "2026-11-04-antonelli-trofeo",
-      "title": "Antonelli riceverà il trofeo iridato al Gala FIA del 12 dicembre",
-      "summary": "Il campione del mondo 2026 non alzerà la coppa in pista: la FIA gliela consegnerà alla cerimonia di premiazione di fine anno. L'originale resta alla Federazione, al pilota andrà una replica ufficiale dal valore stimato di circa 35mila euro.",
-      "tag": "Mondiale",
-      "source": "Fanpage.it",
-      "url": "https://fanpage.it/sport/motori/kimi-antonelli-non-ha-ancora-avuto-il-trofeo-di-campione-f1-per-tenerlo-dovra-pagare-35mila-euro",
-      "published": "2026-11-04T06:24:00Z"
+      "id": "2026-11-05-morto-alan-jones",
+      "title": "Addio ad Alan Jones, campione del mondo 1980 con la Williams",
+      "summary": "L'australiano è scomparso a 80 anni, pochi giorni dopo il compleanno, dopo una breve malattia. Portò alla Williams il primo titolo piloti e in carriera vinse 12 Gran Premi, prima di diventare commentatore e commissario FIA.",
+      "tag": "Paddock",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/williams-release-statement-after-legend-alan-jones-saddening-death",
+      "published": "2026-11-05T08:19:00Z"
     },
     {
-      "id": "2026-11-04-brundle-avverte-ferrari",
-      "title": "Brundle avverte la Ferrari: lo scontro Hamilton-Leclerc si ripeterà",
-      "summary": "Secondo Martin Brundle il duello interno visto al via in Messico, costato a Leclerc una penalità e alla Ferrari la vittoria, è destinato a ripresentarsi. Il commentatore invita il team a gestire la rivalità prima del Brasile.",
+      "id": "2026-11-05-leclerc-hamilton-chiarimento",
+      "title": "Leclerc: parlerò con Hamilton del duello in Messico, regole da chiarire",
+      "summary": "Il monegasco annuncia un confronto con il compagno sul contatto di Città del Messico, giudicando anche la manovra di Hamilton al limite. Chiede inoltre regole più rigide per eliminare le zone grigie dei tracciati.",
       "tag": "Ferrari",
       "source": "RacingNews365",
-      "url": "https://racingnews365.com/martin-brundle-hands-ferrari-ominous-warning-as-hamilton-and-leclerc-feud-ignites",
-      "published": "2026-11-04T05:30:00Z"
+      "url": "https://racingnews365.com/charles-leclerc-confirms-lewis-hamilton-talks-intention-after-grey-area-exposed",
+      "published": "2026-11-05T09:40:00Z"
     },
     {
-      "id": "2026-11-03-wolff-sponsor-antonelli",
-      "title": "Wolff: due sponsor lasciarono la Mercedes per la promozione di Antonelli",
-      "summary": "Il team principal rivela che due partner si sfilarono, poco convinti che il giovane italiano fosse pronto a sostituire Hamilton. La squadra si fidò dei propri dati e la scommessa ha portato al titolo mondiale 2026.",
+      "id": "2026-11-05-stroll-salta-media-day",
+      "title": "Stroll salta il media day di Interlagos per un'infezione virale",
+      "summary": "Il pilota Aston Martin si sta riprendendo da un virus contratto dopo il GP del Messico e non sarà in pista con i media giovedì. Il team è fiducioso di riaverlo nel paddock già venerdì; Alonso lo sostituisce in conferenza stampa.",
+      "tag": "Paddock",
+      "source": "F1 Live Pulse",
+      "url": "https://blog.f1livepulse.com/it/stroll-non-sara-al-media-day-di-san-paolo-colpito-da-uninfezione",
+      "published": "2026-11-05T12:19:00Z"
+    },
+    {
+      "id": "2026-11-06-antonelli-livrea-senna",
+      "title": "Antonelli porta i colori di Senna a Interlagos con una livrea speciale",
+      "summary": "Il neo campione del mondo correrà in Brasile con una Mercedes dalla grafica dedicata ad Ayrton Senna, omaggio al tre volte iridato nel suo Gran Premio di casa.",
       "tag": "Mercedes",
-      "source": "Grande Prêmio",
-      "url": "https://grandepremio.com/en/f1/f1-today-haas-confirms-camara-debut-verstappen-blasts-fia-and-mercedes-reveals-antonelli-gamble/",
-      "published": "2026-11-03T22:30:00Z"
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/f1-kimi-antonelli-avra-una-livrea-speciale-in-brasile-nel-ricordo-del-mito-ayrton-senna/",
+      "published": "2026-11-05T14:00:00Z"
     },
     {
-      "id": "2026-11-03-camara-debutto-haas",
-      "title": "Câmara debutta in F1 a Interlagos con la Haas, Ocon fuori fino a fine anno",
-      "summary": "La Haas anticipa l'esordio del leader della F2 nel GP di casa, accanto a Bearman. Ocon non tornerà al volante in questa stagione; Hirakawa, che lo aveva sostituito in Messico, è impegnato nel WEC a Monza.",
-      "tag": "Mercato",
-      "source": "Formula1.com",
-      "url": "https://www.formula1.com/en/latest/article/f2-racer-camara-to-make-f1-debut-at-sao-paulo-grand-prix-as-haas-confirm-ocon-will-not-return.12Qa0tpaMZ9kgnEuGJBKFp",
-      "published": "2026-11-03T20:30:00Z"
+      "id": "2026-11-05-sette-rookie-fp1-interlagos",
+      "title": "Sette debuttanti al volante nelle FP1 di Interlagos",
+      "summary": "Nella prima sessione di prove a San Paolo scenderanno in pista Fornaroli (McLaren), Beganovic (Ferrari), Browning (Williams), Slater (Audi), Mini (Alpine) e Herta (Cadillac), oltre a Câmara che con la Haas correrà l'intero weekend.",
+      "tag": "Paddock",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/the-seven-f1-rookies-who-will-drive-in-sao-paulo-grand-prix-fp1",
+      "published": "2026-11-05T14:50:00Z"
     },
     {
-      "id": "2026-11-03-pirelli-mescole-brasile",
-      "title": "Interlagos, Pirelli sceglie gomme più morbide: C3, C4 e C5",
-      "summary": "Per il GP del Brasile Pirelli porta una gamma un gradino più morbida rispetto al 2025. Due tratti di asfalto rifatto tra le curve 3-5 e 8-9 potrebbero cambiare il degrado sui long run, e senza Sprint i team avranno tre libere per studiarlo.",
+      "id": "2026-11-05-allerta-pioggia-interlagos",
+      "title": "Allerta maltempo a Interlagos: rischio allagamenti per le qualifiche",
+      "summary": "La F1 ha avvisato le squadre che forti piogge potrebbero creare pozze d'acqua in pista, con le qualifiche di sabato come sessione più esposta. Anche domenica sono previsti temporali, con temperature massime intorno ai 19 gradi.",
       "tag": "Gare",
-      "source": "Coffee Corner Motorsport",
-      "url": "https://coffeecornermotorsport.com/brazil-grand-prix-2026-tyre-preview/",
-      "published": "2026-11-03T18:40:00Z"
+      "source": "Read Motorsport",
+      "url": "https://readmotorsport.com/2026/11/05/f1-warns-of-possible-flooding-at-interlagos-ahead-of-sao-paulo-grand-prix/",
+      "published": "2026-11-05T15:56:00Z"
     },
     {
-      "id": "2026-11-03-alonso-barcellona-indycar",
-      "title": "Alonso: senza Barcellona il motorsport spagnolo rischia di non sopravvivere",
-      "summary": "Il pilota Aston Martin difende il Montmeló, che dal 2027 si alternerà con Spa e salterà la stagione 2027 della F1. Sull'arrivo dell'IndyCar in Europa è scettico: prevede solo una o due tappe fuori dagli USA.",
+      "id": "2026-11-05-camara-conferenza",
+      "title": "Câmara in conferenza: «A Interlagos voglio capire la Haas e divertirmi»",
+      "summary": "Il brasiliano, al debutto in F1 al posto di Ocon, non ha mai girato a Interlagos e si è preparato al simulatore. Sul possibile addio alla corsa al titolo F2 dice che con il team non se n'è ancora parlato.",
+      "tag": "Paddock",
+      "source": "Napoli Magazine",
+      "url": "https://www.napolimagazine.com/motori/articolo/f1-camara-al-debutto-nel-suo-brasile-prover-a-divertirmi-05-11-2026",
+      "published": "2026-11-05T17:36:00Z"
+    },
+    {
+      "id": "2026-11-05-alonso-interlagos",
+      "title": "Alonso frena le attese a Interlagos: «Per noi competitivi vuol dire 12° o 13°»",
+      "summary": "Il pilota Aston Martin, che a Interlagos ha vinto entrambi i suoi titoli, vede la squadra in crescita da Sepang ma punta a una qualifica a centro gruppo per raccogliere punti. Non teme problemi in caso di pioggia, pur ricordando quanto la salita della pista renda insidioso il bagnato.",
+      "tag": "Team",
+      "source": "f1world.it",
+      "url": "https://f1world.it/gp-brasile-la-conferenza-stampa-alonso-camara-e-verstappen/",
+      "published": "2026-11-05T17:48:00Z"
+    },
+    {
+      "id": "2026-11-05-verstappen-interlagos",
+      "title": "Verstappen: «Interlagos imprevedibile, il secondo posto nel Mondiale è una sorpresa»",
+      "summary": "Nella conferenza del giovedì l'olandese della Red Bull ha elogiato la pista brasiliana, dove pioggia e consumo delle gomme possono rimescolare le carte. Si è detto stupito di trovarsi secondo in classifica alle spalle del campione Antonelli.",
+      "tag": "Red Bull",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/f1-max-verstappen-interlagos-e-fantastica-ci-sono-tante-variabili-essere-secondo-nel-mondiale-e-una-sorpresa/",
+      "published": "2026-11-05T17:51:00Z"
+    },
+    {
+      "id": "2026-11-06-permane-rinnovo-racing-bulls",
+      "title": "Racing Bulls, Permane rinnova da team principal fino al 2031",
+      "summary": "Alan Permane ha firmato un nuovo contratto di lungo periodo con la Racing Bulls, dove resterà team principal e co-amministratore delegato per la parte sportiva fino alla fine del 2031.",
+      "tag": "Team",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/red-bull-make-key-decision-as-senior-racing-bulls-figure-handed-contract-extension",
+      "published": "2026-11-06T09:05:00Z"
+    },
+    {
+      "id": "2026-11-06-russell-penalita-motore",
+      "title": "Russell partirà cinque posizioni più indietro a Interlagos per il motore",
+      "summary": "La Mercedes ha montato un nuovo motore termico oltre il limite stagionale sulla vettura di Russell, che sconterà cinque posizioni sulla griglia del GP del Brasile. Il pilota ha spiegato che la squadra ha scelto questo weekend per assorbire la penalità.",
+      "tag": "Mercedes",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/george-russell-eyes-lewis-hamilton-heroics-as-brazil-grid-penalty-confirmed",
+      "published": "2026-11-06T09:40:00Z"
+    },
+    {
+      "id": "2026-11-06-domenicali-medio-oriente",
+      "title": "Domenicali prudente: Qatar e Abu Dhabi restano in programma «a questo punto»",
+      "summary": "Nella presentazione dei conti di Liberty Media l'amministratore delegato della F1 ha confermato l'intenzione di chiudere la stagione in Medio Oriente, senza però dare garanzie assolute. I ricavi, dopo il calo di primavera, sono tornati ai livelli del 2025.",
       "tag": "Calendario",
       "source": "RacingNews365",
-      "url": "https://racingnews365.com/fernando-alonso-issues-cannot-survive-claim-as-barcelona-secures-major-coup",
-      "published": "2026-11-03T18:15:00Z"
+      "url": "https://racingnews365.com/f1-boss-gives-cautious-at-this-stage-verdict-on-season-ending-middle-east-races",
+      "published": "2026-11-06T10:55:00Z"
     },
     {
-      "id": "2026-11-03-mercedes-titolo-costruttori",
-      "title": "Mercedes può chiudere il Mondiale Costruttori già in Brasile",
-      "summary": "Con 126 punti di margine sulla Ferrari, alla Mercedes basta guadagnarne almeno tre a Interlagos per rendere il titolo matematico. In caso contrario la sfida si sposterà al Qatar.",
-      "tag": "Mercedes",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/how-mercedes-can-win-f1-2026-constructors-championship",
-      "published": "2026-11-03T14:08:00Z"
+      "id": "2026-11-06-vasseur-confronto-hamilton-leclerc",
+      "title": "Ferrari, Vasseur riunisce Hamilton e Leclerc per chiarire dopo il Messico",
+      "summary": "Dopo il duello ravvicinato di Città del Messico e le dichiarazioni incrociate dei due piloti, il team principal ha convocato Hamilton e Leclerc a Interlagos per un faccia a faccia sulle regole interne.",
+      "tag": "Ferrari",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/f1-alta-tensione-in-casa-ferrari-vasseur-convoca-hamilton-e-leclerc-per-un-confronto-in-brasile/",
+      "published": "2026-11-06T13:45:00Z"
     },
     {
-      "id": "2026-11-03-interlagos-pioggia",
-      "title": "Interlagos, possibile pioggia su qualifiche e gara",
-      "summary": "Le prime previsioni per il weekend brasiliano indicano tempo instabile: il rischio maggiore di temporali riguarda le qualifiche di sabato, ma anche la domenica potrebbe essere bagnata.",
+      "id": "2026-11-06-libere1-norris-interlagos",
+      "title": "Interlagos, Norris il più veloce nelle prime libere davanti ad Antonelli",
+      "summary": "Con la McLaren aggiornata Norris chiude la FP1 in 1:11.717, 82 millesimi meglio del neocampione Antonelli; terzo Verstappen e quarto Hamilton con la Ferrari. Breve bandiera rossa per il guasto all'Audi del debuttante Slater, Albon fermo per un problema al servosterzo.",
       "tag": "Gare",
-      "source": "Grande Prêmio",
-      "url": "https://grandepremio.com/en/f1/sao-paulo-gp-2026-weather-forecast-will-rain-affect-f1-qualifying-and-race-at-interlagos/",
-      "published": "2026-11-03T13:30:00Z"
+      "source": "GPblog",
+      "url": "https://www.gpblog.com/en/news/f1-full-results-lando-norris-tops-brazilian-gp-fp1-from-kimi-antonelli",
+      "published": "2026-11-06T16:32:00Z"
     },
     {
-      "id": "2026-11-03-hamilton-clipping",
-      "title": "Hamilton chiede alla FIA di intervenire sul \"clipping\" dei motori",
-      "summary": "Dopo il Messico Hamilton ha sollecitato la FIA a rivedere la gestione dell'energia che, a suo dire, rende quasi impossibili i sorpassi. Via radio si era lamentato di non riuscire ad attaccare Verstappen per la velocità della Red Bull sul dritto.",
+      "id": "2026-11-06-libere2-antonelli-interlagos",
+      "title": "Interlagos, Antonelli davanti a tutti nelle seconde libere; Leclerc-Câmara sotto indagine",
+      "summary": "Nella seconda sessione di prove in Brasile il campione Antonelli ha preceduto Norris di circa due decimi e mezzo, con Verstappen terzo. I commissari esamineranno dopo la sessione un contatto tra Leclerc e l'esordiente della Haas Câmara.",
+      "tag": "Gare",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-fp2-report",
+      "published": "2026-11-06T20:02:00Z"
+    },
+    {
+      "id": "2026-11-06-camara-reprimenda-leclerc",
+      "title": "Interlagos, solo una reprimenda a Câmara per l'ostacolo a Leclerc nelle libere 2",
+      "summary": "I commissari hanno chiuso l'indagine sull'episodio delle seconde libere con una reprimenda per l'esordiente della Haas, che aveva rallentato il giro veloce del ferrarista. Nessuna penalità in griglia per il brasiliano.",
+      "tag": "Paddock",
+      "source": "F1Mania",
+      "url": "https://www.f1mania.net/f1/f1-camara-recebe-reprimenda-por-bloquear-leclerc-no-tl2-do-brasil/",
+      "published": "2026-11-06T22:10:00Z"
+    },
+    {
+      "id": "2026-11-07-russell-indagine-mercedes",
+      "title": "Russell spera nella fine dei guai: Mercedes indaga dopo il Messico",
+      "summary": "Dopo un GP del Messico segnato da un problema in partenza e da una penalità, Russell arriva a Interlagos con aspettative basse. Secondo i suoi ingegneri solo sei gare della stagione sono state prive di inconvenienti.",
+      "tag": "Mercedes",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/george-russell-praying-mercedes-issues-end-as-post-mexico-investigation-launched",
+      "published": "2026-11-07T08:00:00Z"
+    },
+    {
+      "id": "2026-11-07-verstappen-sterzo-interlagos",
+      "title": "Verstappen chiede a Red Bull di risolvere un problema allo sterzo prima delle qualifiche",
+      "summary": "L'olandese, terzo nelle seconde libere a 0,259 da Antonelli, ha lamentato un difetto allo sterzo già emerso in FP1; il team aveva fermato in anticipo la sua sessione per intervenire sull'assetto da gara. Per le qualifiche il rischio pioggia è stimato tra il 50 e il 70%.",
+      "tag": "Red Bull",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/max-verstappen-urges-red-bull-problem-fix-as-wet-weather-plea-issued",
+      "published": "2026-11-07T11:20:00Z"
+    },
+    {
+      "id": "2026-11-10-imola-scadenza-finale",
+      "title": "Scade oggi il termine per Imola: il finale in Medio Oriente resta in bilico",
+      "summary": "Il 10 novembre è l'ultima data utile per attivare Imola come gara sostitutiva il 6 dicembre, come confermato anche da Komatsu. Qatar e Abu Dhabi restano in calendario; se saltassero dopo oggi, la stagione potrebbe chiudersi a Las Vegas.",
+      "tag": "Calendario",
+      "source": "dpa / Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/reports-formula-one-tuesday-deadline-121834758.html",
+      "published": "2026-11-07T12:18:00Z"
+    },
+    {
+      "id": "2026-11-07-penalita-motore-verstappen-leclerc-hamilton",
+      "title": "Interlagos, Verstappen, Pérez, Leclerc e Hamilton oltre il limite delle power unit",
+      "summary": "Il rapporto tecnico FIA segnala che i quattro hanno montato componenti oltre l'allocazione stagionale, con Verstappen e Pérez fuori quota su tre elementi. Le penalità in griglia saranno definite dopo le qualifiche.",
+      "tag": "Gare",
+      "source": "GPblog",
+      "url": "https://www.gpblog.com/en/breaking-news/verstappen-and-ferrari-pair-exceed-engine-limits-at-sao-paulo-gp",
+      "published": "2026-11-07T14:46:00Z"
+    },
+    {
+      "id": "2026-11-07-libere3-verstappen-interlagos",
+      "title": "Interlagos, Verstappen il più rapido nelle libere 3 davanti ad Antonelli",
+      "summary": "Nell'ultima sessione di prove l'olandese della Red Bull ha girato in 1:11.622, appena 25 millesimi meglio di Antonelli, con Norris e Russell a seguire. Pomeriggio complicato per Hamilton, fermato da vibrazioni al motore e fumo in abitacolo.",
+      "tag": "Gare",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/f1-results-brazilian-grand-prix-2026-fp3-interlagos",
+      "published": "2026-11-07T15:35:00Z"
+    },
+    {
+      "id": "2026-11-07-qualifiche-pioggia-bandiera-rossa",
+      "title": "Interlagos, diluvio sulle qualifiche: bandiera rossa e ripartenza dopo 83 minuti",
+      "summary": "Un violento temporale ha costretto la direzione gara a esporre la bandiera rossa a pochi minuti dall'inizio della Q1, con acqua stagnante in pista e un'allerta meteo per il pubblico. Dopo l'ispezione della safety car la sessione è ripresa alle 16:26 locali (20:26 italiane).",
+      "tag": "Gare",
+      "source": "GPblog",
+      "url": "https://www.gpblog.com/en/breaking-news/positive-update-raises-hopes-of-qualifying-restart-as-new-start-time-emerges",
+      "published": "2026-11-07T19:30:00Z"
+    },
+    {
+      "id": "2026-11-07-norris-pole-interlagos",
+      "title": "Interlagos, Norris in pole nel caos della pioggia davanti a Russell",
+      "summary": "Il pilota McLaren ha domato la pista bagnata in Q3 rifilando 0,204 secondi a Russell. Per Norris è la terza pole del 2026; Antonelli completa il podio virtuale delle qualifiche.",
+      "tag": "Gare",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/f1/news/1109818/1/lando-norris-takes-pole-heavily-delayed-wet-brazil-gp-qualifying",
+      "published": "2026-11-07T20:30:00Z"
+    },
+    {
+      "id": "2026-11-07-alonso-q3-aston",
+      "title": "Alonso porta l'Aston Martin in Q3 per la prima volta nel 2026",
+      "summary": "Sul bagnato lo spagnolo ha centrato la prima Q3 stagionale della squadra, chiudendo nono. In Q2 sono usciti invece Hamilton e Piastri, con Câmara finito contro il muro al debutto.",
+      "tag": "Team",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-qualifying-report",
+      "published": "2026-11-07T20:35:00Z"
+    },
+    {
+      "id": "2026-11-07-griglia-brasile-penalita",
+      "title": "Griglia del Brasile rivoluzionata: Antonelli in prima fila, Leclerc e Hamilton indietro",
+      "summary": "Russell scala di cinque posizioni per il motore e cede la prima fila al compagno. Leclerc perde dieci posti, mentre Hamilton (cambio completo di power unit), Verstappen e Pérez partiranno dal fondo.",
       "tag": "Ferrari",
       "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/lewis-hamilton-fia-max-verstappen-mexican-grand-prix-2026-footage",
-      "published": "2026-11-03T12:16:00Z"
+      "url": "https://www.planetf1.com/news/brazilian-grand-prix-2026-penalty-fia",
+      "published": "2026-11-07T20:40:00Z"
     },
     {
-      "id": "2026-11-03-bottas-futuro-cadillac",
-      "title": "Bottas aspetta: il sedile Cadillac 2027 non è ancora confermato",
-      "summary": "Il finlandese dice che la decisione spetterà ai vertici americani del team, mentre Herta e Vesti vengono indicati come possibili sostituti. Pérez invece ha già rinnovato fino al 2029.",
-      "tag": "Mercato",
+      "id": "2026-11-08-norris-vince-interlagos",
+      "title": "Norris domina sotto la pioggia di Interlagos e vince il GP del Brasile",
+      "summary": "Il pilota McLaren, partito dalla pole, approfitta del testacoda di Antonelli al giro 16 e controlla la gara fino al traguardo con quasi 15 secondi di margine.",
+      "tag": "Gare",
       "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/valtteri-bottas-cadillac-rumours-f1-future",
-      "published": "2026-11-03T12:03:00Z"
+      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-race-report",
+      "published": "2026-11-08T18:45:00Z"
     },
     {
-      "id": "2026-11-03-hadjar-tifoso",
-      "title": "Hadjar ammonito per aver spinto un tifoso, Verstappen lo difende",
-      "summary": "I commissari hanno dato un richiamo formale a Hadjar, che aveva allontanato un fan che lo aveva toccato nel paddock. Verstappen ha detto di comprenderlo e di essere andato vicino a reagire allo stesso modo.",
+      "id": "2026-11-08-verstappen-rimonta-brasile",
+      "title": "Verstappen dal fondo al secondo posto, Hadjar completa il podio Red Bull",
+      "summary": "Partito in coda per la penalità sulla power unit, l'olandese risale fino alla seconda piazza; nel corso della gara Red Bull ha scambiato le posizioni dei suoi piloti.",
       "tag": "Red Bull",
       "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/max-verstappen-fia-isack-hadjar-fan-incident",
-      "published": "2026-11-03T09:47:00Z"
+      "url": "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil",
+      "published": "2026-11-08T18:48:00Z"
     },
     {
-      "id": "2026-11-03-medio-oriente-garanzie",
-      "title": "La F1 rassicura i team: Qatar e Abu Dhabi si correranno",
-      "summary": "Secondo Reuters, Formula 1 ha garantito alle squadre che le due gare finali in Medio Oriente si svolgeranno con misure di sicurezza adeguate, invitando i team a evitare commenti pubblici sulla guerra con l'Iran.",
-      "tag": "Calendario",
-      "source": "Reuters / TimesLIVE",
-      "url": "https://www.timeslive.co.za/motoring/2026-11-03-f1-assures-teams-middle-east-grands-prix-will-go-ahead-report-says/",
-      "published": "2026-11-03T07:00:00Z"
-    },
-    {
-      "id": "2026-11-03-hamilton-ferrari-soluzioni",
-      "title": "Hamilton: \"La squadra viene prima, con Leclerc troveremo una soluzione\"",
-      "summary": "Dopo il contatto alla curva 4 che è costato la vittoria in Messico, Hamilton chiede alla Ferrari regole chiare tra i piloti. Il chiarimento con Leclerc avverrà lontano dai microfoni.",
-      "tag": "Ferrari",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/lewis-hamilton-demands-ferrari-solutions-after-latest-mess-with-charles-leclerc",
-      "published": "2026-11-03T05:30:00Z"
-    },
-    {
-      "id": "2026-11-02-russell-messaggio",
-      "title": "Russell rompe il silenzio: \"Stagione sfuggita di mano, tornerò al mio livello\"",
-      "summary": "Il giorno dopo il titolo perso, Russell ha affidato ai social un messaggio in cui ammette il calo della seconda metà di stagione. Mercedes era stata multata di 5.000 euro per la sua assenza dai media in Messico.",
+      "id": "2026-11-08-mercedes-campione-costruttori",
+      "title": "Mercedes campione del mondo costruttori con tre gare d'anticipo",
+      "summary": "Nonostante i testacoda di Antonelli e Russell, la squadra di Brackley chiude quarta e quinta e mette al sicuro il titolo: il vantaggio su Ferrari non è più colmabile.",
       "tag": "Mercedes",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/george-russell-issues-statement-from-the-heart-after-catastrophic-title-defeat",
-      "published": "2026-11-02T19:42:00Z"
+      "source": "RaceFans",
+      "url": "https://www.racefans.net/2026/11/08/2026-brazilian-grand-prix-race-result-and-championship-points/",
+      "published": "2026-11-08T18:50:00Z"
     },
     {
-      "id": "2026-11-02-lawson-futuro",
-      "title": "Lawson in bilico per il 2027 nonostante l'ottima stagione",
-      "summary": "Racing Bulls deve ancora scegliere tra Lawson, Lindblad e Tsolov per i due sedili del prossimo anno. Chandhok avverte che lasciare a piedi il neozelandese sarebbe un'ingiustizia.",
+      "id": "2026-11-08-ferrari-brasile-delusione",
+      "title": "Ferrari senza acuti in Brasile: Leclerc settimo, Hamilton nono doppiato",
+      "summary": "Hamilton, scattato dal fondo, ha dovuto restituire una posizione a Bearman e nel finale è finito in testacoda tentando le slick sul bagnato; Leclerc non è andato oltre la settima piazza.",
+      "tag": "Ferrari",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/2026-brazilian-grand-prix-race-report",
+      "published": "2026-11-08T18:52:00Z"
+    },
+    {
+      "id": "2026-11-08-vasseur-ferrari-incostante",
+      "title": "Vasseur: «Ferrari troppo discontinua in gara», sotto accusa le pressioni gomme",
+      "summary": "Il team principal ha spiegato che il calo di Hamilton dopo l'ottima partenza è legato probabilmente alla pressione degli pneumatici, problema che ha frenato la Ferrari per tutta la gara di Interlagos.",
+      "tag": "Ferrari",
+      "source": "PaddockNews24",
+      "url": "https://paddocknews24.com/news-f1-notizie/f1-vasseur-fa-chiarezza-individuate-le-cause-delle-difficolta-ferrari-in-brasile",
+      "published": "2026-11-08T20:30:00Z"
+    },
+    {
+      "id": "2026-11-08-camara-bottas-brasile",
+      "title": "Brasile amaro per Câmara e Bottas: esordio in fondo e mancato via",
+      "summary": "Al debutto in F1 con la Haas, Câmara ha chiuso ultimo tra i classificati a due giri, frenato anche dalle penalità per i limiti della pista. Bottas invece non è partito per un dado ruota avvitato storto che ha bloccato la ruota in griglia.",
+      "tag": "Gare",
+      "source": "The Race",
+      "url": "https://www.the-race.com/formula-1/winners-and-losers-from-f1-2026-brazilian-grand-prix/",
+      "published": "2026-11-08T20:50:00Z"
+    },
+    {
+      "id": "2026-11-08-penalita-dopo-brasile",
+      "title": "Penalità post gara in Brasile: Leclerc scivola ottavo, Lawson guadagna una posizione",
+      "summary": "I commissari danno 5 secondi a Leclerc per il contatto con Lawson alla curva 12 e altrettanti ad Antonelli e Bearman per rilasci pericolosi ai box; Antonelli conserva comunque il quinto posto.",
+      "tag": "Gare",
+      "source": "GPblog",
+      "url": "https://www.gpblog.com/en/breaking-news/fia-delivers-double-penalty-following-brazilian-gp-investigations",
+      "published": "2026-11-08T21:31:00Z"
+    },
+    {
+      "id": "2026-11-09-audi-haas-settimo-posto",
+      "title": "Audi a tre punti dalla Haas: lotta aperta per il settimo posto costruttori",
+      "summary": "Dopo Interlagos la Haas resta davanti all'Audi 31 a 28 nella classifica costruttori. Hülkenberg ha salvato un punto nonostante una penalità di 10 secondi, mentre Bortoleto ha chiuso sedicesimo nella gara di casa.",
+      "tag": "Team",
+      "source": "Formula1.it",
+      "url": "https://www.formula1.it/news/33874/1/audi-mette-nel-mirino-la-haas-tre-punti-di-distacco-e-un-finale-tutto-da-vivere",
+      "published": "2026-11-09T07:55:00Z"
+    },
+    {
+      "id": "2026-11-09-ben-sulayem-qatar-abu-dhabi",
+      "title": "Ben Sulayem: Qatar e Abu Dhabi restano in calendario nonostante le tensioni",
+      "summary": "Il presidente della FIA assicura che le ultime due gare del 2026 si disputeranno come previsto, anche se la Dakar 2027 lascia l'Arabia Saudita per motivi di sicurezza. Nella stessa intervista apre al ritorno dei V8 e a un possibile dodicesimo team cinese.",
+      "tag": "Calendario",
+      "source": "The National",
+      "url": "https://www.thenationalnews.com/sport/f1/2026/11/09/exclusive-mohammed-ben-sulayem-abu-dhabi-qatar-gp/",
+      "published": "2026-11-09T09:40:00Z"
+    },
+    {
+      "id": "2026-11-09-leclerc-allarme-las-vegas",
+      "title": "Leclerc avverte: con il freddo di Las Vegas la Ferrari rischia di soffrire ancora",
+      "summary": "Dopo un Brasile in cui la vettura era quasi inguidabile per la difficoltà a scaldare le gomme, il monegasco teme che le basse temperature notturne del Nevada possano riproporre lo stesso problema.",
+      "tag": "Ferrari",
+      "source": "grandepremio.com",
+      "url": "https://grandepremio.com/en/f1/leclerc-warns-ferrari-faces-more-trouble-in-las-vegas-after-undriveable-sao-paulo-gp/",
+      "published": "2026-11-09T11:30:00Z"
+    },
+    {
+      "id": "2026-11-09-mekies-verstappen-simulazioni",
+      "title": "Mekies: «In Brasile Verstappen è andato oltre le nostre simulazioni»",
+      "summary": "Il team principal Red Bull ha spiegato che la rimonta di Verstappen dal fondo al secondo posto a Interlagos ha superato quanto previsto dagli strumenti di simulazione della squadra. Secondo Mekies non è la prima volta che l'olandese batte i numeri del simulatore.",
+      "tag": "Red Bull",
+      "source": "formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/mekies-explains-how-verstappen-outperformed-red-bulls-own-simulations-in-brazil.1ps87tyvjdEf23vDCaDXOZ",
+      "published": "2026-11-09T12:30:00Z"
+    },
+    {
+      "id": "2026-11-09-piastri-lascia-webber",
+      "title": "Piastri chiude il rapporto con il manager Mark Webber dopo sette anni",
+      "summary": "Il pilota McLaren e lo staff guidato da Mark e Ann Webber si separano di comune accordo; la scelta segue la presenza ridotta di Webber ai circuiti in questa stagione. Piastri ha ringraziato entrambi per il sostegno ricevuto dal 2019.",
+      "tag": "McLaren",
+      "source": "RACER",
+      "url": "https://racer.com/2026/11/09/piastri-parts-ways-with-manager-webber",
+      "published": "2026-11-09T12:33:00Z"
+    },
+    {
+      "id": "2026-11-09-hamilton-ferrari-indagine-sf26",
+      "title": "Hamilton «devastato» dopo Interlagos: Ferrari indaga sulla SF-26 prima di Las Vegas",
+      "summary": "Il britannico, nono al traguardo in Brasile, ha puntato il dito su gomme e sovrasterzo nelle condizioni difficili di Interlagos. A Maranello è partita un'analisi approfondita della vettura in vista del prossimo appuntamento.",
+      "tag": "Ferrari",
+      "source": "planetf1.com",
+      "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-sf-26-investigation-f1-2026-brazilian-grand-prix",
+      "published": "2026-11-09T16:23:00Z"
+    },
+    {
+      "id": "2026-11-09-wolff-russell-secondo",
+      "title": "Wolff vuole Russell vicecampione, ma George pensa alla prestazione",
+      "summary": "Il team principal Mercedes punta al secondo posto di Russell, ora a 17 punti da Verstappen, e lascia intendere che potrebbe essere favorito su Antonelli nelle ultime gare. Il britannico però dice di badare più al rendimento che ai risultati.",
+      "tag": "Mercedes",
+      "source": "GPblog",
+      "url": "https://www.gpblog.com/en/news/russell-plays-down-verstappen-chase-as-wolff-wants-him-to-finish-second",
+      "published": "2026-11-09T16:30:00Z"
+    },
+    {
+      "id": "2026-11-09-lawson-racing-bulls-attesa",
+      "title": "Lawson convince Red Bull, ma il sedile Racing Bulls 2027 resta in sospeso",
+      "summary": "Mekies ha elogiato la gara di Lawson in Brasile, precisando però che la scelta spetta alla Racing Bulls e che non c'è fretta. In corsa per il posto c'è anche Tsolov dalla F2.",
       "tag": "Mercato",
       "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/liam-lawson-racing-bulls-future-karun-chandhok",
-      "published": "2026-11-02T18:32:00Z"
+      "url": "https://www.planetf1.com/news/red-bull-liam-lawson-racing-bulls-stall-contract-decision",
+      "published": "2026-11-09T18:55:00Z"
     },
     {
-      "id": "2026-11-02-toyoda-hirakawa",
-      "title": "Akio Toyoda scrive a Hirakawa dopo il punto al debutto in F1",
-      "summary": "Il presidente Toyota ha dedicato una lettera commossa al pilota giapponese, chiamato da Haas a sostituire Ocon dalla FP3 in Messico. Hirakawa ha chiuso decimo, conquistando un punto.",
-      "tag": "Team",
+      "id": "2026-11-09-vicecampione-cinque-in-33-punti",
+      "title": "Vicecampionato aperto: cinque piloti racchiusi in 33 punti prima di Las Vegas",
+      "summary": "Con il titolo già di Antonelli, la sfida per il secondo posto coinvolge Verstappen, Russell, Hamilton, Leclerc e Norris, separati da appena 33 punti. Las Vegas apre il trittico finale con Qatar e Abu Dhabi, ancora legati alla situazione nel Golfo.",
+      "tag": "Mondiale",
+      "source": "RACER",
+      "url": "https://racer.com/2026/11/09/las-vegas-gp-to-be-free-to-watch-on-apple-tv",
+      "published": "2026-11-09T19:58:00Z"
+    },
+    {
+      "id": "2026-11-09-norris-gomme-las-vegas",
+      "title": "Norris teme Las Vegas: con il freddo le gomme 2026 saranno difficilissime",
+      "summary": "Il vincitore di Interlagos prevede un weekend complicato sul circuito della Strip, dove le basse temperature metteranno in crisi pneumatici dalla finestra di utilizzo molto stretta. Preoccupazioni simili sono arrivate anche da Verstappen e Hadjar.",
+      "tag": "Gare",
+      "source": "Grande Prêmio",
+      "url": "https://grandepremio.com/en/f1/f1-today-red-bull-reveals-verstappen-hadjar-team-order-plan-as-norris-warns-of-las-vegas-trouble/",
+      "published": "2026-11-09T22:30:00Z"
+    },
+    {
+      "id": "2026-11-09-mercedes-indaga-antonelli",
+      "title": "Mercedes indaga sull'instabilità al posteriore che ha fatto girare Antonelli",
+      "summary": "Il campione del mondo ha segnalato un comportamento anomalo del retrotreno nelle curve veloci dopo il passaggio alle slick, prima del testacoda alla Senna S. La squadra sta analizzando il cambio di bilanciamento della vettura.",
+      "tag": "Mercedes",
+      "source": "Grande Prêmio",
+      "url": "https://grandepremio.com/en/f1/f1-today-red-bull-reveals-verstappen-hadjar-team-order-plan-as-norris-warns-of-las-vegas-trouble/",
+      "published": "2026-11-09T22:30:00Z"
+    },
+    {
+      "id": "2026-11-10-ferrari-nero-giallo-las-vegas",
+      "title": "Ferrari in nero e giallo a Las Vegas: nuova divisa per Hamilton e Leclerc",
+      "summary": "Per il weekend sulla Strip la Scuderia abbandona il classico rosso nell'abbigliamento del team: insieme a PUMA ha preparato una collezione nera con dettagli gialli, con maglia e cappellino dedicati ai due piloti.",
+      "tag": "Ferrari",
+      "source": "Formula1.it",
+      "url": "https://www.formula1.it/news/33893/1/ferrari-una-veste-inedita-per-las-vegas-ecco-la-nuova-collezione",
+      "published": "2026-11-10T09:28:00Z"
+    },
+    {
+      "id": "2026-11-10-imola-verso-stop",
+      "title": "Imola verso lo stop: la F1 pronta a confermare Qatar e Abu Dhabi",
+      "summary": "Il termine per attivare Imola come riserva è arrivato e la FOM si prepara ad annunciare che il finale si correrà regolarmente a Lusail e Yas Marina. L'ufficialità potrebbe arrivare già in giornata.",
+      "tag": "Calendario",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/qatar-abu-dhabi-grand-prix-f1-2026-calendar-decision",
+      "published": "2026-11-10T11:23:00Z"
+    },
+    {
+      "id": "2026-11-10-aduo-terzo-periodo",
+      "title": "ADUO, terzo periodo: la FIA non concede nuovi aiuti ai motoristi",
+      "summary": "La revisione FIA sulle gare da Zandvoort ad Austin lascia invariate le concessioni: Red Bull Powertrains resta il riferimento, Mercedes ha un'omologazione extra, mentre Ferrari, Audi e Honda mantengono il pacchetto massimo. La prossima verifica riguarderà le prime sei gare del 2027.",
+      "tag": "Paddock",
+      "source": "Sky Sport",
+      "url": "https://sport.sky.it/formula-1/2026/11/10/f1-risultati-aduo-2026-power-unit-fia",
+      "published": "2026-11-10T12:38:00Z"
+    },
+    {
+      "id": "2026-11-10-fia-conferma-qatar-abu-dhabi",
+      "title": "Ufficiale: la FIA conferma Qatar e Abu Dhabi, Imola esce di scena",
+      "summary": "Ben Sulayem ha annunciato sui canali FIA che il conto alla rovescia per Lusail e Yas Marina è iniziato: il Mondiale si chiuderà in Medio Oriente come previsto. Tramonta così l'ipotesi di Imola come riserva per il 6 dicembre.",
+      "tag": "Calendario",
+      "source": "L'Altra Imola",
+      "url": "https://www.laltraimola.it/2026/11/10/f1-sfuma-lipotesi-imola-la-fia-conferma-i-gran-premi-di-qatar-e-abu-dhabi/",
+      "published": "2026-11-10T12:54:00Z"
+    },
+    {
+      "id": "2026-11-10-verstappen-chiede-indagine",
+      "title": "Verstappen chiede a Red Bull di indagare: «In Brasile qualcosa non andava»",
+      "summary": "Secondo a Interlagos partendo dal fondo, Verstappen lamenta un sovrasterzo anomalo con le gomme slick nelle curve veloci e vuole capire se sulla vettura si sia rotto qualcosa o ci sia stata una perdita aerodinamica.",
+      "tag": "Red Bull",
       "source": "RacingNews365",
-      "url": "https://racingnews365.com/toyota-issues-incredibly-emotional-letter-after-unforgettable-hirakawa-f1-debut",
-      "published": "2026-11-02T17:45:00Z"
+      "url": "https://racingnews365.com/max-verstappen-calls-for-red-bull-investigation-there-is-something-wrong",
+      "published": "2026-11-10T13:20:00Z"
+    },
+    {
+      "id": "2026-11-10-alonso-non-si-diverte",
+      "title": "Alonso ammette: «Non mi diverto più, faccio il mio lavoro»",
+      "summary": "Lo spagnolo è frustrato dal deficit della power unit Honda sui rettilinei, pur lodando la tenuta in curva dell'Aston Martin sul bagnato in Brasile. Il team, assicura, sa dove intervenire in vista del 2027.",
+      "tag": "Team",
+      "source": "F1GrandPrix.it",
+      "url": "https://f1grandprix.motorionline.com/alonso-non-si-diverte-piu-f1-problemi-honda/",
+      "published": "2026-11-10T15:00:00Z"
+    },
+    {
+      "id": "2026-11-10-pirelli-wet-critiche",
+      "title": "Gomme da bagnato sotto accusa dopo Interlagos, Pirelli si difende",
+      "summary": "Hadjar, Verstappen e Sainz lamentano aquaplaning e una finestra di utilizzo troppo stretta per wet e intermedie; Norris teme il freddo di Las Vegas. Pirelli ribatte che intermedie e soft hanno funzionato come previsto.",
+      "tag": "Paddock",
+      "source": "F1GrandPrix.it",
+      "url": "https://f1grandprix.motorionline.com/f1-pirelli-le-gomme-wet-finiscono-sotto-accusa/",
+      "published": "2026-11-10T16:00:00Z"
+    },
+    {
+      "id": "2026-11-10-ocon-haas-tribunale",
+      "title": "Ocon-Haas, il licenziamento rischia di finire in tribunale",
+      "summary": "Secondo Speed Week la separazione tra Ocon e la Haas, decisa dopo lo scontro con Komatsu in Messico, potrebbe sfociare in una disputa contrattuale. Ocon nega qualsiasi contatto fisico, mentre Wolff difende la scelta del team principal.",
+      "tag": "Team",
+      "source": "F1GrandPrix.it",
+      "url": "https://f1grandprix.motorionline.com/ocon-haas-licenziamento-battaglia-legale-wolff/",
+      "published": "2026-11-10T17:00:00Z"
+    },
+    {
+      "id": "2026-11-10-vowles-williams-passo-falso",
+      "title": "Vowles: «Ci siamo fatti prendere dall'entusiasmo, il 2026 è solo un passo falso»",
+      "summary": "Il team principal Williams riconosce che la squadra si è montata la testa dopo il quinto posto del 2025 e che il cambio di regolamento l'ha fatta scivolare al nono posto con 12 punti. Vowles dice di non sentire pressione sul suo ruolo e ritiene che il tetto di spesa stia allargando il divario tra i team.",
+      "tag": "Team",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13610745/james-vowles-williams-boss-admits-team-got-carried-away-with-success-but-says-2026-f1-season-struggles-are-only-a-blip",
+      "published": "2026-11-10T19:46:00Z"
+    },
+    {
+      "id": "2026-11-10-hamilton-confine-gaza",
+      "title": "Hamilton al confine con Gaza prima di Las Vegas per conoscere gli aiuti umanitari",
+      "summary": "Il pilota Ferrari si è recato sul lato egiziano del valico di Rafah, incontrando operatori e responsabili della Mezzaluna Rossa a El Arish. Una visita fuori dalla pista arrivata due giorni dopo il suo 400° Gran Premio.",
+      "tag": "Paddock",
+      "source": "Grande Prêmio",
+      "url": "https://grandepremio.com/en/f1/f1-today-hamilton-visits-gaza-border-as-f1-drops-imola-and-las-vegas-finale-threat-emerges/",
+      "published": "2026-11-10T22:17:00Z"
+    },
+    {
+      "id": "2026-11-11-camara-haas-resto-stagione",
+      "title": "Câmara e la Haas trattano per il finale di stagione: «Non so ancora»",
+      "summary": "L'ingaggio del brasiliano era stato annunciato solo per Interlagos e ora si discute se resterà fino ad Abu Dhabi. Restare in F1 significherebbe però rinunciare alla corsa al titolo F2, di cui è leader.",
+      "tag": "Mercato",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/rafael-camara-reveals-discussions-to-see-out-f1-season-with-haas",
+      "published": "2026-11-11T01:05:00Z"
+    },
+    {
+      "id": "2026-11-11-bearman-haas-tre-settimane",
+      "title": "Bearman: «Tre settimane orribili per la Haas, per fortuna sono finite»",
+      "summary": "Dopo i ritiri di Austin e Città del Messico, a Interlagos Bearman è scivolato al 17° posto per soste lente ai box. La Haas resta settima tra i costruttori con appena tre punti di margine sull'Audi a tre gare dalla fine.",
+      "tag": "Team",
+      "source": "formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/bearman-relieved-horrible-three-weeks-for-haas-are-over.2DZIcOEVILLVUfQT00bStA",
+      "published": "2026-11-11T10:35:00Z"
+    },
+    {
+      "id": "2026-11-11-limite-potenza-bagnato",
+      "title": "Limite di potenza sul bagnato, Lindblad e Bortoleto: «Impossibile sorpassare»",
+      "summary": "A Interlagos la potenza elettrica è stata ridotta da 350 a 250 kW per motivi di sicurezza sul bagnato. I due rookie lamentano che il taglio in rettilineo ha reso quasi impossibile attaccare o staccare gli avversari.",
+      "tag": "Paddock",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/f1-drivers-air-frustrations-after-speed-limit-introduction",
+      "published": "2026-11-11T11:30:00Z"
+    },
+    {
+      "id": "2026-11-11-mercedes-brasile-gomme-fredde",
+      "title": "Mercedes spiega il Brasile: W17 fuori finestra con le gomme fredde",
+      "summary": "Dall'analisi del team emerge che sul bagnato le gomme lavoravano sotto la temperatura ideale, rendendo la vettura molto sovrasterzante. Antonelli e Russell avevano descritto la macchina come «rotta» e hanno chiuso solo quarto e quinto.",
+      "tag": "Mercedes",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/mercedes-brazilian-grand-prix-2026-investigation",
+      "published": "2026-11-11T16:21:00Z"
+    },
+    {
+      "id": "2026-11-11-mclaren-novita-las-vegas",
+      "title": "McLaren porta altre novità a Las Vegas: le basi della monoposto 2027",
+      "summary": "Dopo il successo di Norris a Interlagos con ala anteriore e fondo nuovi, Stella annuncia ulteriori componenti per Las Vegas. L'ala anteriore introdotta in Brasile sarà presente anche sulla vettura di lancio 2027.",
+      "tag": "McLaren",
+      "source": "racer.com",
+      "url": "https://racer.com/2026/11/11/more-new-mclaren-developments-for-las-vegas-gp-as-team-pushes-to-keep-momentum-building",
+      "published": "2026-11-11T17:24:00Z"
+    },
+    {
+      "id": "2026-11-12-racing-bulls-lawson-lindblad-2027",
+      "title": "Racing Bulls conferma Lawson e Lindblad anche per il 2027",
+      "summary": "La squadra di Faenza ha ufficializzato la coppia attuale per la prossima stagione: Lawson, nono nel mondiale con 15 arrivi a punti, si guadagna la conferma dopo settimane di incertezza.",
+      "tag": "Mercato",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/liam-lawson-racing-bulls-f1-2027-announcement",
+      "published": "2026-11-12T11:04:00Z"
+    },
+    {
+      "id": "2026-11-12-honda-indagine-batteria-stroll",
+      "title": "Honda indaga sulla batteria dopo il quattordicesimo ritiro di Stroll",
+      "summary": "Il guasto che ha fermato Stroll in Brasile si è già ripetuto più volte e la causa resta sconosciuta: Honda analizzerà dati e componenti per settimane per non portarsi il problema nel 2027.",
+      "tag": "Team",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/honda-investigation-lance-stroll-aston-martin-battery",
+      "published": "2026-11-12T12:47:00Z"
+    },
+    {
+      "id": "2026-11-12-russell-accademia-kart",
+      "title": "Russell lancia la GR63 Academy per scoprire giovani talenti del kart",
+      "summary": "Il pilota Mercedes ha fondato un'accademia di karting che partirà nel 2027: selezioni aperte a Silverstone da dicembre e un campionato interamente finanziato per i 25 migliori. In palio una stagione 2028 pagata.",
+      "tag": "Mercedes",
+      "source": "formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/karting-is-where-it-all-started-for-me-russell-launches-new-academy-to-develop-young-racers.5kVDwrQLjkeQ8bYLZ5sqQ2",
+      "published": "2026-11-12T13:09:00Z"
+    },
+    {
+      "id": "2026-11-12-tsolov-riserva-red-bull-2027",
+      "title": "Tsolov sarà il pilota di riserva di Red Bull e Racing Bulls nel 2027",
+      "summary": "Rimasto senza sedile titolare, il bulgaro secondo in F2 avrà un programma fatto di FP1, test gomme, simulatore e chilometri con monoposto vecchie per prepararsi al debutto.",
+      "tag": "Red Bull",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/red-bull-nikola-tsolov-f1-2027-reserve-driver",
+      "published": "2026-11-12T15:29:00Z"
+    },
+    {
+      "id": "2026-11-12-mercato-2027-ultimi-sedili",
+      "title": "Mercato 2027 quasi chiuso: Bottas in bilico in Cadillac, Herta in attesa",
+      "summary": "Con Lawson e Lindblad confermati in Racing Bulls resta da definire un ultimo posto: Bottas non ha certezze in Cadillac e il collaudatore Herta è il candidato principale. Bearman dovrebbe restare in Haas, mentre Ocon potrebbe ripartire da un ruolo di riserva.",
+      "tag": "Mercato",
+      "source": "formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/analysis-why-the-f1-driver-market-might-produce-one-last-twist-for-2027.6t7AwtqfHWkDqSgQZ3ElQ3",
+      "published": "2026-11-12T19:30:00Z"
+    },
+    {
+      "id": "2026-11-13-red-bull-scambio-hadjar",
+      "title": "Mekies spiega perché Verstappen non ha restituito il secondo posto a Hadjar",
+      "summary": "In Brasile Hadjar aveva lasciato passare Verstappen chiedendo di riavere la posizione se Norris fosse rimasto irraggiungibile. Secondo Mekies lo scambio inverso era previsto, ma la pioggia ha aperto un distacco di oltre nove secondi rendendolo inutile.",
+      "tag": "Red Bull",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/red-bull-max-verstappen-isack-hadjar-team-radio",
+      "published": "2026-11-13T04:02:00Z"
+    },
+    {
+      "id": "2026-11-13-verstappen-gomme-freddo-vegas",
+      "title": "Verstappen: a Las Vegas la chiave sarà mandare in temperatura le gomme",
+      "summary": "Con l'asfalto previsto intorno ai 10-12 gradi, Verstappen indica il riscaldamento degli pneumatici come fattore decisivo per la Red Bull, insieme alla gestione dell'energia sul lungo rettilineo. L'olandese ammette di non sapere se la squadra sarà la favorita, visti i problemi passati sulle piste fredde e a bassa aderenza.",
+      "tag": "Red Bull",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/max-verstappen-reveals-key-red-bull-factor-in-facing-major-las-vegas-issue",
+      "published": "2026-11-13T06:20:00Z"
+    },
+    {
+      "id": "2026-11-13-mercedes-budget-cap-giovani",
+      "title": "Wolff svela la proposta Mercedes alla FIA: più margine per pagare i giovani",
+      "summary": "Mercedes ha chiesto alla FIA una deroga al budget cap per alzare gli stipendi dei dipendenti nei primi anni di carriera. Wolff ammette che l'idea non è stata accolta con entusiasmo, mentre anche Williams spinge per rivedere il tetto di spesa.",
+      "tag": "Mercedes",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/mercedes-fia-formula-1-cost-cap",
+      "published": "2026-11-13T08:14:00Z"
+    },
+    {
+      "id": "2026-11-13-antonelli-minaccia-verstappen",
+      "title": "Antonelli indica Verstappen come il rivale più pericoloso per il 2027",
+      "summary": "Il campione del mondo ritiene che sarà l'olandese a creargli più problemi nella difesa del titolo. Pesano le rimonte di Verstappen e la crescita della Red Bull nel finale di stagione.",
+      "tag": "Mondiale",
+      "source": "formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05",
+      "published": "2026-11-13T16:43:00Z"
+    },
+    {
+      "id": "2026-11-13-williams-martins-riserva-vegas",
+      "title": "Williams sceglie Victor Martins come riserva per il GP di Las Vegas",
+      "summary": "Con Browning impegnato in Super Formula, sarà il francese dell'Academy Williams a tenersi pronto per sostituire Albon o Sainz. Non accadeva da Singapore.",
+      "tag": "Team",
+      "source": "Motorsport Week",
+      "url": "https://www.motorsportweek.com/2026/11/13/williams-f1-las-vegas-gp-reserve-driver/",
+      "published": "2026-11-13T18:10:00Z"
+    },
+    {
+      "id": "2026-11-14-sainz-williams-fine-stagione",
+      "title": "Sainz: «Con questa Williams preferirei che Las Vegas fosse l'ultima gara»",
+      "summary": "Lo spagnolo ammette che la FW48 è lenta in ogni condizione e che il finale di stagione si preannuncia in salita. Per questo vedrebbe con favore una chiusura anticipata del 2026, con la testa già al progetto 2027.",
+      "tag": "Team",
+      "source": "f1-fansite.com",
+      "url": "https://www.f1-fansite.com/f1-news/sainz-would-welcome-an-early-end-to-williams-2026-misery/",
+      "published": "2026-11-14T09:00:00Z"
+    },
+    {
+      "id": "2026-11-15-trofeo-neon-las-vegas",
+      "title": "Las Vegas svela il trofeo del vincitore: si illumina come un'insegna della Strip",
+      "summary": "Gli organizzatori del GP di Las Vegas hanno presentato il nuovo trofeo per il vincitore, con un design luminoso al neon ispirato alle insegne della città. Sarà consegnato sul podio della gara di sabato notte.",
+      "tag": "Paddock",
+      "source": "Paddock News 24",
+      "url": "https://www.paddocknews24.com/en/news-f1/las-vegas-gp-trophy-revealed-the-neon-design-inspired-by-the-city",
+      "published": "2026-11-15T10:50:00Z"
+    },
+    {
+      "id": "2026-11-16-hamilton-ferrari-secondo-posto",
+      "title": "Hamilton: prima difendere il secondo posto costruttori, poi pensare al 2027",
+      "summary": "Verso Las Vegas Hamilton chiede alla Ferrari di concentrarsi sul vicecampionato costruttori ancora in palio. Solo dopo, secondo il britannico, la squadra potrà voltare pagina e dedicarsi al progetto 2027.",
+      "tag": "Ferrari",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lewis-hamilton-says-ferrari-must-165000794.html",
+      "published": "2026-11-16T07:50:00Z"
+    },
+    {
+      "id": "2026-11-16-ferrari-look-las-vegas",
+      "title": "Ferrari, look speciale per Hamilton e Leclerc nel weekend di Las Vegas",
+      "summary": "La Scuderia ha confermato che a Las Vegas i suoi piloti si presenteranno con un'immagine rinnovata per l'appuntamento sulla Strip. Una scelta celebrativa per uno degli eventi più spettacolari del calendario.",
+      "tag": "Ferrari",
+      "source": "GPblog",
+      "url": "https://www.gpblog.com/en/news/ferrari-reveals-fresh-look-for-hamilton-and-leclerc-at-the-las-vegas-gp",
+      "published": "2026-11-16T10:00:00Z"
+    },
+    {
+      "id": "2026-11-16-camara-haas-las-vegas",
+      "title": "Câmara confermato alla Haas per Las Vegas, Hirakawa userà la vettura nelle libere 1",
+      "summary": "La Haas tiene il leader della F2 Rafael Câmara accanto a Bearman anche nel GP di Las Vegas, dopo l'esordio di Interlagos. Ryo Hirakawa salirà in macchina nella prima sessione di prove libere.",
+      "tag": "Team",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
+      "published": "2026-11-16T12:00:00Z"
+    },
+    {
+      "id": "2026-11-16-pirelli-strategia-las-vegas",
+      "title": "Pirelli porta C3, C4 e C5 a Las Vegas ma non sa quale strategia pagherà",
+      "summary": "Per la notte della Strip Pirelli ha scelto le tre mescole più morbide. Con l'asfalto freddo e il rischio graining il fornitore ammette che la tattica migliore resta un'incognita fino alle libere.",
+      "tag": "Gare",
+      "source": "Motorsport.com",
+      "url": "https://www.motorsport.com/f1/news/pirelli-doesnt-know-what-the-best-f1-strategy-is-for-las-vegas-gp/10778949/",
+      "published": "2026-11-16T15:00:00Z"
+    },
+    {
+      "id": "2026-11-17-beganovic-fp1-las-vegas",
+      "title": "Las Vegas, Hamilton lascia la Ferrari a Beganovic nelle prove libere 1",
+      "summary": "Il giovane della Ferrari Driver Academy guiderà la SF-26 di Hamilton nella prima sessione di libere sulla Strip, sfruttando uno degli slot obbligatori per i rookie. Il britannico tornerà in macchina dalle libere 2.",
+      "tag": "Ferrari",
+      "source": "planetf1.com",
+      "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-las-vegas-grand-prix-2026-fp1",
+      "published": "2026-11-17T14:00:00Z"
+    },
+    {
+      "id": "2026-11-17-antonelli-decima-vittoria-las-vegas",
+      "title": "Las Vegas, Antonelli va a caccia della decima vittoria stagionale",
+      "summary": "Già campione del mondo, il pilota della Mercedes arriva sulla Strip con l'obiettivo di ritoccare il proprio bottino di successi nel 2026. Las Vegas apre il trittico finale della stagione.",
+      "tag": "Mercedes",
+      "source": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/sport/2026/11/17/f1-las-vegas-aspetta-il-circus-antonelli-vuole-la-decima_31f8835a-ac03-412b-b0b2-51558a665061.html",
+      "published": "2026-11-17T16:00:00Z"
+    },
+    {
+      "id": "2026-11-17-aduo-mercedes-antonelli",
+      "title": "Mercedes porta il turbo ADUO a Las Vegas, ma solo sulla monoposto di Antonelli",
+      "summary": "Il nuovo turbo debutta sulla vettura del neo campione, che potrebbe pagare una penalità in griglia per il cambio di componenti. Russell resta con la configurazione attuale per non compromettere la corsa al secondo posto nel mondiale.",
+      "tag": "Mercedes",
+      "source": "Racer",
+      "url": "https://racer.com/2026/11/17/antonelli-set-for-grid-penalty-for-mercedes-aduo-as-team-targets-p2-for-russell",
+      "published": "2026-11-17T20:00:00Z"
+    },
+    {
+      "id": "2026-11-18-verstappen-vegas-energia",
+      "title": "Verstappen avverte: a Las Vegas la gestione dell'energia peserà più del solito",
+      "summary": "Dopo una visita in fabbrica a Milton Keynes, l'olandese della Red Bull prevede comportamenti diversi delle vetture sul lungo rettilineo della Strip, dove il recupero di energia sarà decisivo. Verstappen è l'unico ad aver vinto due volte a Las Vegas.",
+      "tag": "Red Bull",
+      "source": "RacingNews365",
+      "url": "https://racingnews365.com/max-verstappen-raises-different-behaviours-warning-ahead-of-unique-f1-challenge",
+      "published": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": "2026-11-18-ferrari-priorita-las-vegas",
+      "title": "Ferrari, la priorità per Las Vegas: la SF-26 deve superare un ostacolo",
+      "summary": "A Maranello hanno individuato il punto su cui lavorare per il weekend sulla Strip: la SF-26 deve risolvere un limite che sui circuiti cittadini veloci e freddi l'ha già penalizzata.",
+      "tag": "Ferrari",
+      "source": "F1 in Generale",
+      "url": "https://f1ingenerale.com/f1/news-f1/f1-ferrari-svela-la-priorita-per-las-vegas-la-sf26-chiamata-a-superare-un-grande-ostacolo/",
+      "published": "2026-11-18T17:00:00Z"
+    },
+    {
+      "id": "2026-11-19-verstappen-qatar-abu-dhabi",
+      "title": "Verstappen si fida della F1 sulle gare finali in Qatar e Abu Dhabi",
+      "summary": "Alla vigilia di Las Vegas l'olandese ha detto di avere fiducia nelle valutazioni dei vertici della F1, che hanno confermato i due appuntamenti conclusivi in Medio Oriente nonostante il conflitto nella regione.",
+      "tag": "Calendario",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13613637/max-verstappen-says-he-trusts-f1-bosses-over-plans-to-proceed-with-season-ending-races-in-qatar-and-abu-dhabi-amid-conflict-in-middle-east",
+      "published": "2026-11-19T08:00:00Z"
+    },
+    {
+      "id": "2026-11-19-hamilton-fiducia-ferrari",
+      "title": "Hamilton nega problemi di fiducia con la Ferrari dopo gli ordini ignorati",
+      "summary": "Nel media day di Las Vegas il sette volte campione ha respinto l'idea di una frattura con il muretto, dopo aver disatteso due volte le indicazioni del team nelle ultime gare. L'obiettivo resta il secondo posto tra i costruttori.",
+      "tag": "Ferrari",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13613635/lewis-hamilton-denies-lack-of-trust-with-ferrari-after-ignoring-instructions-from-pit-wall-twice-in-recent-races",
+      "published": "2026-11-19T08:30:00Z"
+    },
+    {
+      "id": "2026-11-19-antonelli-penalita-las-vegas",
+      "title": "Las Vegas, Antonelli penalizzato di cinque posizioni in griglia",
+      "summary": "Il montaggio della sesta power unit stagionale, con il nuovo turbo ADUO della Mercedes, oltre il limite consentito costa ad Antonelli cinque posti sulla griglia di domenica. Il leader del Mondiale dovrà quindi rimontare per inseguire la vittoria sulla Strip.",
+      "tag": "Mercedes",
+      "source": "Motorsport Week",
+      "url": "https://www.motorsportweek.com/2026/11/19/kimi-antonelli-set-for-las-vegas-grid-penalty/",
+      "published": "2026-11-19T16:00:00Z"
+    },
+    {
+      "id": "2026-11-19-leclerc-giornalista-bandito",
+      "title": "Leclerc sul giornalista escluso dalla FIA: «Sorpreso dalle parole usate»",
+      "summary": "Alla vigilia di Las Vegas il ferrarista ha commentato il caso del cronista del Daily Mail privato dell'accredito dopo un articolo critico nei suoi confronti, dicendosi colpito dai termini dell'articolo ma senza entrare nel merito della decisione federale.",
+      "tag": "Paddock",
+      "source": "Motorsport.com",
+      "url": "https://www.motorsport.com/f1/news/charles-leclerc-on-journalist-ban-i-was-surprised-by-the-choice-of-words/10875509/",
+      "published": "2026-11-19T20:00:00Z"
+    },
+    {
+      "id": "2026-11-20-las-vegas-fp1-pioggia",
+      "title": "Las Vegas, la pioggia cancella le libere 1: nessun tempo cronometrato",
+      "summary": "Un forte acquazzone ha bloccato la prima sessione sulla Strip e nessun pilota è riuscito a completare un giro cronometrato. Le squadre arrivano così alle qualifiche con pochissimi dati raccolti.",
+      "tag": "Gare",
+      "source": "news.gp",
+      "url": "https://www.news.gp/it/una-forte-pioggia-interrompe-la-fp1-di-las-vegas-senza-che-siano-stati-registrati-tempi-sul-giro",
+      "published": "2026-11-20T01:45:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-20-las-vegas-fp2-russell",
+      "title": "Las Vegas, Russell il più veloce nelle libere 2 sul bagnato davanti a Gasly e Leclerc",
+      "summary": "Con l'asfalto che si asciugava, George Russell ha piazzato il miglior tempo all'ultimo tentativo in una sessione interrotta da una bandiera rossa. Seconda l'Alpine di Gasly, terza la Ferrari di Leclerc, Antonelli ottavo.",
+      "tag": "Gare",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/fp2-russell-beats-gasly-and-leclerc-to-top-spot-in-wet-las-vegas-gp-practice.62NwXdkf1krQs0esgViJtc",
+      "published": "2026-11-20T05:30:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-20-verstappen-motore-vegas",
+      "title": "Verstappen solo tredicesimo nelle libere di Las Vegas, frenato da un problema al motore",
+      "summary": "Il pilota Red Bull ha chiuso la seconda sessione lontano dai primi e ha lamentato un inconveniente alla power unit. Per lui una giornata da archiviare in fretta in vista delle qualifiche.",
+      "tag": "Red Bull",
+      "source": "F1 Oversteer",
+      "url": "https://www.f1oversteer.com/races/george-russell-tops-red-flagged-las-vegas-gp-fp2-as-max-verstappen-bemoans-engine-issue/",
+      "published": "2026-11-20T06:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-20-leclerc-ferrari-non-male",
+      "title": "Leclerc dopo le libere di Las Vegas: «La Ferrari non è messa male»",
+      "summary": "Terzo nella sessione bagnata, il monegasco vede segnali incoraggianti per la SF-26 in vista di qualifiche e gara. Restano però molte incognite sul comportamento delle gomme con l'asciutto.",
+      "tag": "Ferrari",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/ferrari-not-in-a-bad-place-after-practice-for-las-vegas-grand-prix-says.2I4MSR4aIpLcKUPUPOxoWS",
+      "published": "2026-11-20T08:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-20-las-vegas-cinque-penalita",
+      "title": "Las Vegas, pioggia di penalità: Piastri e Sainz arretrano di dieci posizioni",
+      "summary": "Sono almeno cinque i piloti che sconteranno arretramenti in griglia sulla Strip per l'uso di componenti della power unit oltre il limite. Oltre ad Antonelli, i colpi più pesanti toccano a Piastri e Sainz, penalizzati di dieci posti.",
+      "tag": "Gare",
+      "source": "RaceFans",
+      "url": "https://www.racefans.net/2026/11/20/five-drivers-to-take-grid-penalties-at-las-vegas-grand-prix/",
+      "published": "2026-11-20T17:00:00Z"
+    },
+    {
+      "id": "2026-11-21-las-vegas-fp3-russell",
+      "title": "Las Vegas, Russell davanti a tutti nelle FP3",
+      "summary": "Nell'ultimo turno di libere Russell precede il compagno Antonelli e Norris; Leclerc quarto, Verstappen sesto e Hamilton ottavo.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/f1-risultati-e-classifica-fp3-gp-las-vegas-2026-russell-precede-antonelli-e-norris-4-leclerc-6-verstappen-8-hamilton/",
+      "published": "2026-11-21T01:40:00Z"
+    },
+    {
+      "id": "2026-11-21-las-vegas-qualifiche-verstappen-pole",
+      "title": "Las Vegas, Antonelli il più veloce ma la pole va a Verstappen",
+      "summary": "Antonelli firma il miglior giro in qualifica, ma la penalità di cinque posizioni per il motore consegna la partenza al palo a Verstappen. In prima fila con l'olandese ci sarà Russell, poi Norris.",
+      "tag": "Gare",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/antonelli-quickest-in-las-vegas-gp-qualifying-as-verstappen-inherits-pole-position.6R7udh8iYMHunSOGI6zStK",
+      "published": "2026-11-21T05:15:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-21-las-vegas-ferrari-fuori-q2",
+      "title": "Ferrari, disastro a Las Vegas: Leclerc e Hamilton eliminati in Q2",
+      "summary": "Dopo un buon venerdì, le due Rosse non vanno oltre l'11° e il 12° posto in qualifica. Leclerc ammette che la squadra ha sbagliato tutto nella sessione decisiva.",
+      "tag": "Ferrari",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/charles-leclerc-si-sfoga-dopo-le-qualifiche-a-las-vegas-non-ne-abbiamo-fatta-una-giusta/",
+      "published": "2026-11-21T06:00:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-22-las-vegas-gara-verstappen",
+      "title": "Verstappen vince la battaglia di Las Vegas, doppio podio McLaren",
+      "summary": "Gara ricca di sorpassi sulla Strip: Verstappen la spunta su Norris e Piastri, con Antonelli quarto dopo un problema nel finale. Ottimo quinto e sesto posto per le Alpine.",
+      "tag": "Gare",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
+      "published": "2026-11-22T05:45:00Z",
+      "top": true
+    },
+    {
+      "id": "2026-11-22-las-vegas-ferrari-penalita",
+      "title": "Ferrari, doppia penalità a Las Vegas: Hamilton 7° e Leclerc 10°",
+      "summary": "Entrambe le Rosse vengono punite con 10 secondi: Hamilton per un vantaggio ottenuto fuori pista su Norris, Leclerc per il contatto con il compagno durante il loro duello.",
+      "tag": "Ferrari",
+      "source": "Formula1.com",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX",
+      "published": "2026-11-22T05:50:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-22-ferrari-hamilton-leclerc-vegas-vasseur",
+      "title": "Ferrari, nuovo contatto Hamilton-Leclerc a Las Vegas: Vasseur torna a parlare ai piloti",
+      "summary": "Dopo un altro duello ravvicinato tra i due ferraristi a Las Vegas, il team principal ha fatto capire che episodi simili non possono ripetersi. È previsto un nuovo confronto con entrambi prima del Qatar.",
+      "tag": "Ferrari",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13615086/lewis-hamilton-charles-leclerc-clashes-cannot-continue-after-las-vegas-gp-with-frederic-vasseur-to-speak-to-drivers-again",
+      "published": "2026-11-22T20:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-23-cosa-resta-in-palio-dopo-las-vegas",
+      "title": "Titoli già assegnati, ma in Qatar e ad Abu Dhabi c'è ancora molto in palio",
+      "summary": "Con Antonelli e Mercedes già campioni, restano aperte le lotte per il secondo posto tra i piloti, dove Verstappen deve guardarsi da Hamilton e Russell, e per le posizioni d'onore tra i costruttori dietro la Mercedes.",
+      "tag": "Mondiale",
+      "source": "Grande Prêmio",
+      "url": "https://grandepremio.com/en/f1/what-is-still-at-stake-in-the-2026-f1-championship-after-las-vegas/",
+      "published": "2026-11-23T12:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-23-vasseur-coppia-ingestibile",
+      "title": "Vasseur, coppia Hamilton-Leclerc «ingestibile»: la Ferrari valuta provvedimenti",
+      "summary": "Dopo il secondo contatto tra i due piloti a Las Vegas il team principal ha parlato di una situazione non più gestibile. A Maranello si ragiona su possibili misure prima del Qatar.",
+      "tag": "Ferrari",
+      "source": "PlanetF1",
+      "url": "https://www.planetf1.com/news/lewis-hamilton-charles-leclerc-ferrari-unmanageable-fred-vasseur",
+      "published": "2026-11-23T15:00:00Z",
+      "top": false
     }
   ],
   "info": {
-    "updated": "2026-11-23T23:50:00Z",
+    "updated": "2026-11-24T07:55:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",
