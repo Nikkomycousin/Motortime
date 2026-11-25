@@ -186,6 +186,16 @@ def main():
                     state[extra] = now.isoformat()
         msgs = [m for m in msgs if not m[0].startswith("results:")]
 
+    if token and chat and "welcome" not in state:
+        msgs.insert(0, ("welcome",
+            "👋 <b>Benvenuti su Motortime!</b>\n\n"
+            "Qui trovate, in automatico:\n"
+            "📅 gli <b>orari del weekend</b> in ora italiana, con i canali TV (Sky, NOW, TV8)\n"
+            "⏱️ un <b>promemoria</b> prima di qualifiche, sprint e gare\n"
+            "🏁 i <b>risultati</b> appena disponibili\n\n"
+            "Formula 1, F2, F3, MotoGP, Moto2, Moto3, Superbike ed endurance (WEC, ELMS, IMSA, Asian Le Mans).\n\n"
+            f'<a href="{SITE}/">Tutto su motortimeitalia.it</a>', False, None))
+
     sent = 0
     for sid, text, silent, extra in msgs:
         if dry or not token or not chat:
