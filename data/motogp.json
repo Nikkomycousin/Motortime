@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-25-bagnaia-salta-valencia",
+      "title": "Bagnaia salta anche Valencia: niente ultima gara in Ducati, c'è ancora Lecuona",
+      "summary": "Il piede fratturato non è ancora guarito e Bagnaia non prenderà parte al GP di Valencia, chiudendo così senza correre la sua avventura in Ducati. Al fianco di Márquez nel box ufficiale tornerà Iker Lecuona, già al via a Portimão.",
+      "tag": "Ducati",
+      "source": "motogp.com",
+      "url": "https://www.motogp.com/en/news/2026/11/25/bagnaia-sidelined-from-valencia-lecuona-to-stand-in/1268169",
+      "published": "2026-11-25T18:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-25-bmw-m-award-valencia",
       "title": "BMW M Award, a Valencia si decide il premio delle qualifiche: Bezzecchi insegue Márquez",
       "summary": "L'ultimo weekend della stagione assegna anche la BMW M2 destinata al miglior qualificato dell'anno. Márquez è in testa alla graduatoria, ma Bezzecchi può ancora sorpassarlo con un sabato da protagonista a Valencia.",
@@ -422,7 +432,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-25T20:55:00Z",
+    "updated": "2026-11-25T22:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
