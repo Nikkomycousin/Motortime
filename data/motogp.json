@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-25-bmw-m-award-valencia",
+      "title": "BMW M Award, a Valencia si decide il premio delle qualifiche: Bezzecchi insegue Márquez",
+      "summary": "L'ultimo weekend della stagione assegna anche la BMW M2 destinata al miglior qualificato dell'anno. Márquez è in testa alla graduatoria, ma Bezzecchi può ancora sorpassarlo con un sabato da protagonista a Valencia.",
+      "tag": "Paddock",
+      "source": "Moto.it",
+      "url": "https://www.moto.it/news/una-bmw-m2-da-480-cv-in-palio-a-valencia-come-bezzecchi-puo-strappare-il-premio-a-marquez.html",
+      "published": "2026-11-25T16:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-25-bezzecchi-cosa-non-ha-funzionato",
       "title": "Bezzecchi rilegge la lotta al titolo: «È stato doloroso»",
       "summary": "Alla vigilia di Valencia il pilota Aprilia ripercorre la sua stagione e spiega cosa gli è mancato nella corsa al mondiale vinto da Márquez.",
@@ -412,7 +422,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-25T18:55:00Z",
+    "updated": "2026-11-25T20:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
