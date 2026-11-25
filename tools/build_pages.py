@@ -381,6 +381,7 @@ def page(key, slug, full, short, color, unit, logo):
 {body}
 <h2 style="margin-top:22px">Altri campionati</h2>
 <nav class="links" aria-label="Campionati">{''.join(others)}</nav>
+<a class="cta big" href="https://t.me/motortimeitalia" rel="noopener" style="background:#229ED9;color:#fff">📣 Seguici su Telegram: orari del weekend, promemoria e risultati</a>
 <a class="cta big" href="{app}">Segui {e(short)} su Motortime: conto alla rovescia, meteo e preferiti</a>
 </main>
 <footer>Motortime · orari italiani, TV, risultati e notizie del motorsport<br>
