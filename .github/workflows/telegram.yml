@@ -20,7 +20,7 @@ jobs:
       - name: Pubblica sul canale
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID || secrets.TELEGRAM_CHAT_ID || '@motortimeitalia' }}
         run: python3 tools/telegram_post.py
       - name: Salva i messaggi già inviati
         run: |
