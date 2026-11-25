@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-25-vinales-salta-valencia",
+      "title": "Viñales non ci sarà neanche a Valencia: in Tech3 torna Pol Espargaró",
+      "summary": "Maverick Viñales salterà anche l'ultimo appuntamento della stagione al Ricardo Tormo, chiudendo in anticipo il suo 2026. Al suo posto sulla KTM del team Tech3 correrà ancora Pol Espargaró.",
+      "tag": "Team",
+      "source": "Moto.it",
+      "url": "https://www.moto.it/MotoGP/maverick-vinales-addio-motogp-saltera-anche-ultimo-gp-stagione-valencia.html",
+      "published": "2026-11-25T09:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-24-valencia-addii-martin-aprilia",
       "title": "Valencia, gara d'addio per diversi piloti: anche Martín all'ultima con Aprilia",
       "summary": "Il finale di stagione al Ricardo Tormo chiude il capitolo attuale per vari protagonisti che nel 2027 cambieranno squadra. Tra loro c'è Jorge Martín, alla sua ultima uscita con la moto di Noale prima del passaggio a un nuovo team.",
@@ -392,7 +402,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-25T07:50:00Z",
+    "updated": "2026-11-25T10:50:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
