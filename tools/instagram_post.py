@@ -26,6 +26,8 @@ import social_cards as sc  # noqa: E402
 
 ROOT = sc.ROOT
 IG_USER = os.environ.get("IG_USER_ID", "17841480897571197")
+FB_PAGE = os.environ.get("FB_PAGE_ID", "1470016799533338")
+SLUG = {"f1": "formula-1", "motogp": "motogp", "wsbk": "superbike", "wec": "wec"}
 GRAPH = "https://graph.facebook.com/v21.0"
 STATE = os.path.join(ROOT, "tools", "instagram_state.json")
 BUILD = os.path.join(ROOT, "build", "social")
@@ -210,6 +212,13 @@ def publish():
             state[it["sid"]] = now.isoformat()
             done += 1
             print("pubblicato:", it["name"])
+            # stesso post sulla Pagina Facebook (tentato una sola volta: se manca il permesso, lo segnala e basta)
+            try:
+                msg = it["caption"].replace("link in bio (motortimeitalia.it)", f"https://motortimeitalia.it/{SLUG.get(it['key'], '')}/")
+                api(f"{FB_PAGE}/photos", {"url": f"{base}/{it['image']}", "message": msg}, token)
+                print("pubblicato su Facebook:", it["name"])
+            except Exception as ex:
+                print(f"Facebook non pubblicato ({it['name']}): {ex}", file=sys.stderr)
         except Exception as ex:
             print(f"Errore pubblicazione {it['name']}: {ex}", file=sys.stderr)
     save_state(state, now)
