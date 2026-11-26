@@ -1,0 +1,62 @@
+name: Instagram
+
+on:
+  schedule:
+    - cron: "22,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Strumenti grafici
+        run: |
+          mkdir -p build/node && cd build/node
+          npm init -y > /dev/null
+          npm i --no-audit --no-fund @fontsource-variable/archivo@5 @fontsource/jetbrains-mono@5 flag-icons@7 > /dev/null
+      - name: Cosa pubblicare
+        id: plan
+        run: |
+          N=$PWD/build/node/node_modules
+          mkdir -p build/fonts
+          cp $N/@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2 $N/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2 $N/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2 build/fonts/
+          python3 tools/instagram_post.py plan --fonts "file://$PWD/build/fonts" --flags "$N/flag-icons/flags/4x3" | tee build/plan.txt
+          grep -q "^work=1" build/plan.txt && echo "work=1" >> "$GITHUB_OUTPUT" || echo "work=0" >> "$GITHUB_OUTPUT"
+      - name: Crea le immagini
+        if: steps.plan.outputs.work == '1'
+        run: |
+          cd build/node && npm i --no-audit --no-fund playwright@1 > /dev/null && npx playwright install --with-deps chromium > /dev/null
+          cd ../.. && NODE_PATH=$PWD/build/node/node_modules node tools/render_cards.js build/social social
+      - name: Carica le immagini
+        if: steps.plan.outputs.work == '1'
+        id: up
+        run: |
+          git config user.name "Motortime"
+          git config user.email "motortime@users.noreply.github.com"
+          git add -A social tools/instagram_state.json
+          git commit -q -m "Instagram: immagini da pubblicare"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep $((i * 5)); done
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Pubblica su Instagram
+        if: steps.plan.outputs.work == '1'
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+        run: python3 tools/instagram_post.py publish --base "https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.up.outputs.sha }}/social"
+      - name: Salva lo stato
+        if: always()
+        run: |
+          git config user.name "Motortime"
+          git config user.email "motortime@users.noreply.github.com"
+          git add -A social tools/instagram_state.json 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "Instagram: pubblicazioni registrate"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep $((i * 5)); done
+          exit 1
