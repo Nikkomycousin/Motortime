@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-25-qatar-limite-27-giri-gomme",
+      "title": "Qatar, torna il limite di 27 giri per set: almeno due soste obbligate",
+      "summary": "Pirelli ripristina a Lusail il tetto massimo di 27 giri per ogni treno di gomme, come già accaduto in passato per i cordoli molto aggressivi. Su 57 giri di gara le squadre saranno quindi costrette a fermarsi almeno due volte.",
+      "tag": "Gare",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/f1/news/1110887/1/f1s-27-lap-tyre-limit-rule-qatar-grand-prix-explained",
+      "published": "2026-11-25T16:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-25-leclerc-conferenza-fia-qatar",
       "title": "Qatar, la FIA porta Leclerc in conferenza stampa: domande sul caso Hamilton",
       "summary": "Leclerc è tra i piloti convocati alla conferenza ufficiale del giovedì a Lusail, dove dovrà rispondere sui contatti con il compagno Hamilton dopo Las Vegas.",
@@ -1083,19 +1093,10 @@
       "source": "Reuters / TimesLIVE",
       "url": "https://www.timeslive.co.za/motoring/2026-11-03-f1-assures-teams-middle-east-grands-prix-will-go-ahead-report-says/",
       "published": "2026-11-03T07:00:00Z"
-    },
-    {
-      "id": "2026-11-03-hamilton-ferrari-soluzioni",
-      "title": "Hamilton: \"La squadra viene prima, con Leclerc troveremo una soluzione\"",
-      "summary": "Dopo il contatto alla curva 4 che è costato la vittoria in Messico, Hamilton chiede alla Ferrari regole chiare tra i piloti. Il chiarimento con Leclerc avverrà lontano dai microfoni.",
-      "tag": "Ferrari",
-      "source": "RacingNews365",
-      "url": "https://racingnews365.com/lewis-hamilton-demands-ferrari-solutions-after-latest-mess-with-charles-leclerc",
-      "published": "2026-11-03T05:30:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-25T23:50:00Z",
+    "updated": "2026-11-26T08:05:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",
@@ -1108,8 +1109,7 @@
     "circuit": "Lusail International Circuit",
     "lat": 25.49,
     "lon": 51.45,
-    "updated": "2026-11-23T18:55:00Z",
-    "tv8note": "Su TV8 qualifiche e gara in differita (orari della messa in onda non ancora annunciati), nessuna diretta in chiaro; diretta integrale su Sky Sport F1 e NOW.",
+    "updated": "2026-11-26T08:05:00Z",
     "sessions": [
       {
         "name": "Prove libere 1",
@@ -1134,13 +1134,21 @@
         "start": "2026-11-28T18:00:00Z",
         "end": "2026-11-28T19:00:00Z",
         "live": "Diretta Sky Sport F1 · NOW",
-        "key": true
+        "key": true,
+        "tv8": {
+          "live": false,
+          "time": "2026-11-28T20:30:00Z"
+        }
       },
       {
         "name": "Gara (57 giri)",
         "start": "2026-11-29T16:00:00Z",
         "live": "Diretta Sky Sport F1 · NOW",
-        "key": true
+        "key": true,
+        "tv8": {
+          "live": false,
+          "time": "2026-11-29T20:30:00Z"
+        }
       }
     ]
   },
