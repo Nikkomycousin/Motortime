@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-26-leclerc-nessuna-clausola-prima-guida",
+      "title": "Leclerc in Qatar: «Nessuna clausola da prima guida», Hamilton: «Ci siamo parlati»",
+      "summary": "Nella conferenza del giovedì a Lusail Leclerc ha negato di avere un contratto che lo renda prima guida e ha detto di accettare le parole di Vasseur sui contatti con Hamilton. Il britannico assicura che tra i due non c'è tensione e che dopo Las Vegas si sono confrontati.",
+      "tag": "Ferrari",
+      "source": "Sky Sport",
+      "url": "https://sport.sky.it/formula-1/2026/11/26/formula-1-conferenza-gp-qatar-losail-live-streaming",
+      "published": "2026-11-26T14:30:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-25-qatar-limite-27-giri-gomme",
       "title": "Qatar, torna il limite di 27 giri per set: almeno due soste obbligate",
       "summary": "Pirelli ripristina a Lusail il tetto massimo di 27 giri per ogni treno di gomme, come già accaduto in passato per i cordoli molto aggressivi. Su 57 giri di gara le squadre saranno quindi costrette a fermarsi almeno due volte.",
@@ -1084,19 +1094,10 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/max-verstappen-fia-isack-hadjar-fan-incident",
       "published": "2026-11-03T09:47:00Z"
-    },
-    {
-      "id": "2026-11-03-medio-oriente-garanzie",
-      "title": "La F1 rassicura i team: Qatar e Abu Dhabi si correranno",
-      "summary": "Secondo Reuters, Formula 1 ha garantito alle squadre che le due gare finali in Medio Oriente si svolgeranno con misure di sicurezza adeguate, invitando i team a evitare commenti pubblici sulla guerra con l'Iran.",
-      "tag": "Calendario",
-      "source": "Reuters / TimesLIVE",
-      "url": "https://www.timeslive.co.za/motoring/2026-11-03-f1-assures-teams-middle-east-grands-prix-will-go-ahead-report-says/",
-      "published": "2026-11-03T07:00:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-26T13:55:00Z",
+    "updated": "2026-11-26T18:55:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",

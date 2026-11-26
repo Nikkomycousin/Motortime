@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-23-stellantis-chiude-peugeot-hypercar",
+      "title": "Ufficiale: Stellantis chiude il programma Peugeot, niente WEC nel 2027",
+      "summary": "Il gruppo ha confermato lo stop immediato del progetto 9X8 nell'ambito del piano di tagli ai costi, cancellando anche l'evoluzione prevista per il 2027. Peugeot non sarà quindi al via del Mondiale Endurance e della 24 Ore di Le Mans della prossima stagione.",
+      "tag": "Mercato",
+      "source": "Ouest-France",
+      "url": "https://www.ouest-france.fr/sport/24-heures-du-mans/peugeot/stellantis-annonce-larret-du-programme-endurance-de-peugeot-qui-ne-participera-pas-au-championnat-du-monde-2027-0041aab4-e74d-11f1-afa7-9a0bb82a33d1",
+      "published": "2026-11-23T12:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-20-peugeot-programma-a-rischio",
       "title": "Peugeot verso lo stop del programma Hypercar prima del 2027",
       "summary": "Secondo indiscrezioni dal paddock, il marchio francese sarebbe pronto a chiudere l'avventura nel WEC già dopo la stagione 2026. Una decisione ufficiale non è ancora arrivata.",
@@ -8,7 +18,7 @@
       "source": "RACER",
       "url": "https://racer.com/2026/11/20/peugeot-s-wec-program-facing-the-axe-ahead-of-2027-season",
       "published": "2026-11-20T15:00:00Z",
-      "top": true
+      "top": false
     },
     {
       "id": "2026-11-19-estre-toyota-2027",
@@ -196,7 +206,8 @@
       "tag": "Mercato",
       "source": "Sportscar365",
       "url": "https://sportscar365.com/lemans/wec/peugeot-confirms-jakobsen-departure-after-monza/",
-      "published": "2026-11-02T15:00:00Z"
+      "published": "2026-11-02T15:00:00Z",
+      "top": false
     },
     {
       "id": "2026-11-02-monza-rai",
@@ -284,7 +295,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-26T13:55:00Z",
+    "updated": "2026-11-26T18:55:00Z",
     "nextGp": {
       "name": "Qatar 1812 km",
       "circuit": "Lusail",

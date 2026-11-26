@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-26-bezzecchi-titolo-costruttori-valencia",
+      "title": "Valencia, Bezzecchi punta al titolo costruttori per l'Aprilia",
+      "summary": "Nella vigilia dell'ultimo GP Bezzecchi ha indicato come obiettivo aiutare l'Aprilia a conquistare il campionato costruttori contro la Ducati, prima di voltare pagina con i test di martedì. Márquez, già campione, promette un finale di stagione da protagonista.",
+      "tag": "Aprilia",
+      "source": "Motorionline",
+      "url": "https://motograndprix.motorionline.com/motogp-2026-gp-valencia-bezzecchi-prima-la-gara-poi-da-martedi-iniziera-un-nuovo-capitolo/",
+      "published": "2026-11-26T15:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-25-bagnaia-salta-valencia",
       "title": "Bagnaia salta anche Valencia: niente ultima gara in Ducati, c'è ancora Lecuona",
       "summary": "Il piede fratturato non è ancora guarito e Bagnaia non prenderà parte al GP di Valencia, chiudendo così senza correre la sua avventura in Ducati. Al fianco di Márquez nel box ufficiale tornerà Iker Lecuona, già al via a Portimão.",
@@ -61,16 +71,6 @@
       "top": false
     },
     {
-      "id": "2026-11-22-zarco-long-lap-valencia",
-      "title": "Zarco penalizzato: Long Lap a Valencia per il contatto con Alex Márquez",
-      "summary": "I commissari hanno giudicato Zarco responsabile della collisione con Alex Márquez nel GP del Portogallo. Il pilota LCR Honda sconterà un Long Lap Penalty nella gara finale di Valencia.",
-      "tag": "Gare",
-      "source": "GPOne",
-      "url": "https://www.gpone.com/it/2026/11/22/motogp/johann-zarco-penalizzato-per-il-contatto-con-alex-marquez-long-lap-penalty-a-valencia.html",
-      "published": "2026-11-22T18:00:00Z",
-      "top": false
-    },
-    {
       "id": "2026-11-23-martin-orgoglioso-sfida-marquez",
       "title": "Martín orgoglioso della sfida con Márquez: «Tornerò a vincere il titolo»",
       "summary": "Il pilota Aprilia, vicecampione con un round ancora da correre, rivendica la lotta mondiale con Márquez e promette di riprovarci nel 2027 per riprendersi il numero uno.",
@@ -88,6 +88,16 @@
       "source": "Corsedimoto",
       "url": "https://www.corsedimoto.com/motogp/aprilia-rimpianti-valencia-scherzetto-ducati-motogp",
       "published": "2026-11-23T06:00:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-22-zarco-long-lap-valencia",
+      "title": "Zarco penalizzato: Long Lap a Valencia per il contatto con Alex Márquez",
+      "summary": "I commissari hanno giudicato Zarco responsabile della collisione con Alex Márquez nel GP del Portogallo. Il pilota LCR Honda sconterà un Long Lap Penalty nella gara finale di Valencia.",
+      "tag": "Gare",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/22/motogp/johann-zarco-penalizzato-per-il-contatto-con-alex-marquez-long-lap-penalty-a-valencia.html",
+      "published": "2026-11-22T18:00:00Z",
       "top": false
     },
     {
@@ -121,13 +131,13 @@
       "top": false
     },
     {
-      "id": "2026-11-21-portimao-sprint-bezzecchi-marquez-cade",
-      "title": "Sprint di Portimão a Bezzecchi, Márquez cade e il titolo resta in sospeso",
-      "summary": "Il pilota Aprilia vince in solitaria davanti a Raúl Fernández e Álex Márquez. Marc Márquez scivola nel finale e dovrà attendere la gara di domenica per festeggiare il Mondiale.",
-      "tag": "Gare",
+      "id": "2026-11-21-marquez-cosa-serve-titolo-portimao",
+      "title": "Márquez, cosa serve domenica a Portimão per chiudere il Mondiale",
+      "summary": "Dopo la caduta nella Sprint il vantaggio su Martín è di 55 punti con 62 ancora in palio: allo spagnolo della Ducati basta non perderne più di sei in gara.",
+      "tag": "Mondiale",
       "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/motogp-marco-bezzecchi-fa-il-vuoto-nella-sprint-di-portimao-marquez-cade-e-rimanda-la-festa/",
-      "published": "2026-11-21T15:10:00Z",
+      "url": "https://www.oasport.it/2026/11/motogp-festa-rimandata-per-marc-marquez-cosa-gli-serve-per-vincere-il-mondiale-domenica-22-novembre-a-portimao/",
+      "published": "2026-11-21T16:30:00Z",
       "top": false
     },
     {
@@ -141,23 +151,13 @@
       "top": false
     },
     {
-      "id": "2026-11-21-marquez-cosa-serve-titolo-portimao",
-      "title": "Márquez, cosa serve domenica a Portimão per chiudere il Mondiale",
-      "summary": "Dopo la caduta nella Sprint il vantaggio su Martín è di 55 punti con 62 ancora in palio: allo spagnolo della Ducati basta non perderne più di sei in gara.",
-      "tag": "Mondiale",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/motogp-festa-rimandata-per-marc-marquez-cosa-gli-serve-per-vincere-il-mondiale-domenica-22-novembre-a-portimao/",
-      "published": "2026-11-21T16:30:00Z",
-      "top": false
-    },
-    {
-      "id": "2026-11-21-portimao-pole-bezzecchi-record",
-      "title": "Portimão, Bezzecchi in pole con il record della pista: Márquez secondo",
-      "summary": "Il pilota Aprilia ha firmato la sua sesta pole stagionale abbassando il primato del circuito dell'Algarve. Márquez parte dalla prima fila con il titolo a portata di mano, Martín solo settimo.",
+      "id": "2026-11-21-portimao-sprint-bezzecchi-marquez-cade",
+      "title": "Sprint di Portimão a Bezzecchi, Márquez cade e il titolo resta in sospeso",
+      "summary": "Il pilota Aprilia vince in solitaria davanti a Raúl Fernández e Álex Márquez. Marc Márquez scivola nel finale e dovrà attendere la gara di domenica per festeggiare il Mondiale.",
       "tag": "Gare",
       "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/motogp-pole-e-record-della-pista-a-portimao-per-marco-bezzecchi-marquez-fa-il-massimo-martin-barcolla/",
-      "published": "2026-11-21T11:40:00Z",
+      "url": "https://www.oasport.it/2026/11/motogp-marco-bezzecchi-fa-il-vuoto-nella-sprint-di-portimao-marquez-cade-e-rimanda-la-festa/",
+      "published": "2026-11-21T15:10:00Z",
       "top": false
     },
     {
@@ -168,6 +168,16 @@
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/live-motogp-gp-portogallo-2026-in-diretta-marquez-puo-chiudere-i-conti-nella-sprint/",
       "published": "2026-11-21T12:30:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-21-portimao-pole-bezzecchi-record",
+      "title": "Portimão, Bezzecchi in pole con il record della pista: Márquez secondo",
+      "summary": "Il pilota Aprilia ha firmato la sua sesta pole stagionale abbassando il primato del circuito dell'Algarve. Márquez parte dalla prima fila con il titolo a portata di mano, Martín solo settimo.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/motogp-pole-e-record-della-pista-a-portimao-per-marco-bezzecchi-marquez-fa-il-massimo-martin-barcolla/",
+      "published": "2026-11-21T11:40:00Z",
       "top": false
     },
     {
@@ -432,7 +442,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-26T13:55:00Z",
+    "updated": "2026-11-26T18:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
