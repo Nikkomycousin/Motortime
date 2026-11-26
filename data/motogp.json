@@ -11,6 +11,16 @@
       "top": true
     },
     {
+      "id": "2026-11-26-conferenza-valencia-martin-acosta-quartararo",
+      "title": "Valencia, conferenza degli addii: Martín, Acosta e Quartararo all'ultima con i loro team",
+      "summary": "La conferenza stampa che apre il weekend finale ha messo insieme tre piloti che a Valencia chiudono un capitolo prima di cambiare squadra nel 2027. Martín vuole salutare l'Aprilia con un risultato di vertice, mentre Acosta ha parlato della sfida di avere Márquez come compagno.",
+      "tag": "Mercato",
+      "source": "motogp.com",
+      "url": "https://www.motogp.com/en/news/2026/11/26/media-day-dispatch-one-last-hurrah-ahead-of-2026s-final-round/1268361",
+      "published": "2026-11-26T14:30:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-25-bagnaia-salta-valencia",
       "title": "Bagnaia salta anche Valencia: niente ultima gara in Ducati, c'è ancora Lecuona",
       "summary": "Il piede fratturato non è ancora guarito e Bagnaia non prenderà parte al GP di Valencia, chiudendo così senza correre la sua avventura in Ducati. Al fianco di Márquez nel box ufficiale tornerà Iker Lecuona, già al via a Portimão.",
@@ -442,7 +452,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-26T18:55:00Z",
+    "updated": "2026-11-26T20:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

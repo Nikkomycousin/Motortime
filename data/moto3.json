@@ -11,16 +11,6 @@
       "top": true
     },
     {
-      "id": "2026-11-21-portimao-moto3-pole-almansa",
-      "title": "Moto3 a Portimão, Almansa in pole; Pini e Quiles in terza fila",
-      "summary": "Il pilota Intact GP conquista la pole con quasi mezzo secondo su Uriarte e Muñoz. Guido Pini scatterà ottavo, appena dietro Quiles.",
-      "tag": "Gare",
-      "source": "OA Sport",
-      "url": "https://www.oasport.it/2026/11/moto3-david-almansa-domina-le-qualifiche-e-centra-la-pole-a-portimao-pini-in-terza-fila/",
-      "published": "2026-11-21T13:30:00Z",
-      "top": false
-    },
-    {
       "id": "2026-11-21-portimao-pole-almansa",
       "title": "Portimão, Almansa domina le qualifiche e si prende la pole",
       "summary": "Lo spagnolo dell'Intact GP ha preceduto Uriarte e il compagno Muñoz, completando una prima fila tutta iberica. Il campione Quiles partirà settimo, Pini ottavo.",
@@ -28,6 +18,16 @@
       "source": "OA Sport",
       "url": "https://www.oasport.it/2026/11/moto3-david-almansa-domina-le-qualifiche-e-centra-la-pole-a-portimao-pini-in-terza-fila/",
       "published": "2026-11-21T13:35:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-21-portimao-moto3-pole-almansa",
+      "title": "Moto3 a Portimão, Almansa in pole; Pini e Quiles in terza fila",
+      "summary": "Il pilota Intact GP conquista la pole con quasi mezzo secondo su Uriarte e Muñoz. Guido Pini scatterà ottavo, appena dietro Quiles.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/moto3-david-almansa-domina-le-qualifiche-e-centra-la-pole-a-portimao-pini-in-terza-fila/",
+      "published": "2026-11-21T13:30:00Z",
       "top": false
     },
     {
@@ -112,7 +112,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-26T18:55:00Z",
+    "updated": "2026-11-26T20:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-26-russell-verstappen-scontro-evitabile",
+      "title": "Russell sullo scontro con Verstappen: «Una polemica evitabile e inutile»",
+      "summary": "Nel giorno dei media in Qatar Russell ha definito superflua la tensione nata con Verstappen dopo l'ultimo episodio in pista, aggiungendo che l'olandese è libero di dire ciò che pensa. Il pilota Mercedes vuole chiudere la questione e concentrarsi sulle ultime due gare.",
+      "tag": "Paddock",
+      "source": "Sky Sports",
+      "url": "https://www.skysports.com/f1/news/13616749/george-russell-admits-feud-with-max-verstappen-is-avoidable-and-unnecessary-ahead-of-qatar-grand-prix",
+      "published": "2026-11-26T16:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-26-leclerc-nessuna-clausola-prima-guida",
       "title": "Leclerc in Qatar: «Nessuna clausola da prima guida», Hamilton: «Ci siamo parlati»",
       "summary": "Nella conferenza del giovedì a Lusail Leclerc ha negato di avere un contratto che lo renda prima guida e ha detto di accettare le parole di Vasseur sui contatti con Hamilton. Il britannico assicura che tra i due non c'è tensione e che dopo Las Vegas si sono confrontati.",
@@ -1085,19 +1095,10 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/valtteri-bottas-cadillac-rumours-f1-future",
       "published": "2026-11-03T12:03:00Z"
-    },
-    {
-      "id": "2026-11-03-hadjar-tifoso",
-      "title": "Hadjar ammonito per aver spinto un tifoso, Verstappen lo difende",
-      "summary": "I commissari hanno dato un richiamo formale a Hadjar, che aveva allontanato un fan che lo aveva toccato nel paddock. Verstappen ha detto di comprenderlo e di essere andato vicino a reagire allo stesso modo.",
-      "tag": "Red Bull",
-      "source": "PlanetF1",
-      "url": "https://www.planetf1.com/news/max-verstappen-fia-isack-hadjar-fan-incident",
-      "published": "2026-11-03T09:47:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-26T18:55:00Z",
+    "updated": "2026-11-26T20:55:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",
