@@ -27,6 +27,7 @@ import social_cards as sc  # noqa: E402
 ROOT = sc.ROOT
 IG_USER = os.environ.get("IG_USER_ID", "17841480897571197")
 FB_PAGE = os.environ.get("FB_PAGE_ID", "1470016799533338")
+FB_CATCHUP = "--fb-catchup" in sys.argv  # recupero: solo Facebook per i post già usciti su Instagram
 SLUG = {"f1": "formula-1", "motogp": "motogp", "wsbk": "superbike", "wec": "wec"}
 GRAPH = "https://graph.facebook.com/v21.0"
 STATE = os.path.join(ROOT, "tools", "instagram_state.json")
@@ -74,7 +75,9 @@ def weekend_items(now, state):
             continue
         first, last = sc.parse(ss[0]["start"]), sc.parse(ss[-1]["start"])
         sid = f"weekend:{key}:{w['gp']}:{first:%Y%m%d}"
-        if sid in state or not (now <= first <= now + timedelta(hours=36)) or last < now:
+        if not (now <= first <= now + timedelta(hours=36)) or last < now:
+            continue
+        if sid in state and (not FB_CATCHUP or "fb:" + sid in state):
             continue
         key_s = [s for s in ss if s.get("key")]
         lines = []
@@ -85,7 +88,7 @@ def weekend_items(now, state):
                + "\n".join(lines) +
                "\n\n📲 Programma completo, meteo e risultati: link in bio (motortimeitalia.it)"
                "\n🔔 Promemoria prima di ogni sessione sul canale Telegram @motortimeitalia\n\n" + TAGS[key])
-        items.append({"sid": sid, "name": f"weekend-{key}-{first:%Y%m%d}", "kind": "weekend", "key": key, "caption": cap})
+        items.append({"sid": sid, "ig": sid not in state, "name": f"weekend-{key}-{first:%Y%m%d}" + ("" if sid not in state else "-fb"), "kind": "weekend", "key": key, "caption": cap})
     return items
 
 
@@ -99,7 +102,7 @@ def results_items(now, state):
         if not r.get("gp") or not upd or not mains or now - upd > timedelta(hours=30):
             continue
         sid = f"results:{key}:{r['gp']}:{len(mains)}"
-        if sid in state:
+        if sid in state and (not FB_CATCHUP or "fb:" + sid in state):
             continue
         main = mains[0]
         pod = [x for x in main["rows"] if str(x.get("pos")) in ("1", "2", "3")][:3]
@@ -109,7 +112,7 @@ def results_items(now, state):
         cap = (f"🏁 {NAMES[key]} · {r['gp']}: il podio\n\n{medals}\n\n"
                "📲 Ordine d'arrivo completo e classifica: link in bio (motortimeitalia.it)"
                "\n🔔 Risultati e promemoria anche su Telegram @motortimeitalia\n\n" + TAGS[key])
-        items.append({"sid": sid, "name": f"results-{key}-{now:%Y%m%d%H}", "kind": "results", "key": key, "caption": cap})
+        items.append({"sid": sid, "ig": sid not in state, "name": f"results-{key}-{now:%Y%m%d%H}" + ("" if sid not in state else "-fb"), "kind": "results", "key": key, "caption": cap})
     return items
 
 
@@ -131,7 +134,7 @@ def plan():
     for it in items[:4]:  # al massimo 4 pubblicazioni per giro
         if it["kind"] == "weekend":
             post = sc.weekend_card(it["key"], fonts)
-            story = sc.weekend_card(it["key"], fonts, story=True)
+            story = sc.weekend_card(it["key"], fonts, story=True) if it["ig"] else None
         else:
             post, story = sc.results_card(it["key"], fonts), None
         if not post:
@@ -202,6 +205,16 @@ def publish():
         return
     done = 0
     for it in pending:
+        if not it.get("ig", True):  # recupero solo Facebook
+            try:
+                msg = it["caption"].replace("link in bio (motortimeitalia.it)", f"https://motortimeitalia.it/{SLUG.get(it['key'], '')}/")
+                api(f"{FB_PAGE}/photos", {"url": f"{base}/{it['image']}", "message": msg}, token)
+                state["fb:" + it["sid"]] = now.isoformat()
+                done += 1
+                print("pubblicato su Facebook:", it["name"])
+            except Exception as ex:
+                print(f"Facebook non pubblicato ({it['name']}): {ex}", file=sys.stderr)
+            continue
         try:
             publish_one(f"{base}/{it['image']}", it["caption"], token)
             if it.get("story"):
@@ -216,6 +229,7 @@ def publish():
             try:
                 msg = it["caption"].replace("link in bio (motortimeitalia.it)", f"https://motortimeitalia.it/{SLUG.get(it['key'], '')}/")
                 api(f"{FB_PAGE}/photos", {"url": f"{base}/{it['image']}", "message": msg}, token)
+                state["fb:" + it["sid"]] = now.isoformat()
                 print("pubblicato su Facebook:", it["name"])
             except Exception as ex:
                 print(f"Facebook non pubblicato ({it['name']}): {ex}", file=sys.stderr)

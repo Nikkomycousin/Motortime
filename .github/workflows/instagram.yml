@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "22,52 * * * *"
   workflow_dispatch:
+    inputs:
+      fb_catchup:
+        description: "Pubblica su Facebook i post già usciti su Instagram"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,7 +33,7 @@ jobs:
           N=$PWD/build/node/node_modules
           mkdir -p build/fonts
           cp $N/@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2 $N/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-500-normal.woff2 $N/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-700-normal.woff2 build/fonts/
-          python3 tools/instagram_post.py plan --fonts "file://$PWD/build/fonts" --flags "$N/flag-icons/flags/4x3" | tee build/plan.txt
+          python3 tools/instagram_post.py plan --fonts "file://$PWD/build/fonts" --flags "$N/flag-icons/flags/4x3" ${{ inputs.fb_catchup && '--fb-catchup' || '' }} | tee build/plan.txt
           grep -q "^work=1" build/plan.txt && echo "work=1" >> "$GITHUB_OUTPUT" || echo "work=0" >> "$GITHUB_OUTPUT"
       - name: Crea le immagini
         if: steps.plan.outputs.work == '1'
