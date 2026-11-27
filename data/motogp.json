@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-27-valencia-marquez-practice-record",
+      "title": "Valencia, Márquez si congeda da leader: Practice in testa con il record della pista",
+      "summary": "Nel giorno dell'annuncio del ritiro, Marc Márquez ha chiuso al comando la Practice del venerdì a Valencia, abbassando il record del circuito e conquistando l'accesso diretto alla Q2.",
+      "tag": "Ducati",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/motogp/news/1111070/1/retiring-marc-marquez-leads-valencia-motogp-practice-new-lap-record",
+      "published": "2026-11-27T15:05:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-27-valencia-fp1-bezzecchi",
       "title": "Valencia, Bezzecchi il più veloce nelle FP1",
       "summary": "Nel primo turno di libere del Ricardo Tormo il pilota Aprilia ha firmato il miglior tempo, aprendo bene la sfida con Martín per il secondo posto in campionato.",
@@ -472,7 +482,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-27T13:55:00Z",
+    "updated": "2026-11-27T18:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

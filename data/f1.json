@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-27-qatar-antonelli-domina-venerdi",
+      "title": "Qatar, Antonelli comanda FP1 e FP2: Mercedes davanti, Ferrari solo 7ª e 8ª",
+      "summary": "Kimi Antonelli ha chiuso in testa entrambe le sessioni di prove libere a Lusail, con Russell e Hadjar alle sue spalle nella prima. Nella seconda, segnata da più bandiere rosse, le Ferrari non sono andate oltre il settimo e l'ottavo tempo.",
+      "tag": "Mercedes",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/f1-gp-qatar-2026-risultati-e-classifica-fp2-antonelli-davanti-a-tutti-ferrari-in-settima-ed-ottava-posizione/amp/",
+      "published": "2026-11-27T18:10:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-27-perez-convocato-ritardo-conferenza",
       "title": "Qatar, Pérez convocato dai commissari per un ritardo alla conferenza stampa",
       "summary": "Il pilota Cadillac, che a Lusail sconterà già cinque posizioni in griglia per il contatto con Câmara a Las Vegas, è stato chiamato dalla FIA per essere arrivato in ritardo all'appuntamento con i media.",
@@ -1088,19 +1098,10 @@
       "source": "PlanetF1",
       "url": "https://www.planetf1.com/news/how-mercedes-can-win-f1-2026-constructors-championship",
       "published": "2026-11-03T14:08:00Z"
-    },
-    {
-      "id": "2026-11-03-interlagos-pioggia",
-      "title": "Interlagos, possibile pioggia su qualifiche e gara",
-      "summary": "Le prime previsioni per il weekend brasiliano indicano tempo instabile: il rischio maggiore di temporali riguarda le qualifiche di sabato, ma anche la domenica potrebbe essere bagnata.",
-      "tag": "Gare",
-      "source": "Grande Prêmio",
-      "url": "https://grandepremio.com/en/f1/sao-paulo-gp-2026-weather-forecast-will-rain-affect-f1-qualifying-and-race-at-interlagos/",
-      "published": "2026-11-03T13:30:00Z"
     }
   ],
   "info": {
-    "updated": "2026-11-27T13:55:00Z",
+    "updated": "2026-11-27T18:55:00Z",
     "nextGp": {
       "name": "GP del Qatar",
       "circuit": "Lusail International Circuit",

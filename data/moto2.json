@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-27-valencia-agius-venerdi-gonzalez-7",
+      "title": "Moto2 a Valencia, Agius leader del venerdì: González 7°, Guevara 11°",
+      "summary": "Senna Agius ha confermato il ritmo della mattina chiudendo davanti anche la Practice. I due contendenti al titolo, González e Guevara, sono entrambi in Q2 ma lontani dalla vetta; Lunetta quinto.",
+      "tag": "Mondiale",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/27/moto2/agius-leader-del-venerdi-a-valencia-7deg-il-capoclassifica-gonzalez-con-guevara-11deg.html",
+      "published": "2026-11-27T14:10:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-27-valencia-fp1-agius",
       "title": "Moto2 a Valencia, Agius davanti nelle FP1: Guevara 2°, González 12°",
       "summary": "Nel primo turno del weekend decisivo Senna Agius ha chiuso al comando, con Guevara subito dietro. Partenza in salita per il leader del mondiale González, solo dodicesimo.",
@@ -132,7 +142,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-27T13:55:00Z",
+    "updated": "2026-11-27T18:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
