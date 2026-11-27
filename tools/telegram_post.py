@@ -27,13 +27,11 @@ SITE = "https://motortimeitalia.it"
 ROME = ZoneInfo("Europe/Rome")
 
 # chiave, nome, pagina del sito, emoji
+# Campionati pubblicati sul canale (solo questi, per non mandare troppi messaggi)
 SERIES = [
-    ("f1", "Formula 1", "formula-1", "🏎️"), ("f2", "Formula 2", "formula-2", "🏎️"), ("f3", "Formula 3", "formula-3", "🏎️"),
-    ("motogp", "MotoGP", "motogp", "🏍️"), ("moto2", "Moto2", "moto2", "🏍️"), ("moto3", "Moto3", "moto3", "🏍️"),
-    ("wsbk", "Superbike", "superbike", "🏍️"), ("wssp", "Supersport", "supersport", "🏍️"),
-    ("wssp300", "World Sportbike", "world-sportbike", "🏍️"),
-    ("wec", "WEC", "wec", "🏁"), ("elms", "ELMS", "elms", "🏁"), ("imsa", "IMSA", "imsa", "🏁"),
-    ("alms", "Asian Le Mans", "asian-le-mans", "🏁"),
+    ("f1", "Formula 1", "formula-1", "🏎️"),
+    ("motogp", "MotoGP", "motogp", "🏍️"),
+    ("wec", "WEC", "wec", "🏁"),
 ]
 GIORNI = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"]
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
@@ -122,31 +120,42 @@ def reminder_msgs(now, state):
 
 
 def results_msgs(now, state):
+    """Un messaggio per ogni sessione con classifica appena conclusa: qualifiche, sprint e gara.
+    WEC: solo la classe Hypercar."""
     out = []
     for key, name, slug, em in SERIES:
         r = load(key).get("results") or {}
         upd = parse(r.get("updated"))
-        tabs = [t for t in (r.get("tabs") or []) if t.get("kind") == "race" and t.get("rows")]
-        if not r.get("gp") or not upd or not tabs:
+        if not r.get("gp") or not upd or now - upd > timedelta(hours=30):
             continue
-        sid = f"results:{key}:{r['gp']}:{r.get('updated')}"
-        gp_sid = f"resultsgp:{key}:{r['gp']}:{len(tabs)}"
-        if sid in state or gp_sid in state or now - upd > timedelta(hours=30):
-            continue
-        lines = [f"🏁 <b>{e(name)} · Risultati {e(r['gp'])}</b>"]
-        for t in tabs[:4]:
-            label = f"{t.get('cls') + ' · ' if t.get('cls') else ''}{t.get('label')}"
+        tabs = [t for t in (r.get("tabs") or []) if t.get("rows") and t.get("kind") in ("race", "quali")]
+        if key == "wec":
+            tabs = [t for t in tabs if (t.get("cls") or "Hypercar") == "Hypercar"]
+        rank = lambda t: 0 if t["kind"] == "quali" else (2 if str(t.get("label", "")).startswith(("Gara", "Feature")) else 1)
+        for t in sorted(tabs, key=rank):
+            label = t.get("label") or "Gara"
+            sid = f"results:{key}:{r['gp']}:{t.get('cls') or ''}:{label}"
+            if sid in state:
+                continue
             pod = [x for x in t["rows"] if str(x.get("pos")) in ("1", "2", "3")][:3]
             if not pod:
                 continue
-            lines.append(f"\n<b>{e(label)}</b>")
+            quali = t["kind"] == "quali"
+            main = not quali and label.startswith(("Gara", "Feature"))
+            endu = key == "wec"
+            head = "⏱️" if quali else "🏁"
+            lines = [f"{head} <b>{e(name)} · {e(label)}</b>", f"<i>{e(r['gp'])}</i>", ""]
+            if quali:
+                lines.append("Griglia di partenza:")
             for x, medal in zip(pod, ["🥇", "🥈", "🥉"]):
-                lines.append(f"{medal} {e(x.get('name'))} <i>({e(x.get('team'))})</i>")
-        if r.get("summary"):
-            summ = r["summary"]
-            lines += ["", e(summ if len(summ) < 400 else summ[:397].rsplit(" ", 1)[0] + "…")]
-        lines += ["", link(slug, "Ordine d'arrivo completo e classifica")]
-        out.append((sid, "\n".join(lines), False, gp_sid))
+                who = f"{e(x.get('team'))} <i>({e(x.get('name'))})</i>" if endu else f"{e(x.get('name'))} <i>({e(x.get('team'))})</i>"
+                extra = f" · {e(x['time'])}" if quali and str(x.get("time") or "").strip("—- ") else ""
+                lines.append(f"{medal} {who}{extra}")
+            if main and r.get("summary"):
+                summ = r["summary"]
+                lines += ["", e(summ if len(summ) < 400 else summ[:397].rsplit(" ", 1)[0] + "…")]
+            lines += ["", link(slug, "Griglia completa" if quali else "Ordine d'arrivo completo e classifica")]
+            out.append((sid, "\n".join(lines), False))
     return out
 
 

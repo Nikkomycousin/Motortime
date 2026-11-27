@@ -34,8 +34,8 @@ STATE = os.path.join(ROOT, "tools", "instagram_state.json")
 BUILD = os.path.join(ROOT, "build", "social")
 OUT = os.path.join(ROOT, "social")
 
-# Campionati pubblicati su Instagram (i principali, per non intasare il profilo)
-MAIN = ["f1", "motogp", "wsbk", "wec"]
+# Campionati pubblicati su Instagram e Facebook (solo questi, per non intasare il profilo)
+MAIN = ["f1", "motogp", "wec"]
 TAGS = {
     "f1": "#F1 #Formula1 #FormulaUno #F1Italia #Ferrari #SkySportF1 #TV8",
     "motogp": "#MotoGP #Moto2 #Moto3 #MotoGPItalia #Ducati #Aprilia #SkySportMotoGP #TV8",
@@ -92,27 +92,52 @@ def weekend_items(now, state):
     return items
 
 
+def session_tabs(key, r):
+    """Sessioni con classifica da pubblicare, in ordine di svolgimento: qualifiche, sprint, gara.
+    WEC: solo la classe Hypercar."""
+    tabs = [t for t in (r.get("tabs") or []) if t.get("rows") and t.get("kind") in ("race", "quali")]
+    if key == "wec":
+        tabs = [t for t in tabs if (t.get("cls") or "Hypercar") == "Hypercar"]
+    rank = lambda t: 0 if t["kind"] == "quali" else (2 if str(t.get("label", "")).startswith(("Gara", "Feature")) else 1)
+    return sorted(tabs, key=rank)
+
+
 def results_items(now, state):
     items = []
     for key in MAIN:
         r = sc.load(key).get("results") or {}
         upd = sc.parse(r.get("updated"))
-        races = [t for t in (r.get("tabs") or []) if t.get("kind") == "race" and t.get("rows")]
-        mains = [t for t in races if str(t.get("label", "")).startswith(("Gara", "Feature"))]
-        if not r.get("gp") or not upd or not mains or now - upd > timedelta(hours=30):
+        if not r.get("gp") or not upd or now - upd > timedelta(hours=30):
             continue
-        sid = f"results:{key}:{r['gp']}:{len(mains)}"
-        if sid in state and (not FB_CATCHUP or "fb:" + sid in state):
-            continue
-        main = mains[0]
-        pod = [x for x in main["rows"] if str(x.get("pos")) in ("1", "2", "3")][:3]
-        if len(pod) < 3:
-            continue
-        medals = "\n".join(f"{m} {x.get('name')} ({x.get('team')})" for m, x in zip(["🥇", "🥈", "🥉"], pod))
-        cap = (f"🏁 {NAMES[key]} · {r['gp']}: il podio\n\n{medals}\n\n"
-               "📲 Ordine d'arrivo completo e classifica: link in bio (motortimeitalia.it)"
-               "\n🔔 Risultati e promemoria anche su Telegram @motortimeitalia\n\n" + TAGS[key])
-        items.append({"sid": sid, "ig": sid not in state, "name": f"results-{key}-{now:%Y%m%d%H}" + ("" if sid not in state else "-fb"), "kind": "results", "key": key, "caption": cap})
+        for t in session_tabs(key, r):
+            label = t.get("label") or "Gara"
+            sid = f"results:{key}:{r['gp']}:{t.get('cls') or ''}:{label}"
+            if sid in state and (not FB_CATCHUP or "fb:" + sid in state):
+                continue
+            pod = [x for x in t["rows"] if str(x.get("pos")) in ("1", "2", "3")][:3]
+            if len(pod) < 3:
+                continue
+            endu = key == "wec"
+
+            def who(x):
+                if endu:  # endurance: vettura e equipaggio
+                    return f"{x.get('team')} ({x.get('name')})"
+                return f"{x.get('name')} ({x.get('team')})"
+            if t["kind"] == "quali":
+                tm = lambda x: f" · {x['time']}" if str(x.get("time") or "").strip("—- ") else ""
+                lines = [f"🥇 Pole position: {who(pod[0])}{tm(pod[0])}",
+                         f"2️⃣ {who(pod[1])}{tm(pod[1])}", f"3️⃣ {who(pod[2])}{tm(pod[2])}"]
+                cap = (f"⏱️ {NAMES[key]} · {r['gp']}: {label}, la griglia di partenza\n\n" + "\n".join(lines) +
+                       "\n\n📲 Griglia completa e orari della gara: link in bio (motortimeitalia.it)")
+            else:
+                medals = "\n".join(f"{m} {who(x)}" for m, x in zip(["🥇", "🥈", "🥉"], pod))
+                what = "della gara" if label.startswith("Gara") else f"della {label}"
+                cap = (f"🏁 {NAMES[key]} · {r['gp']}: il podio {what}\n\n{medals}\n\n"
+                       "📲 Ordine d'arrivo completo e classifica: link in bio (motortimeitalia.it)")
+            cap += "\n🔔 Risultati e promemoria anche su Telegram @motortimeitalia\n\n" + TAGS[key]
+            slug = "".join(c if c.isalnum() else "-" for c in f"{label}-{t.get('cls') or ''}".lower()).strip("-")
+            items.append({"sid": sid, "ig": sid not in state, "name": f"results-{key}-{slug}-{now:%Y%m%d%H}" + ("" if sid not in state else "-fb"),
+                          "kind": "results", "key": key, "tab": {"label": label, "cls": t.get("cls")}, "caption": cap})
     return items
 
 
@@ -136,7 +161,7 @@ def plan():
             post = sc.weekend_card(it["key"], fonts)
             story = sc.weekend_card(it["key"], fonts, story=True) if it["ig"] else None
         else:
-            post, story = sc.results_card(it["key"], fonts), None
+            post, story = sc.results_card(it["key"], fonts, it.get("tab")), None
         if not post:
             continue
         open(os.path.join(BUILD, it["name"] + ".html"), "w", encoding="utf-8").write(post)

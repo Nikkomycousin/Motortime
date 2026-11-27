@@ -7,6 +7,7 @@ Scrive in OUTDIR una pagina HTML per ogni scheda (1080x1350 post, 1080x1920 stor
 uno script separato le fotografa in PNG. Tipi di scheda:
   weekend-<campionato>   orari del weekend in ora italiana con i canali TV
   results-<campionato>   podio dell'ultima gara + prime posizioni della classifica
+                         (results_card con tab: una scheda per qualifiche, sprint o gara)
 """
 import html
 import json
@@ -270,13 +271,24 @@ def weekend_card(key, fonts, story=False):
     return page(key, 1920 if story else 1350, body, fonts)
 
 
-def results_card(key, fonts):
+def results_card(key, fonts, tab=None):
+    """Scheda risultati. Senza tab: gara principale. Con tab ({label, cls}): quella sessione (qualifiche, sprint o gara)."""
     d = load(key)
     r = d.get("results") or {}
-    tabs = [t for t in (r.get("tabs") or []) if t.get("kind") == "race" and t.get("rows")]
-    if not r.get("gp") or not tabs:
-        return None
-    main = next((t for t in tabs if t.get("label", "").startswith(("Gara", "Feature"))), tabs[0])
+    if tab:
+        sel = [t for t in (r.get("tabs") or []) if t.get("rows") and t.get("label") == tab.get("label")
+               and (t.get("cls") or None) == (tab.get("cls") or None)]
+        if not r.get("gp") or not sel:
+            return None
+        main = sel[0]
+        tabs = [t for t in (r.get("tabs") or []) if t.get("kind") == "race" and t.get("rows")
+                and (t.get("cls") or None) == (main.get("cls") or None)]
+    else:
+        tabs = [t for t in (r.get("tabs") or []) if t.get("kind") == "race" and t.get("rows")]
+        if not r.get("gp") or not tabs:
+            return None
+        main = next((t for t in tabs if t.get("label", "").startswith(("Gara", "Feature"))), tabs[0])
+    quali = main.get("kind") == "quali"
     pod = [x for x in main["rows"] if str(x.get("pos")) in ("1", "2", "3")][:3]
     if len(pod) < 3:
         return None
@@ -287,12 +299,17 @@ def results_card(key, fonts):
     def who(x):  # endurance: in grande la vettura, sotto l'equipaggio
         if endu:
             car = re.sub(r"\s*\(.*\)\s*$", "", x.get("team") or "")
-            return car or x.get("name"), x.get("name")
-        return x.get("name"), x.get("team")
+            sub = x.get("name")
+        else:
+            car, sub = x.get("name"), x.get("team")
+        if quali and str(x.get("time") or "").strip("—- "):
+            sub = f"{sub} · {x['time']}" if sub else x["time"]
+        return (car or x.get("name")) if endu else car, sub
     podium = "".join(f'<div class="p {c}"><span class="pos">{x["pos"]}</span><span class="nm">{e(who(x)[0])}</span>'
                      f'<span class="tm">{e(who(x)[1])}</span></div>' for x, c in zip(order, cls))
     extra = ""
-    others = [t for t in tabs if t is not main][:1 if endu else 2]
+    is_main = str(main.get("label", "")).startswith(("Gara", "Feature"))
+    others = [] if (quali or not is_main) else [t for t in tabs if t is not main][:1 if endu else 2]  # sulla gara: vincitori delle sprint
     if others:
         extra = '<div class="mini">' + "".join(
             f'<div>{e((t.get("cls") + " · ") if t.get("cls") else "")}{e(t["label"])}: <b>{e(next((x["name"] for x in t["rows"] if str(x.get("pos")) == "1"), "—"))}</b></div>'
@@ -308,9 +325,11 @@ def results_card(key, fonts):
             for i, x in enumerate(drivers[:3 if endu else 5])) + "</div>"
     label = main.get("label", "Gara") + (f' · {main["cls"]}' if main.get("cls") else "")
     fl = flag(r["gp"] + " " + " ".join(x.get("circuit", "") for x in (d.get("calendar") or {}).get("rounds", []) if x.get("name") == r["gp"]), FLAGS)
-    body = (f'<div class="kicker">{fl}<b>Risultati</b> · {e(label)}</div><h1>{e(r["gp"])}</h1>'
+    head = "Griglia di partenza" if quali else "Risultati"
+    tail = "Griglia completa" if quali else "Ordine d\'arrivo completo"
+    body = (f'<div class="kicker">{fl}<b>{head}</b> · {e(label)}</div><h1>{e(r["gp"])}</h1>'
             f'<div class="podium">{podium}</div>{extra}{stand}<div style="flex:1"></div>'
-            f'<div class="foot"><span class="site">motortimeitalia.it</span><span class="tz">Ordine d\'arrivo completo<br>sul sito e su Telegram @motortimeitalia</span></div>')
+            f'<div class="foot"><span class="site">motortimeitalia.it</span><span class="tz">{tail}<br>sul sito e su Telegram @motortimeitalia</span></div>')
     return page(key, 1350, body, fonts)
 
 
