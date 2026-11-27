@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-27-valencia-fp1-fernandez",
+      "title": "Moto3 a Valencia, Adrián Fernández al comando di una FP1 gelida",
+      "summary": "Con temperature molto basse il primo turno di libere è andato ad Adrián Fernández. Tra gli italiani Pini ha chiuso nella top 10.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/moto3-adrian-fernandez-svetta-in-una-gelida-fp1-di-valencia-pini-chiude-nella-top10/",
+      "published": "2026-11-27T08:40:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-22-moto3-portimao-quiles-vince",
       "title": "Moto3, Quiles vince ancora a Portimão: primo podio per Salmela",
       "summary": "Il campione del mondo centra il dodicesimo successo stagionale dopo un ultimo giro movimentato, davanti a Rico Salmela e Adrián Fernández. All'ultima curva contatto tra Almansa e Uriarte; Pini chiude a ridosso della top 5.",
@@ -112,7 +122,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-27T07:55:00Z",
+    "updated": "2026-11-27T10:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

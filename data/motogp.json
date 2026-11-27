@@ -1,6 +1,26 @@
 {
   "news": [
     {
+      "id": "2026-11-27-valencia-fp1-bezzecchi",
+      "title": "Valencia, Bezzecchi il più veloce nelle FP1",
+      "summary": "Nel primo turno di libere del Ricardo Tormo il pilota Aprilia ha firmato il miglior tempo, aprendo bene la sfida con Martín per il secondo posto in campionato.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/motogp-marco-bezzecchi-il-piu-veloce-in-fp1-a-valencia-marc-marquez-si-ritira/",
+      "published": "2026-11-27T10:35:00Z",
+      "top": false
+    },
+    {
+      "id": "2026-11-27-marquez-annuncia-ritiro",
+      "title": "Clamoroso Márquez: annuncia il ritiro, Valencia sarà la sua ultima gara",
+      "summary": "A sorpresa il campione del mondo 2026 ha comunicato che il GP di Valencia chiuderà la sua carriera in MotoGP. L'annuncio è arrivato all'inizio del weekend finale e ha spiazzato il paddock.",
+      "tag": "Paddock",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/27/motogp/ultimora-marc-marquez-annuncia-il-ritiro-in-diretta.html",
+      "published": "2026-11-27T09:00:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-26-bezzecchi-titolo-costruttori-valencia",
       "title": "Valencia, Bezzecchi punta al titolo costruttori per l'Aprilia",
       "summary": "Nella vigilia dell'ultimo GP Bezzecchi ha indicato come obiettivo aiutare l'Aprilia a conquistare il campionato costruttori contro la Ducati, prima di voltare pagina con i test di martedì. Márquez, già campione, promette un finale di stagione da protagonista.",
@@ -452,7 +472,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-27T07:55:00Z",
+    "updated": "2026-11-27T10:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

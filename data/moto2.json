@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-27-valencia-fp1-agius",
+      "title": "Moto2 a Valencia, Agius davanti nelle FP1: Guevara 2°, González 12°",
+      "summary": "Nel primo turno del weekend decisivo Senna Agius ha chiuso al comando, con Guevara subito dietro. Partenza in salita per il leader del mondiale González, solo dodicesimo.",
+      "tag": "Gare",
+      "source": "GPOne",
+      "url": "https://www.gpone.com/it/2026/11/27/moto2/valencia-fp1-agius-davanti-a-tutti-in-moto2-guevara-2deg-gonzalez-in-affanno-12deg.html",
+      "published": "2026-11-27T09:35:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-23-moto2-titolo-valencia-conti",
       "title": "Moto2, titolo a Valencia: González ha 4,5 punti su Guevara",
       "summary": "Dopo Portimão González guida con 286,5 punti contro i 282 di Guevara, che ha difeso il settimo posto per pochi centesimi. Se Guevara vince a Valencia è campione anche con González secondo.",
@@ -122,7 +132,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-27T07:55:00Z",
+    "updated": "2026-11-27T10:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
