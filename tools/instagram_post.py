@@ -14,6 +14,7 @@ Due fasi, eseguite dal workflow .github/workflows/instagram.yml:
 Segreto richiesto: META_PAGE_TOKEN (token della Pagina Facebook collegata all'account Instagram).
 """
 import json
+import re
 import os
 import sys
 import time
@@ -75,7 +76,11 @@ def weekend_items(now, state):
             continue
         first, last = sc.parse(ss[0]["start"]), sc.parse(ss[-1]["start"])
         sid = f"weekend:{key}:{w['gp']}:{first:%Y%m%d}"
-        if not (now <= first <= now + timedelta(hours=36)) or last < now:
+        # esce a metà settimana: dal mercoledì alle 10 (ora italiana) della settimana della gara
+        fr = first.astimezone(sc.ROME)
+        wed = (fr - timedelta(days=(fr.weekday() - 2) % 7)).replace(hour=10, minute=0, second=0, microsecond=0)
+        start = max(wed, first - timedelta(days=4))
+        if not (start <= now < first) or last < now:
             continue
         if sid in state and (not FB_CATCHUP or "fb:" + sid in state):
             continue
@@ -89,6 +94,53 @@ def weekend_items(now, state):
                "\n\n📲 Programma completo, meteo e risultati: link in bio (motortimeitalia.it)"
                "\n🔔 Promemoria prima di ogni sessione sul canale Telegram @motortimeitalia\n\n" + TAGS[key])
         items.append({"sid": sid, "ig": sid not in state, "name": f"weekend-{key}-{first:%Y%m%d}" + ("" if sid not in state else "-fb"), "kind": "weekend", "key": key, "caption": cap})
+    return items
+
+
+def tv_text(s):
+    """Dove vederla, in testo semplice (per le didascalie)."""
+    out = [re.sub(r"^(Diretta|In diretta)\s+", "", p).strip() for p in re.split(r"\s*·\s*", s.get("live") or "")]
+    out = [p for p in out if p and "TV8" not in p]
+    t = s.get("tv8")
+    if isinstance(t, dict) and t.get("time"):
+        d = sc.parse(t["time"])
+        out.append("TV8 in diretta" if t.get("live") else (f"TV8 in differita alle {d.astimezone(sc.ROME):%H:%M}" if d else "TV8 in differita"))
+    elif "TV8" in (s.get("live") or ""):
+        out.append("TV8")
+    return ", ".join(out)
+
+
+def day_items(now, state):
+    """Il giorno stesso: la mattina di ogni giorno con qualifiche, sprint o gara, gli orari di oggi."""
+    items = []
+    for key in MAIN:
+        w = sc.load(key).get("weekend") or {}
+        ss = sorted([s for s in (w.get("sessions") or []) if sc.parse(s.get("start"))], key=lambda s: sc.parse(s["start"]))
+        if not w.get("gp") or not ss:
+            continue
+        today = now.astimezone(sc.ROME).date()
+        todays = [s for s in ss if sc.parse(s["start"]).astimezone(sc.ROME).date() == today]
+        keys = [s for s in todays if s.get("key")]
+        if not keys:
+            continue
+        k0 = sc.parse(keys[0]["start"])
+        morning = datetime(today.year, today.month, today.day, 8, 0, tzinfo=sc.ROME)
+        if not (min(morning, k0 - timedelta(hours=3)) <= now < k0):
+            continue
+        sid = f"day:{key}:{w['gp']}:{today:%Y%m%d}"
+        if sid in state and (not FB_CATCHUP or "fb:" + sid in state):
+            continue
+        lines = []
+        for s in todays:
+            d = sc.parse(s["start"]).astimezone(sc.ROME)
+            tv = tv_text(s)
+            lines.append(f"• {s['name']}: alle {d:%H:%M}" + (f" — {tv}" if tv else ""))
+        cap = (f"📺 Oggi in pista · {NAMES[key]} · {w['gp']}\n\nGli orari di oggi in ora italiana e dove vederli:\n"
+               + "\n".join(lines) +
+               "\n\n📲 Programma completo e risultati: link in bio (motortimeitalia.it)"
+               "\n🔔 Promemoria prima di ogni sessione sul canale Telegram @motortimeitalia\n\n" + TAGS[key])
+        items.append({"sid": sid, "ig": sid not in state, "name": f"day-{key}-{today:%Y%m%d}" + ("" if sid not in state else "-fb"),
+                      "kind": "day", "key": key, "day": today.isoformat(), "caption": cap})
     return items
 
 
@@ -149,7 +201,7 @@ def plan():
     first_run = state is None
     state = state or {}
     os.makedirs(BUILD, exist_ok=True)
-    items = weekend_items(now, state) + results_items(now, state)
+    items = results_items(now, state) + day_items(now, state) + weekend_items(now, state)
     if first_run:  # al primo avvio non pubblica risultati vecchi
         for it in [i for i in items if i["kind"] == "results"]:
             state[it["sid"]] = now.isoformat()
@@ -157,9 +209,9 @@ def plan():
         save_state(state, now)
     pending = []
     for it in items[:4]:  # al massimo 4 pubblicazioni per giro
-        if it["kind"] == "weekend":
-            post = sc.weekend_card(it["key"], fonts)
-            story = sc.weekend_card(it["key"], fonts, story=True) if it["ig"] else None
+        if it["kind"] in ("weekend", "day"):
+            post = sc.weekend_card(it["key"], fonts, day=it.get("day"))
+            story = sc.weekend_card(it["key"], fonts, story=True, day=it.get("day")) if it["ig"] else None
         else:
             post, story = sc.results_card(it["key"], fonts, it.get("tab")), None
         if not post:

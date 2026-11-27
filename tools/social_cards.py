@@ -242,10 +242,13 @@ def wx_html(w, s):
     return f'<span class="wx">{wx_icon(code)}{t}°C' + (f' <small>· pioggia {p}%</small>' if p else "") + "</span>"
 
 
-def weekend_card(key, fonts, story=False):
+def weekend_card(key, fonts, story=False, day=None):
+    """Orari del weekend. Con day (data italiana AAAA-MM-GG): solo le sessioni di quel giorno ("Oggi in pista")."""
     d = load(key)
     w = d.get("weekend") or {}
     ss = sorted([s for s in (w.get("sessions") or []) if parse(s.get("start"))], key=lambda s: parse(s["start"]))
+    if day:
+        ss = [s for s in ss if parse(s["start"]).astimezone(ROME).date().isoformat() == str(day)]
     if not w.get("gp") or not ss:
         return None
     if not story:  # nel post solo le sessioni principali se sono troppe
@@ -256,7 +259,7 @@ def weekend_card(key, fonts, story=False):
         dt = parse(s["start"]).astimezone(ROME)
         if dt.date() != cur:
             cur = dt.date()
-            days.append([f"{GIORNI[dt.weekday()]} {dt.day} {MESI[dt.month - 1]}", []])
+            days.append([("Oggi, " if day else "") + f"{GIORNI[dt.weekday()].lower() if day else GIORNI[dt.weekday()]} {dt.day} {MESI[dt.month - 1]}", []])
         days[-1][1].append((dt, s))
     blocks = "".join(
         f'<div class="day"><h3>{e(lbl)}</h3>' + "".join(
@@ -265,7 +268,7 @@ def weekend_card(key, fonts, story=False):
         for lbl, rows in days)
     gp = re.sub(r"^Round \d+\s*·\s*", "", w["gp"])
     big = (not story) and len(ss) <= 4
-    body = (('<div class="big" style="display:contents">' if big else "") + f'<div class="kicker"><b>Orari TV</b> · {e(SERIES[key][0])}</div><h1>{e(gp)}</h1>'
+    body = (('<div class="big" style="display:contents">' if big else "") + f'<div class="kicker"><b>{"Oggi in pista" if day else "Orari TV"}</b> · {e(SERIES[key][0])}</div><h1>{e(gp)}</h1>'
             f'<div class="sub">{flag(w.get("circuit", "") + " " + w["gp"], FLAGS)}{e(w.get("circuit"))}</div><div class="days">{blocks}</div>'
             f'<div class="foot"><span class="site">motortimeitalia.it</span><span class="tz">Orari in ora italiana<br>Promemoria su Telegram: @motortimeitalia</span></div>' + ("</div>" if big else ""))
     return page(key, 1920 if story else 1350, body, fonts)
