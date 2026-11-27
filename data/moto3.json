@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-27-almansa-record-prequalifiche-valencia",
+      "title": "Moto3 a Valencia, Almansa vola nelle pre-qualifiche con il nuovo record",
+      "summary": "David Almansa ha chiuso il venerdì di Valencia al comando, abbassando il record della pista. Quiles quarto, mentre gli italiani dovranno passare dalla Q1.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/moto3-almansa-vola-nelle-pre-qualifiche-di-valencia-con-il-nuovo-record-azzurri-relegati-in-q1/",
+      "published": "2026-11-27T13:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-27-valencia-fp1-fernandez",
       "title": "Moto3 a Valencia, Adrián Fernández al comando di una FP1 gelida",
       "summary": "Con temperature molto basse il primo turno di libere è andato ad Adrián Fernández. Tra gli italiani Pini ha chiuso nella top 10.",
@@ -122,7 +132,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-27T10:55:00Z",
+    "updated": "2026-11-27T13:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",

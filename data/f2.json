@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-27-stenshorne-libere-qatar",
+      "title": "F2 a Lusail, Stenshorne il più veloce in prove libere interrotte dalla bandiera rossa",
+      "summary": "Martinius Stenshorne ha firmato il miglior tempo nell'unica sessione di libere del Qatar, condizionata da una bandiera rossa. Il penultimo round si apre senza il leader Câmara, impegnato con la Haas.",
+      "tag": "Gare",
+      "source": "F1 Live Pulse",
+      "url": "https://blog.f1livepulse.com/2026-f2-qatar-practice-stenshorne-red-flag",
+      "published": "2026-11-27T12:00:00Z",
+      "top": false
+    },
+    {
       "id": "2026-11-14-camara-slater-invicta",
       "title": "Câmara verso la Haas anche in Qatar e Abu Dhabi, Slater pronto a sostituirlo",
       "summary": "Secondo le indiscrezioni il leader della F2 dovrebbe privilegiare gli impegni in Formula 1 negli ultimi due weekend, che coincidono con quelli della F2. Al suo posto in Invicta potrebbe salire Freddie Slater, lasciando aperta la corsa al titolo.",
@@ -145,7 +155,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-27T10:55:00Z",
+    "updated": "2026-11-27T13:55:00Z",
     "nextGp": {
       "name": "Round 13 · Qatar",
       "circuit": "Lusail",
