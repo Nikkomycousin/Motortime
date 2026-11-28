@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-28-lusail-sprint-stenshorne",
+      "title": "F2 a Lusail, Stenshorne domina la Sprint: Dürksen secondo, Minì settimo",
+      "summary": "Martinius Stenshorne vince la Sprint Race del Qatar precedendo Joshua Dürksen, mentre Gabriele Minì chiude in settima posizione. Rafael Câmara conserva la testa del campionato alla vigilia della Feature di domenica.",
+      "tag": "Gare",
+      "source": "Sky Sport",
+      "url": "https://sport.sky.it/formula-1/2026/11/28/f2-gp-qatar-2026-sprint-race-risultati",
+      "published": "2026-11-28T17:15:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-27-lusail-ugochukwu-pole-debutto",
       "title": "F2 a Lusail, Ugochukwu in pole al debutto: Minì scatta secondo",
       "summary": "Ugo Ugochukwu ha firmato la pole position nella sua prima qualifica in Formula 2, sul circuito di Lusail. Gabriele Minì partirà al suo fianco nella Feature Race di domenica.",
@@ -165,7 +175,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-28T13:58:00Z",
+    "updated": "2026-11-28T18:55:00Z",
     "nextGp": {
       "name": "Round 13 · Qatar",
       "circuit": "Lusail",
@@ -1169,7 +1179,8 @@
         "round": 13,
         "name": "Lusail (Qatar)",
         "circuit": "Lusail",
-        "date": "2026-11-29"
+        "date": "2026-11-29",
+        "sprintWinner": "Martinius Stenshorne"
       },
       {
         "round": 14,

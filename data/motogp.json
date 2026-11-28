@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-28-valencia-sprint-bezzecchi-marquez-fuoco",
+      "title": "Valencia, Bezzecchi vince la Sprint e sorpassa Martín; la Ducati di Márquez in fiamme",
+      "summary": "Doppietta Aprilia nell'ultima Sprint dell'anno: Bezzecchi precede Martín e Bastianini e sale al secondo posto nel Mondiale per un punto. Márquez, rimasto senza moto per un incendio prima del via, sconta un doppio long lap e chiude 13°.",
+      "tag": "Gare",
+      "source": "Crash.net",
+      "url": "https://www.crash.net/motogp/results/1111082/1/2026-valencia-motogp-sprint-race-results",
+      "published": "2026-11-28T14:30:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-28-valencia-bezzecchi-pole-record",
       "title": "Valencia, Bezzecchi in pole con il record: Márquez secondo, terzo Raúl Fernández",
       "summary": "L'italiano dell'Aprilia chiude la stagione con la pole e il nuovo primato del tracciato, staccando Márquez di quasi cinque decimi. In prima fila anche la Trackhouse di Raúl Fernández, mentre Binder e Quartararo partiranno dalla quinta fila in giù.",
@@ -492,7 +502,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-28T13:58:00Z",
+    "updated": "2026-11-28T18:55:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
@@ -570,9 +580,170 @@
   "results": {
     "gp": "GP di Valencia",
     "round": 22,
-    "updated": "2026-11-28T10:55:00Z",
-    "summary": "Marco Bezzecchi firma la pole dell'ultimo GP stagionale a Valencia con un nuovo record della pista in 1:27.844, quasi mezzo secondo meglio di Marc Márquez, secondo nel suo ultimo sabato da pilota. Completa la prima fila Raúl Fernández con l'altra Aprilia di Trackhouse, davanti ad Álex Márquez e Jorge Martín. Bastianini e Mir sono saliti dalla Q1, dove sono rimasti fuori Binder, Quartararo e Morbidelli.",
+    "updated": "2026-11-28T18:55:00Z",
+    "summary": "Marco Bezzecchi domina l'ultima Sprint della stagione a Valencia e conquista il secondo posto nel Mondiale, ora con un punto su Jorge Martín, secondo al traguardo per la doppietta Aprilia. Terzo Enea Bastianini con la KTM Tech3, davanti a Ogura e Di Giannantonio. Prima del via la partenza è stata annullata per un problema al semaforo e la Ducati di Marc Márquez ha preso fuoco: il campione del mondo, ripartito con la seconda moto, ha scontato un doppio long lap chiudendo 13°. In gara Aldeguer si è ritirato.",
     "tabs": [
+      {
+        "label": "Sprint",
+        "kind": "race",
+        "rows": [
+          {
+            "pos": "1",
+            "name": "Marco Bezzecchi",
+            "team": "Aprilia Racing",
+            "gap": "18'01.139",
+            "points": 12
+          },
+          {
+            "pos": "2",
+            "name": "Jorge Martín",
+            "team": "Aprilia Racing",
+            "gap": "+2.924",
+            "points": 9
+          },
+          {
+            "pos": "3",
+            "name": "Enea Bastianini",
+            "team": "Tech3 KTM",
+            "gap": "+3.759",
+            "points": 7
+          },
+          {
+            "pos": "4",
+            "name": "Ai Ogura",
+            "team": "Trackhouse Aprilia",
+            "gap": "+3.946",
+            "points": 6
+          },
+          {
+            "pos": "5",
+            "name": "Fabio Di Giannantonio",
+            "team": "VR46 Ducati",
+            "gap": "+5.062",
+            "points": 5
+          },
+          {
+            "pos": "6",
+            "name": "Álex Márquez",
+            "team": "Gresini Ducati",
+            "gap": "+5.375",
+            "points": 4
+          },
+          {
+            "pos": "7",
+            "name": "Pedro Acosta",
+            "team": "KTM Factory",
+            "gap": "+8.030",
+            "points": 3
+          },
+          {
+            "pos": "8",
+            "name": "Brad Binder",
+            "team": "KTM Factory",
+            "gap": "+9.404",
+            "points": 2
+          },
+          {
+            "pos": "9",
+            "name": "Pol Espargaró",
+            "team": "Tech3 KTM",
+            "gap": "+10.664",
+            "points": 1
+          },
+          {
+            "pos": "10",
+            "name": "Joan Mir",
+            "team": "Honda HRC",
+            "gap": "+11.365",
+            "points": 0
+          },
+          {
+            "pos": "11",
+            "name": "Fabio Quartararo",
+            "team": "Yamaha Factory",
+            "gap": "+11.959",
+            "points": 0
+          },
+          {
+            "pos": "12",
+            "name": "Diogo Moreira",
+            "team": "LCR Honda",
+            "gap": "+12.534",
+            "points": 0
+          },
+          {
+            "pos": "13",
+            "name": "Marc Márquez",
+            "team": "Ducati Lenovo",
+            "gap": "+12.697",
+            "points": 0,
+            "note": "Doppio long lap: lasciata la griglia per prendere la seconda moto"
+          },
+          {
+            "pos": "14",
+            "name": "Luca Marini",
+            "team": "Honda HRC",
+            "gap": "+13.081",
+            "points": 0
+          },
+          {
+            "pos": "15",
+            "name": "Johann Zarco",
+            "team": "LCR Honda",
+            "gap": "+13.210",
+            "points": 0
+          },
+          {
+            "pos": "16",
+            "name": "Jack Miller",
+            "team": "Pramac Yamaha",
+            "gap": "+15.026",
+            "points": 0
+          },
+          {
+            "pos": "17",
+            "name": "Álex Rins",
+            "team": "Yamaha Factory",
+            "gap": "+15.158",
+            "points": 0
+          },
+          {
+            "pos": "18",
+            "name": "Iker Lecuona",
+            "team": "Ducati Lenovo",
+            "gap": "+15.401",
+            "points": 0
+          },
+          {
+            "pos": "19",
+            "name": "Franco Morbidelli",
+            "team": "VR46 Ducati",
+            "gap": "+18.456",
+            "points": 0
+          },
+          {
+            "pos": "20",
+            "name": "Augusto Fernández",
+            "team": "Yamaha Factory",
+            "gap": "+22.645",
+            "points": 0
+          },
+          {
+            "pos": "21",
+            "name": "Raúl Fernández",
+            "team": "Trackhouse Aprilia",
+            "gap": "+22.753",
+            "points": 0
+          },
+          {
+            "pos": "RIT",
+            "name": "Fermín Aldeguer",
+            "team": "Gresini Ducati",
+            "gap": "Ritirato",
+            "points": 0
+          }
+        ]
+      },
       {
         "label": "Qualifiche",
         "kind": "quali",
@@ -724,12 +895,23 @@
           }
         ]
       }
+    ],
+    "podium": [
+      {
+        "name": "Marco Bezzecchi"
+      },
+      {
+        "name": "Jorge Martín"
+      },
+      {
+        "name": "Enea Bastianini"
+      }
     ]
   },
   "videos": [],
   "standings": {
-    "updated": "2026-11-22T21:00:00Z",
-    "after": "dopo il GP del Portogallo (round 21 di 22)",
+    "updated": "2026-11-28T18:55:00Z",
+    "after": "dopo la Sprint del GP di Valencia (round 22 di 22)",
     "drivers": [
       {
         "pos": 1,
@@ -740,33 +922,33 @@
       },
       {
         "pos": 2,
-        "name": "Jorge Martín",
+        "name": "Marco Bezzecchi",
         "team": "Aprilia Racing",
-        "points": 396
+        "points": 406
       },
       {
         "pos": 3,
-        "name": "Marco Bezzecchi",
+        "name": "Jorge Martín",
         "team": "Aprilia Racing",
-        "points": 394
+        "points": 405
       },
       {
         "pos": 4,
         "name": "Pedro Acosta",
         "team": "KTM Factory",
-        "points": 315
+        "points": 318
       },
       {
         "pos": 5,
         "name": "Ai Ogura",
         "team": "Trackhouse Aprilia",
-        "points": 309
+        "points": 315
       },
       {
         "pos": 6,
         "name": "Fabio Di Giannantonio",
         "team": "VR46 Ducati",
-        "points": 298
+        "points": 303
       },
       {
         "pos": 7,
@@ -778,7 +960,7 @@
         "pos": 8,
         "name": "Álex Márquez",
         "team": "Gresini Ducati",
-        "points": 204
+        "points": 208
       },
       {
         "pos": 9,
@@ -790,7 +972,7 @@
         "pos": 10,
         "name": "Enea Bastianini",
         "team": "Tech3 KTM",
-        "points": 152
+        "points": 159
       },
       {
         "pos": 11,
@@ -802,7 +984,7 @@
         "pos": 12,
         "name": "Brad Binder",
         "team": "KTM Factory",
-        "points": 127
+        "points": 129
       },
       {
         "pos": 13,
@@ -880,7 +1062,7 @@
         "pos": 25,
         "name": "Pol Espargaró",
         "team": "Tech3 KTM",
-        "points": 5
+        "points": 6
       },
       {
         "pos": 26,
@@ -935,7 +1117,7 @@
       {
         "pos": 1,
         "team": "Aprilia Racing",
-        "points": 790,
+        "points": 811,
         "drivers": "Martín · Bezzecchi",
         "champion": true
       },
@@ -948,31 +1130,31 @@
       {
         "pos": 3,
         "team": "Trackhouse Aprilia",
-        "points": 592,
+        "points": 598,
         "drivers": "Ogura · Fernández"
       },
       {
         "pos": 4,
         "team": "KTM Factory",
-        "points": 442,
+        "points": 447,
         "drivers": "Acosta · Binder"
       },
       {
         "pos": 5,
         "team": "VR46 Ducati",
-        "points": 369,
+        "points": 374,
         "drivers": "Di Giannantonio · Morbidelli"
       },
       {
         "pos": 6,
         "team": "Gresini Ducati",
-        "points": 361,
+        "points": 365,
         "drivers": "Márquez · Aldeguer"
       },
       {
         "pos": 7,
         "team": "Tech3 KTM",
-        "points": 174,
+        "points": 182,
         "drivers": "Bastianini · Viñales"
       },
       {
@@ -1197,7 +1379,8 @@
         "round": 22,
         "name": "GP di Valencia",
         "circuit": "Valencia",
-        "date": "2026-11-29"
+        "date": "2026-11-29",
+        "sprintWinner": "Marco Bezzecchi"
       }
     ]
   }
