@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-11-28-valencia-agius-pole-gonzalez-decimo",
+      "title": "Moto2, pole e record per Agius a Valencia: Guevara in prima fila, Gonzalez solo decimo",
+      "summary": "Senna Agius conquista la sua seconda pole di fila davanti a Holgado e Guevara. Il leader del Mondiale Manuel Gonzalez partirà decimo e dovrà difendere 4,5 punti di vantaggio proprio su Guevara.",
+      "tag": "Gare",
+      "source": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/moto2-senna-agius-si-prende-la-pole-position-a-valencia-lunetta-in-top10/",
+      "published": "2026-11-28T13:25:00Z",
+      "top": true
+    },
+    {
       "id": "2026-11-27-valencia-agius-venerdi-gonzalez-7",
       "title": "Moto2 a Valencia, Agius leader del venerdì: González 7°, Guevara 11°",
       "summary": "Senna Agius ha confermato il ritmo della mattina chiudendo davanti anche la Practice. I due contendenti al titolo, González e Guevara, sono entrambi in Q2 ma lontani dalla vetta; Lunetta quinto.",
@@ -142,7 +152,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-28T10:55:00Z",
+    "updated": "2026-11-28T13:58:00Z",
     "nextGp": {
       "name": "GP di Valencia",
       "circuit": "Circuit Ricardo Tormo, Valencia",
