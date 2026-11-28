@@ -175,7 +175,7 @@
     }
   ],
   "info": {
-    "updated": "2026-11-28T18:55:00Z",
+    "updated": "2026-11-28T20:55:00Z",
     "nextGp": {
       "name": "Round 13 · Qatar",
       "circuit": "Lusail",
@@ -848,8 +848,8 @@
     }
   ],
   "standings": {
-    "updated": "2026-09-26T14:00:00Z",
-    "after": "dopo il round di Baku",
+    "updated": "2026-11-28T20:55:00Z",
+    "after": "dopo la Sprint Race di Lusail",
     "drivers": [
       {
         "pos": 1,
@@ -861,43 +861,43 @@
         "pos": 2,
         "name": "Nikola Tsolov",
         "team": "Campos Racing",
-        "points": 200
+        "points": 205
       },
       {
         "pos": 3,
         "name": "Alex Dunne",
         "team": "Rodin Motorsport",
-        "points": 189
+        "points": 193
       },
       {
         "pos": 4,
         "name": "Gabriele Minì",
         "team": "MP Motorsport",
-        "points": 163
+        "points": 165
       },
       {
         "pos": 5,
+        "name": "Noel León",
+        "team": "Campos Racing",
+        "points": 139
+      },
+      {
+        "pos": 6,
         "name": "Dino Beganovic",
         "team": "DAMS Lucas Oil",
         "points": 137
       },
       {
-        "pos": 6,
-        "name": "Noel León",
-        "team": "Campos Racing",
-        "points": 133
-      },
-      {
         "pos": 7,
         "name": "Martinius Stenshorne",
         "team": "Rodin Motorsport",
-        "points": 107
+        "points": 118
       },
       {
         "pos": 8,
         "name": "Joshua Dürksen",
         "team": "Invicta Racing",
-        "points": 90
+        "points": 98
       },
       {
         "pos": 9,
@@ -927,19 +927,19 @@
         "pos": 13,
         "name": "Rafael Villagómez",
         "team": "Van Amersfoort Racing",
-        "points": 42
+        "points": 43
       },
       {
         "pos": 14,
-        "name": "John Bennett",
-        "team": "Trident",
-        "points": 38
+        "name": "Oliver Goethe",
+        "team": "MP Motorsport",
+        "points": 40
       },
       {
         "pos": 15,
-        "name": "Oliver Goethe",
-        "team": "MP Motorsport",
-        "points": 37
+        "name": "John Bennett",
+        "team": "Trident",
+        "points": 38
       },
       {
         "pos": 16,
@@ -994,25 +994,25 @@
       {
         "pos": 1,
         "team": "Campos Racing",
-        "points": 333,
+        "points": 344,
         "drivers": "Tsolov · León"
       },
       {
         "pos": 2,
-        "team": "Invicta Racing",
-        "points": 297,
-        "drivers": "Câmara · Dürksen"
+        "team": "Rodin Motorsport",
+        "points": 311,
+        "drivers": "Dunne · Stenshorne"
       },
       {
         "pos": 3,
-        "team": "Rodin Motorsport",
-        "points": 296,
-        "drivers": "Dunne · Stenshorne"
+        "team": "Invicta Racing",
+        "points": 305,
+        "drivers": "Câmara · Dürksen"
       },
       {
         "pos": 4,
         "team": "MP Motorsport",
-        "points": 200,
+        "points": 205,
         "drivers": "Minì · Goethe"
       },
       {
@@ -1042,7 +1042,7 @@
       {
         "pos": 9,
         "team": "Van Amersfoort Racing",
-        "points": 59,
+        "points": 60,
         "drivers": "Villagómez · Yamakoshi"
       },
       {
